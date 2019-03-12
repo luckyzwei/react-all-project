@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="90px" viewBox="0 0 51 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="index" transform="translate(-320.000000, -3020.000000)" fill-rule="nonzero" stroke="#48D88A" stroke-width="5" stroke-dasharray="0,1370"  stroke-dashoffset="0" opacity="0">
+            <animate id='c1' attributeName="opacity" from="0" to="1" begin="1.5s" dur=".1s" fill="freeze"/>
+            <animate attributeName="stroke-dasharray" from="0,1370" to="1370,1370" begin="c1.end" dur="4s" fill="freeze"/>
+            <path d="M323.170478,3023.35206 L352.881873,3040.78243 C356.692766,3043.01811 357.969725,3047.91983 355.734042,3051.73072 C355.081314,3052.84335 354.169213,3053.78163 353.075503,3054.46558 L326.655681,3070.98718 C322.909575,3073.3298 321.771827,3078.26569 324.114449,3082.0118 C324.832437,3083.15994 325.83012,3084.10704 327.014033,3084.76437 L367.75701,3107.3856" id="Path-7"></path>
+        </g>
+    </g>
+</svg>

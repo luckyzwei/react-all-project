@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="143px" viewBox="0 0 83 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>box_info</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="196.361685%" y1="58.4663726%" x2="-24.212446%" y2="52.0644882%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E6F4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="92.9202908%" x2="152.394755%" y2="-140.867058%" id="linearGradient-2">
+            <stop stop-color="#54A4FF" offset="0%"></stop>
+            <stop stop-color="#087CFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10,-4.32684999e-11 L51,-4.42241799e-11 C56.5228475,-4.42202891e-11 61,4.4771525 61,10 L61,30 C61,35.5228475 56.5228475,40 51,40 L36.2595194,40 L30.5,45.5825616 L24.6039871,40 L10,40 C4.4771525,40 6.34448686e-13,35.5228475 -1.31450406e-13,30 L-5.67723646e-12,10 C-6.44068291e-12,4.4771525 4.4771525,-4.38824919e-11 10,-4.46487292e-11 Z" id="path-3"></path>
+        <filter x="-17.2%" y="-16.5%" width="134.4%" height="146.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.109063632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-488.000000, -2946.000000)">
+            <g id="box_info" transform="translate(494.000000, 2949.000000)">
+                <g id="Group-10-Copy" transform="translate(9.000000, 76.000000)">
+                    <polygon id="Path-46-Copy" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" points="25 54.2338404 41.9978967 63.1483722 67.6645449 48.6516411 67.6645449 34.7921991 46.5778838 23"></polygon>
+                    <polygon id="Rectangle-25" fill="#D1EBFF" points="25 0 50 13.5 25 27 0 13.5"></polygon>
+                    <polygon id="Rectangle-5" fill="url(#linearGradient-2)" points="25 27.8979746 50 14 50 40.1020254 25 54"></polygon>
+                    <polygon id="Rectangle-5-Copy" fill="#92D2FD" fill-rule="nonzero" points="25 27.8979746 25 54 0 40.1020254 0 14"></polygon>
+                </g>
+                <g id="Group-29">
+                    <g id="Rectangle-5">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="信息" font-family="PingFangSC-Medium, PingFang SC" font-size="16" font-weight="400" fill="#54A4FF">
+                        <tspan x="15" y="26">信息</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

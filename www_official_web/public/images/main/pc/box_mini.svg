@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="143px" viewBox="0 0 79 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>box_mini</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,-4.32684999e-11 L51,-4.42241799e-11 C56.5228475,-4.42202891e-11 61,4.4771525 61,10 L61,30 C61,35.5228475 56.5228475,40 51,40 L36.2595194,40 L30.5,45.5825616 L24.6039871,40 L10,40 C4.4771525,40 6.34448686e-13,35.5228475 -1.31450406e-13,30 L-5.67723646e-12,10 C-6.44068291e-12,4.4771525 4.4771525,-4.38824919e-11 10,-4.46487292e-11 Z" id="path-1"></path>
+        <filter x="-17.2%" y="-16.5%" width="134.4%" height="146.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.109063632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="196.361685%" y1="58.4663726%" x2="-24.212446%" y2="52.0644882%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E6F4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="92.9202908%" x2="152.394755%" y2="-140.867058%" id="linearGradient-4">
+            <stop stop-color="#54A4FF" offset="0%"></stop>
+            <stop stop-color="#087CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-1031.000000, -2637.000000)">
+            <g id="box_mini" transform="translate(1037.000000, 2640.000000)">
+                <g id="Group-31-Copy-2">
+                    <g id="Rectangle-5-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="小程序" font-family="PingFangSC-Medium, PingFang SC" font-size="16" font-weight="400" fill="#54A4FF">
+                        <tspan x="7" y="26">小程序</tspan>
+                    </text>
+                </g>
+                <g id="Group-10-Copy-5" transform="translate(5.000000, 76.000000)">
+                    <polygon id="Path-46-Copy-2" fill="url(#linearGradient-3)" style="mix-blend-mode: multiply;" points="25 54.2338404 41.9978967 63.1483722 67.6645449 48.6516411 67.6645449 34.7921991 46.5778838 23"></polygon>
+                    <polygon id="Rectangle-25" fill="#D1EBFF" points="25 0 50 13.5 25 27 0 13.5"></polygon>
+                    <polygon id="Rectangle-5" fill="url(#linearGradient-4)" points="25 27.8979746 50 14 50 40.1020254 25 54"></polygon>
+                    <polygon id="Rectangle-5-Copy" fill="#92D2FD" fill-rule="nonzero" points="25 27.8979746 25 54 0 40.1020254 0 14"></polygon>
+                    <path d="M5.68815025,32.8918012 C5.74103182,31.6902608 6.85440329,31.2769675 8.39940273,31.4213517 C9.05827853,31.4793512 9.68142354,31.7933484 10.0330145,32.7095013 C10.443204,33.7730053 9.7428805,33.6921713 9.16404168,33.6309896 C8.00636402,33.5141994 7.42752519,34.0047672 7.99350094,35.4428481 C8.52803358,36.7963913 9.59709887,37.5653883 10.7047534,37.7607992 C11.6351832,37.925836 12.0182173,37.4078225 11.9953496,36.4192849 C11.9596188,34.8040719 11.9639065,33.2081673 11.9953496,31.6318836 C12.0339389,29.7416228 12.9472179,28.9851716 14.7280406,29.2863814 C16.3659401,29.5610285 18.419746,31.1529322 19.5231128,32.9999799 C21.2510539,35.8862835 19.9733208,38.6974238 17.327813,37.849982 C16.7489742,37.6634027 16.2501723,37.3008712 15.9957691,36.6230906 C15.7642335,36.004512 16.0943861,35.8018959 16.4545524,35.6802916 C16.6289187,35.6228019 16.8461619,35.6404384 17.0462543,35.6310897 C17.9152272,35.5859912 18.6269846,35.3327732 18.1953566,34.0338566 C17.7951717,32.8278375 16.8733173,32.1043409 15.8714259,31.7156335 C14.730899,31.269142 14.0991786,31.6013829 14.0948909,32.754216 C14.0863156,34.5164926 14.1520602,36.3213954 14.0634478,38.0422684 C13.9648309,39.9669619 11.7966864,40.6065061 9.70429125,39.4558244 C7.46039752,38.2100518 5.64813176,35.510022 5.68815025,32.8918012 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="137px" height="170px" viewBox="0 0 137 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="index" transform="translate(-801.000000, -3039.000000)" fill-rule="nonzero" stroke="#48D88A" stroke-width="5" stroke-dasharray="0,1370" stroke-dashoffset="0" opacity="0">
+            <animate id='c1' attributeName="opacity" from="0" to="1" begin="1.5s" dur=".1s" fill="freeze"/>
+            <animate attributeName="stroke-dasharray" from="0,1370" to="1370,1370" begin="c1.end" dur="4s" fill="freeze"/>
+            <path d="M803.684576,3205.66578 L931.511116,3126.08377 C935.261885,3123.74862 936.409474,3118.81501 934.074327,3115.06424 C933.330192,3113.869 932.283793,3112.89131 931.040835,3112.22994 L879.935738,3085.03735 C874.387994,3082.08544 870.921226,3076.31382 870.921226,3070.02961 L870.921226,3057.2245 C870.921226,3051.84394 868.374039,3046.781 864.05362,3043.57406 L861.265315,3041.50437"
+                id="Path-5"></path>
+        </g>
+    </g>
+</svg>

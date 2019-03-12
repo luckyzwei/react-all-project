@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="261px" viewBox="0 0 204 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 45</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.9542818%" y1="-10.6107536%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6DD6FD" offset="0%"></stop>
+            <stop stop-color="#3BADFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="index" transform="translate(-1037.000000, -2727.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)" stroke-width="5" stroke-dasharray="0,1370"  stroke-dashoffset="0" opacity="0">
+            <animate id='c1' attributeName="opacity" from="0" to="1" begin="1.5s" dur=".1s" fill="freeze"/>
+            <animate attributeName="stroke-dasharray" from="0,1370" to="1370,1370" begin="c1.end" dur="4s" fill="freeze"/>
+            <path d="M1068.29772,2760.69914 C1084.32626,2751.28382 1100.35479,2741.8685 1116.38333,2732.45319 L1116.38333,2732.45319 C1122.15068,2729.06539 1129.32098,2729.15497 1135.0019,2732.68579 L1234.31364,2794.41035 C1238.06618,2796.74264 1239.21752,2801.67538 1236.88523,2805.42792 C1236.2076,2806.51819 1235.27756,2807.42938 1234.17365,2808.08454 L1043.90507,2921.00789 C1040.10556,2923.26287 1038.85348,2928.17101 1041.10847,2931.97051 C1041.81739,2933.165 1042.8251,2934.15432 1044.03244,2934.84113 L1132.73231,2985.29891" id="Path-45"></path>
+        </g>
+    </g>
+</svg>

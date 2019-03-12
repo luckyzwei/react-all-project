@@ -1,0 +1,504 @@
+#imageBox2 {
+    width: 592px;
+    height: 592px;
+    position: relative;
+    margin: 90px auto 0;
+}
+
+#imageBox2 .ring1 {
+    width: 397px;
+    height: 401px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    animation: animateRing1 10s linear infinite;
+}
+
+#imageBox2 .ring2 {
+    width: 482px;
+    height: 486px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    animation: animateRing1 15s linear infinite;
+}
+
+#imageBox2 .ring3 {
+    width: 592px;
+    height: 592px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+}
+
+@keyframes animateRing1 {
+    from {
+        transform: translate(-50%, -50%) rotate(0);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+#imageBox2 .ip6 {
+    width: 163px;
+    height: 307px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+}
+
+#imageBox2 .know {
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    box-shadow: 0 18px 21px 0 rgba(228, 228, 228, 0.50), 0 8px 15px 0 rgba(217, 217, 217, 0.50);
+    position: absolute;
+    top: -13px;
+    left: 160px;
+    animation: animateKnow 1.5s ease-in-out infinite;
+}
+
+@keyframes animateKnow {
+    0% {
+        top: -13px;
+    }
+
+    50% {
+        top: -18px;
+    }
+
+    100% {
+        top: -13px;
+    }
+}
+
+#imageBox2 .more {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    box-shadow: 0 18px 21px 0 rgba(228, 228, 228, 0.50), 0 8px 15px 0 rgba(217, 217, 217, 0.50);
+    position: absolute;
+    top: 450px;
+    left: 18px;
+    animation: animateMore 1.5s ease-in-out infinite;
+}
+
+@keyframes animateMore {
+    0% {
+        top: 450px;
+    }
+
+    50% {
+        top: 458px;
+    }
+
+    100% {
+        top: 450px;
+    }
+}
+
+#imageBox2 .newbang {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 18px 21px 0 rgba(228, 228, 228, 0.50), 0 8px 15px 0 rgba(217, 217, 217, 0.50);
+    position: absolute;
+    top: 60px;
+    left: 490px;
+    animation: animateNewbang 1.5s ease-in-out infinite;
+}
+
+@keyframes animateNewbang {
+    0% {
+        top: 60px;
+    }
+
+    50% {
+        top: 65px;
+    }
+
+    100% {
+        top: 60px;
+    }
+}
+
+#imageBox2 .panda {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 18px 21px 0 rgba(228, 228, 228, 0.50), 0 8px 15px 0 rgba(217, 217, 217, 0.50);
+    position: absolute;
+    top: 520px;
+    left: 310px;
+    animation: animatePanda 1.5s ease-in-out infinite;
+}
+
+@keyframes animatePanda {
+    0% {
+        top: 520px;
+    }
+
+    50% {
+        top: 515px;
+    }
+
+    100% {
+        top: 520px;
+    }
+}
+
+#imageBox2 .tuling {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 18px 21px 0 rgba(228, 228, 228, 0.50), 0 8px 15px 0 rgba(217, 217, 217, 0.50);
+    position: absolute;
+    top: 170px;
+    left: -55px;
+    animation: animateTuling 1.5s ease-in-out infinite;
+}
+
+@keyframes animateTuling {
+    0% {
+        top: 170px;
+    }
+
+    50% {
+        top: 175px;
+    }
+
+    100% {
+        top: 170px;
+    }
+}
+
+#imageBox2 .qq {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 18px 21px 0 rgba(228, 228, 228, 0.50), 0 8px 15px 0 rgba(217, 217, 217, 0.50);
+    position: absolute;
+    top: 320px;
+    left: 522px;
+    animation: animateQq 1.5s ease-in-out infinite;
+}
+
+@keyframes animateQq {
+    0% {
+        top: 320px;
+    }
+
+    50% {
+        top: 325px;
+    }
+
+    100% {
+        top: 320px;
+    }
+}
+
+#imageBox2 .imgSlider {
+    width: 119px;
+    height: 212px;
+    position: absolute;
+    left: 237px;
+    top: 185px;
+    overflow: hidden;
+}
+
+#imageBox2 .imgSlider .inner {
+    width: 560px;
+    height: 188px;
+    position: absolute;
+    left: 3px;
+    top: 12px;
+    display: flex;
+    animation: animatSlide 10s infinite 1.25s running;
+}
+
+#imageBox2 .text {
+    width: 112px;
+    height: 188px;
+}
+
+#imageBox2 .link {
+    width: 112px;
+    height: 188px;
+}
+
+#imageBox2 .video {
+    width: 112px;
+    height: 188px;
+}
+
+#imageBox2 .miniprogram {
+    width: 112px;
+    height: 188px;
+}
+
+@keyframes animatSlide {
+    0% {
+        transform: translateX(0px);
+    }
+
+    5% {
+        transform: translateX(-112px);
+    }
+
+    25% {
+        transform: translateX(-112px);
+    }
+
+    30% {
+        transform: translateX(-224px);
+    }
+
+    50% {
+        transform: translateX(-224px);
+    }
+
+    55% {
+        transform: translateX(-336px);
+    }
+
+    75% {
+        transform: translateX(-336px);
+    }
+
+    80% {
+        transform: translateX(-448px);
+    }
+
+    100% {
+        transform: translateX(-448px);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #imageBox2 {
+        width: 296px;
+        height: 296px;
+        margin: 66px auto 0;
+    }
+
+    #imageBox2 .ring1 {
+        width: 198.5px;
+        height: 200.5px;
+        animation: animateRing1 10s linear infinite;
+    }
+
+    #imageBox2 .ring2 {
+        width: 241px;
+        height: 243px;
+        animation: animateRing1 15s linear infinite;
+    }
+
+    #imageBox2 .ring3 {
+        width: 296px;
+        height: 296px;
+    }
+
+    #imageBox2 .ip6 {
+        width: 81.5px;
+        height: 153.5px;
+    }
+
+    #imageBox2 .know {
+        width: 53px;
+        height: 53px;
+        top: -6.5px;
+        left: 80px;
+        animation: animateKnowM 1.5s ease-in-out infinite;
+    }
+
+    @keyframes animateKnowM {
+        0% {
+            top: -6.5px;
+        }
+
+        50% {
+            top: -10px;
+        }
+
+        100% {
+            top: -6.5px;
+        }
+    }
+
+    #imageBox2 .more {
+        width: 42.5px;
+        height: 42.5px;
+        top: 225px;
+        left: 9px;
+        animation: animateMoreM 1.5s ease-in-out infinite;
+    }
+
+    @keyframes animateMoreM {
+        0% {
+            top: 225px;
+        }
+
+        50% {
+            top: 230px;
+        }
+
+        100% {
+            top: 225px;
+        }
+    }
+
+    #imageBox2 .newbang {
+        width: 60px;
+        height: 60px;
+        top: 30px;
+        left: 245px;
+        animation: animateNewbangM 1.5s ease-in-out infinite;
+    }
+
+    @keyframes animateNewbangM {
+        0% {
+            top: 30px;
+        }
+
+        50% {
+            top: 35px;
+        }
+
+        100% {
+            top: 30px;
+        }
+    }
+
+    #imageBox2 .panda {
+        width: 60px;
+        height: 60px;
+        top: 260px;
+        left: 155px;
+        animation: animatePandaM 1.5s ease-in-out infinite;
+    }
+
+    @keyframes animatePandaM {
+        0% {
+            top: 260px;
+        }
+
+        50% {
+            top: 268px;
+        }
+
+        100% {
+            top: 260px;
+        }
+    }
+
+    #imageBox2 .tuling {
+        width: 60px;
+        height: 60px;
+        top: 85px;
+        left: -27.5px;
+        animation: animateTulingM 1.5s ease-in-out infinite;
+    }
+
+    @keyframes animateTulingM {
+        0% {
+            top: 85px;
+        }
+
+        50% {
+            top: 92px;
+        }
+
+        100% {
+            top: 85px;
+        }
+    }
+
+    #imageBox2 .qq {
+        width: 60px;
+        height: 60px;
+        top: 160px;
+        left: 261px;
+        animation: animateQqM 1.5s ease-in-out infinite;
+    }
+
+    @keyframes animateQqM {
+        0% {
+            top: 160px;
+        }
+
+        50% {
+            top: 167px;
+        }
+
+        100% {
+            top: 160px;
+        }
+    }
+
+    #imageBox2 .imgSlider {
+        width: 59.5px;
+        height: 106px;
+        left: 118.5px;
+        top: 92.5px;
+    }
+
+    #imageBox2 .imgSlider .inner {
+        width: 280px;
+        height: 94px;
+        left: 1.5px;
+        top: 6px;
+        animation: animatSlideM 10s infinite 1.25s running;
+    }
+
+    #imageBox2 .text,
+    #imageBox2 .link,
+    #imageBox2 .video,
+    #imageBox2 .miniprogram {
+        width: 56px;
+        height: 94px;
+    }
+
+    @keyframes animatSlideM {
+        0% {
+            transform: translateX(0px);
+        }
+
+        5% {
+            transform: translateX(-56px);
+        }
+
+        25% {
+            transform: translateX(-56px);
+        }
+
+        30% {
+            transform: translateX(-112px);
+        }
+
+        50% {
+            transform: translateX(-112px);
+        }
+
+        55% {
+            transform: translateX(-168px);
+        }
+
+        75% {
+            transform: translateX(-168px);
+        }
+
+        80% {
+            transform: translateX(-224px);
+        }
+
+        100% {
+            transform: translateX(-224px);
+        }
+    }
+}

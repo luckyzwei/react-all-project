@@ -1,0 +1,464 @@
+pre{
+    white-space: pre-wrap;
+}
+
+div, p, pre, a, span {
+    font-weight: 300;
+}
+
+.pageCenter {
+    width:1200px !important;
+    margin: 0 auto;
+    height: 73px;
+}
+
+
+@media screen and (max-width: 750px){
+    .pageCenter {
+        width:100% !important;
+    }
+}
+
+.center-area {
+    display: block;
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.joinRecruit{
+    width: 100%;
+    min-width: 1280px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+/*联系我们*/
+.contactBox{
+    height: 1136px;
+    box-sizing: border-box;
+    padding-top: 272px;
+    padding-left: 17.36%;
+}
+.contactBox .title{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 30px;
+    color: #393939;
+    letter-spacing: 0;
+    line-height: 1em;
+}
+.contactBox div{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 20px;
+    color: #393939;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    margin-top: 33px;
+}
+.contactBox div p:nth-child(3){
+    margin-top: 33px;
+}
+
+
+
+/***加入我们***/
+.joinBanner{
+    height: 650px;
+    background-size: cover!important;
+    position: relative;
+}
+.joinBanner .banner-field-back{
+    font-family: "PingFang SC";font-weight:500;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 99px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    margin-top: 41px;
+    margin-left: 31px;
+}
+.joinBanner .banner-field-state{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.joinBanner .banner-field-state p{
+    font-family: PingFangSC-Semibold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.joinRecruit .recruit-field-state{
+    font-family: "PingFang SC";font-weight:500;
+    font-size: 24px;
+    color: #288BF2;
+    letter-spacing: 1.2px;
+    margin-top: 64px;
+}
+.joinRecruit .recruit-field-email{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 13px;
+    color: #288BF2;
+    letter-spacing: 0;
+    background: #FFFFFF;
+    border: 1px solid #288BF2;
+    box-shadow: 0 1px 11px 0 rgba(40,139,242,0.45);
+    border-radius: 45px;
+    padding: 12px 62px;
+    margin:30px 0 65px 0;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.joinRecruit .JobBox{
+    padding: 0;
+
+}
+
+.joinRecruit .JobBox .departmentBox {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.joinRecruit .JobBox .job-field-department,.job-field-departTab{
+    /*display: inline-block;*/
+    /*flex: auto;*/
+    width: 15%;
+    text-align: -webkit-center;
+    height: 70px;
+    cursor: pointer;
+}
+.joinRecruit .JobBox .job-field-department .departmentImg{
+    width: 62.4%;
+    margin-bottom: 18px;
+    display: none;
+}
+
+
+
+.joinRecruit .JobBox .job-field-department .departmentState{
+    line-height: 70px;
+    /*border-top: 1px solid #288BF2;*/
+    /*border-bottom: 1px solid #288BF2;*/
+}
+.checked{
+    background: #288BF2;
+}
+.joinRecruit .JobBox .job-field-department div {
+    font-size: 20px;
+}
+
+.joinRecruit .JobBox .job-field-department .departmentLeft{
+    line-height: 70px;
+    /*border-top: 1px solid #288BF2;*/
+    /*border-bottom: 1px solid #288BF2;*/
+    /*border-left:1px solid #288BF2;*/
+    /*border-bottom-left-radius: 5px;*/
+    /*border-top-left-radius: 5px;*/
+}
+.joinRecruit .JobBox .job-field-department .departmentRight{
+    line-height: 70px;
+    /*border-top: 1px solid #288BF2;*/
+    /*border-bottom: 1px solid #288BF2;*/
+    /*border-right: 1px solid #288BF2;*/
+    /*border-top-right-radius: 5px;*/
+    /*border-bottom-right-radius: 5px;*/
+}
+.joinRecruit .JobBox .job-field-department .departmentState:hover,
+.joinRecruit .JobBox .job-field-department .departmentLeft:hover,
+.joinRecruit .JobBox .job-field-department .departmentRight:hover{
+    background: #288BF2;
+}
+
+
+.joinRecruit .JobBox .job-field-positions{
+    text-align: left;
+    margin-top: 30px;
+    min-height: 330px;
+
+}
+.job-field-positions .positionsRight {
+    float: right;
+}
+
+.job-field-positions .positionsLeft,.job-field-positions .positionsRight{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.job-field-positions .positionItem{
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
+.job-field-positions .positionItem .position{
+    font-weight: 400;
+    line-height: 58px;
+    font-size: 16px;
+    color: #53565B;
+    text-indent: 30px;
+    border: 1px solid #D5D5D5;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.job-field-positions .positionItem .detailBox{
+    background: #F5F5F5;
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 13px;
+    color: #62697A;
+    letter-spacing: 0;
+    text-align: justify;
+    word-break:break-all;
+    word-wrap: break-word;
+    padding: 40px 37px;
+
+}
+
+.job-field-positions .positionItem .detailBox p{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 16px;
+    color: #53565B;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.job-field-positions .positionItem .detailBox pre {
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 14px;
+    color: #53565B;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 33px;
+    font-weight: 400;
+}
+
+.job-field-positions .positionItem .detailBox{
+    line-height: 23px;
+    font-family: PingFangSC-Semibold;
+}
+
+.job-field-positions .bottom {
+    clear: both;
+}
+
+
+
+@media screen and (max-width: 750px) and (min-width:0px){
+
+    .center-area {
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+
+    .contactBox{
+        height: 715px;
+        background: #F8F8F8;
+        padding-top: 126px;
+        padding-left: 0;
+    }
+    .contactBox .title{
+        font-size: 20px;
+        margin-left: 16%;
+    }
+    .contactBox div{
+        font-size: 15px;
+        line-height: 24px;
+        color: #1B1B1B;
+        background: #FFFFFF;
+        width: 315px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 56px;
+        box-sizing: border-box;
+    }
+    .contactBox div p:nth-child(odd){
+        font-family: "PingFang SC";font-weight:500;
+        color: #393939;
+    }
+    .contactBox .telBox{
+        height: 100px;
+        padding-top: 24.5px;
+    }
+    .contactBox .emailBox{
+        height: 165px;
+        padding-top: 21px;
+    }
+    .contactBox .emailBox p:nth-child(3){
+        margin-top: 20px;
+    }
+    .contactBox .addressBox{
+        height: 100px;
+        padding-top: 17px;
+    }
+}
+
+/*栗子云*/
+#liziCloudWrapper{
+    height: 100vh;
+    position: relative;
+    background: url('../images/lizicloud_bg_mid.jpg') no-repeat center;
+    background-position: 40% 50%;
+    background-size: cover;
+    font-family: "PingFang SC";font-weight:300;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.liziCloudBox{
+    width: 450px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.liziCloudBox p{
+    font-size: 50px;
+    line-height: 70px;
+    height: 70px;
+}
+.liziCloudBox div{
+    width: 140px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px ;
+    background: #2D9EFA;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 41px auto 0;
+}
+.liziCloudBox div a{
+    color: #FFFFFF;
+}
+@media screen and (min-width: 1440px){
+    #liziCloudWrapper{
+        background: url('../images/lizicloud_bg.jpg') no-repeat center;
+        background-position: 40% 50%;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 750px) and (min-width:0px){
+    .center-area {
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+    .joinRecruit {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .joinRecruit .JobBox .departmentBox {
+        height: 100px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .joinRecruit .JobBox .job-field-department, .job-field-departTab {
+        height: 40px;
+        min-width: calc(33% - 23px);
+    }
+
+    .joinRecruit .JobBox .job-field-department .departmentLeft,
+    .joinRecruit .JobBox .job-field-department .departmentState,
+    .joinRecruit .JobBox .job-field-department .departmentRight{
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .job-field-positions .positionItem .position{
+        font-weight: 300;
+
+    }
+
+
+    .job-field-positions .positionItem .detailBox pre {
+        font-weight: 300;
+    }
+    .joinRecruit .JobBox .departmentMobileLeft {
+        margin-left: 17px;
+    }
+
+    .joinRecruit .JobBox .departmentMobileRight {
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+    .job-field-positions .positionsLeft, .job-field-positions .positionsRight {
+        width: calc(100% - 34px);
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #liziCloudWrapper{
+        background: url('../images/lizicloud_bg_mini.jpg') no-repeat center;
+        background-position: 40% 50%;
+        background-size: cover;
+    }
+    .liziCloudBox{
+        width: 266px;
+    }
+    .liziCloudBox p{
+        font-size: 29px;
+        line-height: 70px;
+        height: 50px;
+    }
+    .liziCloudBox div{
+        width: 114px;
+        height: 36px;
+        line-height: 36px ;
+        border-radius: 6px;
+        font-size: 15px;
+        margin: 11px auto 0;
+    }
+}
+
+/*canvas动画*/
+.cartoonWrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cartoonWrapper .canvasBox{
+    width: 500px;
+    height: 310px;
+    position: absolute;
+    left: 14.36%;
+    top: 18.33%;
+}
+.cartoonWrapper .textBox{
+    width: 360px;
+    height: 158px;
+    position: absolute;
+    left: 54.86%;
+    top: 32.07%;
+}
+.cartoonWrapper .textBox h3{
+    font-family: "PingFang SC";font-weight:300;
+    font-size:  30px;
+    color: #393939;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+.cartoonWrapper .textBox pre{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 16px;
+    color: #636363;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 28px;
+}
+

@@ -1,0 +1,422 @@
+#recruitWrapper .iconGround{
+    background: url('../images/recruitIconGround.png')no-repeat;
+    background-size: 1440px 900px;
+}
+#recruitWrapper .banner{
+    height: 800px;
+    background: url('../images/recruitBackground.png') no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+#recruitWrapper .banner .inner{
+    position: absolute;
+    top: 50%;
+    margin-left: 9.3%;
+    transform: translate(0,-50%)
+}
+#recruitWrapper .banner .inner>p:nth-child(1){
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+#recruitWrapper .banner .inner>p:nth-child(2){
+    font-family: PingFangSC-Thin;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 60px;
+}
+#recruitWrapper .banner .inner>a{
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "PingFang SC";font-weight:300;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    background-image: linear-gradient(-269deg, #EB3349 0%, #F45C43 68%);
+    border-radius: 4px;
+    display: block;
+    margin-top: 45.4px;
+}
+
+#recruitWrapper .innerBox1{
+    height: 540px;
+    text-align: -webkit-center;
+}
+#recruitWrapper .innerBox1>p{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 30px;
+    color: #636363;
+    letter-spacing: 0;
+    padding-top: 130px;
+}
+#recruitWrapper .innerBox1>ul{
+    margin-top: 74px;
+    margin-left: 4%;
+}
+#recruitWrapper .innerBox1>ul>li{
+    width: 25%;
+    display: inline-block;
+}
+#recruitWrapper .innerBox1>ul>li>dl:nth-child(1)>dt:nth-child(2){
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 16px;
+    color: #636363;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 40px;
+}
+#recruitWrapper .innerBox1>ul>li>dl:nth-child(1){
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+}
+#recruitWrapper .innerBox1>ul>li>dl:nth-child(2){
+    width: 20%;
+    display: inline-block;
+    transform: translate(0,-35%);
+}
+#recruitWrapper .innerBox1>ul>li>dl:nth-child(2)>dt>a{
+    width: 70px;
+    height: 46px;
+    background-position: -750px -103px;
+    display: inline-block;
+}
+
+#recruitWrapper .innerBox2{
+    height: 660px;
+    text-align: -webkit-center;
+}
+#recruitWrapper .innerBox2>p{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 30px;
+    color: #636363;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: 120px;
+}
+#recruitWrapper .innerBox2>p>p:nth-child(2){
+    font-size: 16px;
+    margin-top: 20px;
+}
+#recruitWrapper .innerBox2>ul{
+    margin-top: 42px;
+}
+#recruitWrapper .innerBox2>ul>dl{
+    width: 33.3%;
+    display: inline-block;
+    position: relative;
+}
+/*#recruitWrapper .innerBox2>ul>dl>dt:nth-child(2){*/
+    /*font-family: "PingFang SC";font-weight:500;*/
+    /*font-size: 16px;*/
+    /*color: #FFFFFF;*/
+    /*letter-spacing: 0;*/
+    /*margin-top: 11px;*/
+/*}*/
+#recruitWrapper .innerBox2 .youLiText{
+    font-family: "PingFang SC";font-weight:500;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+/*#recruitWrapper .innerBox2>ul>dl>dt:nth-child(3){*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-image: linear-gradient(26deg, #F04946 5%, rgba(244,92,67,0.90) 100%);*/
+    /*margin-top: -261px;*/
+    /*display: none;*/
+/*}*/
+/*#recruitWrapper .innerBox2>ul>dl:hover >dt:nth-child(3){*/
+    /*display: block;*/
+/*}*/
+/*#recruitWrapper .innerBox2>ul>dl>dt:nth-child(2){*/
+    /*opacity: 0.8;*/
+/*}*/
+/*#recruitWrapper .innerBox2>ul>dl>dt:nth-child(1){*/
+    /*opacity: 0.8;*/
+/*}*/
+/*#recruitWrapper .innerBox2>ul>dl:hover >dt:nth-child(2){*/
+    /*opacity: 1;*/
+    /*transform: translate(0,-5px);*/
+    /*transition: .5s ease-in;*/
+/*}*/
+/*#recruitWrapper .innerBox2>ul>dl:hover >dt:nth-child(1){*/
+    /*opacity: 1;*/
+    /*transform: translate(0,-5px);*/
+    /*transition: .5s ease-in;*/
+/*}*/
+/******/
+#recruitWrapper .innerBox2>ul>dl>dt:nth-child(1){
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#recruitWrapper .innerBox2>ul>dl>dt:nth-child(2){
+    font-family: "PingFang SC";font-weight:500;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-top: 11px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,0);
+}
+#recruitWrapper .innerBox2>ul>dl>dt:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(26deg, rgba(240,73,70,.85) 5%, rgba(244,92,67,.75) 100%);
+    opacity: 0;
+}
+#recruitWrapper .innerBox2>ul>dl:hover >dt:nth-child(2){
+    transform: translate(-50%,-50%);
+    transition: .3s ease-in;
+}
+#recruitWrapper .innerBox2>ul>dl:hover >dt:nth-child(1){
+    transform: translate(-50%,-5%);
+    transition: .3s ease-in;
+}
+#recruitWrapper .innerBox2>ul>dl:hover >dt:nth-child(3){
+    background-image: linear-gradient(26deg, rgba(240,73,70,1) 5%, rgba(244,92,67,0.9) 100%);
+    transition: .3s ease-in;
+    opacity: 1;
+}
+/******/
+
+#recruitWrapper .innerBox3{
+    height: 571px;
+    text-align: -webkit-center;
+}
+#recruitWrapper .innerBox3>p{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 30px;
+    color: #636363;
+    letter-spacing: 0;
+}
+#recruitWrapper .innerBox3>ul{
+    margin-top: 130px;
+    margin-left: 6%;
+}
+#recruitWrapper .innerBox3>ul>li{
+    width: 33.3%;
+    display: inline-block;
+}
+
+#recruitWrapper .innerBox3>ul>li>dl:nth-child(1)>dt:nth-child(2){
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 16px;
+    color: #636363;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 4px;
+}
+#recruitWrapper .innerBox3>ul>li>dl:nth-child(1){
+    display: inline-block;
+    width: 75%;
+    vertical-align: middle;
+}
+#recruitWrapper .innerBox3>ul>li>dl:nth-child(2){
+    width: 25%;
+    display: inline-block;
+    transform: translate(0,-50%);
+}
+#recruitWrapper .innerBox3>ul>li>dl:nth-child(2)>dt>a{
+    width: 62px;
+    height: 6px;
+    background: url(../images/arrowStore/bridge.png);
+    display: inline-block;
+    margin: 4%;
+}
+#recruitWrapper .innerBox4{
+    height: 620px;
+    background: url(../images/inner4Desktop.png)no-repeat;
+    background-size: cover;
+    text-align: -webkit-center;
+}
+#recruitWrapper .innerBox4>p{
+    font-family: "PingFang SC";font-weight:400;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-top: 130px;
+}
+#recruitWrapper .innerBox4>ul{
+    margin-top: 90px;
+    padding: 0 15%;
+}
+#recruitWrapper .innerBox4>p>p:nth-child(2){
+    font-family: PingFangSC-Thin;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#recruitWrapper .innerBox4>ul>dl{
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
+}
+#recruitWrapper .innerBox4>ul>dl>dt:nth-child(1){
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    display: table;
+    width: 196px;
+    height: 46px;
+    line-height: 46px;
+    font-family: "PingFang SC";font-weight:500;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    text-indent: 5px;
+}
+#recruitWrapper .innerBox4>ul>dl:nth-child(3):hover >dt:nth-child(2){
+    display: inline-block;
+}
+#recruitWrapper .innerBox4>ul>dl:nth-child(3)>dt:nth-child(2){
+    box-shadow: 0 5px 12px 0 #D83F36;
+    border-radius: 4px;
+    height: 200px;
+    display: none;
+}
+
+@media screen and (max-width: 750px) and (min-width:0px){
+    #recruitWrapper .iconGround{
+        background: url(../images/recruitIconGroundPhone.png)no-repeat;
+        background-size: 2324px 1571px;
+    }
+    #recruitWrapper .banner .inner>p:nth-child(1){
+        font-size: 35px;
+    }
+    #recruitWrapper .banner .inner>p:nth-child(2){
+        font-size: 21px;
+    }
+    #recruitWrapper .innerBox1{
+        height: auto;
+    }
+    #recruitWrapper .innerBox1>p{
+        font-size: 20px;
+        padding-top: 65px;
+    }
+    #recruitWrapper .innerBox1>ul{
+        margin-top: 55px;
+        margin-left: 0;
+    }
+    #recruitWrapper .innerBox1>ul>li{
+        width: 100%;
+    }
+    #recruitWrapper .innerBox1>ul>li>dl:nth-child(2){
+        display: table;
+        text-align: left;
+        width: 161px;
+        /* height: 80px; */
+        margin: 6%;
+        transform: none;
+    }
+    #recruitWrapper .innerBox1>ul>li>dl:nth-child(1)>dt:nth-child(1){
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #recruitWrapper .innerBox1>ul>li>dl:nth-child(1)>dt:nth-child(2){
+        margin-top: 0;
+        display: inline-block;
+        margin-left: 15.5px;
+        width: 128px;
+        text-align: left;
+    }
+    #recruitWrapper .innerBox1>ul>li>dl:nth-child(1){
+        width: 83%;
+    }
+    #recruitWrapper .innerBox1>ul>li>dl:nth-child(2)>dt>a{
+        /*width: 36px;*/
+        /*height: 46px;*/
+        /*background-position: -780px -105px;*/
+        width: 18px;
+        height: 27px;
+        background: url("../images/arrowStore/downBridge.png")no-repeat;
+        background-size: cover;
+    }
+    #recruitWrapper .innerBox2{
+        height: auto;
+    }
+    #recruitWrapper .innerBox2>p{
+        margin-top: 0;
+        font-size: 20px;
+    }
+    #recruitWrapper .innerBox2>p>p:nth-child(2){
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 7px;
+    }
+    #recruitWrapper .innerBox2 .youLiText{
+        font-size: 20px;
+    }
+
+    #recruitWrapper .innerBox3{
+        height: auto;
+    }
+    #recruitWrapper .innerBox3>p{
+        font-size: 20px;
+        padding-top: 75px;
+    }
+    #recruitWrapper .innerBox3>ul{
+        margin-top: 35px;
+        margin-left: 0;
+    }
+    #recruitWrapper .innerBox3>ul>li{
+        width: 100%;
+    }
+    #recruitWrapper .innerBox3>ul>li>dl:nth-child(2){
+        display: table;
+        width: 133px;
+        height: 31px;
+        text-align: left;
+        transform: none;
+    }
+    #recruitWrapper .innerBox3>ul>li>dl:nth-child(1)>dt:nth-child(1){
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #recruitWrapper .innerBox3>ul>li>dl:nth-child(1)>dt:nth-child(2){
+        margin-top: 0;
+        margin-left: 52px;
+        display: inline-block;
+    }
+    #recruitWrapper .innerBox3>ul>li>dl:nth-child(2)>dt>a{
+        display: table;
+        /*transform: translate(-50%,412%)rotate(90deg);*/
+        width: 3px;
+        height: 31px;
+        background: url(../images/arrowStore/verticalBridge.png);
+        margin: 4%;
+        background-size: cover;
+    }
+
+    #recruitWrapper .innerBox4{
+        background: url("../images/inner4DesktopPhone.png")no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align: -webkit-center;
+    }
+    #recruitWrapper .innerBox4>a{
+        background-image: linear-gradient(-269deg, #EB3349 0%, #F45C43 68%);
+        border-radius: 6px;
+        width: 180px;
+        height: 47px;
+        line-height: 47px;
+        display: block;
+        font-family: "PingFang SC";font-weight:400;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        position: absolute;
+        bottom: 65px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

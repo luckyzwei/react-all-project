@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="143px" viewBox="0 0 80 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>box_pic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,-4.32684999e-11 L51,-4.42241799e-11 C56.5228475,-4.42202891e-11 61,4.4771525 61,10 L61,30 C61,35.5228475 56.5228475,40 51,40 L36.2595194,40 L30.5,45.5825616 L24.6039871,40 L10,40 C4.4771525,40 6.34448686e-13,35.5228475 -1.31450406e-13,30 L-5.67723646e-12,10 C-6.44068291e-12,4.4771525 4.4771525,-4.38824919e-11 10,-4.46487292e-11 Z" id="path-1"></path>
+        <filter x="-17.2%" y="-16.5%" width="134.4%" height="146.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.109063632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="196.361685%" y1="58.4663726%" x2="-24.212446%" y2="52.0644882%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E6F4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="92.9202908%" x2="152.394755%" y2="-140.867058%" id="linearGradient-4">
+            <stop stop-color="#54A4FF" offset="0%"></stop>
+            <stop stop-color="#087CFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="0.5 0.97022313 14.5 8.60715086 14.5 23.1369042 0.5 15.4999765"></polygon>
+    </defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-956.000000, -2679.000000)">
+            <g id="box_pic" transform="translate(962.000000, 2682.000000)">
+                <g id="Group-31-Copy">
+                    <g id="Rectangle-5-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="图片" font-family="PingFangSC-Medium, PingFang SC" font-size="16" font-weight="400" fill="#54A4FF">
+                        <tspan x="15" y="26">图片</tspan>
+                    </text>
+                </g>
+                <g id="Group-10-Copy-4" transform="translate(6.000000, 76.000000)">
+                    <polygon id="Path-46-Copy-2" fill="url(#linearGradient-3)" style="mix-blend-mode: multiply;" points="25 54.2338404 41.9978967 63.1483722 67.6645449 48.6516411 67.6645449 34.7921991 46.5778838 23"></polygon>
+                    <polygon id="Rectangle-25" fill="#D1EBFF" points="25 0 50 13.5 25 27 0 13.5"></polygon>
+                    <polygon id="Rectangle-5" fill="url(#linearGradient-4)" points="25 27.8979746 50 14 50 40.1020254 25 54"></polygon>
+                    <polygon id="Rectangle-5-Copy" fill="#92D2FD" fill-rule="nonzero" points="25 27.8979746 25 54 0 40.1020254 0 14"></polygon>
+                    <g id="Path-10" transform="translate(5.000000, 22.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <path stroke="#429AFF" stroke-width="2" d="M-0.5,-0.714378646 L15.5,8.01353876 L15.5,24.821506 L-0.5,16.0935886 L-0.5,-0.714378646 Z"></path>
+                        <path d="M-0.698961606,15.460829 C-0.698961606,15.5765095 -1.29244896,14.1777746 -0.698961606,13.3946297 C-0.337384396,12.9175052 0.749548975,12.1814948 2.56183851,11.1865984 L6.3104875,15.460829 L11.3168928,11.1865984 L16.0714286,19.9288224 L16.0714286,24.9285714 C4.89116845,18.3953466 -0.698961606,15.2394324 -0.698961606,15.460829 Z" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-6)"></path>
+                        <ellipse id="Oval-11" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-6)" transform="translate(3.053571, 5.500000) rotate(-26.000000) translate(-3.053571, -5.500000) " cx="3.05357143" cy="5.5" rx="1.94642857" ry="2.5"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

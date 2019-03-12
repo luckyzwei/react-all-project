@@ -1,0 +1,162 @@
+ .content
+{
+    width: 800px;
+    margin: 0 auto;
+
+    border-bottom: 1px solid #777;
+}
+
+.robot
+{
+    width: 445px;
+    height: 400px;
+    margin: 10px;position: relative;
+}
+.pic-robot
+{
+    width: 100%;
+    height: 100%;margin-top: 20px;
+}
+.robot-bg
+{
+    width: 375px;
+    height: 308px;
+    text-align: center;
+    margin-top: 80px;
+}
+.dialogbox{
+	position: absolute;
+	top: -70px;
+  left: 80px;
+  opacity: 0;
+  -webkit-animation:dialog 4s ease-in-out  infinite ;
+  -moz-animation:dialog 4s ease-in-out  infinite ;
+  animation:dialog 4s ease-in-out infinite ;
+}
+.dialogbox1{
+	position: absolute;
+	top: 60px;
+  left: -50px;
+  opacity: 0;
+  -webkit-animation:dialog 4s ease-in-out 1s infinite ;
+  -moz-animation:dialog 4s ease-in-out 1s infinite ;
+  animation:dialog 4s ease-in-out 1s infinite ;
+}
+.dialogbox2{
+	position: absolute;
+  top: 35px;
+  right: 0px;
+  opacity: 0;
+  -webkit-animation:dialog 5s ease-in-out 2s infinite ;
+  -moz-animation:dialog 5s ease-in-out 2s infinite ;
+  animation:dialog 5s ease-in-out 2s infinite ;
+}
+@-webkit-keyframes dialog{
+    0%{opacity:0;}
+    30%{opacity:1;}
+    70%{opacity:1;}
+    100%{opacity:0;}
+}
+@-moz-keyframes dialog{
+     0%{opacity:0;}
+    30%{opacity:1;}
+    70%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes dialog{
+    0%{opacity:0;}
+    30%{opacity:1;}
+    70%{opacity:1;}
+    100%{opacity:0;}
+}
+.wifi{
+	  height: 50px;
+    width: 80px;
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    top: 34px;
+}
+.wifi img{
+	display: block;
+}
+.wifi-pic3{
+	width: 70px;height: 20px;
+	opacity: 0;
+    -webkit-animation:wifi2 2s ease-in-out   infinite ;
+    -moz-animation:wifi2 2s ease-in-out  infinite ;
+    animation:wifi2 2s ease-in-out  infinite ;
+}
+.wifi-pic2{
+	    width: 45px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    left: 14%;
+    opacity: 0;
+    -webkit-animation:wifi1 2s ease-in-out  infinite ;
+    -moz-animation:wifi1 2s ease-in-out  infinite ;
+    animation:wifi1 2s ease-in-out  infinite ;
+}
+.wifi-pic1{
+    width: 25px;
+    height: 12px;
+    position: absolute;
+    top: 30px;
+    left: 22%;
+    opacity: 0;
+    -webkit-animation:wifi 2s ease-in-out  infinite ;
+    -moz-animation:wifi 2s ease-in-out  infinite ;
+    animation:wifi 2s ease-in-out infinite ;
+}
+@-webkit-keyframes wifi{
+    0%{opacity:0;}
+    5%{opacity:1;}
+    90%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes wifi{
+    0%{opacity:0;}
+    5%{opacity:1;}
+    90%{opacity:1;}
+    100%{opacity:0;}
+}
+@-webkit-keyframes wifi1{
+    0%{opacity:0;}
+    40%{opacity:1;}
+    75%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes wifi1{
+    0%{opacity:0;}
+    40%{opacity:1;}
+    75%{opacity:1;}
+    100%{opacity:0;}
+}
+@-webkit-keyframes wifi2{
+       0%{opacity:0;}
+    25%{opacity:0;}
+    65%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes wifi2{
+    0%{opacity:0;}
+    25%{opacity:0;}
+    65%{opacity:1;}
+    100%{opacity:0;}
+}
+
+.animateScale{
+    animation: animateScale 30s linear infinite;
+}
+@keyframes animateScale{
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.3)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
