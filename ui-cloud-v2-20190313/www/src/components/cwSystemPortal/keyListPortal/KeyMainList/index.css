@@ -1,0 +1,93 @@
+@media screen and (min-width: 1920px) {
+  .keyListPortal .keyListPortal-header .keyListPortal-header-left {
+    flex: 1; }
+  .keyListPortal .keyListPortal-header .keyListPortal-header-right {
+    flex: 1; } }
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .keyListPortal .keyListPortal-header .keyListPortal-header-left {
+    flex: 622; }
+  .keyListPortal .keyListPortal-header .keyListPortal-header-right {
+    flex: 610; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .keyListPortal .keyListPortal-header .keyListPortal-header-left {
+    flex: 622; }
+  .keyListPortal .keyListPortal-header .keyListPortal-header-right {
+    flex: 616; } }
+
+.keyListPortal {
+  padding: 24px;
+  font-family: PingFangSC-Regular;
+  height: 100%; }
+  .keyListPortal .keyListPortal-header {
+    display: flex;
+    margin-bottom: 24px;
+    color: #fff; }
+    .keyListPortal .keyListPortal-header .keyListPortal-header-left {
+      height: 140px;
+      min-width: 616px;
+      margin-right: 24px;
+      background: #fff;
+      border-radius: 4px;
+      display: flex;
+      align-items: center; }
+    .keyListPortal .keyListPortal-header .keyListPortal-header-right {
+      height: 140px;
+      min-width: 444px;
+      background: #fff;
+      border-radius: 4px;
+      display: flex;
+      align-items: center; }
+    .keyListPortal .keyListPortal-header .keyListPortal-header-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .keyListPortal .keyListPortal-header .keyListPortal-header-item .title {
+        font-size: 14px;
+        margin-bottom: 4px;
+        color: #485767; }
+      .keyListPortal .keyListPortal-header .keyListPortal-header-item .number {
+        text-align: left;
+        font-size: 36px;
+        color: #485767;
+        line-height: 54px; }
+    .keyListPortal .keyListPortal-header .keyListPortal-header-line {
+      width: 2px;
+      height: 50px;
+      opacity: .5;
+      background: #E9EBEE; }
+  .keyListPortal .keyListPortal-list-main {
+    min-width: 1086px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100% - 164px);
+    margin-bottom: 26px;
+    background: #fff;
+    padding: 24px 30px;
+    border-radius: 4px; }
+    .keyListPortal .keyListPortal-list-main .historyTable {
+      width: 100%; }
+    .keyListPortal .keyListPortal-list-main.none {
+      min-height: 604px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0; }
+      .keyListPortal .keyListPortal-list-main.none .guideButton {
+        margin: 0; }
+      .keyListPortal .keyListPortal-list-main.none .ht-img {
+        background: url(/images/icon/kw_noData.png);
+        width: 179px;
+        height: 168px;
+        margin-top: 142px;
+        background-size: cover; }
+      .keyListPortal .keyListPortal-list-main.none p {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #B5BDC6;
+        margin: 14px auto 30px; }
+  .keyListPortal .KeyListPortal-footer {
+    display: flex;
+    justify-content: center; }

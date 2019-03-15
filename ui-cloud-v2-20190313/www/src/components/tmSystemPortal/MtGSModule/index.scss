@@ -1,0 +1,108 @@
+@import 'styles/public.scss';
+.MtGSModule {
+    height: 466px;
+    width: 456px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    .MtGSModule-header {
+        height: 72px;
+        display: flex;
+        background: #F7F8F9;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E9EBEE;
+        border-radius: 4px 4px 0 0;
+        padding: 0 9px 0 17px;
+        font-size: 14px;
+        color: #344658;
+        .input {
+            background: #FFFFFF;
+            border: 1px solid #E9EBEE;
+            border-radius: 4px;
+            width: 354px;
+            height: 36px;
+            line-height: 36px;
+            padding: 0 16px;
+            box-sizing: border-box;
+            &:focus {
+                border-color: #58A7F8;
+            }
+        }
+    }
+    .MtGSModule-content {
+        height: calc( 100% - 72px);
+        overflow: auto;
+        .MtGSModule-content-tag {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 17px;
+            .MtGSModule-content-tag-item {
+                min-width: 44px;
+                text-align: center;
+                padding: 2px 10px;
+                font-size: 14px;
+                color: #485767;
+                font-weight: 400;
+                border: 1px solid #E9EBEE;
+                border-radius: 100px;
+                margin-top: 18px;
+                margin-right: 10px;
+                cursor: pointer;
+                &.active {
+                    background: #E9F9F0;
+                    color: #6AD298;
+                }
+            }
+        }
+        .MtGSModule-content-group {
+            .MtGSModule-content-group-item {
+                font-size: 14px;
+                color: #344658;
+                font-weight: 400;
+                padding: 0 17px;
+                cursor: pointer;
+                .item-box {
+                    padding: 15px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px dashed #e9ebee;
+                    .item-box-left{
+                        display: flex;
+                        align-items: center;
+                    }
+                    .item-box-right{
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 34px;
+                        background-position: -139px -19px;
+                        @extend %iconGi;
+                        &:hover{
+                            background-position: -159px -19px;
+                        }
+                        &.active{
+                            background-position: -179px -19px;
+                        }
+                    }
+                    .group-icon {
+                        background: #E9EBEE;
+                        border-radius: 4px;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
+                    }
+                }
+                &:hover {
+                    background: #ECF6FF;
+                    .item-box-right{
+                        background-position: -139px -19px;
+                    }
+                }
+                &.repeatId {
+                    background: #FDE5E5
+                }
+            }
+        }
+    }
+}

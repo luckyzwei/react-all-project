@@ -1,0 +1,80 @@
+@import 'styles/public.scss';
+
+.MatterCard {
+  width: 256px;
+  height: 142px;
+  background: #FFFFFF;
+  float: left;
+  box-shadow: 0 2px 4px 0 #E9EBEE;
+  border-radius: 4px;
+  margin: 0 24px 24px 0;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 4px 10px 0 #D7DADD;
+  }
+  .MatterCard-header {
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #485767;
+    font-weight: 400;
+    .MatterCard-header-icon {
+      width: 39px;
+      height: 38px;
+      @extend %iconCw;
+      background-position: -53px -71px;
+      margin-right: 8.8px;
+    }
+  }
+  .MatterCard-footer {
+    background: #F8F8F9;
+    border-radius: 0 0 4px 4px;
+    height: 45px;
+    font-size: 14px;
+    color: #B5BDC6;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    .MatterCard-footer-btn-line {
+      height: 22px;
+      width: 2px;
+      background: #e9ebee;
+    }
+    .MatterCard-footer-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      &:hover {
+        color: #58A7F8;
+        &.delete {
+          color: #F75A5A;
+        }
+        .MatterCard-footer-btn-icon {
+
+          &.delete {
+            background-position: -77px -48px;
+          }
+          &.edit {
+            background-position: -26px -75px;
+          }
+
+        }
+      }
+      .MatterCard-footer-btn-icon {
+        width: 24px;
+        height: 24px;
+        @extend %iconCw;
+        &.delete {
+          background-position: -53px -48px;
+        }
+        &.edit {
+          background-position: -26px -51px;
+        }
+      }
+    }
+  }
+}

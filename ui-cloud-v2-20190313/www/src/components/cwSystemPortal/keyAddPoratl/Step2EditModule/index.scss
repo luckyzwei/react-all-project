@@ -1,0 +1,47 @@
+@import 'styles/public.scss';
+.Step2EditModule {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    z-index: 99;
+    overflow: auto;
+    .Step2EditModule-content {
+        width: 1096px;
+        min-height: 692px;
+        margin: 53px auto;
+        background: #FFFFFF;
+        border-radius: 4px;
+        position: relative;
+        .Step2EditModule-content-close {
+            width: 24px;
+            height: 24px;
+            @extend %iconGi;
+            background-position: -209px -277px;
+            &:hover {
+                background-position: -209px -301px;
+            }
+            cursor: pointer;
+            position: absolute;
+            right: -34px;
+            top: 0;
+        }
+        .MtBuildMain-content {
+            min-width: 1096px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            padding: 40px 0;
+            display: flex;
+            .MtBuildMain-content-left {
+                width: 378px; // position: absolute;
+                // top: 186px;
+                // left: 158px;
+            }
+            .MtBuildMain-content-right {
+                // margin-left: 378px;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.public-uploadBtn {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.public-uploadBtn {
+  background: #58A7F8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  cursor: pointer; }
+  .public-uploadBtn:hover, .public-uploadBtn.loading {
+    background: #288BF2; }
+  .public-uploadBtn svg {
+    margin-right: 6px;
+    transform: scale(0.8); }

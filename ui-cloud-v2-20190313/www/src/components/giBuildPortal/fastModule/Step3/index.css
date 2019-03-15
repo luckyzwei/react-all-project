@@ -1,0 +1,79 @@
+.gi-batch-step2 {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-batch-step2 .robot .desc {
+  font-family: "PingFang SC";
+  font-weight: 300;
+  font-size: 12px; }
+
+.gi-batch-step2 .robot .icon {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.gi-batch-step2 {
+  height: 100%;
+  overflow: auto;
+  background: #f0f1f3;
+  padding: 24px;
+  color: #344658;
+  border-radius: 4px; }
+  .gi-batch-step2 .inner {
+    min-height: 100%;
+    padding: 64px 36px;
+    background: #FFFFFF; }
+  .gi-batch-step2 .row {
+    display: flex;
+    margin-bottom: 60px; }
+  .gi-batch-step2 .label {
+    width: 118px; }
+  .gi-batch-step2 .content {
+    display: flex; }
+    .gi-batch-step2 .content .download {
+      color: #5D90C5;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-right: 8px; }
+      .gi-batch-step2 .content .download:hover {
+        color: #58A7F8; }
+    .gi-batch-step2 .content .upload {
+      color: #485767;
+      cursor: pointer; }
+    .gi-batch-step2 .content .imageBox {
+      width: 790px;
+      height: 116px;
+      background-color: #F7F8F9;
+      border-radius: 4px;
+      background-image: url(/images/bj/gi_batch.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 12px; }
+  .gi-batch-step2 .robot {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    width: 234px;
+    height: 272px;
+    margin-right: 44px; }
+    .gi-batch-step2 .robot .icon {
+      width: 93px;
+      height: 93px;
+      margin: 29px auto 0; }
+    .gi-batch-step2 .robot .name {
+      color: #485767;
+      text-align: center;
+      margin: 12px 0 28px; }
+    .gi-batch-step2 .robot .desc {
+      width: 186px;
+      margin: 0 auto;
+      color: #485767; }
+  .gi-batch-step2 .robot1 .icon {
+    background-position: -5px -184px; }
+  .gi-batch-step2 .robot2 .icon {
+    background-position: -98px -184px; }
+  .gi-batch-step2 .robot3 .icon {
+    background-position: -191px -184px; }
+  .gi-batch-step2 .buttonArea {
+    float: left;
+    margin-left: 800px; }

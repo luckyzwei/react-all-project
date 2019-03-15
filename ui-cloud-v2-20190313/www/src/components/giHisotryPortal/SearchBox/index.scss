@@ -1,0 +1,48 @@
+@import 'styles/public.scss';
+.gi-history .searchBox {
+    height: 84px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    min-width: 1094px;
+    padding: 0 24px;
+    .row1 {
+        margin-right: 40px;
+    }
+    .row2 {
+        margin-right: 40px;
+        .label {
+            display: inline-block;
+            vertical-align: middle;
+            color: #344658;
+            transform: translateY(-1px);
+            @extend %font-14px;
+        }
+    }
+    .searchBtn {
+        border: 1px solid #58A7F8;
+        border-radius: 4px;
+        width: 108px;
+        height: 36px;
+        @extend %font-14px;
+        color: #58A7F8;
+        text-align: center;
+        line-height: 34px;
+        cursor: pointer;
+        &:hover {
+            background: #58A7F8;
+            color: #FFFFFF;
+        }
+    }
+    .backGI {
+        text-decoration: underline;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #5D90C5;
+        cursor: pointer;
+        &:hover {
+            color: #58A7F8;
+        }
+    }
+}

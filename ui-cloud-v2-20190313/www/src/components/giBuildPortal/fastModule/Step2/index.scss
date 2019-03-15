@@ -1,0 +1,86 @@
+@import 'styles/public.scss';
+
+.gi-fast-step2 {
+    position: relative;
+    padding: 24px;
+    height: 100%;
+    overflow: auto;
+    background: #f0f1f3;
+    input:hover,
+    textarea:hover,
+    input:focus,
+    textarea:focus{
+        border: 1px solid rgb(88, 167, 248) !important;
+    }
+
+    .inner {
+        min-width: 1096px;
+        min-height: 100%;
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding-bottom: 50px;
+
+        .stepTitle {
+            @extend %font-14px;
+            color: #344658;
+            padding-top: 8px;
+            background: #f0f1f3;
+            width: 100%;
+            height: 57px;
+        }
+
+        .todo {
+            color: #B5BDC6;
+        }
+    }
+
+    .left {
+        // 左半边样式
+        width: 500px;
+    }
+
+    .right {
+        // 右半边样式
+        width: 540px;
+        padding-top: 98px;
+
+        .bottom {
+            height: 128px;
+            padding: 12px 20px;
+            background: #F7F8F9;
+            border-radius: 4px;
+            margin-bottom: 48px;
+
+            h4 {
+                @extend %font-12px-medium;
+                color: #485767;
+                line-height: 17px;
+                margin: 0;
+                margin-bottom: 8px;
+            }
+
+            p {
+                @extend %font-12px;
+                color: #485767;
+                margin: 0;
+                line-height: 19px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .gi-fast-step2 .right {
+        // 右半边样式
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .gi-fast-step2 .right {
+        // 右半边样式
+        width: 576px;
+    }
+}

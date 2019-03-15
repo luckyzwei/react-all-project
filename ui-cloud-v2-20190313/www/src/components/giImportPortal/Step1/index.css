@@ -1,0 +1,74 @@
+.gi-import .loginModal {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-import .loginModal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.gi-import .loginModal {
+  width: 400px;
+  height: 420px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  color: #344658;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 #E9EBEE;
+  border-radius: 4px; }
+
+.gi-import .loginModal .title {
+  height: 58px;
+  border-bottom: 1px solid #E9EBEE;
+  padding-left: 22px;
+  font-size: 16px;
+  line-height: 58px;
+  text-align: left; }
+
+.gi-import .loginModal .loginBox {
+  padding-top: 40px; }
+
+.gi-import .loginModal .loginBox .codeBox {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #58A7F8;
+  border-radius: 2px;
+  margin: 0 auto 20px;
+  padding: 10px; }
+
+.gi-import .loginModal .loginBox .codeBox.fail {
+  border: 1px solid rgba(247, 90, 90, 0.5); }
+
+.gi-import .loginModal .loginBox img {
+  display: block;
+  width: 162px;
+  height: 162px; }
+
+.gi-import .loginModal .loginBox .refreshBtn {
+  color: #58A7F8;
+  cursor: pointer; }
+
+.gi-import .loginModal .successBox {
+  padding-top: 70px; }
+
+.gi-import .loginModal .avatarBox {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 60px;
+  padding: 6px;
+  position: relative; }
+
+.gi-import .loginModal .avatarBox img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2; }
+
+.gi-import .loginModal .avatarBox .loading {
+  position: absolute;
+  left: 0;
+  top: 0; }

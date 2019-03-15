@@ -1,0 +1,10 @@
+@import 'styles/public.scss';
+.TmUnEmptyList {
+    height: 100%;
+    .MmUnEmptyList-content {
+        height: calc( 100% - 84px);
+        background: #F0F1F3;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+}

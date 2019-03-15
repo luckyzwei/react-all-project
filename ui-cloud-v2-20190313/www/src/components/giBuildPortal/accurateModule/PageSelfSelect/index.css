@@ -1,0 +1,196 @@
+.PageSelfSelect .PageContent .row .treeBox .iconTip {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.PageSelfSelect .PageContent .row .treeBox .icon-add, .PageSelfSelect .PageContent .row .treeBox .icon-edit, .PageSelfSelect .PageContent .row .treeBox .icon-delete {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.PageSelfSelect {
+  display: flex;
+  margin-bottom: 34px; }
+  .PageSelfSelect .Pagetitle {
+    width: 112px;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #344658; }
+  .PageSelfSelect .PageContent {
+    background: #F7F8F9;
+    border-radius: 4px;
+    width: 516px;
+    padding: 20px 16px;
+    box-sizing: border-box; }
+    .PageSelfSelect .PageContent .row {
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      position: relative; }
+      .PageSelfSelect .PageContent .row.list {
+        align-items: flex-start; }
+      .PageSelfSelect .PageContent .row .phone-content-title {
+        width: 70px;
+        margin-right: 4px;
+        font-size: 14px;
+        color: #344658;
+        text-align: right; }
+      .PageSelfSelect .PageContent .row .treeBox {
+        width: 316px;
+        height: 340px;
+        border: 1px solid #F7F8F9;
+        background: #FFF;
+        color: #344658; }
+        .PageSelfSelect .PageContent .row .treeBox .select-title {
+          width: 100%;
+          height: 44px;
+          border-bottom: 1px solid #E9EBEE;
+          padding-left: 10px;
+          line-height: 44px;
+          color: #344658;
+          position: absolute;
+          left: 0;
+          top: 0; }
+        .PageSelfSelect .PageContent .row .treeBox .select-content {
+          padding: 52px 0 8px 8px;
+          height: 100%;
+          overflow: auto;
+          position: relative; }
+        .PageSelfSelect .PageContent .row .treeBox .level1 {
+          margin: 0;
+          line-height: 24px; }
+        .PageSelfSelect .PageContent .row .treeBox .addBtn {
+          border: 1px dashed #B5BDC6;
+          border-radius: 4px;
+          width: 112px;
+          height: 24px;
+          color: #B5BDC6;
+          text-align: center;
+          line-height: 22px;
+          cursor: pointer;
+          margin-top: 6px; }
+        .PageSelfSelect .PageContent .row .treeBox .ipt {
+          width: 200px;
+          height: 24px;
+          border: 1px solid #58a7f8;
+          display: block;
+          padding-left: 6px; }
+        .PageSelfSelect .PageContent .row .treeBox .icon-confirm {
+          cursor: pointer;
+          background: green; }
+        .PageSelfSelect .PageContent .row .treeBox .icon-cancel {
+          cursor: pointer;
+          background: red; }
+        .PageSelfSelect .PageContent .row .treeBox .icon-add {
+          cursor: pointer;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+          background-position: -468px -91px;
+          margin-left: 12px;
+          position: relative; }
+          .PageSelfSelect .PageContent .row .treeBox .icon-add:hover {
+            background-position: -468px -107px; }
+            .PageSelfSelect .PageContent .row .treeBox .icon-add:hover .iconTip {
+              display: block; }
+        .PageSelfSelect .PageContent .row .treeBox .icon-edit {
+          cursor: pointer;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          float: right;
+          margin: 5px 12px 0 0;
+          opacity: 0;
+          background-position: -484px -91px;
+          position: relative; }
+          .PageSelfSelect .PageContent .row .treeBox .icon-edit:hover {
+            background-position: -484px -107px; }
+            .PageSelfSelect .PageContent .row .treeBox .icon-edit:hover .iconTip {
+              display: block; }
+        .PageSelfSelect .PageContent .row .treeBox .icon-delete {
+          cursor: pointer;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          float: right;
+          margin: 5px 20px 0 0;
+          opacity: 0;
+          background-position: -500px -91px;
+          position: relative; }
+          .PageSelfSelect .PageContent .row .treeBox .icon-delete:hover {
+            background-position: -500px -107px; }
+            .PageSelfSelect .PageContent .row .treeBox .icon-delete:hover .iconTip {
+              display: block; }
+        .PageSelfSelect .PageContent .row .treeBox .level1-item {
+          position: relative; }
+          .PageSelfSelect .PageContent .row .treeBox .level1-item .level1-edit-iptBox {
+            position: absolute;
+            left: 12px;
+            top: 0;
+            width: 294px;
+            height: 100%; }
+        .PageSelfSelect .PageContent .row .treeBox .level1-content:hover {
+          background: #ECF6FF; }
+          .PageSelfSelect .PageContent .row .treeBox .level1-content:hover .icon-edit,
+          .PageSelfSelect .PageContent .row .treeBox .level1-content:hover .icon-delete {
+            opacity: 1; }
+        .PageSelfSelect .PageContent .row .treeBox .iptBox {
+          background: #FFF;
+          height: 24px; }
+        .PageSelfSelect .PageContent .row .treeBox .level2 {
+          overflow: hidden;
+          transition: all ease-in-out .15s; }
+        .PageSelfSelect .PageContent .row .treeBox .level2-item {
+          position: relative;
+          margin-left: 12px;
+          padding-left: 14px;
+          height: 24px; }
+          .PageSelfSelect .PageContent .row .treeBox .level2-item:hover {
+            background: #ECF6FF; }
+            .PageSelfSelect .PageContent .row .treeBox .level2-item:hover .icon-edit,
+            .PageSelfSelect .PageContent .row .treeBox .level2-item:hover .icon-delete {
+              opacity: 1; }
+          .PageSelfSelect .PageContent .row .treeBox .level2-item .level2-edit-iptBox {
+            position: absolute;
+            left: 12px;
+            top: 0;
+            width: calc(100% - 12px);
+            height: 100%; }
+        .PageSelfSelect .PageContent .row .treeBox .expandBox {
+          background: #FFF;
+          display: inline-block;
+          height: 24px;
+          cursor: pointer; }
+        .PageSelfSelect .PageContent .row .treeBox .icon-expand {
+          border-width: 4px;
+          border-style: solid;
+          border-color: #344658 transparent transparent transparent;
+          display: inline-block;
+          vertical-align: middle;
+          transition: all ease-in-out .15s;
+          transform: rotate(-90deg);
+          margin-right: 4px; }
+          .PageSelfSelect .PageContent .row .treeBox .icon-expand.expanded {
+            transform: rotate(0deg); }
+        .PageSelfSelect .PageContent .row .treeBox .iconTip {
+          display: none;
+          background: #344658;
+          border-radius: 4px;
+          padding: 3px 14px;
+          color: #FFFFFF;
+          position: absolute;
+          left: 50%;
+          top: -40px;
+          transform: translateX(-50%);
+          word-break: keep-all; }
+          .PageSelfSelect .PageContent .row .treeBox .iconTip::after {
+            content: '';
+            display: block;
+            background: #344658;
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            left: 50%;
+            bottom: -3px;
+            transform: translateX(-50%) rotate(45deg); }

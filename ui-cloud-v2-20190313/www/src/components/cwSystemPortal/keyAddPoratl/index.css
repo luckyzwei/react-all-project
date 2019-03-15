@@ -1,0 +1,15 @@
+.keyAddPoratl .stepTitle {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.keyAddPoratl {
+  width: 100%; }
+  .keyAddPoratl .stepTitle {
+    color: #344658;
+    padding-top: 8px;
+    background: #f0f1f3;
+    width: 100%;
+    height: 57px; }
+    .keyAddPoratl .stepTitle .todo {
+      color: #B5BDC6; }

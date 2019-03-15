@@ -1,0 +1,520 @@
+@import 'styles/public.scss';
+
+@media screen and (min-width: 1440px) {
+    .MmEdit{
+        width: 872px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .MmEdit{
+        width: 710px;
+    }
+}
+.MmEdit {
+    padding-right: 0;
+    box-sizing: border-box;
+    .MmEdit-header {
+        display: flex;
+        width: 690px;
+        margin-bottom: 28px;
+        &>div:nth-of-type(1){
+          margin-right: 46px;
+        }
+    }
+    .MmEdit-nav {
+        height: 60px;
+        width:682px;
+        .MmEdit-nav-add {
+            width: 119px;
+            box-sizing: border-box;
+            height: 60px;
+            border: 1px solid #e9ebee;
+            border-bottom: none;
+            border-radius: 4px 4px 0 0;
+            background: #fff;
+            cursor: pointer;
+            z-index: 99;
+            transform: translateY(1px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            .MmEdit-nav-add-img {
+                width: 38px;
+                height: 38px;
+                @extend %iconMt1;
+                background-position: -83px -92px;
+                position: relative;
+                z-index: 2;
+                &:hover + .public-tipBubble{
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+        }
+        .MmEdit-nav-content {
+            display: flex;
+            height: 60px;
+            .MmEdit-nav-content-item {
+                width: 120px;
+                display: flex;
+                color: #B5BDC6;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                background: #fff;
+                position: relative;
+                .close-icon {
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    top: 4px;
+                    right: 4px;
+                    @extend %iconMt1;
+                }
+                .MmEdit-nav-content-item-icon {
+                    width: 38px;
+                    height: 38px;
+                    @extend %iconMt1;
+                    background-position: -121px -92px;
+                    &.active,
+                    &:hover {
+                        background-position: -83px -92px;
+                    }
+                }
+                &.active {
+                    border: 1px solid #e9ebee;
+                    border-bottom: none;
+                    border-radius: 4px 4px 0 0;
+                    z-index: 99;
+                    transform: translateY(1px);
+                }
+                &.active {
+                    color: #485767;
+                }
+                &:hover {
+                    color: #485767;
+                    .close-icon {
+                        background-position: -421px -118px;
+                    }
+                    .close-icon:hover{
+                        background-position: -439px -118px;
+                    }
+                }
+                .imgs {
+                    width: 38px;
+                    height: 38px;
+                    margin-right: 10px;
+                    @extend %iconMt1;
+                }
+                &.TEXT {
+                    .imgs {
+                        background-position: -16px -45px;
+                    }
+                    &.active,
+                    &:hover {
+                        .imgs {
+                            background-position: -216px -45px;
+                        }
+                    }
+                }
+                &.IMG {
+                    .imgs {
+                        background-position: -56px -45px;
+                    }
+                    &.active,
+                    &:hover {
+                        .imgs {
+                            background-position: -256px -45px;
+                        }
+                    }
+                }
+                &.LINK {
+                    .imgs {
+                        background-position: -96px -45px;
+                    }
+                    &.active,
+                    &:hover {
+                        .imgs {
+                            background-position: -296px -45px;
+                        }
+                    }
+                }
+                &.SLINK {
+                    width: 150px;
+                    .imgs {
+                        background-position: -136px -45px;
+                    }
+                    &.active,
+                    &:hover {
+                        .imgs {
+                            background-position: -336px -45px;
+                        }
+                    }
+                }
+                &.WEXX {
+                    width: 133px;
+                    .imgs {
+                        background-position: -177px -45px;
+                    }
+                    &.active,
+                    &:hover {
+                        .imgs {
+                            background-position: -377px -45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .MtStyleSelectBox {
+        z-index: 9;
+        position: absolute;
+        top: 65px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        background: #FFFFFF;
+        box-shadow: 0 0 2px 0 #E9EBEE, 0 2px 8px 0 #E9EBEE;
+        border-radius: 4px;
+        align-items: center;
+        .MtStyleSelectBox-trg {
+            width: 16px;
+            height: 16px;
+            border-left: 1px solid #e8ebee;
+            border-top: 1px solid #e8ebee;
+            transform: rotate(45deg) translateX(-50%);
+            position: absolute;
+            background: #fff;
+            top: -4px;
+            left: 50%;
+        }
+        .MtStyleSelectBox-item {
+            padding: 22px 20px;
+            width: 110px;
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: #B5BDC6;
+            font-weight: 400;
+            &:hover {
+                color: #485767;
+                .mt-icon::before {
+                    transform: scale(1);
+                    animation: zhang .15s;
+                }
+                .mt-icon {
+                    background: none;
+                }
+            }
+            .mt-icon {
+                margin-bottom: 10px;
+                height: 38px;
+                border-radius: 50%;
+                background-color: #DADEE2;
+                &::before {
+                    background: #58A7F8;
+                }
+            }
+            .img {
+                width: 38px;
+                height: 38px;
+                display: inline-block;
+                @extend %iconMt1;
+                position: relative;
+            }
+            &.TEXT {
+                .img {
+                    background-position: -16px -136px;
+                }
+            }
+            &.IMG {
+                .img {
+                    background-position: -56px -136px;
+                }
+            }
+            &.LINK {
+                .img {
+                    background-position: -96px -136px;
+                }
+            }
+            &.SLINK {
+                .img {
+                    background-position: -136px -136px;
+                }
+            }
+            &.WEXX {
+                .img {
+                    background-position: -177px -136px;
+                }
+            }
+        }
+    }
+    .MmEdit-edit {
+        width: 100%;
+        border: 1px solid #e9ebee;
+        border-radius: 4px;
+        min-height: 444px;
+        margin-bottom: 14px;
+        .EditSpace {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            height: 444px;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #B5BDC6;
+            font-weight: 400;
+        }
+        .EditText {
+            width: 100%;
+            min-height: 444px;
+            padding: 30px 14px;
+            box-sizing: border-box;
+            .EditText-textarea {
+                width: 100%;
+                min-height: 400px;
+                resize: none;
+                text-indent: 2em;
+                line-height: 2em;
+            }
+            .EditText-num-icon {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .EditText-icon {
+                    width: 28px;
+                    height: 28px;
+                    @extend %iconMt1;
+                    margin-right: 15px;
+                    background-position: -159px -92px;
+                }
+                .EditText-num {
+                    font-size: 12px;
+                    color: #B5BDC6;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+        .EditImg {
+            height: 444px;
+            width: 100%;
+            padding: 45px 20px 0 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: auto;
+            .noPic {
+                border: none !important;
+            }
+            .EditImg-text {
+                height: 206px;
+                display: flex;
+                align-items: flex-end;
+                margin-left: 10px;
+                font-size: 12px;
+                color: #B5BDC6;
+                font-weight: 400;
+            }
+            .imgPreview {
+                width: 142px;
+                height: 142px;
+                position: relative;
+                cursor: pointer;
+                margin: 0 20px 20px 0;
+        
+                .img {
+                    width: 100%;
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 4px;
+                }
+        
+                .delBtn {
+                    @extend %iconGi;
+                    background-position: -314px -135px;
+                    position: absolute;
+                    top: -13px;
+                    right: -13px;
+                    width: 26px;
+                    height: 26px;
+                    display: none;
+                }
+        
+                &:hover .delBtn{
+                    display: block;
+                }
+            }
+        }
+        .EditLink {
+            height: 444px;
+            width: 100%;
+            padding: 30px 14px;
+            box-sizing: border-box;
+            .EditLink-row {
+                width: 100%;
+                font-size: 14px;
+                color: #485767;
+                font-weight: 400;
+                padding-bottom: 8px;
+                margin-bottom: 22px;
+                border-bottom: 1px solid #F0F1F3;
+                input {
+                    width: 100%;
+                    &:focus {
+                        border: none;
+                    }
+                }
+            }
+            .EditLink-img {
+                display: flex;
+                align-items: center;
+                .noPic {
+                    border: none !important;
+                }
+                .EditLink-text {
+                    height: 142px;
+                    display: flex;
+                    align-items: flex-end;
+                    margin-left: 10px;
+                    font-size: 12px;
+                    color: #B5BDC6;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .MmEdit-edit-tips {
+        font-size: 12px;
+        color: #B5BDC6;
+        font-weight: 400;
+        margin-bottom: 49px;
+    }
+    .MmEdit-edit-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* 图文编辑中的文本编辑 */
+    .mt-activeContent {
+        position: relative;
+        margin-top: 39px;
+        width: 100%;
+        padding: 0 14px;
+        min-height: 356px;
+    }
+    [contenteditable=true]:empty:before {
+        content: attr(placeholder);
+        color: #B5BDC6;
+        display: block;
+        font-weight: 400;
+        /* For Firefox */
+    }
+    .mt-activeContent pre {
+        text-align: left;
+        overflow-x: hidden;
+        overflow-y: auto;
+        word-wrap: break-word;
+        word-break: normal;
+        white-space: normal;
+        @extend %font-14px;
+        width: 100%;
+        color: #344658;
+        height: 356px;
+    }
+    #pre-container {
+        text-align: left;
+        overflow-x: hidden;
+        overflow-y: auto;
+        word-wrap: break-word;
+        word-break: normal;
+        white-space: normal;
+        font-size: 13px;
+        width: 100%;
+        color: #344658;
+        height: 20px;
+        border-bottom: 1px solid #DADEE2;
+    }
+    .noWords {
+        height: 20px !important;
+        border-bottom: 1px solid #DADEE2;
+    }
+    .mt-activeContent .gm-animation {
+        margin-top: -3px;
+        z-index: 4;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+        margin-right: 14px;
+    }
+    .mt-activeContent .toolBtn {
+        z-index: 4;
+        width: 36px;
+        height: 36px;
+        position: relative;
+    }
+    .qqfaceBox {
+        display: flex;
+        height: 20px;
+        align-items: center;
+        font-size: 12px;
+        color: #B5BDC6;
+        justify-content: flex-end;
+        padding-right: 14px;
+        font-weight: 400;
+    }
+    .mt-activeContent .toolBtn {
+        background-position: -185px -38px;
+    }
+    .counter {
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        text-align: right;
+        font-size: 13px;
+        color: #B5BDC6;
+        width: 54px;
+        height: 18px;
+    }
+    .mt-faceBox {
+        position: absolute;
+        display: none;
+        margin-top: -50px;
+        opacity: 0;
+        z-index: 2;
+        left: -390px;
+        top: -245px;
+        background-color: white;
+        width: 474px;
+        height: 232px;
+        box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+        border-radius: 2px;
+        transition: all .4s;
+    }
+    .mt-faceBox::before {
+        width: 14px;
+        height: 14px;
+        -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        box-shadow: 2px 2px 3px rgba(230, 230, 230, 0.87);
+        position: absolute;
+        z-index: 0;
+        bottom: -5px;
+        right: 60px;
+        background: #fff;
+        content: "";
+        border-radius: 2px;
+    }
+    .dot:hover .tip {
+        display: block;
+    }
+}

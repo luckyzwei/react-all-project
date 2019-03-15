@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/**************帮助中心**************/
+.hp-headBox .hp-head-title {
+  font-family: "PingFang SC";
+  font-weight: 300;
+  font-size: 28px; }
+
+.hp-headBox {
+  height: 324px;
+  min-width: 1145px;
+  margin-bottom: 52px;
+  background: linear-gradient(to right, #2FBDF3 50%, #1F6DE2 50%); }
+  .hp-headBox .hp-headBox-bg {
+    width: 1390px;
+    height: 324px;
+    margin: 0 auto;
+    position: relative;
+    background: url(/images/bj/hp-bg.png) 0 0/contain no-repeat; }
+  .hp-headBox .hp-head-logo {
+    width: 99px;
+    height: 27px;
+    background: url(/images/icon/logo3.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 17px;
+    left: 48px; }
+  .hp-headBox .hp-head-title {
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    left: 87px;
+    cursor: default; }
+    .hp-headBox .hp-head-title p {
+      margin: 0 0 8px; }

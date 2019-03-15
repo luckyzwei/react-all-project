@@ -1,0 +1,36 @@
+.cw-batchModal .title {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.cw-batchModal .tips {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.cw-batchModal {
+  width: 420px;
+  height: 350px;
+  background: #FFFFFF;
+  border-radius: 4px; }
+  .cw-batchModal .title {
+    height: 58px;
+    line-height: 58px;
+    padding-left: 22px;
+    color: #344658;
+    border-bottom: 1px solid #E9EBEE; }
+  .cw-batchModal img {
+    width: 130px;
+    height: 115px;
+    display: block;
+    margin: 35px auto 30px; }
+  .cw-batchModal .tips {
+    color: #B5BDC6;
+    margin-top: 14px;
+    text-align: center; }
+    .cw-batchModal .tips span {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #5D90C5; }
+      .cw-batchModal .tips span:hover {
+        color: #58A7F8; }

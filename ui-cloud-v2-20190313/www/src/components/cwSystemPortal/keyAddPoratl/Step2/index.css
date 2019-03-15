@@ -1,0 +1,52 @@
+.Step2 .Step2-content .add-new-matter .add-new-matter-icon {
+  background: url(/images/icon/icon-cw.png) no-repeat;
+  background-size: 133px 147px; }
+
+@media screen and (min-width: 1551px) {
+  .Step2 {
+    width: 1428px; } }
+
+@media screen and (max-width: 1550px) {
+  .Step2 {
+    width: 1168px; } }
+
+.Step2 {
+  padding: 24px; }
+  .Step2 .Step2-title {
+    font-size: 24px;
+    color: #485767;
+    font-weight: 400;
+    margin-bottom: 24px; }
+  .Step2 .Step2-content {
+    overflow: hidden;
+    min-height: 490px; }
+    .Step2 .Step2-content .add-new-matter {
+      float: left;
+      width: 256px;
+      height: 142px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #B5BDC6;
+      font-weight: 400;
+      background: #FFFFFF;
+      border: 1px dashed #E9EBEE;
+      box-shadow: 0 2px 4px 0 #E9EBEE;
+      border-radius: 4px;
+      margin: 0 24px 24px 0;
+      cursor: pointer; }
+      .Step2 .Step2-content .add-new-matter:hover {
+        box-shadow: 0 4px 10px 0 #D7DADD;
+        color: #58A7F8; }
+        .Step2 .Step2-content .add-new-matter:hover .add-new-matter-icon {
+          background-position: -2px -48px; }
+      .Step2 .Step2-content .add-new-matter .add-new-matter-icon {
+        background-position: -2px -24px;
+        height: 24px;
+        width: 24px;
+        margin-right: 10px; }
+  .Step2 .Step2-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px; }

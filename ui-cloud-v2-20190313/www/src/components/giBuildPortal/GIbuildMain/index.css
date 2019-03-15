@@ -1,0 +1,4 @@
+.gi-build {
+  height: calc(100% - 60px);
+  position: relative;
+  background: #ffffff; }

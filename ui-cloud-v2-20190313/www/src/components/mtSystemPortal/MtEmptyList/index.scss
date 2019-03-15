@@ -1,0 +1,124 @@
+@import 'styles/public.scss';
+.TmEmptyList {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    .TmEmptyList-content {
+        width: 570px;
+        margin: 0 auto;
+        text-align: center;
+        .TmEmptyList-content-title {
+            color: #344658;
+            @extend %font-24px;
+            margin-bottom: 78px;
+        }
+        .TmEmptyList-content-details {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            // height: 190px;
+            position: relative;
+            .TmEmptyList-content-details-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title {
+                    @extend %font-14px;
+                    color: #485767;
+                }
+                .img {
+                    @extend %iconMt2;
+                    width: 112px;
+                    height: 112px;
+                }
+            }
+            .TmEmptyList-content-details-text {
+                align-self: flex-end;
+                .img {
+                    background-position: -25px -36px;
+                    // background-position: -16px -18px;
+                }
+            }
+            .TmEmptyList-content-details-img {
+                align-self: flex-end;
+                .img {
+                    background-position: -144px -36px;
+                    // background-position: -133px -18px;
+                }
+            }
+            .TmEmptyList-content-details-h5 {
+                align-self: flex-end;
+                .img {
+                    background-position: -263px -36px;
+                    // background-position: -252px -18px;
+                }
+            }
+            // .TmEmptyList-content-details-link {
+            //     align-self: flex-start;
+            //     .img {
+            //         background-position: -369px -18px;
+            //     }
+            // }
+            .TmEmptyList-content-details-wx {
+                align-self: flex-end;
+                .img {
+                    background-position: -27px -152px;
+                    // background-position: -16px -134px;
+                }
+            }
+            .TmEmptyList-content-details-line {
+                width: 68.4px;
+                height: 34.4px;
+                position: absolute;
+                &.TmEmptyList-content-details-line-x {
+                    background: url(#{$img-path}/images/bj/line-x.png);
+                    &.TmEmptyList-content-details-line-x-1 {
+                        top: 100px;
+                        left: 100px;
+                    }
+                    &.TmEmptyList-content-details-line-x-2 {
+                        top: 100px;
+                        left: 420px;
+                    }
+                }
+                &.TmEmptyList-content-details-line-y {
+                    background: url(#{$img-path}/images/bj/line-y.png);
+                    &.TmEmptyList-content-details-line-y-1 {
+                        top: 100px;
+                        left: 260px;
+                    }
+                    &.TmEmptyList-content-details-line-y-2 {
+                        top: 100px;
+                        left: 582px;
+                    }
+                }
+            }
+        }
+        .TmEmptyList-content-text {
+            margin: 30px 0 77px;
+            .TmEmptyList-content-text-item {
+                padding: 0;
+                margin: 0;
+                color: #485767;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 24px;
+                @extend %font-12px;
+            }
+        }
+        .TmEmptyList-content-create {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .guideButton{
+        width: 108px;
+        height: 36px;
+        position: relative;
+        &:hover .public-tipBubble{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+@import 'styles/public.scss';
+.AccurateBlockBox{
+.AccurateBlock {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    display: flex;
+    width: 516px;
+    min-height: 102px;
+    flex-wrap: wrap;
+    padding: 16px 0 0 16px;
+    box-sizing: border-box;
+    margin-bottom: 26px;
+    .AccurateBlockItem{
+        width: 110px;
+        height: 28px;
+        box-sizing: border-box;
+        text-align:center;
+        line-height: 28px;
+        margin: 0 14px 14px 0;
+        font-size: 14px;
+        color: #485767;
+        font-weight: 400;
+        cursor: pointer;
+        background: #F7F8F9;
+        position: relative;
+        &.normal{
+            border-radius: 4px;
+        }
+        &:hover {
+            color: #58A7F8;
+        }
+        &.active{
+            color: #58A7F8;
+            border-radius: 4px;
+            .icon-check{
+                display: block;
+            }
+        }
+        &.disabled{
+            cursor: not-allowed;
+        }
+        &.disabled:hover {
+            color: #485767;
+        }
+        &.disabled.active{
+            color: #58A7F8;
+        }
+
+        .icon-check{
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            @extend %iconGi;
+            background-position: -509px -19px; 
+            top: 8px;
+            right: 2px;
+            display: none;
+        }
+    }
+}
+.tips{
+    width: 516px;
+    height: 36px;
+    line-height: 36px;
+    background: #ECF6FF;
+border-radius: 4px;
+font-size: 12px;
+color: #485767;
+font-weight: 400;
+padding:0 21px;
+box-sizing: border-box;
+}
+}

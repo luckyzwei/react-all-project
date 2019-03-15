@@ -1,0 +1,47 @@
+.gi-member .searchBox .searchBtn {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-member .searchBox .row1 .wechatimg {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.gi-member .searchBox {
+  height: 84px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 1155px;
+  padding: 0 24px; }
+  .gi-member .searchBox .row1 {
+    width: 350px;
+    margin-left: 36px;
+    margin-right: 136px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #344658;
+    font-weight: 500; }
+    .gi-member .searchBox .row1 .wechatimg {
+      width: 34px;
+      height: 34px;
+      background-position: -475px -19px;
+      margin-right: 10px; }
+  .gi-member .searchBox .row2 {
+    margin-right: 30px;
+    display: flex; }
+  .gi-member .searchBox .searchBtn {
+    border: 1px solid #58A7F8;
+    border-radius: 4px;
+    width: 108px;
+    height: 36px;
+    color: #58A7F8;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 10px 0 30px;
+    cursor: pointer; }
+    .gi-member .searchBox .searchBtn:hover {
+      background: #58A7F8;
+      color: #FFFFFF; }

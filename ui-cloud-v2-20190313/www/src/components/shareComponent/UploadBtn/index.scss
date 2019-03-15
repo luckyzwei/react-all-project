@@ -1,0 +1,19 @@
+@import 'styles/public.scss';
+.public-uploadBtn {
+    @extend %font-14px;
+    background: #58A7F8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover,
+    &.loading {
+        background: #288BF2;
+    }
+    svg {
+        margin-right: 6px;
+        transform: scale(0.8);
+    }
+}

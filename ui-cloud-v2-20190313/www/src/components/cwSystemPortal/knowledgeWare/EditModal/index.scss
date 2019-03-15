@@ -1,0 +1,135 @@
+@import '../../../../styles/public.scss';
+
+.cw-editModal {
+    width: 728px;
+    height: 570px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    @extend %font-14px;
+    color: #344658;
+    margin: 100px auto;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: none !important;
+
+    .title {
+        height: 58px;
+        border-bottom: 1px solid #E9EBEE;
+        line-height: 58px;
+        padding-left: 22px;
+        font-size: 16px;
+    }
+
+    .editBox {
+        padding: 24px 28px 24px 22px;
+    }
+
+    .row {
+        display: flex;
+        margin-bottom: 14px;
+
+        .label {
+            margin-right: 4px;
+            flex: none;
+        }
+    }
+
+    .row-middle {
+        align-items: center;
+    }
+
+    .selectWrappers {
+        margin-right: 16px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+
+    .tagBox {
+        width: 632px;
+        height: 94px;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px;
+        position: relative;
+        padding: 10px 16px;
+    }
+
+    .questionBox {
+        width: 632px;
+        height: 36px;
+        position: relative;
+
+        input {
+            border: 1px solid #E9EBEE;
+            border-radius: 4px;
+            padding: 8px 60px 8px 16px;
+            width: 100%;
+            height: 100%;
+            &:hover,
+            &:focus {
+                border: 1px solid #58A7F8;
+            }
+        }
+    }
+
+    .answerBox {
+        width: 632px;
+        height: 120px;
+        position: relative;
+
+        textarea {
+            border: 1px solid #E9EBEE;
+            border-radius: 4px;
+            padding: 8px 16px 30px;
+            width: 100%;
+            height: 100%;
+            resize: none;
+            &:hover,
+            &:focus {
+                border: 1px solid #58A7F8;
+            }
+        }
+    }
+
+    .imgPreview {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        cursor: pointer;
+        margin-right: 14px;
+
+        .img {
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 4px;
+        }
+
+        .delBtn {
+            @extend %iconGi;
+            background-position: -314px -135px;
+            position: absolute;
+            top: -13px;
+            right: -13px;
+            width: 26px;
+            height: 26px;
+            display: none;
+        }
+
+        &:hover .delBtn{
+            display: block;
+        }
+    }
+
+    .limit {
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+        font-size: 12px;
+        color: #B5BDC6;
+    }
+}

@@ -1,0 +1,33 @@
+.MessagesMain .MessagesMainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60px;
+  padding: 0 48px;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 4px;
+  z-index: 99999999;
+  color: #485767; }
+  .MessagesMain .MessagesMainContent.success {
+    border: 1px solid #6AD298;
+    background: #e3f7eb; }
+  .MessagesMain .MessagesMainContent.error {
+    border: 1px solid #F75A5A;
+    background: #fcd9da; }
+  .MessagesMain .MessagesMainContent.warning {
+    border: 1px solid #F8B779;
+    background: #fdefe1; }
+  .MessagesMain .MessagesMainContent.loading {
+    background: #ECF5FE; }
+  .MessagesMain .MessagesMainContent.other {
+    background: #e3f7eb;
+    border: 1px solid #6AD298; }
+  .MessagesMain .MessagesMainContent .MessagesMainIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; }

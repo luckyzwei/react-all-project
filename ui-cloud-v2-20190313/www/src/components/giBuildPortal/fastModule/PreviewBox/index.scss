@@ -1,0 +1,150 @@
+@import 'styles/public.scss';
+
+.gi-fast-step2 .previewBox,
+.typeSelect .previewBox {
+    margin-top: 46px;
+
+    .title {
+        @extend %font-14px-medium;
+        color: #485767;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 9px;
+    }
+
+    .preview {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .arrowLeft,
+        .arrowRight {
+            width: 36px;
+            height: 36px;
+            @extend %iconGi;
+            background-position: -5px -277px;
+            cursor: pointer;
+
+            &.active {
+                background-position: -77px -277px;
+            }
+        }
+
+        .arrowRight {
+            background-position: -113px -277px;
+
+            &.active {
+                background-position: -41px -277px;
+            }
+        }
+
+        .phone {
+            width: 317px;
+            height: 602px;
+            background: url(#{$img-path}/images/bj/fast_build_bj.png) no-repeat;
+            position: relative;
+
+            .innerPhone {
+                width: 246px;
+                height: 464px;
+                position: absolute;
+                left: 34px;
+                top: 64px;
+                overflow: hidden;
+
+                .innerBox {
+                    width: 200%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    transition: all ease-in-out .3s;
+                }
+            }
+
+            .page {
+                width: 246px;
+                height: 464px;
+                float: left;
+                overflow: auto;
+
+                .pageTitle {
+                    @extend %font-18px-medium;
+                    color: #FFFFFF;
+                    text-align: center;
+                    margin-top: 36px;
+                    height: 57px;
+                }
+
+                .intro {
+                    @extend %font-12px;
+                    color: #FFFFFF;
+                    margin: 0 14px;
+
+                    h6 {
+                        @extend %font-14px-medium;
+                        color: #FFFFFF;
+                        margin-bottom: 10px;
+                        line-height: 1;
+                    }
+
+                    p {
+                        min-height: 72px;
+                        margin-bottom: 28px;
+                        word-break: break-all;
+                    }
+                }
+            }
+
+            .codeBox {
+                width: 219px;
+                height: 233px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                border-radius: 4px;
+                padding: 10px 8px;
+
+                .name {
+                    @extend %font-12px-medium;
+                    color: #344658;
+
+                    img {
+                        width: 25px;
+                        height: 25px;
+                        vertical-align: middle;
+                        margin-right: 7px;
+                    }
+                }
+
+                .code {
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                .info {
+                    @extend %font-12px;
+                    color: #485767;
+                    text-align: center;
+                    margin-top: 3px;
+                }
+
+                .refresh {
+                    @extend %font-12px-medium;
+                    color: #5D90C5;
+                    margin-top: 8px;
+                    text-align: center;
+                }
+
+                .number {
+                    margin: 8px 0 16px;
+                    @extend %font-12px-medium;
+                    color: #344658;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.typeSelect .fastPhonePreview {
+    padding-left: 57px;
+}

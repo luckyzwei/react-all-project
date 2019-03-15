@@ -1,0 +1,16 @@
+@import 'styles/public.scss';
+.keyAddPoratl {
+  width: 100%;
+  .stepTitle {
+    @extend %font-14px;
+    color: #344658;
+    padding-top: 8px;
+    background: #f0f1f3;
+    width: 100%;
+    height: 57px;
+
+    .todo {
+        color: #B5BDC6;
+    }
+  }
+}

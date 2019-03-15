@@ -1,0 +1,104 @@
+@import 'styles/public.scss';
+
+.cw-knowledgeBase {
+    background: #FFFFFF;
+    min-height: 608px;
+    flex: auto;
+    border-left: 1px solid #E9EBEE;
+    border-radius: 0 4px 4px 0;
+    height: 100%;
+    overflow: auto;
+
+    &.noData {
+        .noDataImg {
+            width: 190px;
+            height: 133px;
+            display: block;
+            margin: 82px auto 15px;
+        }
+
+        p {
+            @extend %font-14px;
+            color: #B5BDC6;
+            text-align: center;
+            font-family: PingFangSC-Regular;
+        }
+    }
+
+    &.load {
+        position: relative;
+    }
+
+    .noData1{
+        margin-top: 99px;
+        img{
+            width: 150px;
+            margin: 18px auto;
+            display: block;
+        }
+        p{
+            @extend %font-14px;
+            color: #B5BDC6;
+            text-align: center;
+        }
+    }
+
+    .toolBar{
+        height: 77px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 34px;
+        @extend %font-14px;
+        .some-import {
+            font-size: 14px;
+            color: #5D90C5;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .guideButton {
+            margin: 0;
+        }
+        // .left{
+        //     display: flex;
+        //     align-items: center;
+        //     color: #344658;
+        // }
+        // .right{
+        //     color: #5D90C5;
+        //     span{
+        //         margin-left: 22px;
+        //         cursor: pointer;
+        //         &:hover{
+        //             color: #58A7F8;
+        //         }
+        //     }
+        // }
+        .checkAll{
+            display: block;
+            width: 20px;
+            height: 20px;
+            @extend %iconGi;
+            background-position: -139px -19px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .checked{
+            background-position: -179px -19px;
+        }
+    }
+
+    .linebar{
+        margin: 0 22px 0 48px;
+        border-top:  1px dashed #E9EBEE;
+    }
+
+    .pageFooter{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+}

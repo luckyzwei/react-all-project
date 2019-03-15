@@ -1,0 +1,49 @@
+.msg-bigBox {
+  height: calc(100% - 59px);
+  background: #f0f1f3;
+  overflow: auto;
+  padding: 24px;
+  position: relative; }
+
+.msg-Portal {
+  min-width: 1096px;
+  min-height: 100%;
+  background: #fff; }
+  .msg-Portal .msg-box {
+    padding: 44px 48px;
+    color: #485767;
+    font-family: PingFangSC-Light;
+    min-width: 1096px; }
+    .msg-Portal .msg-box .msg-title {
+      font-size: 20px;
+      border-bottom: 1px solid #E9EBEE;
+      padding: 0 0 16px;
+      margin: 0; }
+    .msg-Portal .msg-box .msg-item {
+      border-bottom: 1px solid #E9EBEE;
+      min-height: 90px;
+      padding: 28px 0px 16px; }
+      .msg-Portal .msg-box .msg-item .msg-item-box {
+        display: flex; }
+        .msg-Portal .msg-box .msg-item .msg-item-box .msg-item-icon {
+          width: 18px;
+          height: 18px; }
+      .msg-Portal .msg-box .msg-item .title {
+        margin: 0 0 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%; }
+        .msg-Portal .msg-box .msg-item .title .title-cont {
+          font-family: PingFangSC-Medium;
+          font-size: 14px; }
+        .msg-Portal .msg-box .msg-item .title .time {
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          color: #B5BDC6; }
+      .msg-Portal .msg-box .msg-item .cont {
+        font-size: 14px;
+        margin: 0;
+        margin-left: 28px; }
+  .msg-Portal .pageFooter {
+    display: flex;
+    justify-content: center; }

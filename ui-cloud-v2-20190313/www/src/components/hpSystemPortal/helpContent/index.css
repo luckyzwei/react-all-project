@@ -1,0 +1,26 @@
+.hp-content .hp-cont-title em {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 24px; }
+
+.hp-content {
+  border-left: 1px solid #E9EBEE;
+  padding: 0 0 0 73px;
+  color: #344658; }
+  .hp-content p {
+    margin: 0; }
+  .hp-content .Introduction {
+    line-height: 30px;
+    margin-bottom: 50px; }
+  .hp-content .hp-cont-title {
+    margin: 0 0 14px; }
+    .hp-content .hp-cont-title em {
+      color: #344658;
+      margin: 0 0 20px; }
+  .hp-content .hp-cont-step {
+    margin-bottom: 45px; }
+  .hp-content .hp-cont-txt {
+    margin-bottom: 10px; }
+  .hp-content .hp-cont-img {
+    border: 1px solid #E9EBEE;
+    width: 800px; }

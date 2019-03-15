@@ -1,0 +1,55 @@
+.public-tipBubble p {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.public-tipBubble h4 {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 16px; }
+
+.public-tipBubble {
+  width: 308px;
+  height: 114px;
+  background: #58A7F8;
+  box-shadow: 0 -2px 4px 0 #E9EBEE;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 10;
+  padding: 15px 14px 26px 24px;
+  color: #FFFFFF;
+  text-align: left;
+  opacity: 0;
+  transform: scale(0);
+  transition: all ease-in-out .2s; }
+  .public-tipBubble::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    transform: rotate(-54deg) skewY(20deg);
+    background: #58A7F8;
+    top: -6px;
+    left: 46px; }
+  .public-tipBubble::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15px;
+    background: #58A7F8;
+    border-radius: 8px; }
+  .public-tipBubble.right::before {
+    left: 262px; }
+  .public-tipBubble h4 {
+    color: #FFFFFF;
+    margin: 0;
+    line-height: 22px; }
+  .public-tipBubble p {
+    margin: 10px 0 0 0;
+    line-height: 20px;
+    color: #fff !important;
+    text-align: left !important; }

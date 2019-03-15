@@ -1,0 +1,175 @@
+.PageDrugstore .TreeBox .iconTip {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.PageDrugstore .TreeBox .icon-add, .PageDrugstore .TreeBox .icon-edit, .PageDrugstore .TreeBox .icon-delete {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.PageDrugstore {
+  display: flex;
+  margin-bottom: 34px; }
+  .PageDrugstore .Pagetitle {
+    width: 112px;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #344658; }
+  .PageDrugstore .PageContent {
+    background: #F7F8F9;
+    border-radius: 4px;
+    width: 516px;
+    padding: 20px 16px;
+    box-sizing: border-box; }
+    .PageDrugstore .PageContent .row {
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      position: relative; }
+      .PageDrugstore .PageContent .row.list {
+        align-items: flex-start; }
+      .PageDrugstore .PageContent .row .phone-content-title {
+        width: 70px;
+        margin-right: 4px;
+        font-size: 14px;
+        color: #344658;
+        text-align: right; }
+  .PageDrugstore .TreeBox {
+    width: 316px;
+    height: 340px;
+    border: 1px solid #F7F8F9;
+    background: #FFF;
+    color: #344658; }
+    .PageDrugstore .TreeBox .level1 {
+      margin: 0;
+      line-height: 24px; }
+    .PageDrugstore .TreeBox .addBtn {
+      border: 1px dashed #B5BDC6;
+      border-radius: 4px;
+      width: 112px;
+      height: 24px;
+      color: #B5BDC6;
+      text-align: center;
+      line-height: 22px;
+      cursor: pointer;
+      margin-top: 6px; }
+    .PageDrugstore .TreeBox .ipt {
+      width: 200px;
+      height: 24px;
+      border: 1px solid #58a7f8;
+      display: block;
+      padding-left: 6px; }
+    .PageDrugstore .TreeBox .icon-confirm {
+      cursor: pointer;
+      background: green; }
+    .PageDrugstore .TreeBox .icon-cancel {
+      cursor: pointer;
+      background: red; }
+    .PageDrugstore .TreeBox .icon-add {
+      cursor: pointer;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+      background-position: -468px -91px;
+      margin-left: 12px;
+      position: relative; }
+      .PageDrugstore .TreeBox .icon-add:hover {
+        background-position: -468px -107px; }
+        .PageDrugstore .TreeBox .icon-add:hover .iconTip {
+          display: block; }
+    .PageDrugstore .TreeBox .icon-edit {
+      cursor: pointer;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      float: right;
+      margin: 5px 12px 0 0;
+      opacity: 0;
+      background-position: -484px -91px;
+      position: relative; }
+      .PageDrugstore .TreeBox .icon-edit:hover {
+        background-position: -484px -107px; }
+        .PageDrugstore .TreeBox .icon-edit:hover .iconTip {
+          display: block; }
+    .PageDrugstore .TreeBox .icon-delete {
+      cursor: pointer;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      float: right;
+      margin: 5px 20px 0 0;
+      opacity: 0;
+      background-position: -500px -91px;
+      position: relative; }
+      .PageDrugstore .TreeBox .icon-delete:hover {
+        background-position: -500px -107px; }
+        .PageDrugstore .TreeBox .icon-delete:hover .iconTip {
+          display: block; }
+    .PageDrugstore .TreeBox .level1 {
+      padding: 8px; }
+    .PageDrugstore .TreeBox .level1-name:hover,
+    .PageDrugstore .TreeBox .level2-name:hover,
+    .PageDrugstore .TreeBox .level3-name:hover {
+      background: #ECF6FF; }
+    .PageDrugstore .TreeBox .iptBox {
+      background: #FFF;
+      height: 24px; }
+    .PageDrugstore .TreeBox .level2 {
+      transition: all ease-in-out .15s; }
+    .PageDrugstore .TreeBox .level2-item {
+      position: relative;
+      margin-left: 12px;
+      padding-left: 14px; }
+    .PageDrugstore .TreeBox .level3 {
+      padding-left: 26px; }
+    .PageDrugstore .TreeBox .level3-item {
+      height: 24px;
+      position: relative; }
+      .PageDrugstore .TreeBox .level3-item .level3-edit-iptBox {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: calc(100% - 12px);
+        height: 100%; }
+    .PageDrugstore .TreeBox .level3-item:hover .icon-edit,
+    .PageDrugstore .TreeBox .level3-item:hover .icon-delete {
+      opacity: 1; }
+    .PageDrugstore .TreeBox .expandBox {
+      background: #FFF;
+      display: inline-block;
+      height: 24px;
+      cursor: pointer; }
+    .PageDrugstore .TreeBox .icon-expand {
+      border-width: 4px;
+      border-style: solid;
+      border-color: #344658 transparent transparent transparent;
+      display: inline-block;
+      vertical-align: middle;
+      transition: all ease-in-out .15s;
+      transform: rotate(-90deg);
+      margin-right: 4px; }
+      .PageDrugstore .TreeBox .icon-expand.expanded {
+        transform: rotate(0deg); }
+    .PageDrugstore .TreeBox .iconTip {
+      background: #344658;
+      border-radius: 4px;
+      padding: 3px 14px;
+      color: #FFFFFF;
+      position: absolute;
+      left: 50%;
+      top: -38px;
+      transform: translateX(-50%);
+      word-break: keep-all;
+      display: none; }
+      .PageDrugstore .TreeBox .iconTip::after {
+        content: '';
+        display: block;
+        background: #344658;
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        left: 50%;
+        bottom: -3px;
+        transform: translateX(-50%) rotate(45deg); }

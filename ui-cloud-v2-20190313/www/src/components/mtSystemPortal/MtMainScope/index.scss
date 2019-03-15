@@ -1,0 +1,7 @@
+@import 'styles/public.scss';
+.TmMainScope {
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow: auto;
+    position: relative;
+}

@@ -1,0 +1,80 @@
+@import 'styles/public.scss';
+
+.gi-host {
+    .loginModal {
+        width: 400px;
+        height: 420px;
+        background: #FFFFFF;
+        border-radius: 2px;
+        @extend %font-14px;
+        color: #344658;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+    .loginModal .title {
+        height: 58px;
+        border-bottom: 1px solid #E9EBEE;
+        padding-left: 22px;
+        font-size: 16px;
+        line-height: 58px;
+        text-align: left;
+    }
+
+    .loginModal .loginBox {
+        padding-top: 40px;
+    }
+
+    .loginModal .loginBox .codeBox {
+        width: 180px;
+        height: 180px;
+        border: 1px solid #58A7F8;
+        border-radius: 2px;
+        margin: 0 auto 20px;
+        padding: 10px;
+    }
+
+    .loginModal .loginBox .codeBox.fail {
+        border: 1px solid rgba(247, 90, 90, 0.50);
+    }
+
+    .loginModal .loginBox img {
+        display: block;
+        width: 162px;
+        height: 162px;
+    }
+
+    .loginModal .loginBox .refreshBtn {
+        color: #58A7F8;
+        cursor: pointer;
+    }
+
+    .loginModal .successBox {
+        padding-top: 70px;
+    }
+
+    .loginModal .avatarBox {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 60px;
+        padding: 6px;
+        position: relative;
+    }
+
+    .loginModal .avatarBox img {
+        width: 100px;
+        height: 100px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .loginModal .avatarBox .loading {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+
+}

@@ -1,0 +1,76 @@
+.gi-processModal .inner {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-processModal .closeBtn, .gi-processModal .inner .header .icon-wx {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.gi-processModal {
+  width: 1096px;
+  height: 658px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  position: relative;
+  margin: 0 auto; }
+  .gi-processModal .closeBtn {
+    width: 20px;
+    height: 20px;
+    background-position: -211px -279px;
+    position: absolute;
+    right: -37px;
+    top: 4px;
+    cursor: pointer; }
+  .gi-processModal .inner {
+    width: 100%;
+    height: 100%;
+    padding: 46px;
+    background: #ffffff;
+    display: flex;
+    color: #344658; }
+    .gi-processModal .inner .left {
+      background: #FFFFFF;
+      border: 1px solid #E9EBEE;
+      width: 456px;
+      height: 530px;
+      border-radius: 4px;
+      margin-right: 64px; }
+    .gi-processModal .inner .header {
+      height: 50px;
+      background: #F7F8F9;
+      border-bottom: 1px solid #E9EBEE;
+      border-radius: 4px 4px 0 0;
+      display: flex;
+      align-items: center;
+      padding-left: 20px; }
+      .gi-processModal .inner .header .icon-wx {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        background-position: -71px -21px;
+        margin-right: 10px; }
+    .gi-processModal .inner .groupList {
+      height: calc(100% - 50px);
+      overflow: auto; }
+    .gi-processModal .inner .row {
+      margin-top: 40px; }
+      .gi-processModal .inner .row .label {
+        margin-bottom: 24px; }
+      .gi-processModal .inner .row .content {
+        display: flex; }
+      .gi-processModal .inner .row .nickname {
+        width: 306px;
+        height: 118px;
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #E9EBEE;
+        border-radius: 4px; }
+        .gi-processModal .inner .row .nickname img {
+          width: 60px;
+          height: 60px;
+          display: block;
+          margin-left: 40px; }
+        .gi-processModal .inner .row .nickname span {
+          margin-left: 17px; }

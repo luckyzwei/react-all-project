@@ -1,0 +1,26 @@
+mkdir $1
+cd $1
+touch index.js index.scss
+
+echo "import React,{Component} from 'react'"  >> index.js
+echo "import './index.css'"  >> index.js
+echo " "  >> index.js
+echo "export default class $1 extends Component {"  >> index.js
+echo "    constructor() {"  >> index.js
+echo "        super();"  >> index.js
+echo "        this.state = {}"  >> index.js
+echo "     }"  >> index.js
+echo "     componentDidMount(){}"  >> index.js
+echo "     componentWillUnmount(){}"  >> index.js
+echo "     render(){"  >> index.js
+echo "          let {} = this.state;"  >> index.js
+echo "          let {} = this.props;"  >> index.js
+echo "          return("  >> index.js
+echo "              <div className='$1'></div>"  >> index.js
+echo "              )"  >> index.js
+echo "     }"  >> index.js
+echo "}"  >> index.js
+
+
+echo "@import 'styles/public.scss';"  >> index.scss
+echo ".$1 {}"  >> index.scss

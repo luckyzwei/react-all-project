@@ -1,0 +1,335 @@
+.public-edit, .public-edit .row .input .name,
+.public-edit .row .input .number,
+.public-edit .row .input .linkHref, .public-edit .row .textBox textarea {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.public-edit .row .help-radio-icon {
+  background: url(/images/icon/icon-home.png) no-repeat;
+  background-size: 500px 363px; }
+
+.public-edit .row .numberBox .time .icon-add,
+.public-edit .row .numberBox .time .icon-dec, .public-edit .row .multiSelect .inputArea .icon-arrow, .public-edit .row .multiSelect .inputArea .delete, .public-edit .row .multiSelect .selectArea .option .icon-check {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.public-edit .left {
+  width: 50%;
+  float: left; }
+
+.public-edit .right {
+  width: 50%;
+  float: left; }
+
+.public-edit .row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px; }
+  .public-edit .row .label {
+    width: 94px;
+    flex: none;
+    text-align: right; }
+  .public-edit .row .input {
+    position: relative; }
+    .public-edit .row .input .name,
+    .public-edit .row .input .number,
+    .public-edit .row .input .linkHref {
+      width: 300px;
+      height: 36px;
+      line-height: 36px;
+      background: #FFFFFF;
+      border: 1px solid #E9EBEE;
+      border-radius: 4px;
+      text-indent: 16px;
+      padding-right: 40px;
+      color: #344658; }
+      .public-edit .row .input .name:focus, .public-edit .row .input .name:hover,
+      .public-edit .row .input .number:focus,
+      .public-edit .row .input .number:hover,
+      .public-edit .row .input .linkHref:focus,
+      .public-edit .row .input .linkHref:hover {
+        border: 1px solid #58A7F8; }
+    .public-edit .row .input span {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+      font-size: 12px;
+      color: #B5BDC6;
+      background: #FFFFFF;
+      width: 30px;
+      height: 18px;
+      text-align: right; }
+  .public-edit .row .textBox {
+    position: relative;
+    margin: 14px 0; }
+    .public-edit .row .textBox textarea {
+      width: 300px;
+      height: 122px;
+      padding: 8px 16px;
+      background: #FFFFFF;
+      border: 1px solid #E9EBEE;
+      border-radius: 4px;
+      display: block;
+      resize: none;
+      color: #485767; }
+      .public-edit .row .textBox textarea:focus, .public-edit .row .textBox textarea:hover {
+        border: 1px solid #58A7F8; }
+    .public-edit .row .textBox div {
+      font-size: 12px;
+      color: #B5BDC6;
+      position: absolute;
+      right: 10px;
+      bottom: 8px;
+      width: 60px;
+      text-align: right; }
+  .public-edit .row .linkTitleBox {
+    margin: 0 0 14px; }
+    .public-edit .row .linkTitleBox textarea {
+      height: 70px; }
+  .public-edit .row .linkContentBox {
+    float: left;
+    margin: 0 14px 14px 0; }
+    .public-edit .row .linkContentBox textarea {
+      width: 184px;
+      height: 100px; }
+    .public-edit .row .linkContentBox + .public-uploadFile {
+      margin-left: 198px; }
+  .public-edit .row .linkHref {
+    margin-bottom: 14px; }
+  .public-edit .row .numberBox {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 12px; }
+    .public-edit .row .numberBox .time {
+      position: relative;
+      margin-right: 10px;
+      color: #485767;
+      font-size: 14px; }
+      .public-edit .row .numberBox .time input[type=number] {
+        width: 62px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px;
+        text-indent: 16px; }
+        .public-edit .row .numberBox .time input[type=number]:focus, .public-edit .row .numberBox .time input[type=number]:hover {
+          border: 1px solid #58A7F8; }
+      .public-edit .row .numberBox .time .iconArea {
+        width: 20px;
+        padding-right: 3px;
+        height: 34px;
+        position: absolute;
+        right: 3px;
+        top: 1px;
+        background: #FFFFFF; }
+      .public-edit .row .numberBox .time .icon-add,
+      .public-edit .row .numberBox .time .icon-dec {
+        width: 12px;
+        height: 12px;
+        cursor: pointer; }
+      .public-edit .row .numberBox .time .icon-add {
+        background-position: -123px -24px;
+        margin: 4px auto 2px; }
+        .public-edit .row .numberBox .time .icon-add:hover {
+          background-position: -123px -24px; }
+      .public-edit .row .numberBox .time .icon-dec {
+        background-position: -103px -24px;
+        margin: 0 auto; }
+        .public-edit .row .numberBox .time .icon-dec:hover {
+          background-position: -103px -24px; }
+  .public-edit .row .multiSelect {
+    flex: none;
+    width: 374px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer; }
+    .public-edit .row .multiSelect:focus, .public-edit .row .multiSelect:hover {
+      border: 1px solid #58A7F8; }
+      .public-edit .row .multiSelect:focus .inputArea .icon-arrow, .public-edit .row .multiSelect:hover .inputArea .icon-arrow {
+        background-position: -119px -19px; }
+      .public-edit .row .multiSelect:focus .selectArea, .public-edit .row .multiSelect:hover .selectArea {
+        display: block; }
+    .public-edit .row .multiSelect.unselect {
+      color: #B5BDC6; }
+    .public-edit .row .multiSelect .inputArea {
+      width: 374px;
+      height: 100%;
+      position: relative;
+      text-indent: 16px;
+      line-height: 34px;
+      padding-right: 30px; }
+      .public-edit .row .multiSelect .inputArea .icon-arrow {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-position: -99px -19px;
+        top: 7px;
+        right: 10px; }
+      .public-edit .row .multiSelect .inputArea .loginName {
+        position: relative;
+        padding: 0px 20px 0px 0px;
+        background: #F7F8F9;
+        border-radius: 12px;
+        color: #344658;
+        margin-right: 10px;
+        height: 26px;
+        line-height: 26px; }
+      .public-edit .row .multiSelect .inputArea .delete {
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: 7px;
+        right: 3px;
+        background-position: -5px -5px;
+        cursor: pointer; }
+        .public-edit .row .multiSelect .inputArea .delete:hover {
+          background-position: -20px -5px; }
+    .public-edit .row .multiSelect .selectArea {
+      position: absolute;
+      left: 0;
+      top: 36px;
+      width: 100%;
+      color: #344658;
+      background: #FFFFFF;
+      box-shadow: 0 2px 2px 0 #F0F1F3, 0 4px 8px 0 #E9EBEE;
+      padding: 8px 0;
+      max-height: 144px;
+      overflow: auto;
+      display: none; }
+      .public-edit .row .multiSelect .selectArea .option {
+        height: 32px;
+        line-height: 32px;
+        padding: 0 16px; }
+        .public-edit .row .multiSelect .selectArea .option:hover .icon-check {
+          background-position: -159px -19px; }
+        .public-edit .row .multiSelect .selectArea .option .icon-check {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 10px;
+          background-position: -139px -19px; }
+          .public-edit .row .multiSelect .selectArea .option .icon-check.checked {
+            background-position: -179px -19px; }
+  .public-edit .row .help-radio-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    position: relative;
+    background-position: -363px -80px;
+    transform: translateY(3px);
+    z-index: 2;
+    cursor: pointer; }
+  .public-edit .row .help-radio-bubble {
+    width: 214px;
+    height: 75px;
+    position: absolute;
+    left: -30px;
+    top: -55px;
+    font-size: 12px;
+    color: #fff;
+    background: #485767;
+    border-radius: 5px;
+    text-indent: 0;
+    padding: 10px 8px;
+    opacity: 0;
+    visibility: hidden;
+    text-align: left; }
+    .public-edit .row .help-radio-bubble::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 31px;
+      bottom: -14px;
+      width: 10px;
+      height: 10px;
+      border: 8px solid #485767;
+      border-color: #485767 transparent transparent transparent; }
+  .public-edit .row .help-radio-icon:hover {
+    background-position: -383px -80px; }
+  .public-edit .row .help-radio-icon:hover .help-radio-bubble {
+    opacity: 1;
+    visibility: visible;
+    top: -86px;
+    animation: sheng .15s; }
+
+.public-edit .row-top {
+  align-items: flex-start; }
+  .public-edit .row-top .label {
+    margin-top: 10px; }
+
+.public-edit .informBox {
+  position: relative;
+  flex: none; }
+  .public-edit .informBox textarea {
+    width: 374px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    padding: 8px 16px;
+    resize: none;
+    display: block; }
+    .public-edit .informBox textarea:focus, .public-edit .informBox textarea:hover {
+      border: 1px solid #58A7F8; }
+  .public-edit .informBox div {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    font-size: 12px;
+    color: #B5BDC6;
+    background: #FFFFFF;
+    width: 30px;
+    height: 18px;
+    width: 60px;
+    text-align: right; }
+
+.public-edit .keywordBox,
+.public-edit .groupLabelBox {
+  position: relative;
+  flex: none;
+  width: 374px;
+  height: 120px;
+  background: #FFFFFF;
+  border: 1px solid #E9EBEE;
+  border-radius: 4px;
+  padding: 10px 16px;
+  overflow: auto; }
+  .public-edit .keywordBox:focus, .public-edit .keywordBox:hover,
+  .public-edit .groupLabelBox:focus,
+  .public-edit .groupLabelBox:hover {
+    border: 1px solid #58A7F8; }
+  .public-edit .keywordBox .limit,
+  .public-edit .groupLabelBox .limit {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    font-size: 12px;
+    color: #B5BDC6;
+    background: #FFFFFF;
+    width: 30px;
+    height: 18px;
+    width: 60px;
+    text-align: right; }
+
+.public-edit .buttonArea {
+  height: 36px;
+  margin-top: 80px; }
+
+@media screen and (min-width: 1920px) {
+  .gi-manual-step3 .public-edit .row .input .name,
+  .gi-manual-step3 .public-edit .row .input .number,
+  .gi-manual-step3 .public-edit .row .input .linkHref,
+  .gi-manual-step3 .public-edit .row .textBox textarea,
+  .gi-manual-step3 .public-edit .row .multiSelect,
+  .gi-manual-step3 .public-edit .row .multiSelect .inputArea,
+  .gi-manual-step3 .public-edit .informBox textarea,
+  .gi-manual-step3 .public-edit .keywordBox,
+  .gi-manual-step3 .public-edit .groupLabelBox {
+    width: 500px; } }

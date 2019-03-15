@@ -1,0 +1,445 @@
+@import 'styles/public.scss';
+
+.public-edit {
+    @extend %font-14px;
+
+    .left {
+        width: 50%;
+        float: left;
+    }
+
+    .right {
+        width: 50%;
+        float: left;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 14px;
+
+        .label {
+            width: 94px;
+            flex: none;
+            text-align: right;
+        }
+
+        .input {
+            position: relative;
+
+            .name,
+            .number,
+            .linkHref {
+                width: 300px;
+                height: 36px;
+                line-height: 36px;
+                background: #FFFFFF;
+                border: 1px solid #E9EBEE;
+                border-radius: 4px;
+                text-indent: 16px;
+                padding-right: 40px;
+                @extend %font-14px;
+                color: #344658;
+                
+                &:focus,&:hover {
+                    border: 1px solid #58A7F8;
+                }
+            }
+
+            span {
+                position: absolute;
+                right: 10px;
+                top: 9px;
+                font-size: 12px;
+                color: #B5BDC6;
+                background: #FFFFFF;
+                width: 30px;
+                height: 18px;
+                text-align: right;
+            }
+        }
+
+        .textBox {
+            // 欢迎语
+            position: relative;
+            margin: 14px 0;
+
+            textarea {
+                width: 300px;
+                height: 122px;
+                padding: 8px 16px;
+                background: #FFFFFF;
+                border: 1px solid #E9EBEE;
+                border-radius: 4px;
+                display: block;
+                resize: none;
+                @extend %font-14px;
+                color: #485767;
+                &:focus,&:hover {
+                    border: 1px solid #58A7F8;
+                }
+            }
+
+            div {
+                font-size: 12px;
+                color: #B5BDC6;
+                position: absolute;
+                right: 10px;
+                bottom: 8px;
+                width: 60px;
+                text-align: right;
+            }
+        }
+
+        .linkTitleBox {
+            // 欢迎语 链接
+            margin: 0 0 14px;
+
+            textarea {
+                height: 70px;
+            }
+        }
+
+        .linkContentBox {
+            float: left;
+            margin: 0 14px 14px 0;
+
+            textarea {
+                width: 184px;
+                height: 100px;
+            }
+
+            &+.public-uploadFile {
+                margin-left: 198px;
+            }
+        }
+
+        .linkHref {
+            margin-bottom: 14px;
+        }
+
+        .numberBox {
+            // 推送时间
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+            font-size: 12px;
+
+            .time {
+                position: relative;
+                margin-right: 10px;
+                color: #485767;
+                font-size: 14px;
+
+                input[type=number] {
+                    width: 62px;
+                    height: 36px;
+                    background: #FFFFFF;
+                    border: 1px solid #E9EBEE;
+                    border-radius: 4px;
+                    text-indent: 16px;
+                    &:focus,&:hover {
+                        border: 1px solid #58A7F8;
+                    }
+                }
+
+                .iconArea {
+                    width: 20px;
+                    padding-right: 3px;
+                    height: 34px;
+                    position: absolute;
+                    right: 3px;
+                    top: 1px;
+                    background: #FFFFFF;
+                }
+
+                .icon-add,
+                .icon-dec {
+                    width: 12px;
+                    height: 12px;
+                    @extend %iconGi;
+                    cursor: pointer;
+                }
+
+                .icon-add {
+                    background-position: -123px -24px;
+                    margin: 4px auto 2px;
+
+                    &:hover {
+                        background-position: -123px -24px;
+                    }
+                }
+
+                .icon-dec {
+                    background-position: -103px -24px;
+                    margin: 0 auto;
+
+                    &:hover {
+                        background-position: -103px -24px;
+                    }
+                }
+            }
+        }
+
+        .multiSelect {
+            // 管理员选择
+            flex: none;
+            width: 374px;
+            height: 36px;
+            background: #FFFFFF;
+            border: 1px solid #E9EBEE;
+            border-radius: 4px;
+            position: relative;
+            z-index: 2;
+            cursor: pointer;
+
+            &:focus,&:hover {
+                border: 1px solid #58A7F8;
+
+                .inputArea {
+                    .icon-arrow {
+                        background-position: -119px -19px;
+                    }
+                }
+
+                .selectArea {
+                    display: block;
+                }
+            }
+
+            &.unselect {
+                color: #B5BDC6;
+            }
+
+            .inputArea {
+                width: 374px;
+                height: 100%;
+                position: relative;
+                text-indent: 16px;
+                line-height: 34px;
+                padding-right: 30px;
+
+                .icon-arrow {
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    @extend %iconGi;
+                    background-position: -99px -19px;
+                    top: 7px;
+                    right: 10px;
+                }
+
+                .loginName {
+                    position: relative;
+                    padding: 0px 20px 0px 0px;
+                    background: #F7F8F9;
+                    border-radius: 12px;
+                    color: #344658;
+                    margin-right: 10px;
+                    height: 26px;
+                    line-height: 26px;
+                }
+
+                .delete {
+                    width: 14px;
+                    height: 14px;
+                    position: absolute;
+                    top: 7px;
+                    right: 3px;
+                    @extend %iconGi;
+                    background-position: -5px -5px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-position: -20px -5px;
+                    }
+                }
+            }
+
+            .selectArea {
+                position: absolute;
+                left: 0;
+                top: 36px;
+                width: 100%;
+                color: #344658;
+                background: #FFFFFF;
+                box-shadow: 0 2px 2px 0 #F0F1F3, 0 4px 8px 0 #E9EBEE;
+                padding: 8px 0;
+                max-height: 144px;
+                overflow: auto;
+                display: none;
+
+                .option {
+                    height: 32px;
+                    line-height: 32px;
+                    padding: 0 16px;
+
+                    &:hover {
+                        .icon-check {
+                            background-position: -159px -19px;
+                        }
+                    }
+
+                    .icon-check {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        vertical-align: middle;
+                        margin-right: 10px;
+                        @extend %iconGi;
+                        background-position: -139px -19px;
+
+                        &.checked {
+                            background-position: -179px -19px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .help-radio-icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 4px;
+            position: relative;
+            @extend %iconHome;
+            background-position: -363px -80px;
+            transform: translateY(3px);
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        .help-radio-bubble {
+            width: 214px;
+            height: 75px;
+            position: absolute;
+            left: -30px;
+            top: -55px;
+            font-size: 12px;
+            color: #fff;
+            background: #485767;
+            border-radius: 5px;
+            text-indent: 0;
+            padding: 10px 8px;
+            opacity: 0;
+            visibility: hidden;
+            text-align: left;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 31px;
+                bottom: -14px;
+                width: 10px;
+                height: 10px;
+                border: 8px solid #485767;
+                border-color: #485767 transparent transparent transparent;
+            }
+        }
+
+        .help-radio-icon:hover {
+            background-position: -383px -80px;
+        }
+
+        .help-radio-icon:hover .help-radio-bubble {
+            opacity: 1;
+            visibility: visible;
+            top: -86px;
+            animation: sheng .15s;
+        }
+    }
+
+    .row-top {
+        align-items: flex-start;
+        .label {
+            margin-top: 10px;
+        }
+    }
+
+    .informBox {
+        // 群公告
+        position: relative;
+        flex: none;
+
+        textarea {
+            width: 374px;
+            height: 120px;
+            background: #FFFFFF;
+            border: 1px solid #E9EBEE;
+            border-radius: 4px;
+            padding: 8px 16px;
+            resize: none;
+            display: block;
+            &:focus,&:hover {
+                border: 1px solid #58A7F8;
+            }
+        }
+
+        div {
+            position: absolute;
+            right: 10px;
+            bottom: 8px;
+            font-size: 12px;
+            color: #B5BDC6;
+            background: #FFFFFF;
+            width: 30px;
+            height: 18px;
+            width: 60px;
+            text-align: right;
+        }
+    }
+
+    .keywordBox,
+    .groupLabelBox {
+        // 群关键词
+        position: relative;
+        flex: none;
+        width: 374px;
+        height: 120px;
+        background: #FFFFFF;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px;
+        padding: 10px 16px;
+        overflow: auto;
+        &:focus,&:hover {
+            border: 1px solid #58A7F8;
+        }
+        .limit {
+            position: absolute;
+            right: 10px;
+            bottom: 8px;
+            font-size: 12px;
+            color: #B5BDC6;
+            background: #FFFFFF;
+            width: 30px;
+            height: 18px;
+            width: 60px;
+            text-align: right;
+        }
+    }
+
+    .buttonArea {
+        height: 36px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .gi-manual-step3 {
+
+        .public-edit .row .input .name,
+        .public-edit .row .input .number,
+        .public-edit .row .input .linkHref,
+        .public-edit .row .textBox textarea,
+        .public-edit .row .multiSelect,
+        .public-edit .row .multiSelect .inputArea,
+        .public-edit .informBox textarea,
+        .public-edit .keywordBox,
+        .public-edit .groupLabelBox {
+            width: 500px;
+        }
+    }
+
+}

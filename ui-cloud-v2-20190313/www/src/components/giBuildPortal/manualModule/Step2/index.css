@@ -1,0 +1,43 @@
+.gi-manual-step2 .nextStep {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-manual-step2 {
+  padding: 24px;
+  height: 100%;
+  background: #f0f1f3;
+  overflow: auto; }
+  .gi-manual-step2 .inner {
+    min-width: 1096px;
+    min-height: 100%;
+    padding: 64px 36px;
+    background: #FFFFFF; }
+  .gi-manual-step2 .row {
+    display: flex;
+    margin-bottom: 44px; }
+    .gi-manual-step2 .row .label {
+      margin-right: 4px;
+      color: #344658; }
+  .gi-manual-step2 .row:first-child {
+    padding-left: 14px; }
+  .gi-manual-step2 .nextStep {
+    width: 108px;
+    height: 36px;
+    background: #58A7F8;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 36px;
+    margin: 52px 0 0 429px; }
+    .gi-manual-step2 .nextStep:hover {
+      background: #288BF2; }
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .gi-manual-step2 .nextStep {
+    margin: 52px 0 0 495px; } }
+
+@media screen and (min-width: 1920px) {
+  .gi-manual-step2 .nextStep {
+    margin: 52px 0 0 702px; } }

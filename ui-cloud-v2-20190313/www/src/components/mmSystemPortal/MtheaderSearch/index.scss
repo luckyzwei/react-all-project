@@ -1,0 +1,65 @@
+@import 'styles/public.scss';
+@media screen and (min-width: 1920px) {
+    .MmheaderSearch .TmheaderSearch-line {
+        width: 1452px !important;
+    }
+    .TmUnEmptyList-content {
+        min-width: 1452px !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .MmheaderSearch .TmheaderSearch-line {
+        width: 1098px !important;
+    }
+    .TmUnEmptyList-content {
+        min-width: 1098px !important;
+    }
+}
+
+.MmheaderSearch {
+    min-width: 1146px;
+    padding: 22px 24px 22px 22px;
+    height: 84px;
+    box-sizing: border-box;
+    background: #fff;
+    .TmheaderSearch-line {
+        display: flex;
+        min-width: 1098px;
+        justify-content: space-between;
+        .row {
+            // width: 362.33px;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 14px;
+            align-items: center;
+            .title {
+                display: inline-block;
+                margin-right: 4px;
+                color: #344658;
+                font-weight: 400;
+                font-size: 14px;
+            }
+            .ant-calendar-picker-input {
+                width: 100%;
+            }
+        }
+    }
+    .TmheaderSearch-btn {
+        transition: all .3s;
+        width: 108px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        border: 1px solid #58A7F8;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #58A7F8;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover {
+            background: #58A7F8;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,178 @@
+.gi-fast-step2 .editBox {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-fast-step2 .editBox .inputArea .textLimit, .gi-fast-step2 .editBox .tips {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.gi-fast-step2 .editBox .inputArea .addBtn,
+.gi-fast-step2 .editBox .inputArea .desBtn, .gi-fast-step2 .editBox .coloInput .icon {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.gi-fast-step2 .editBox .row {
+  display: flex;
+  margin-bottom: 14px; }
+
+.gi-fast-step2 .editBox .label {
+  width: 72px;
+  text-align: right;
+  color: #344658;
+  flex: none;
+  margin-top: 8px;
+  margin-right: 4px; }
+
+.gi-fast-step2 .editBox .inputArea {
+  position: relative;
+  flex: auto; }
+  .gi-fast-step2 .editBox .inputArea input {
+    width: 372px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px; }
+  .gi-fast-step2 .editBox .inputArea .titleInput {
+    padding: 0 50px 0 16px; }
+    .gi-fast-step2 .editBox .inputArea .titleInput:focus {
+      border: 1px solid #58A7F8; }
+  .gi-fast-step2 .editBox .inputArea .textLimit {
+    color: #B5BDC6;
+    position: absolute;
+    right: 94px;
+    bottom: 9px; }
+  .gi-fast-step2 .editBox .inputArea .numberInput {
+    padding: 0 10px 0 16px; }
+    .gi-fast-step2 .editBox .inputArea .numberInput:focus {
+      border: 1px solid #58A7F8; }
+  .gi-fast-step2 .editBox .inputArea .add-des {
+    width: 20px;
+    height: 34px;
+    position: absolute;
+    right: 94px;
+    top: 1px;
+    background: #FFFFFF; }
+  .gi-fast-step2 .editBox .inputArea .addBtn,
+  .gi-fast-step2 .editBox .inputArea .desBtn {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    cursor: pointer;
+    right: 8px; }
+  .gi-fast-step2 .editBox .inputArea .addBtn {
+    background-position: -123px -24px;
+    top: 5px; }
+    .gi-fast-step2 .editBox .inputArea .addBtn:hover {
+      background-position: -123px -24px; }
+  .gi-fast-step2 .editBox .inputArea .desBtn {
+    background-position: -103px -24px;
+    bottom: 5px; }
+    .gi-fast-step2 .editBox .inputArea .desBtn:hover {
+      background-position: -103px -24px; }
+  .gi-fast-step2 .editBox .inputArea .intrdInput {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    width: 372px;
+    height: 97px;
+    padding: 8px 16px;
+    resize: none; }
+    .gi-fast-step2 .editBox .inputArea .intrdInput:focus {
+      border: 1px solid #58A7F8; }
+
+.gi-fast-step2 .editBox .tips {
+  color: #B5BDC6;
+  margin-top: 86px;
+  margin-left: 14px;
+  float: left; }
+
+.gi-fast-step2 .editBox .coloInput {
+  cursor: pointer;
+  color: #5D90C5;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 10px; }
+  .gi-fast-step2 .editBox .coloInput .icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: -328px -91px;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-right: 2px; }
+  .gi-fast-step2 .editBox .coloInput .colorAreaP {
+    position: absolute; }
+
+.gi-fast-step2 .editBox .coloInput:hover {
+  color: #58A7F8; }
+  .gi-fast-step2 .editBox .coloInput:hover .icon {
+    background-position: -328px -109px; }
+
+.gi-fast-step2 .editBox .importGroup {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #5D90C5;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-right: 36px;
+  margin-top: 8px;
+  float: right; }
+
+.gi-fast-step2 .editBox .page2 .label {
+  width: 70px; }
+
+.gi-fast-step2 .editBox .page2 .self-label {
+  width: 84px;
+  margin-left: 105px; }
+
+.gi-fast-step2 .editBox .page2 .titleInput {
+  width: 464px; }
+
+.gi-fast-step2 .editBox .page2 .textLimit {
+  right: 10px; }
+
+.gi-fast-step2 .editBox .page2 .groupNoInput {
+  width: 114px;
+  padding: 8px 16px; }
+
+.gi-fast-step2 .editBox .page2 .startNoInput {
+  width: 138px;
+  padding: 8px 16px; }
+
+.gi-fast-step2 .editBox .page2 .msgInput {
+  width: 464px;
+  height: 142px;
+  border: 1px dashed #DADEE2;
+  border-radius: 2px;
+  padding: 5px 16px;
+  resize: none; }
+
+.gi-fast-step2 .editBox .page2 .noteInfo {
+  width: 464px;
+  height: 60px;
+  background: #ECF6FF;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #485767;
+  padding: 10px 18px;
+  margin: 0 0 14px 72px; }
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .gi-fast-step2 .editBox .inputArea input,
+  .gi-fast-step2 .editBox .inputArea .intrdInput {
+    width: 372px; } }
+
+@media screen and (min-width: 1920px) {
+  .gi-fast-step2 .editBox .inputArea input,
+  .gi-fast-step2 .editBox .inputArea .intrdInput {
+    width: 412px; }
+  .gi-fast-step2 .editBox .page2 .titleInput {
+    width: 500px; }
+  .gi-fast-step2 .editBox .page2 .self-label {
+    margin-left: 142px; }
+  .gi-fast-step2 .editBox .page2 .msgInput {
+    width: 500px; }
+  .gi-fast-step2 .editBox .page2 .noteInfo {
+    width: 500px; } }

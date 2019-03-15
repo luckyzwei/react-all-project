@@ -1,0 +1,35 @@
+.textareaBox {
+  display: flex; }
+  .textareaBox .title {
+    font-size: 14px;
+    color: #344658;
+    font-weight: 400;
+    margin-right: 4px; }
+    .textareaBox .title .resTxt {
+      font-size: 16px;
+      color: #F75A5A;
+      line-height: 36px;
+      margin-right: 6px; }
+  .textareaBox .content {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    height: 36px;
+    display: flex;
+    flex-direction: column; }
+    .textareaBox .content .textareaBox-ipt {
+      padding: 8px 16px;
+      resize: none; }
+    .textareaBox .content:hover {
+      border-color: #58A7F8; }
+    .textareaBox .content .num {
+      height: 32px;
+      line-height: 32px;
+      text-align: right;
+      width: 100%;
+      font-size: 12px;
+      color: #B5BDC6;
+      padding-right: 8px; }
+  .textareaBox .disabled,
+  .textareaBox .disabled textarea {
+    cursor: not-allowed; }

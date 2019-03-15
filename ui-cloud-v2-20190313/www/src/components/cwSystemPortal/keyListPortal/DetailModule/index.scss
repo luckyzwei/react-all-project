@@ -1,0 +1,140 @@
+@import 'styles/public.scss';
+
+.DetailModule {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .6);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  overflow: auto;
+
+  .DetailModule-content {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 921px;
+    height: 729px;
+    position: relative;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    margin: 100px auto;
+    padding: 0 36px;
+
+    .DetailModule-content-close {
+      width: 24px;
+      height: 24px;
+      @extend %iconGi;
+      background-position: -209px -277px;
+
+      &:hover {
+        background-position: -209px -301px;
+      }
+
+      cursor: pointer;
+      position: absolute;
+      right: -34px;
+      top: 0;
+    }
+
+    .DetailModule-content-search {
+      height: 116px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      width: 480px;
+
+      &:hover {
+        .serach-icon {
+          background: #288BF2;
+        }
+      }
+
+      .serach {
+        flex: 1;
+        height: 40px;
+        padding: 0 16px;
+        border: 1px solid #e9ebee;
+        border-right: none;
+        border-radius: 4px 0 0 4px;
+
+        &:focus {
+          border-color: #58A7F8;
+
+        }
+      }
+
+      .serach-icon {
+        width: 40px;
+        height: 40px;
+        background: #58A7F8;
+        border-radius: 0 4px 4px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .serach-icon-icon {
+          @extend %iconHome;
+          background-position: -281px -174px;
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+    }
+
+    .DetailModule-content-text {
+      height: calc(100% - 116px);
+      overflow: auto;
+
+      .none {
+        background: url(#{$img-path}/images/icon/kw_noData.png) 0 0/cover;
+        width: 179px;
+        height: 168px;
+        margin: 100px auto 0;
+      }
+      .noneTxt {
+        text-align: center;
+        color: #B5BDC6;
+      }
+
+      .DetailModule-content-text-item {
+        padding: 0 20px;
+        height: 88px;
+        margin-bottom: 14px;
+        background: #FFFFFF;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px;
+
+        .DetailModule-content-text-item-title {
+          padding: 16px 0 14px 0;
+          display: flex;
+          align-items: center;
+
+          .DetailModule-content-text-item-img {
+            width: 24px;
+            height: 24px;
+            background: #000;
+            margin-right: 10px;
+          }
+
+          .DetailModule-content-text-item-text {
+            font-size: 14px;
+            color: #344658;
+            font-weight: 400;
+          }
+        }
+
+        .DetailModule-content-text-item-content {
+          margin-left: 34px;
+          font-size: 14px;
+          color: #B5BDC6;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

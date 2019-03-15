@@ -1,0 +1,95 @@
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .KeyCard {
+    min-width: 1034px; } }
+
+.KeyCard {
+  background: #FFFFFF;
+  border-radius: 4px;
+  min-height: 300px; }
+  .KeyCard .ant-table-body {
+    border-top: 1px solid #E9EBEE; }
+  .KeyCard .ant-table-thead tr th {
+    background: #fff;
+    font-family: PingFangSC-Medium;
+    height: 64px;
+    line-height: 32px; }
+  .KeyCard .ant-table-tbody {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #344658; }
+    .KeyCard .ant-table-tbody .kw-title {
+      display: flex;
+      align-items: center; }
+    .KeyCard .ant-table-tbody .kw-title-status {
+      color: #FF99A5;
+      border: 1px solid #FF99A5;
+      font-size: 12px;
+      display: inline-block;
+      width: 32px;
+      height: 18px;
+      border-radius: 2px;
+      text-align: center;
+      line-height: 18px;
+      margin-right: 5px; }
+    .KeyCard .ant-table-tbody tr {
+      height: 56px;
+      line-height: 24px; }
+    .KeyCard .ant-table-tbody .act-odds {
+      background: rgba(141, 177, 215, 0.15);
+      color: #5D90C5;
+      border-radius: 2px;
+      width: 70px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin: 0; }
+    .KeyCard .ant-table-tbody .act-action-resp {
+      background: rgba(106, 210, 152, 0.18);
+      border-radius: 2px;
+      color: #6AD298;
+      padding: 0 5px 0 7px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin-right: 10px; }
+    .KeyCard .ant-table-tbody .act-action {
+      background: rgba(255, 153, 165, 0.2);
+      color: #FF99A5;
+      border-radius: 2px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin: 0 10px 0 0;
+      padding: 0 5px 0 7px; }
+    .KeyCard .ant-table-tbody .operate {
+      position: relative;
+      display: flex; }
+      .KeyCard .ant-table-tbody .operate .viewBtn {
+        color: #58A7F8;
+        cursor: pointer; }
+      .KeyCard .ant-table-tbody .operate .line {
+        border: 1px solid #F0F1F3;
+        margin: 0 16px; }
+      .KeyCard .ant-table-tbody .operate .downBtn {
+        color: #58A7F8;
+        cursor: pointer; }
+        .KeyCard .ant-table-tbody .operate .downBtn:hover .update {
+          display: block; }
+      .KeyCard .ant-table-tbody .operate .update {
+        background: #FFFFFF;
+        box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+        border-radius: 4px;
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        left: 38px;
+        text-align: center;
+        z-index: 2;
+        display: none;
+        padding: 4px 0; }
+        .KeyCard .ant-table-tbody .operate .update p {
+          height: 32px;
+          line-height: 32px;
+          margin: 0; }
+          .KeyCard .ant-table-tbody .operate .update p:hover {
+            background: #ECF6FF; }

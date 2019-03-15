@@ -1,0 +1,51 @@
+@import 'styles/public.scss';
+
+.public-transferBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+
+    .left,
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+
+        .header {
+            flex: none;
+        }
+
+        .list {
+            flex: auto;
+            overflow: auto;
+        }
+    }
+
+    .center {
+        div {
+            width: 44px;
+            height: 44px;
+            @extend %iconGi;
+            cursor: pointer;
+        }
+
+        .goRight {
+            margin-top: 36px;
+            background-position: -387px -19px;
+
+            &:hover {
+                background-position: -343px -19px;
+            }
+        }
+
+        .goLeft {
+            background-position: -299px -19px;
+
+            &:hover {
+                background-position: -431px -19px;
+            }
+        }
+    }
+}

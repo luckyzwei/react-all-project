@@ -1,0 +1,18 @@
+@import 'styles/public.scss';
+
+.Step3 {
+  padding: 24px;
+  .Step3-title {
+    font-size: 24px;
+    color: #485767;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  .MtBuildMain-content {
+    min-width: 1096px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 40px 0;
+    display: flex;
+  }
+}

@@ -1,0 +1,90 @@
+.MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box .item-box-right {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.MtGSModule {
+  height: 466px;
+  width: 456px;
+  background: #FFFFFF;
+  border: 1px solid #E9EBEE;
+  border-radius: 4px; }
+  .MtGSModule .MtGSModule-header {
+    height: 72px;
+    display: flex;
+    background: #F7F8F9;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E9EBEE;
+    border-radius: 4px 4px 0 0;
+    padding: 0 9px 0 17px;
+    font-size: 14px;
+    color: #344658; }
+    .MtGSModule .MtGSModule-header .input {
+      background: #FFFFFF;
+      border: 1px solid #E9EBEE;
+      border-radius: 4px;
+      width: 354px;
+      height: 36px;
+      line-height: 36px;
+      padding: 0 16px;
+      box-sizing: border-box; }
+      .MtGSModule .MtGSModule-header .input:focus {
+        border-color: #58A7F8; }
+  .MtGSModule .MtGSModule-content {
+    height: calc( 100% - 72px);
+    overflow: auto; }
+    .MtGSModule .MtGSModule-content .MtGSModule-content-tag {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 17px; }
+      .MtGSModule .MtGSModule-content .MtGSModule-content-tag .MtGSModule-content-tag-item {
+        min-width: 44px;
+        text-align: center;
+        padding: 2px 10px;
+        font-size: 14px;
+        color: #485767;
+        font-weight: 400;
+        border: 1px solid #E9EBEE;
+        border-radius: 100px;
+        margin-top: 18px;
+        margin-right: 10px;
+        cursor: pointer; }
+        .MtGSModule .MtGSModule-content .MtGSModule-content-tag .MtGSModule-content-tag-item.active {
+          background: #E9F9F0;
+          color: #6AD298; }
+    .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item {
+      font-size: 14px;
+      color: #344658;
+      font-weight: 400;
+      padding: 0 17px;
+      cursor: pointer; }
+      .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box {
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px dashed #e9ebee; }
+        .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box .item-box-left {
+          display: flex;
+          align-items: center; }
+        .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box .item-box-right {
+          width: 20px;
+          height: 20px;
+          margin-right: 34px;
+          background-position: -139px -19px; }
+          .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box .item-box-right:hover {
+            background-position: -159px -19px; }
+          .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box .item-box-right.active {
+            background-position: -179px -19px; }
+        .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item .item-box .group-icon {
+          background: #E9EBEE;
+          border-radius: 4px;
+          width: 24px;
+          height: 24px;
+          margin-right: 10px; }
+      .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item:hover {
+        background: #ECF6FF; }
+        .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item:hover .item-box-right {
+          background-position: -139px -19px; }
+      .MtGSModule .MtGSModule-content .MtGSModule-content-group .MtGSModule-content-group-item.repeatId {
+        background: #FDE5E5; }

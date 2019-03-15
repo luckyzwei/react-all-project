@@ -1,0 +1,46 @@
+@import 'styles/public.scss';
+
+.gi-container .modalWrapper {
+    overflow: auto;
+    padding: 6.25%;
+
+    .editBox {
+        width: 1038px;
+        height: 720px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        border-radius: 4px;
+        position: relative;
+        @extend %font-14px;
+        color: #344658;
+
+        .closeBtn {
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            top: 0px;
+            right: -30px;
+            @extend %iconGi;
+            background-position: -209px -277px;
+
+            &:hover {
+                background-position: -209px -301px;
+            }
+
+            cursor: pointer;
+        }
+    }
+
+    .header {
+        font-size: 16px;
+        color: #344658;
+        height: 60px;
+        line-height: 60px;
+        text-indent: 22px;
+        border-bottom: 1px solid #E9EBEE;
+    }
+
+    .content {
+        padding: 40px 60px 64px;
+    }
+}

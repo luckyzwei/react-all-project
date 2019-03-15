@@ -1,0 +1,231 @@
+$red: #F75A5A;
+$red-light: #FDE5E5;
+$blue: #58A7F8;
+$blue-lite: #D8E7F9;
+$blue-dark: #288BF2;
+$gray: #B5BDC6;
+$gray-bg: #f0f1f3;
+$img-path: '';
+
+%font-26px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 26px;
+}
+
+%font-28px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 28px;
+}
+
+%font-24px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+%font-20px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+%font-16px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+%font-14px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+%font-13px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+%font-12px {
+    font-family: "PingFang SC";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+%font-14px-medium {
+    font-family: "PingFang SC";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+%font-16px-medium {
+    font-family: "PingFang SC";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+%font-12px-medium {
+    font-family: "PingFang SC";
+    font-weight: 500;
+    font-size: 12px;
+}
+
+%font-12px-light {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    font-size: 12px;
+}
+
+%font-14px-light {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+%font-16px-light {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    font-size: 16px;
+}
+
+%font-20px-light {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+%font-24px-light {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    font-size: 24px;
+}
+
+%font-28px-light {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    font-size: 28px;
+}
+
+%font-20px-medium {
+    font-family: "PingFang SC";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+%font-24px-medium {
+    font-family: "PingFang SC";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+%font-18px-medium {
+    font-family: "PingFang SC";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+%iconBackground {
+    background: url(#{$img-path}/images/icon/icongraphy.png) no-repeat;
+    background-size: 1280px 2092px;
+}
+
+%iconHome {
+    background: url(#{$img-path}/images/icon/icon-home.png) no-repeat;
+    background-size: 500px 363px;
+}
+
+%iconGi {
+    background: url(#{$img-path}/images/icon/icon-gi.png) no-repeat;
+    background-size: 635px 420px;
+}
+
+%iconCw {
+    background: url(#{$img-path}/images/icon/icon-cw.png) no-repeat;
+    background-size: 133px 147px;
+}
+
+%iconKW {
+    background: url(#{$img-path}/images/icon/icon-KW.png) no-repeat;
+    background-size: 437px 195px;
+}
+
+%iconGm{
+    background: url(#{$img-path}/images/icon/icon-gm.png) no-repeat;
+    background-size: 1021px 400px;
+}
+
+%iconMt1{
+    background: url(#{$img-path}/images/icon/icon-mt1.png) no-repeat;
+    background-size: 536px 177px;
+}
+
+%iconMt2{
+    background: url(#{$img-path}/images/icon/icon-mt2.png) no-repeat;
+    background-size: 546px 259px;
+}
+
+%icon-set{
+    background: url(#{$img-path}/images/icon/icon-set.png) no-repeat;
+    background-size: 317px 186px;
+}
+
+%verticalCenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+%textHide {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin fontSize($f) {
+    font-family: "PingFang SC";
+    font-size: $f+px;
+}
+
+@mixin widthHight($w, $h) {
+    width: $w+px;
+    height: $h+px;
+}
+
+@mixin multiTextHide($num) {
+    display: -webkit-box;
+    display: -moz-box;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    /* autoprefixer: on */
+    -webkit-line-clamp: $num;
+    -moz-line-clamp: $num;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// %modalWrapper {
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(30, 34, 32, 0.40);
+// }
+
+// %modalBox {
+//     background: #FFFFFF;
+//     border-radius: 2px;
+//     @extend %verticalCenter;
+// }
+
+// %closeBtn {
+//     @extend %iconBackground;
+//     width: 40px;
+//     height: 40px;
+//     background-position: -82px -92px;
+// }

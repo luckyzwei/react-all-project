@@ -1,0 +1,32 @@
+@import 'styles/public.scss';
+.SaveFail {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    .SaveFail-content {
+        width: 266px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        .SaveFail-content-img {
+            width: 258px;
+            height: 258px;
+            margin-bottom: 8px;
+        }
+        .SaveFail-content-text {
+            font-size: 14px;
+            color: #485767;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .SaveFail-content-btnbox {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

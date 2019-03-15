@@ -1,0 +1,35 @@
+.AlongDatePicker {
+  display: flex;
+  align-items: center; }
+  .AlongDatePicker section {
+    margin-right: 4px;
+    font-size: 14px;
+    color: #344658;
+    font-weight: 400; }
+  .AlongDatePicker .AlongDatePicker-content {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e9ebee;
+    width: 244px;
+    border-radius: 4px; }
+    .AlongDatePicker .AlongDatePicker-content:hover {
+      border-color: #58a7f8; }
+  .AlongDatePicker .ant-input {
+    border: none;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 6px;
+    border-radius: 4px 0 0 4px;
+    width: 130px; }
+  .AlongDatePicker .ant-time-picker {
+    width: 114px; }
+  .AlongDatePicker .ant-time-picker-input {
+    border: none;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 6px;
+    border-radius: 0 4px 4px 0;
+    padding-left: 0; }
+
+.ant-time-picker-panel-input {
+  width: 70px !important; }

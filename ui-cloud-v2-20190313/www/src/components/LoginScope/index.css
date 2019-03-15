@@ -1,0 +1,653 @@
+@charset "UTF-8";
+/**************登录页面**************/
+.saas-registerContainer .formBox .innerBox .verification-modal .verification-modal-title {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 20px; }
+
+.saas-registerContainer .formBox .innerBox .verification-modal .verification-btn {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.saas-registerContainer .formBox .innerBox .verification-modal .change-tips, .saas-registerContainer .formBox .innerBox .verification-modal .verification-status {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.saas-registerContainer .formBox .innerBox .verification-modal em {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.saas-loginContainer {
+  position: static;
+  width: 100%;
+  height: 100%;
+  min-height: 562px; }
+
+.saas-loginContainer .headNav {
+  width: 100%;
+  height: 64px;
+  position: absolute;
+  top: 0;
+  z-index: 999; }
+
+.saas-loginContainer .headNav .cell-innerBox {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%; }
+
+.saas-loginContainer .footerNav .cell-innerBox {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%; }
+
+.saas-loginContainer .footerNav .cell-innerBox .innerItem {
+  float: left;
+  height: 80px;
+  margin-right: 60px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 16px;
+  color: #344658;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; }
+
+.saas-loginContainer .footerNav .cell-innerBox .innerItem:hover {
+  color: #288BF2; }
+
+.saas-loginContainer .footerNav .cell-innerBox .rightItem {
+  float: right;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  text-align: right;
+  font-size: 16px;
+  color: #344658; }
+
+.saas-loginContainer .wallImageWrapper .cell-innerBox {
+  position: absolute;
+  z-index: 200;
+  left: calc(50% - 600px);
+  width: 1200px;
+  height: 100%; }
+
+.logoHead {
+  float: left;
+  margin-top: 15px;
+  width: 90px;
+  height: 30px;
+  background: url(/images/icon/logo.svg) no-repeat center;
+  background-size: 90px; }
+
+.saas-loginContainer .wallImageWrapper {
+  margin-top: 0px;
+  width: 100%;
+  min-width: 1200px;
+  height: 800px;
+  background: url(/images/bj/login4.png) no-repeat center;
+  background-size: cover;
+  position: relative; }
+
+.saas-loginContainer .copyrightBox {
+  float: right;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  color: #707D8B; }
+
+.saas-loginContainer .footerNav {
+  bottom: 0px;
+  width: 100%;
+  height: 80px;
+  background: #FFFFFF; }
+
+.saas-loginContainer .wallImageWrapper .textBox {
+  position: relative;
+  float: left;
+  left: 0;
+  margin-top: 22%;
+  color: white; }
+
+.saas-loginContainer .textBox .h-font {
+  width: 100%;
+  height: 67px;
+  font-size: 44px;
+  line-height: 67px;
+  font-weight: 200; }
+
+.saas-loginContainer .textBox .l-font {
+  width: 396px;
+  height: 33px;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 100; }
+
+.saas-loginContainer .wallImageWrapper .modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(46deg, #27ADFF 0%, #2656FF 100%);
+  opacity: 0.8;
+  z-index: 100;
+  display: block; }
+
+.saas-loginContainer .formBox {
+  position: relative;
+  margin-top: 12%;
+  float: right;
+  width: 420px;
+  min-height: 350px;
+  background-color: white;
+  border-radius: 2px; }
+
+.saas-loginContainer .formBox .innerBox {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 320px;
+  background-color: white;
+  font-weight: 200; }
+
+.saas-loginContainer .innerBox input {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 15px;
+  width: 313px;
+  height: 50px;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 16px;
+  border: 1px solid #E9EBEE;
+  border-radius: 2px;
+  outline: none;
+  padding-left: 5px;
+  background-color: #FFFFFF;
+  font-family: "PingFangSC-Light";
+  -webkit-appearance: none; }
+
+.saas-loginContainer .innerBox input:-webkit-autofill {
+  -webkit-box-shadow: 0px 1000px #fff inset !important;
+  box-shadow: 0px 1000px #fff inset !important; }
+
+.saas-loginContainer .innerBox .password em.invisible {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: -50px 0 0 287px;
+  background-position: -242px -343px;
+  cursor: pointer; }
+
+.saas-loginContainer .innerBox .password {
+  position: relative; }
+
+.saas-loginContainer .innerBox .password em.invisible:hover {
+  background-position: -242px -363px; }
+
+.saas-loginContainer .innerBox .password em.visible {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background-position: -108px -7px;
+  cursor: pointer; }
+
+.saas-loginContainer .innerBox .password em.invisible {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  cursor: pointer; }
+
+.saas-loginContainer .innerBox .userName .icon-visible {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: -50px 0 0 287px;
+  background-position: -88px -7px;
+  cursor: pointer; }
+
+.saas-loginContainer .innerBox .userName .icon-invisible {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  background-position: -88px -7px;
+  cursor: pointer; }
+
+.saas-loginContainer .innerBox .checkBar {
+  width: 300px;
+  height: 30px;
+  font-size: 13px;
+  text-indent: 20px;
+  line-height: 30px;
+  background: url(/images/icon/alert.png) no-repeat 1px;
+  background-size: 14px;
+  color: red; }
+
+.saas-loginContainer .innerBox input:focus {
+  border: 1px solid #60ABF8;
+  box-shadow: 0 0 2px 0 #5EABF9; }
+
+.saas-loginContainer .innerBox .codeBox {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 7px;
+  width: 320px;
+  height: 50px;
+  background-color: #FFFFFF;
+  font-family: "PingFangSC-Light"; }
+
+.saas-loginContainer .codeBox input {
+  float: left;
+  margin-left: 0; }
+
+.saas-loginContainer .codeBox img {
+  float: right;
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #D1D1D1; }
+
+.saas-loginContainer .innerBox .handleBar {
+  margin: 10px auto;
+  width: 320px;
+  height: 35px; }
+
+.saas-loginContainer .handleBar .font-unselected {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-position: -108px -27px; }
+
+.saas-loginContainer .handleBar .font-selected {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-position: -88px -27px; }
+
+.saas-loginContainer .handleBar lable {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  color: #B5BDC6;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px; }
+
+.saas-loginContainer .handleBar .forgetButton {
+  float: right;
+  margin-right: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 16px;
+  text-align: right;
+  color: #B5BDC6;
+  cursor: pointer; }
+
+.saas-loginContainer .handleBar .forgetButton:hover {
+  color: #485767; }
+
+.saas-loginContainer .loginButton {
+  margin: 20px auto;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 50px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #0DA1FB 0%, #2656FF 51%, #0DA1FB 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px; }
+
+.saas-loginContainer .loginButton:hover {
+  background-position: right center; }
+
+.saas-loginContainer .loginButton:hover rect {
+  fill: #58A7F8; }
+
+.saas-loginContainer .loginButton svg {
+  margin-top: 10px; }
+
+.saas-loginContainer .loginButton rect {
+  fill: #288BF2; }
+
+.saas-loginContainer circle {
+  fill: #FFFFFF; }
+
+.loadingBox-butt {
+  margin: 0 auto;
+  width: 100px;
+  height: 100%; }
+
+.loadingBox-butt .desc {
+  float: left;
+  height: 100%;
+  line-height: 50px; }
+
+.loadingBox-butt .loader {
+  float: left;
+  height: 100%; }
+
+.loadingBox-butt .loader svg {
+  margin-top: 21px;
+  margin-left: 10px; }
+
+.saas-loginContainer .registerButton {
+  width: 100%;
+  height: 30px;
+  padding-bottom: 14px;
+  text-align: right; }
+
+.saas-loginContainer .registerButton u {
+  color: #288BF2;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; }
+
+.saas-loginContainer .registerButton u:hover {
+  color: #58A7F8; }
+
+/***注册表单***/
+.saas-registerContainer {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #485767;
+  letter-spacing: 0; }
+
+.saas-registerContainer .formBox {
+  width: 324px;
+  margin: 10% auto;
+  text-align: -webkit-center;
+  float: none; }
+
+.saas-registerContainer circle {
+  fill: #FFFFFF; }
+
+.saas-registerContainer .headNav {
+  position: relative;
+  background: url(/images/bj/login4.png) no-repeat center;
+  background-size: cover;
+  background-position: 0 -765px; }
+
+.saas-registerContainer .headNav .modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(46deg, #27ADFF 0%, #2656FF 100%);
+  opacity: 0.8; }
+
+.saas-registerContainer .headNav .logoHead {
+  position: absolute; }
+
+.saas-registerContainer .formBox .innerBox .verification-mask {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+
+.saas-registerContainer .formBox .innerBox .verification-modal {
+  width: 440px;
+  height: 285px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 7px 0px #DADEE2;
+  border-radius: 2px;
+  padding: 50px 54px 24px 50px; }
+  .saas-registerContainer .formBox .innerBox .verification-modal em {
+    width: 28px;
+    height: 28px;
+    background-position: -225px -25px;
+    top: 14px;
+    right: 14px;
+    position: absolute;
+    cursor: pointer; }
+    .saas-registerContainer .formBox .innerBox .verification-modal em:hover {
+      background-position: -265px -25px; }
+  .saas-registerContainer .formBox .innerBox .verification-modal .verification-modal-title {
+    color: #344658;
+    cursor: default; }
+  .saas-registerContainer .formBox .innerBox .verification-modal .change-tips {
+    color: #B5BDC6;
+    text-align: right;
+    margin: 23px 30px 0 0; }
+  .saas-registerContainer .formBox .innerBox .verification-modal .verification-box {
+    display: flex;
+    height: 50px; }
+    .saas-registerContainer .formBox .innerBox .verification-modal .verification-box input {
+      width: 200px;
+      height: 50px;
+      margin-right: 16px; }
+    .saas-registerContainer .formBox .innerBox .verification-modal .verification-box img {
+      width: 120px;
+      height: 50px; }
+  .saas-registerContainer .formBox .innerBox .verification-modal .verification-status {
+    color: red;
+    text-align: start;
+    height: 18px;
+    margin-bottom: 24px; }
+  .saas-registerContainer .formBox .innerBox .verification-modal .verification-btn {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(46deg, #0DA1FB 0%, #2656FF 100%);
+    border-radius: 2px; }
+
+.saas-registerContainer .formBox .innerBox .formInput {
+  padding: 0;
+  width: 318px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #E9EBEE;
+  border-radius: 2px;
+  box-shadow: none;
+  text-indent: 12px;
+  font-size: 16px;
+  color: #485767;
+  position: relative; }
+
+.saas-registerContainer .formBox .innerBox .formInput:-webkit-autofill {
+  -webkit-box-shadow: 0px 1000px #fff inset !important;
+  box-shadow: 0px 1000px #fff inset !important; }
+
+.saas-registerContainer .formBox .innerBox .recommendDisabled {
+  width: 320px;
+  height: 50px;
+  background: #F8F8F9;
+  border-radius: 6px;
+  text-indent: 12px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr {
+  height: 66px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr td {
+  position: relative; }
+
+.saas-registerContainer .formBox .innerBox .formInput:focus {
+  border-color: #58A7F8 !important;
+  box-shadow: 0 0 2px 0 #58A7F8; }
+
+.saas-registerContainer .formBox .innerBox .verifyBtn {
+  width: 111px;
+  height: 46px;
+  margin-left: 12px;
+  background: #fff;
+  border-radius: 6px;
+  color: #FFFFFF;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #B5BDC6;
+  position: absolute;
+  right: 5px;
+  top: 1px; }
+
+.saas-registerContainer .formBox .innerBox .verifyDisabled:after,
+.saas-registerContainer .formBox .innerBox .verifyBtn:after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 26px;
+  background: #E9EBEE;
+  position: absolute;
+  left: -10px;
+  top: 12px; }
+
+.saas-registerContainer .formBox .innerBox .verifyBtn:hover {
+  color: #288BF2; }
+
+.saas-registerContainer .formBox .innerBox .verifyDisabled {
+  width: 111px;
+  height: 46px;
+  margin-left: 12px;
+  border-radius: 6px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  background: #fff;
+  color: #B5BDC6;
+  top: 1px; }
+
+.saas-registerContainer .formBox .innerBox .registeredBox {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 16px; }
+
+.saas-registerContainer .formBox .innerBox .registeredBox:hover span {
+  color: #288bf2; }
+
+.saas-registerContainer .formBox .innerBox .registeredBox a,
+.saas-registerContainer .formBox .innerBox .registeredBox:hover {
+  color: #B5BDC6; }
+
+.saas-registerContainer .formBox .innerBox .registerBtn {
+  width: 320px;
+  height: 50px;
+  margin-top: 40px;
+  background-image: linear-gradient(to right, #0DA1FB 0%, #2656FF 51%, #0DA1FB 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 2px;
+  line-height: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px; }
+
+.saas-registerContainer .formBox .innerBox .registerBtn:hover {
+  background-position: right center; }
+
+.saas-registerContainer .formBox .innerBox .unchecked {
+  width: 320px;
+  height: 50px;
+  margin-top: 40px;
+  background: #DADEE2;
+  border-radius: 2px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #FFFFFF;
+  cursor: pointer; }
+
+.saas-registerContainer .formBox .innerBox u.backBtn {
+  color: #B5BDC6;
+  text-decoration: none;
+  cursor: pointer; }
+
+.saas-registerContainer .formBox .innerBox u.backBtn:hover {
+  color: #5D90C5;
+  text-decoration: underline; }
+
+.saas-registerContainer .formBox .innerBox .loginBtn {
+  color: #288BF2;
+  margin-left: 13px;
+  cursor: pointer; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr span {
+  position: absolute;
+  display: inline-table;
+  margin-left: 10px;
+  padding: 15px 0;
+  color: #F75A5A; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr span em {
+  width: 16px;
+  height: 16px;
+  background-position: -263px -176px;
+  float: left;
+  margin-right: 6px;
+  display: none; }
+
+.saas-registerContainer .formBox .innerBox #fail {
+  border-color: #F75A5A; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr span em.success {
+  background-position: -242px -176px; }
+
+.saas-registerContainer .formBox .innerBox .protocolBox {
+  text-align: left;
+  text-indent: 6px;
+  color: #b5bdc6; }
+
+.saas-registerContainer .formBox .innerBox .protocolBox:hover {
+  color: #5D90C5; }
+
+.saas-registerContainer .formBox .innerBox .protocolBox em {
+  margin-left: 2px;
+  width: 20px;
+  height: 20px;
+  background-position: -88px -27px;
+  float: left;
+  cursor: pointer; }
+
+.saas-registerContainer .formBox .innerBox .protocolBox .checked {
+  background-position: -88px -27px; }
+
+.saas-registerContainer .formBox .innerBox .protocolBox .unchecked-confirm {
+  background-position: -108px -27px; }
+
+.saas-registerContainer .formBox .innerBox {
+  width: auto; }
+
+.saas-registerContainer .formBox .inputIcon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  top: 15px;
+  right: 10px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr:nth-child(1) .inputIcon {
+  background-position: -88px -7px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr:nth-child(2) .inputIcon {
+  background-position: -108px -7px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr:nth-child(3) .inputIcon {
+  background-position: -108px -7px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr:nth-child(4) .inputIcon {
+  background-position: -128px -7px; }
+
+.saas-registerContainer .formBox .innerBox table tbody tr:nth-child(5) .inputIcon {
+  background-position: -148px -7px; }

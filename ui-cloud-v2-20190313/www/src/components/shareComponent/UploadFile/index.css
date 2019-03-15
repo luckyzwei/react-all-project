@@ -1,0 +1,72 @@
+.public-uploadFile .preview span {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.public-uploadFile .noPic {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.public-uploadFile .preview .icon-del {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.public-uploadFile .noPic .icon-add {
+  background: url(/images/icon/icon-cw.png) no-repeat;
+  background-size: 133px 147px; }
+
+.public-uploadFile {
+  width: 100px;
+  height: 100px;
+  cursor: pointer; }
+  .public-uploadFile .noPic {
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #DADEE2;
+    border-radius: 2px;
+    color: #B5BDC6;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; }
+    .public-uploadFile .noPic .icon-add {
+      width: 30px;
+      height: 30px;
+      margin: 0 auto 6px;
+      background-position: -2px -112px; }
+    .public-uploadFile .noPic div {
+      width: 100%; }
+    .public-uploadFile .noPic:hover div {
+      color: #344658; }
+  .public-uploadFile .preview {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    position: relative; }
+    .public-uploadFile .preview .icon-del {
+      position: absolute;
+      top: -13px;
+      right: -13px;
+      width: 26px;
+      height: 26px;
+      background-position: -314px -135px; }
+      .public-uploadFile .preview .icon-del:hover {
+        background-position: -340px -135px; }
+    .public-uploadFile .preview .loadModal {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(72, 87, 103, 0.7);
+      border-radius: 2px; }
+    .public-uploadFile .preview span {
+      position: absolute;
+      left: 38%;
+      bottom: 43%;
+      color: #FFFFFF;
+      background: transparent !important; }

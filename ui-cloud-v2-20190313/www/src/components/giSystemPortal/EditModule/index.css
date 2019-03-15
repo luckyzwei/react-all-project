@@ -1,0 +1,39 @@
+.gi-container .modalWrapper .editBox {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-container .modalWrapper .editBox .closeBtn {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.gi-container .modalWrapper {
+  overflow: auto;
+  padding: 6.25%; }
+  .gi-container .modalWrapper .editBox {
+    width: 1038px;
+    height: 720px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: relative;
+    color: #344658; }
+    .gi-container .modalWrapper .editBox .closeBtn {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 0px;
+      right: -30px;
+      background-position: -209px -277px;
+      cursor: pointer; }
+      .gi-container .modalWrapper .editBox .closeBtn:hover {
+        background-position: -209px -301px; }
+  .gi-container .modalWrapper .header {
+    font-size: 16px;
+    color: #344658;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 22px;
+    border-bottom: 1px solid #E9EBEE; }
+  .gi-container .modalWrapper .content {
+    padding: 40px 60px 64px; }

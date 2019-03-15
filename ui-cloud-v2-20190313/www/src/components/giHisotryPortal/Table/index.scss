@@ -1,0 +1,104 @@
+@import 'styles/public.scss';
+
+.gi-history {
+    .historyTable {
+        margin-bottom: 50px;
+        .ant-spin-nested-loading{
+            min-height: 300px;
+        }
+        .ant-table-thead>tr>th {
+            @extend %font-14px-medium;
+            color: #344658;
+            background: #ffffff;
+        }
+
+        .ant-table-thead>tr>td {
+            @extend %font-14px;
+            color: #485767;
+        }
+
+        .ant-table-tbody>tr:hover>td {
+            background: #ECF6FF;
+        }
+
+        .operate {
+            display: flex;
+            align-items: center;
+            @extend %font-14px;
+            color: #58A7F8;
+
+            .viewBtn,
+            .downBtn {
+                cursor: pointer
+            }
+
+            .line {
+                width: 2px;
+                height: 18px;
+                background: #F0F1F3;
+                margin: 0 16px;
+            }
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+
+            .circle {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                margin-right: 8px;
+            }
+            .describetion {
+                position: absolute;
+                min-width: 100px;
+                max-width: 184px;
+                font-size: 12px;
+                color: #fff;
+                line-height: normal;
+                background: #344658;
+                border-radius: 4px;
+                padding: 7px 13px;
+                z-index: 99;
+                left: 8px;
+                top: 32px;
+                display: none;
+                text-align: left;
+            }
+            
+            &:hover .describetion {
+                display: block;
+            }
+            
+            .describetion i {
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                background: #344658;
+                transform: rotate(45deg);
+                left: 30px;
+                top: -5px;
+                z-index: -1;
+            }
+        }
+
+        .normal .circle {
+            background: #DADEE2;
+        }
+
+        .running .circle {
+            background: #6AD298;
+        }
+
+        .error .circle {
+            background: #FF99A5;
+        }
+
+        .success .circle {
+            background: #58A7F8;
+        }
+    }
+}

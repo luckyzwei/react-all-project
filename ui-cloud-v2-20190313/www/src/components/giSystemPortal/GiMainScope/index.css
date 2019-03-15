@@ -1,0 +1,157 @@
+.gi-container .groupWrapper .operateArea, .gi-container .groupWrapper .operateArea .more .operate, .gi-container .groupList .groupItem {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-container .groupWrapper .operateArea .checkAll .icon-checkall, .gi-container .groupList .groupItem .icon-add::after {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.gi-container .groupList .groupItem .icon-add {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.gi-container {
+  height: calc(100% - 60px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: auto; }
+  .gi-container .pageSize {
+    padding-right: 28px; }
+  .gi-container .groupWrapper {
+    flex: auto;
+    background: #F8F8F9;
+    padding: 24px;
+    min-width: 1132px; }
+    .gi-container .groupWrapper .operateArea {
+      height: 36px;
+      margin-bottom: 24px;
+      font-weight: 400; }
+      .gi-container .groupWrapper .operateArea .import {
+        background: #58A7F8;
+        border-radius: 4px;
+        width: 108px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        float: left;
+        margin-right: 30px;
+        position: relative; }
+        .gi-container .groupWrapper .operateArea .import:hover {
+          background: #288BF2; }
+          .gi-container .groupWrapper .operateArea .import:hover .public-tipBubble {
+            transform: scale(1);
+            opacity: 1; }
+      .gi-container .groupWrapper .operateArea .item {
+        float: left;
+        color: #5D90C5;
+        cursor: pointer;
+        line-height: 20px;
+        margin-top: 8px; }
+        .gi-container .groupWrapper .operateArea .item:hover {
+          color: #58A7F8;
+          text-decoration: underline; }
+          .gi-container .groupWrapper .operateArea .item:hover .inner {
+            display: block; }
+      .gi-container .groupWrapper .operateArea .batch {
+        float: right; }
+      .gi-container .groupWrapper .operateArea .more {
+        color: #5D90C5;
+        float: right;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: 8px; }
+        .gi-container .groupWrapper .operateArea .more:hover {
+          text-decoration: none; }
+        .gi-container .groupWrapper .operateArea .more .operate {
+          color: #5D90C5;
+          cursor: pointer; }
+          .gi-container .groupWrapper .operateArea .more .operate:hover {
+            text-decoration: underline; }
+        .gi-container .groupWrapper .operateArea .more .line {
+          display: inline-block;
+          height: 18px;
+          border-left: 1px solid #B5BDC6;
+          margin: 0 16px; }
+      .gi-container .groupWrapper .operateArea .checkAll .icon-checkall {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-position: -139px -19px;
+        vertical-align: middle;
+        margin-top: -4px;
+        margin-right: 8px; }
+        .gi-container .groupWrapper .operateArea .checkAll .icon-checkall:hover {
+          background-position: -159px -19px; }
+        .gi-container .groupWrapper .operateArea .checkAll .icon-checkall.checked {
+          background-position: -179px -19px; }
+  .gi-container .groupList .groupItem {
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    box-shadow: 0 2px 4px 0 #E9EBEE;
+    border-radius: 4px;
+    width: 340px;
+    float: left;
+    margin: 0 24px 24px 0; }
+    .gi-container .groupList .groupItem .groupItemInner {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background: #fff; }
+    .gi-container .groupList .groupItem .icon-add {
+      color: #B5BDC6;
+      font-weight: 400;
+      line-height: 20px;
+      padding-left: 34px; }
+      .gi-container .groupList .groupItem .icon-add::after {
+        content: '';
+        width: 24px;
+        height: 24px;
+        display: block;
+        background-position: -5px -67px;
+        position: absolute;
+        left: 0;
+        top: -2px; }
+    .gi-container .groupList .groupItem:hover .icon-add {
+      color: #58A7F8; }
+      .gi-container .groupList .groupItem:hover .icon-add::after {
+        background-position: -29px -67px; }
+    .gi-container .groupList .groupItem:hover .public-tipBubble {
+      transform: scale(1);
+      opacity: 1; }
+  .gi-container .pageFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px; }
+
+@media screen and (max-width: 1439px) {
+  .gi-container .pageSize {
+    width: 1098px; }
+  .gi-container .groupList .groupItem:nth-child(3n) {
+    margin-right: 0; } }
+
+@media screen and (min-width: 1440px) and (max-width: 1789px) {
+  .gi-container .pageSize {
+    width: 1284px; }
+  .gi-container .groupList .groupItem {
+    width: 296px; }
+  .gi-container .groupList .groupItem:nth-child(4n) {
+    margin-right: 0; } }
+
+@media screen and (min-width: 1790px) {
+  .gi-container .pageSize {
+    width: 1620px; }
+  .gi-container .groupList .groupItem {
+    width: 380px; }
+  .gi-container .groupList .groupItem:nth-child(4n) {
+    margin-right: 0; } }

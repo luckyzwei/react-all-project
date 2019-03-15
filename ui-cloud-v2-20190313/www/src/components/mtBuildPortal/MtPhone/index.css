@@ -1,0 +1,226 @@
+.MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .appFooter .wxlogo {
+  background: url(/images/icon/icon-gm.png) no-repeat;
+  background-size: 1021px 400px; }
+
+.MtPhone .MtPhone-title .MtPhone-title-iocn, .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-icon {
+  background: url(/images/icon/icon-mt1.png) no-repeat;
+  background-size: 536px 177px; }
+
+.MtPhone {
+  width: 378px;
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  align-items: center; }
+  .MtPhone .MtPhone-title {
+    font-size: 14px;
+    color: #B5BDC6;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .MtPhone .MtPhone-title .MtPhone-title-iocn {
+      width: 16px;
+      height: 16px;
+      background-position: -159px -120px; }
+  .MtPhone .MtPhone-content {
+    width: 320px;
+    height: 586px;
+    position: relative;
+    background: url(/images/bj/fast_build_bj.png) no-repeat; }
+    .MtPhone .MtPhone-content .MtPhone-content-detail {
+      position: absolute;
+      width: 248px;
+      height: 467px;
+      background: #F7F8F9;
+      top: 63px;
+      left: 33px;
+      padding: 0 8px;
+      box-sizing: border-box;
+      overflow: auto;
+      padding-top: 24px; }
+      .MtPhone .MtPhone-content .MtPhone-content-detail::-webkit-scrollbar {
+        display: none; }
+      .MtPhone .MtPhone-content .MtPhone-content-detail .MtPhone-content-detail-box {
+        width: 100%;
+        padding: 0 4px;
+        box-sizing: border-box;
+        margin-bottom: 14px; }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .MtPhone-content-detail-box .MtPhone-content-detail-box-txt {
+          width: 100%;
+          font-size: 12px;
+          color: #344658;
+          font-weight: 400; }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .MtPhone-content-detail-box .MtPhone-content-detail-box-img {
+          width: 100%;
+          height: 136px;
+          border-radius: 4px; }
+      .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item {
+        margin-bottom: 24px;
+        display: flex; }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-icon {
+          width: 20px;
+          height: 20px;
+          background-position: -63px -92px;
+          margin-right: 15px; }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-content-trg {
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          background: #fff;
+          left: -5px;
+          transform: rotate(45deg); }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-content {
+          position: relative;
+          flex: 1;
+          min-height: 34px;
+          word-break: break-all;
+          word-wrap: break-word;
+          background: #fff;
+          border-radius: 4px;
+          padding: 8px;
+          box-sizing: border-box; }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-LinkDom {
+          position: relative;
+          background: #fff;
+          border-radius: 4px;
+          width: 178px;
+          height: 89px;
+          padding: 9px 8px 4px 9px;
+          box-sizing: border-box; }
+          .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-LinkDom .Dom-item-LinkDom-title {
+            font-size: 14px;
+            color: #344658;
+            font-weight: 400;
+            height: 32px;
+            position: relative;
+            margin-bottom: 3px;
+            display: -webkit-box;
+            display: -moz-box;
+            /* autoprefixer: off */
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            /* autoprefixer: on */
+            -webkit-line-clamp: 2;
+            -moz-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+            word-wrap: break-word; }
+          .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-LinkDom .Dom-item-LinkDom-box {
+            display: flex;
+            justify-content: space-between; }
+            .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-LinkDom .Dom-item-LinkDom-box .Dom-item-LinkDom-content {
+              height: 32px;
+              width: 111px;
+              font-size: 12px;
+              color: #B5BDC6;
+              font-weight: 400;
+              position: relative;
+              margin-bottom: 3px;
+              display: -webkit-box;
+              display: -moz-box;
+              /* autoprefixer: off */
+              -webkit-box-orient: vertical;
+              -moz-box-orient: vertical;
+              /* autoprefixer: on */
+              -webkit-line-clamp: 2;
+              -moz-line-clamp: 2;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              word-break: break-all;
+              word-wrap: break-word; }
+            .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-LinkDom .Dom-item-LinkDom-box .Dom-item-LinkDom-img {
+              width: 39px;
+              height: 39px;
+              background: #F7F8F9;
+              border-radius: 2px; }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-ImgDom {
+          width: 148px;
+          background: #FFFFFF;
+          border-radius: 4px;
+          border: none;
+          margin: 0;
+          padding: 0;
+          transform: translateX(-5px); }
+        .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule {
+          width: 170px;
+          position: relative;
+          background: #fff;
+          border-radius: 4px;
+          padding-top: 10px; }
+          .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .titleBox {
+            display: flex;
+            align-items: center;
+            padding: 0 6px 9px; }
+            .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .titleBox img {
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              background: #e9fbee;
+              margin-right: 8px; }
+            .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .titleBox span {
+              font-size: 12px;
+              color: #B5BDC6;
+              font-weight: 400; }
+          .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .appDesc {
+            font-size: 12px;
+            color: #344658;
+            font-weight: 400;
+            padding: 0 6px;
+            height: 32px;
+            display: -webkit-box;
+            display: -moz-box;
+            /* autoprefixer: off */
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            /* autoprefixer: on */
+            -webkit-line-clamp: 2;
+            -moz-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+            word-wrap: break-word;
+            margin-bottom: 8px; }
+          .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .appSrc {
+            border-bottom: 1px solid #E9EBEE;
+            padding: 0 6px 8px; }
+            .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .appSrc img {
+              width: 157px;
+              height: 120px;
+              border-radius: 4px; }
+          .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .appFooter {
+            display: flex;
+            align-items: center;
+            color: #B5BDC6;
+            font-weight: 400;
+            font-size: 20px;
+            height: 22px;
+            transform: scale(0.5);
+            position: relative;
+            left: -40px; }
+            .MtPhone .MtPhone-content .MtPhone-content-detail .Dom-item .Dom-item-AppModule .appModule .appFooter .wxlogo {
+              margin-right: 4px;
+              width: 20px;
+              height: 20px;
+              background-position: -372px -73px;
+              transform: scale(1.5); }
+    .MtPhone .MtPhone-content .MtPhone-content-noData {
+      position: absolute;
+      width: 248px;
+      height: 467px;
+      background: #F7F8F9;
+      top: 63px;
+      left: 33px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .MtPhone .MtPhone-content .MtPhone-content-noData .MtPhone-content-noData-img {
+        width: 126px;
+        height: 126px;
+        background: url(/images/icon/cw_notask.png) 0 0/126px no-repeat; }
+      .MtPhone .MtPhone-content .MtPhone-content-noData .MtPhone-content-noData-txt {
+        font-size: 12px;
+        color: #B5BDC6;
+        font-weight: 400; }

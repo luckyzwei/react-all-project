@@ -1,0 +1,65 @@
+.gi-container .searchBox .left .searchBtn {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-container .searchBox .right {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.gi-container .searchBox {
+  height: 134px;
+  min-width: 1132px;
+  padding: 24px;
+  flex: none;
+  display: flex; }
+  .gi-container .searchBox .left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1084px;
+    flex: none;
+    align-content: space-between;
+    justify-content: space-between; }
+    .gi-container .searchBox .left .row1 {
+      flex: none;
+      width: 346px; }
+      .gi-container .searchBox .left .row1 .self {
+        text-indent: 16px;
+        cursor: pointer;
+        color: #344658; }
+        .gi-container .searchBox .left .row1 .self:hover {
+          border: 1px solid #58A7F8; }
+    .gi-container .searchBox .left .row2 {
+      flex: none;
+      width: 274px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start; }
+    .gi-container .searchBox .left .row3 {
+      flex: none;
+      width: 260px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start; }
+    .gi-container .searchBox .left .searchBtn {
+      border: 1px solid #58A7F8;
+      border-radius: 4px;
+      width: 108px;
+      height: 36px;
+      line-height: 34px;
+      text-align: center;
+      color: #58A7F8;
+      cursor: pointer; }
+      .gi-container .searchBox .left .searchBtn:hover {
+        background: #58A7F8;
+        border: 1px solid #58A7F8;
+        border-radius: 4px;
+        color: #fff; }
+  .gi-container .searchBox .right {
+    flex: none;
+    color: #5D90C5; }
+    .gi-container .searchBox .right .expand {
+      margin-left: 44px;
+      margin-top: 10px;
+      cursor: pointer; }

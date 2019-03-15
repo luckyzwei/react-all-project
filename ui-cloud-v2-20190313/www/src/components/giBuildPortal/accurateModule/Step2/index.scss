@@ -1,0 +1,200 @@
+@import 'styles/public.scss';
+
+.gi-accurate-step2 {
+    padding: 24px;
+    height: 100%;
+    overflow: auto;
+    background: #f0f1f3;
+    @extend %font-14px;
+    color: #344658;
+    
+    .statusCheck {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        .icon-check {
+            width: 20px;
+            height: 20px;
+            @extend %iconGi;
+            background-position: -139px -19px;
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .icon-check:hover {
+            background-position: -159px -19px;
+        }
+
+        .icon-check.checked {
+            background-position: -179px -19px;
+        }
+    }
+
+
+    .inner {
+        min-width: 1096px;
+        min-height: 100%;
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding-bottom: 20px;
+
+        .stepTitle {
+            @extend %font-14px;
+            color: #344658;
+            padding-top: 8px;
+            background: #f0f1f3;
+            width: 100%;
+            height: 57px;
+
+            .todo {
+                color: #B5BDC6;
+            }
+        }
+    }
+
+    .gi-accurate-step2-right {
+        margin-top: 40px;
+
+        .gi-accurate-step2-right-row {
+            display: flex;
+            margin-bottom: 14px;
+
+            &.btnBox {
+                justify-content: flex-end;
+            }
+
+            .gi-accurate-step2-right-row-lable {
+                width: 114px;
+                text-align: right;
+                font-size: 14px;
+                color: #344658;
+                font-weight: 400;
+                margin-right: 4px;
+
+                .titleBox {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+
+                .icon {
+                    width: 18px;
+                    height: 18px;
+                    margin-right: 6px;
+                    position: relative;
+                    @extend %iconHome;
+                    background-position: -363px -80px;
+
+                    &:hover {
+                        background-position: -383px -80px;
+
+                        .bubble {
+                            opacity: 1;
+                            top: -86px;
+                            animation: sheng .15s;
+                            visibility: visible;
+                        }
+                    }
+                }
+
+                .bubble {
+                    width: 214px;
+                    height: 75px;
+                    position: absolute;
+                    left: -30px;
+                    top: -55px;
+                    font-size: 12px;
+                    color: #fff;
+                    background: #485767;
+                    border-radius: 5px;
+                    text-indent: 0;
+                    padding: 10px 8px;
+                    opacity: 0;
+                    visibility: hidden;
+                    text-align: left;
+
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        left: 31px;
+                        bottom: -14px;
+                        width: 10px;
+                        height: 10px;
+                        border: 8px solid #485767;
+                        border-color: #485767 transparent transparent transparent;
+                    }
+                }
+
+                &.translateY {
+                    transform: translateY(8px)
+                }
+            }
+
+            .gi-accurate-step2-right-row-Space {
+                width: 26px;
+            }
+
+            .gi-accurate-step2-right-row-upload-box {
+                display: flex;
+                align-items: flex-end;
+
+                .upload-box {
+                    background: #FFFFFF;
+                    border: 1px solid #E9EBEE;
+                    border-radius: 4px;
+                    width: 135px;
+                    height: 36px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    color: #58A7F8;
+                    position: relative;
+
+                    &.active {
+                        border-color: #58A7F8;
+                        color: #58A7F8;
+                    }
+
+                    .fileIpt {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+
+                    .icon {
+                        @extend %iconGi;
+                        background-position: -235px -63px;
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 4px;
+                    }
+
+                    &:hover {
+                        border-color: #58A7F8;
+                        color: #5D90C5;
+
+                        .icon {
+                            background-position: -215px -63px;
+                        }
+                    }
+                }
+
+                .upload-txt {
+                    font-size: 12px;
+                    color: #B5BDC6;
+                    margin-left: 9px;
+                }
+            }
+        }
+    }
+}

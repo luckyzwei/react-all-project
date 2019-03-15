@@ -1,0 +1,7 @@
+.Public-notification {
+  padding: 24px; }
+  .Public-notification .ant-notification-notice-with-icon .ant-notification-notice-message {
+    margin-left: 38px;
+    margin-bottom: 8px; }
+  .Public-notification .ant-notification-notice-with-icon .ant-notification-notice-description {
+    margin-left: 38px; }

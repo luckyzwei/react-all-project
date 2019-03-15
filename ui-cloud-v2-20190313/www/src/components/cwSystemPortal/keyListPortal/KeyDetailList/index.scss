@@ -1,0 +1,91 @@
+@import 'styles/public.scss';
+.KeyDetailList {
+  height: 100%;
+  min-height: 500px;
+  .keyDetailPortal-top{
+    padding: 24px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1046px;
+    .keyDetailPortal-top-left{
+      display: flex;
+      align-items: center;
+      flex: 1;
+      .keyDetailPortal-top-left-title{
+        margin-right: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #344658;
+      }
+      .btn{
+        transition: all .3s;
+        border: 1px solid #58A7F8;
+        border-radius: 4px;
+        width: 108px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        font-size: 14px;
+        color: #58A7F8;
+        font-weight: 500;
+        margin-left: 12px;
+        cursor: pointer;
+        &:hover{
+          background: #58A7F8;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .KeyDetailList-table{
+    margin: 24px;
+    min-width: 1094px;
+    height: calc(100% - 180px);
+    background: #fff;
+    .KeyDetailList-table-main{
+      background: #fff;
+      width: 100%;
+      padding: 0 45px;
+      .table-main-thead{
+        font-size: 13px;
+        color: #344658;
+        font-weight: 500;
+      }
+      .table-main-tbody{
+        font-size: 14px;
+        color: #485767;
+        font-weight: 400;
+        .table-main-tr{
+          &:hover{
+            background: #ECF6FF;
+          }
+        }
+      }
+      .table-main-tr{
+        border-bottom: 1px solid #F0F1F3;
+        .table-main-tr-td{
+          padding: 18px 0;
+          text-align: center;
+          .td-btn{
+            color: #58A7F8;
+            cursor: pointer;
+            &:hover{
+              color: #288BF2;
+            }
+          }
+        }
+      }
+    }
+  }
+  .backBtn{
+    color: #5D90C5;
+    float: right;
+    margin: 0px 64px;
+    cursor: pointer;
+    &:hover{
+      color: #58A7F8;
+    }
+  }
+}

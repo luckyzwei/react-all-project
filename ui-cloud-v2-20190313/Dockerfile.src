@@ -1,0 +1,4 @@
+FROM hub.docker.gemii.cc:7443/python/nginx-mini:1.12
+
+RUN mkdir /src
+ADD ./ /src

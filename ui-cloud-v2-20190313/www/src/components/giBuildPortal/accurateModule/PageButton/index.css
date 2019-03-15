@@ -1,0 +1,42 @@
+.PageButton .PageContent .row .color-content .color-icon {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.PageButton {
+  display: flex;
+  margin-bottom: 34px; }
+  .PageButton .Pagetitle {
+    width: 112px;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #344658; }
+  .PageButton .PageContent {
+    background: #F7F8F9;
+    border-radius: 4px;
+    width: 516px;
+    padding: 20px 16px;
+    box-sizing: border-box; }
+    .PageButton .PageContent .row {
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      position: relative; }
+      .PageButton .PageContent .row .color-title {
+        width: 70px;
+        height: 2px;
+        margin-right: 4px;
+        display: block; }
+      .PageButton .PageContent .row .color-content {
+        display: flex;
+        align-items: flex-end;
+        font-size: 14px;
+        color: #5D90C5;
+        cursor: pointer; }
+        .PageButton .PageContent .row .color-content .color-icon {
+          background-position: -328px -91px;
+          width: 18px;
+          height: 18px;
+          margin-right: 2px; }
+          .PageButton .PageContent .row .color-content .color-icon:hover {
+            background-position: -328px -109px; }

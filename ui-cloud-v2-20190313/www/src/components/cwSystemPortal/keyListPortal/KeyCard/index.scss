@@ -1,0 +1,258 @@
+@import 'styles/public.scss';
+
+
+// @media screen and (min-width: 1782px) {
+//   .KeyCard{
+//     width: 296px !important;
+//     .KeyCar-content{
+//       .KeyCar-content-tag{
+//         .KeyCar-content-tag-item{
+//           margin-right: 20px !important;
+//           &:last-child {
+//             margin-right: 0 !important;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (min-width: 1920px) {
+//   .KeyCard{
+//     min-width: 1676px;
+//   }
+// }
+// @media screen and (min-width: 1440px) and (max-width: 1920px) {
+//   .KeyCard{
+//     min-width: 1196px;
+//   }
+// }
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .KeyCard{
+    min-width: 1034px;
+  }
+}
+
+.KeyCard {
+  background: #FFFFFF;
+  border-radius: 4px;
+  min-height: 300px;
+  .ant-table-body {
+    border-top: 1px solid #E9EBEE;
+  }
+  .ant-table-thead {
+    tr {
+      th {
+        background: #fff;
+        font-family: PingFangSC-Medium;
+        height: 64px;
+        line-height: 32px;
+      }
+    }
+  }
+  .ant-table-tbody {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #344658;
+    .kw-title {
+      display: flex;
+      align-items: center;
+    }
+    .kw-title-status {
+      color: #FF99A5;
+      border: 1px solid #FF99A5;
+      font-size: 12px;
+      display: inline-block;
+      width: 32px;
+      height: 18px;
+      border-radius: 2px;
+      text-align: center;
+      line-height: 18px;
+      margin-right: 5px; 
+    }
+    tr {
+      height: 56px;
+      line-height: 24px;
+    }
+    .act-odds {
+      background: rgba(141, 177, 215, .15);
+      color: #5D90C5;
+      border-radius: 2px;
+      width: 70px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin: 0;
+    }
+    .act-action-resp {
+      background: rgba(106, 210, 152, .18);
+      border-radius: 2px;
+      color: #6AD298;
+      padding: 0 5px 0 7px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin-right: 10px;
+    }
+    .act-action {
+      background: rgba(255, 153, 165, .2);
+      color: #FF99A5;
+      border-radius: 2px;
+      // width: 70px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin: 0 10px 0 0;
+      padding: 0 5px 0 7px;
+    }
+    .operate {
+      position: relative;
+      display: flex;
+      .viewBtn {
+        color: #58A7F8;
+        cursor: pointer;
+      }
+      .line {
+        border: 1px solid #F0F1F3;
+        margin: 0 16px;
+      }
+      .downBtn {
+        color: #58A7F8;
+        cursor: pointer;
+        &:hover .update {
+          display: block;
+        }
+      }
+      .update {
+        background: #FFFFFF;
+        box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+        border-radius: 4px;
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        left: 38px;
+        text-align: center;
+        z-index: 2;
+        display: none;
+        padding: 4px 0;
+        p {
+          height: 32px;
+          line-height: 32px;
+          margin: 0;
+          &:hover {
+            background: #ECF6FF;
+          }
+        }
+      }
+    }
+    
+  }
+
+
+
+
+  // .KeyCard-top {
+  //   padding: 17px 22px 16px;
+  //   font-size: 12px;
+  //   color: #B5BDC6;
+  //   font-weight: 400;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   border-bottom: 1px dashed #E9EBEE;
+  // }
+  // .KeyCar-content {
+  //   padding: 0 22px;
+  //   .KeyCar-content-title {
+  //     padding: 20px 0 14px;
+  //     font-size: 16px;
+  //     color: #344658;
+  //     height: 58px;
+  //     font-weight: 500;
+
+  //   }
+  //   .KeyCar-content-tag {
+  //     display: flex;
+  //     align-items: center;
+  //     margin-bottom: 18px;
+  //     .KeyCar-content-tag-item {
+  //       display: flex;
+  //       align-items: center;
+  //       font-size: 14px;
+  //       margin-right: 10px;
+  //       &:last-child {
+  //         margin-right: 0;
+  //       }
+  //       color: #5D90C5;
+  //       font-weight: 400;
+  //       flex: 1;
+  //       .KeyCar-content-tag-item-icon {
+  //         width: 6px;
+  //         height: 6px;
+  //         border-radius: 50%;
+  //         margin-right: 8px;
+  //         &.hover {
+  //           background: #B4D4F4;
+  //         }
+  //         &.leave {
+  //           background: #FF99A5;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // .KeyCard-footer {
+  //   display: flex;
+  //   align-items: center;
+  //   padding: 8px 0;
+  //   background: #F8F8F9;
+  //   border-top: 1px solid #e9ebee;
+  //   border-radius: 0 0 4px 4px;
+  //   .KeyCard-footer-line {
+  //     width: 2px;
+  //     height: 22px;
+  //     background: #e9ebee;
+  //   }
+  //   .KeyCard-footer-item {
+  //     flex: 1;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //     cursor: pointer;
+  //     &:hover {
+  //       color: #58A7F8;
+  //       .KeyCard-footer-item-icon {
+  //         &.stop{
+  //           background-position: -449px -1785px;
+  //         }
+  //         &.start {
+  //           background-position: -449px -1735px;
+  //         }
+  //         &.detail {
+  //           background-position: -449px -1760px;
+  //         }
+  //         &.hacking {
+  //           background-position: -116px -262px;
+  //         }
+  //       }
+  //     }
+  //     .KeyCard-footer-item-icon {
+  //       width: 24px;
+  //       height: 24px;
+  //       @extend %iconBackground;
+  //       margin-right: 4px;
+  //       &.stop{
+  //         background-position: -424px -1785px;
+  //       }
+  //       &.start {
+  //         background-position: -424px -1735px;
+  //       }
+  //       &.detail {
+  //         background-position: -424px -1760px;
+  //       }
+  //       &.hacking {
+  //         background-position: -116px -238px;
+  //       }
+  //     }
+  //   }
+  // }
+}

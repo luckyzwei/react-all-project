@@ -1,0 +1,37 @@
+{
+  "prod":{
+    "accessPath":"https://cloud.gemii.cc/v2",
+    "serverPath":{
+      "originName":"cloud.gemii.cc",
+      "imgPath":"/v2"
+    }
+  },
+  "test":{
+    "accessPath":"http://test.gemii.cc:58080/v2",
+    "serverPath":{
+      "originName":"test.gemii.cc:58080",
+      "imgPath":"/v2"
+    }
+  },
+  "dev":{
+    "accessPath":"http://dev.gemii.cc:58080/v2",
+    "serverPath":{
+      "originName":"dev.gemii.cc:58080",
+      "imgPath":"/v2"
+    }
+  },
+  "cloudinner":{
+    "accessPath":"https://cloudinner.gemii.cc/v2",
+    "serverPath":{
+      "originName":"cloudinner.gemii.cc",
+      "imgPath":"/v2"
+    }
+  },
+  "local":{
+    "accessPath":"https://cloud.gemii.cc/v2",
+    "serverPath":{
+      "originName":"cloud.gemii.cc",
+      "imgPath":""
+    }
+  }
+}

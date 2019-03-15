@@ -1,0 +1,44 @@
+@import 'styles/public.scss';
+
+.hp-nav {
+    padding: 0 86px;
+    @extend %font-14px;
+    color: #344658;
+    display: flex;
+    width: 1390px;
+    margin: 0 auto;
+    .hp-nav-list {
+        width: 228px;
+        font-size: 16px;
+        .active {
+            background: #ECF6FF;
+        }
+        li {
+            width: 196px;
+            height: 36px;
+            line-height: 36px;
+            padding: 0 8px;
+            border-radius: 4px;
+            position: relative;
+            margin: 0 32px 10px 0;
+            cursor: default;
+            .shift-right {
+                width: 1%;
+                height: 36px;
+                transition: width .1s;
+                position: absolute;
+                left: 0;
+                border-radius: 4px;
+            }
+            span {
+                position: relative;
+            }
+            &:hover {
+                .shift-right {
+                    width: 100%;
+                    background: #ECF6FF;
+                }
+            }
+        }
+    }
+}

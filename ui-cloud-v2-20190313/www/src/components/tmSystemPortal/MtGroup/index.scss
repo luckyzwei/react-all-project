@@ -1,0 +1,81 @@
+@import 'styles/public.scss';
+
+.MtGroup {
+  padding: 0 36px;
+  .MtGroup-header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    padding-right: 62px;
+    justify-content: space-between;
+    .MtGroup-header-left {
+      display: flex;
+      align-items: center;
+      .MtGroup-header-nav {
+        width: 78px;
+        text-align: center;
+        height: 22px;
+        line-height: 22px;
+        font-size: 14px;
+        color: #344658;
+        font-weight: 400;
+        margin-right: 10px;
+        cursor: pointer;
+        &.active {
+          background: #6AD298;
+          border-radius: 2px;
+          color: #fff;
+          font-weight: 400;
+        }
+      }
+    }
+    .MtGroup-header-right {
+      font-size: 14px;
+      color: #5D90C5;
+      font-weight: 400;
+      text-decoration: underline;
+      cursor: pointer;
+      &:hover {
+        color: #58A7F8;
+      }
+    }
+  }
+  .MtGroup-content {
+    display: flex;
+    margin-bottom: 30px;
+    .MtGroup-content-shuttle {
+      height: 466px;
+      width: 122px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      .MtGroup-content-shuttle-item {
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        @extend %iconGi;
+        cursor: pointer;
+        &.left {
+          margin-bottom: 36px;
+          background-position: -299px -19px;
+          &.active {
+            background-position: -431px -19px;
+          }
+        }
+        &.right {
+          background-position: -387px -19px;
+          &.active {
+            background-position: -343px -19px;
+          }
+        }
+      }
+    }
+  }
+  .MtGroup-footer {
+    width: 1096px;
+    display: flex;
+    padding: 0 62px;
+    justify-content: flex-end;
+  }
+}

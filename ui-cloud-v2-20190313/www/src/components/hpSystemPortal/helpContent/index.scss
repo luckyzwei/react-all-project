@@ -1,0 +1,32 @@
+@import 'styles/public.scss';
+
+.hp-content {
+    border-left: 1px solid #E9EBEE;
+    padding: 0 0 0 73px;
+    color: #344658;
+    p {
+        margin: 0;
+    }
+    .Introduction {
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .hp-cont-title {
+        margin: 0 0 14px;
+        em {
+            @extend %font-24px-medium;
+            color: #344658;
+            margin: 0 0 20px;
+        }
+    }
+    .hp-cont-step {
+        margin-bottom: 45px;
+    }
+    .hp-cont-txt {
+        margin-bottom: 10px;
+    }
+    .hp-cont-img {
+        border: 1px solid #E9EBEE;
+        width: 800px;
+    }
+}

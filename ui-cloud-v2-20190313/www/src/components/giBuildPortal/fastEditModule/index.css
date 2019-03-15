@@ -1,0 +1,137 @@
+.fast-edit-build-group .header {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.fast-edit-build-group .addBox, .fast-edit-build-group .ant-table {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.fast-edit-build-group .qrCode {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 420px; }
+
+.fast-edit-build-group {
+  background: #f0f1f3;
+  height: 100%;
+  overflow: auto;
+  padding: 24px; }
+  .fast-edit-build-group .header {
+    min-width: 1084px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    color: #485767; }
+    .fast-edit-build-group .header .dataItem {
+      width: 530px;
+      height: 100px;
+      background: #FFF;
+      flex: auto;
+      padding-left: 7%;
+      display: flex;
+      align-items: center; }
+      .fast-edit-build-group .header .dataItem:first-child {
+        margin-right: 24px; }
+    .fast-edit-build-group .header .dataName {
+      margin-right: 32px; }
+  .fast-edit-build-group .content {
+    min-width: 1084px;
+    padding: 30px 30px 37px 18px;
+    background: #FFF; }
+  .fast-edit-build-group .qrCode {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    background-position: -517px -92px;
+    cursor: pointer; }
+  .fast-edit-build-group .qrBox {
+    position: absolute;
+    width: 124px;
+    height: 140px;
+    padding: 13px 20px;
+    font-size: 12px;
+    background: #FFF;
+    box-shadow: 0 1px 6px 0 #DADEE2;
+    border-radius: 4px;
+    text-align: center;
+    left: 0;
+    top: 20px;
+    z-index: 3;
+    display: none; }
+  .fast-edit-build-group .qrImg {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 9px; }
+  .fast-edit-build-group .operate {
+    cursor: pointer;
+    color: #5D90C5; }
+    .fast-edit-build-group .operate:hover {
+      color: #58A7F8; }
+  .fast-edit-build-group .bottom {
+    color: #5D90C5;
+    margin-top: 20px;
+    min-width: 1084px; }
+    .fast-edit-build-group .bottom .backBtn {
+      cursor: pointer;
+      float: right;
+      margin-right: 120px; }
+      .fast-edit-build-group .bottom .backBtn:hover {
+        color: #58A7F8; }
+  .fast-edit-build-group .addBox {
+    width: 454px;
+    height: 423px;
+    color: #344658; }
+    .fast-edit-build-group .addBox .addBox-title {
+      height: 58px;
+      border-bottom: 1px solid #E9EBEE;
+      font-size: 16px;
+      line-height: 58px;
+      padding-left: 22px; }
+    .fast-edit-build-group .addBox .addBox-content {
+      padding: 33px 30px 33px 24px; }
+    .fast-edit-build-group .addBox .row {
+      display: flex;
+      margin-bottom: 20px;
+      flex-wrap: wrap; }
+      .fast-edit-build-group .addBox .row .inputBox {
+        position: relative; }
+      .fast-edit-build-group .addBox .row .label {
+        line-height: 36px; }
+      .fast-edit-build-group .addBox .row .numberIpt {
+        width: 340px;
+        height: 36px;
+        padding-left: 10px;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px; }
+      .fast-edit-build-group .addBox .row .unit {
+        position: absolute;
+        width: 30px;
+        height: 34px;
+        line-height: 34px;
+        top: 1px;
+        right: 1px;
+        background: #FFF; }
+      .fast-edit-build-group .addBox .row .nameList {
+        width: 340px;
+        height: 150px;
+        background: #F8F8F9;
+        border-radius: 4px;
+        padding: 8px 16px;
+        overflow: auto;
+        line-height: 20px; }
+      .fast-edit-build-group .addBox .row .errTip {
+        width: 100%;
+        color: #F75A5A;
+        font-size: 12px;
+        height: 20px;
+        padding-left: 56px; }
+  .fast-edit-build-group .pageFooter {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0; }
+  .fast-edit-build-group .ant-table {
+    color: #344658; }
+  .fast-edit-build-group .ant-table-thead > tr > th {
+    color: #344658;
+    background: #FFF; }

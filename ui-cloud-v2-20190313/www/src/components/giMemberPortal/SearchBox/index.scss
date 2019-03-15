@@ -1,0 +1,47 @@
+@import 'styles/public.scss';
+.gi-member .searchBox {
+    height: 84px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1155px;
+    padding: 0 24px;
+    .row1 {
+        width: 350px;
+        margin-left: 36px;
+        margin-right: 136px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        color: #344658;
+        font-weight: 500;
+        .wechatimg{
+            width: 34px;
+            height: 34px;
+            @extend %iconGi;
+            background-position: -475px -19px;
+            margin-right: 10px;
+        }
+    }
+    .row2 {
+        margin-right: 30px;
+        display: flex;
+    }
+    .searchBtn {
+        border: 1px solid #58A7F8;
+        border-radius: 4px;
+        width: 108px;
+        height: 36px;
+        @extend %font-14px;
+        color: #58A7F8;
+        text-align: center;
+        line-height: 34px;
+        margin: 0 10px 0 30px;
+        cursor: pointer;
+        &:hover {
+            background: #58A7F8;
+            color: #FFFFFF;
+        }
+    }
+}

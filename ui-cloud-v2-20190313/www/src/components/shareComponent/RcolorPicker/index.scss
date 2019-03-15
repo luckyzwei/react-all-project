@@ -1,0 +1,17 @@
+@import 'styles/public.scss';
+.RcolorPicker {
+    width: 260px;
+    min-height: 336px;
+    position: absolute;
+    .sketch-picker {
+        width: 240px !important;
+        div {
+            input {
+                text-align: center;
+                color: #000;
+                border-radius: 4px;
+                padding: 1px 10% !important;
+            }
+        }
+    }
+}

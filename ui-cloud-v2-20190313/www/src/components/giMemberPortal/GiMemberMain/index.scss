@@ -1,0 +1,102 @@
+@import 'styles/public.scss';
+.gi-member {
+    height: calc(100% - 60px);
+    position: relative;
+    overflow: auto;
+    background: #F8F8F9;
+    .ant-table{
+        @extend %font-14px;
+        color: #344658;
+    }
+    .ant-table-thead > tr > th{
+        background: #FFF;
+        color: #344658;
+    }
+    @extend %font-14px;
+    // @media screen and (max-width: 1920px) {
+    //     .pageSize {
+    //         min-width: 1452px;
+    //     }
+    // }
+    @media screen and (max-width: 1440px) {
+        .pageSize {
+            min-width: 1140px;
+        }
+    }
+    @media screen and (max-width: 1220px) {
+        .pageSize {
+            min-width: 1140px;
+        }
+    }
+    .memberWrapper {
+        min-height: calc(100% - 138px);
+        border: 24px solid #F8F8F9;
+        border-bottom: 0;
+        background: #FFF;
+        padding: 0 40px;
+        .refresh {
+            padding: 24px 0;
+            @extend %font-14px;
+            color: #5D90C5;
+            display: flex;
+            cursor: pointer;
+            justify-content: flex-end;
+            &:hover {
+                color: #58A7F8;
+                .icon {
+                    background-position: -25px -333px;
+                }
+            }
+            .txt {
+                margin: 0 0 0 7px;
+            }
+            .icon {
+                width: 20px;
+                height: 20px;
+                @extend %iconGi;
+                background-position: -5px -333px;
+            }
+        }
+        .operate{
+            color: #58A7F8;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+                color: #5D90C5;;
+            }
+        }
+        .lord {
+            border: 1px solid rgba(105, 210, 152, .15);
+            color: #6AD298;
+            border-radius: 4px;
+            padding: 0 6px;
+        }
+        .roletype{
+            display: inline-block;
+            border: 1px solid rgba(106,210,252,.15);
+            border-radius: 4px;
+            padding: 2px 4px;
+            font-size: 12px;
+            color: #6AD298;
+            line-height: 16px;
+        }
+    }
+    .pageFooter {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    .backGI {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        float: right;
+        cursor: pointer;
+        color: #5D90C5;
+        margin: -20px 80px 20px;
+        &:hover {
+            color: #58A7F8;
+        }
+    }
+}
