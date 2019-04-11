@@ -1,0 +1,54 @@
+.ButtonBox {
+  width: 108px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all .5s;
+  cursor: pointer; }
+  .ButtonBox.cancel {
+    border: 1px solid #E9EBEE;
+    color: #B5BDC6;
+    margin-right: 30px; }
+    .ButtonBox.cancel:hover {
+      color: #485767; }
+  .ButtonBox.confirm {
+    background: #58A7F8;
+    border: 1px solid #58A7F8;
+    color: #fff; }
+    .ButtonBox.confirm:hover {
+      background: #288BF2; }
+  .ButtonBox.white {
+    background: #fff;
+    border: 1px solid #58A7F8;
+    color: #58A7F8; }
+    .ButtonBox.white:hover {
+      background: #288BF2;
+      color: #fff; }
+  .ButtonBox.noBg {
+    border: 1px solid #58A7F8;
+    color: #58A7F8; }
+    .ButtonBox.noBg:hover {
+      background: #288BF2;
+      color: #fff; }
+  .ButtonBox.delete {
+    background: #F75A5A;
+    border: 1px solid #F75A5A;
+    color: #fff;
+    opacity: .8; }
+    .ButtonBox.delete:hover {
+      opacity: 1; }
+  .ButtonBox.gray {
+    background: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #288BF2; }
+    .ButtonBox.gray:hover {
+      background: rgba(255, 255, 255, 0.8); }
+  .ButtonBox.line {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    color: #fff; }
+    .ButtonBox.line:hover {
+      background: #fff;
+      color: #288BF2; }

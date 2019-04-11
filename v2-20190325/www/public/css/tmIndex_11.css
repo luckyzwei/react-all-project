@@ -1,0 +1,383 @@
+@charset "UTF-8";
+.jm-container {
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow: auto;
+  background: #F0F1F3;
+}
+
+.tm-listContent {
+  background: #F0F1F3;
+  height: 100%;
+  min-width: 1100px;
+}
+
+/*** list 搜索区域***/
+.tm-listContent .searchBox {
+  height: 82px;
+  width: 100%;
+  background: #fff;
+  padding: 22px 0;
+}
+
+.tm-listContent .searchBox .selectWrapper {
+  float: left;
+  height: 30px;
+  margin-right: 40px;
+}
+
+.tm-listContent .searchBox .selectWrapper:nth-child(1) {
+  margin-left: 24px;
+}
+
+.tm-listContent .searchBox .selectLabel {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #344658;
+  float: left;
+  line-height: 36px;
+  height: 36px;
+  margin-right: 4px;
+}
+
+.tm-listContent .searchBox .selectWrapper .titleInput {
+  width: 270px;
+  height: 36px;
+  line-height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #E9EBEE;
+  border-radius: 4px;
+  text-indent: 15px;
+  color: #344658;
+}
+.tm-listContent .searchBox .selectWrapper .titleInput:hover {
+  border-color: #58A7F8 !important;
+}
+.tm-listContent .searchBox .selectWrapper .titleInput:focus {
+  border-color: #58A7F8 !important;
+}
+
+.tm-listContent .searchBox .searchBtn {
+  float: left;
+  width: 108px;
+  height: 36px;
+  line-height: 36px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #58A7F8;
+  border-radius: 4px;
+  color: #fff;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #58A7F8;
+  margin-left: 18px;
+}
+
+.tm-listContent .searchBox .searchBtn:hover {
+  background: #58A7F8;
+  color: #FFFFFF;
+}
+
+.tm-listContent .searchBox .selectWrappers {
+  float: left;
+  margin-right: 40px;
+}
+
+.tm-listContent .searchBox .selectWrappers .selectBoxs {
+  width: 180px;
+}
+
+/***表格区域***/
+.tm-listContent .tableContent {
+  background: #fff;
+  overflow: auto;
+  margin: 24px;
+  box-sizing: border-box;
+  min-height: calc(100% - 132px);
+}
+
+.tm-listContent .tableContent .operateArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px;
+}
+
+.tm-listContent .tableContent .addAdmin {
+  background: #58A7F8;
+  border-radius: 4px;
+  width: 108px;
+  height: 36px;
+  line-height: 36px;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tm-listContent .tableContent .addAdmin:hover {
+  background: #288BF2;
+}
+
+.tm-listContent .tableContent .deleteAdmin {
+  cursor: pointer;
+  color: #b5bdc6;
+}
+
+.tm-listContent .tableContent .deleteAdmin:hover {
+  color: #f75a5a;
+}
+
+.tm-listContent .tableContent .deleteAdmin em {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  background-position: -55px -50px;
+}
+
+.tm-listContent .tableContent .deleteAdmin:hover em {
+  background-position: -79px -50px;
+}
+
+.tm-listContent .tableContent .tableArea {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #344658;
+  margin: 0 24px;
+}
+
+.tm-listContent .tableContent .tableArea table .ant-pagination {
+  margin-top: 48px;
+  margin-bottom: 45px;
+}
+
+.tm-listContent .tableContent table {
+  width: 100%;
+  /*border-top: 1px solid #E9EBEE;*/
+  border-collapse: collapse;
+}
+
+.tm-listContent .tableContent table thead tr:first-child {
+  border-top: 1px solid #e9ebee;
+}
+
+.tm-listContent .tableContent table .tfoot {
+  text-align: center;
+}
+
+.tm-listContent .tableContent table tbody .checkBox .unchecked {
+  opacity: 0;
+}
+
+.tm-listContent .tableContent .tableArea .checkBox .unchecked {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-position: -18px -45px;
+}
+
+.tm-listContent .tableContent .tableArea .checkBox .checked {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-position: -38px -45px;
+}
+
+.jm-listContent .tableContent table tr:hover {
+  background: #f8f8f9;
+}
+
+.tm-listContent .tableContent table tbody tr:hover .checkBox .unchecked {
+  opacity: 1;
+}
+
+.tm-listContent .tableContent table th {
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #344658;
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px solid #e9ebee;
+  text-align: left;
+}
+
+.tm-listContent .tableContent table td {
+  line-height: 48px;
+  height: 48px;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #344658;
+}
+
+.tm-listContent .tableContent table .edit {
+  cursor: pointer;
+  color: #58A7F8;
+}
+
+.tm-listContent .tableContent table .edit:hover {
+  color: #288BF2;
+}
+
+.tm-listContent .tableContent tbody tr {
+  cursor: pointer;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.tm-listContent .tableContent tbody tr:hover {
+  background: #ECF6FF;
+}
+
+/***基本信息编辑***/
+.tm-listContent .manageGroupBox {
+  width: 100%;
+  min-width: 1100px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 54px;
+}
+
+.tm-listContent .manageGroupBox .MtGroup .MtGroup-header {
+  padding-top: 54px;
+}
+
+.tm-listContent .manageGroupBox .saveBtn {
+  background: #58A7F8;
+  border-radius: 4px;
+  width: 108px;
+  height: 36px;
+  line-height: 36px;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tm-listContent .manageGroupBox .saveBtn:hover {
+  background: #288BF2;
+}
+
+.tm-listContent .manageGroupBox .notSavebtn {
+  background: rgba(88, 167, 248, 0.5);
+}
+
+/***verify***/
+.tm-listContent .editInfoBox #fail {
+  border: 1px solid #f75a5a;
+}
+
+.tm-listContent .editInfoBox .selectBox #fail {
+  border: 1px solid #f75a5a !important;
+}
+
+/***群管理编辑*/
+/***verify***/
+.tm-listContent .manageGroupBox .selectBox #fail {
+  border: 1px solid #f75a5a !important;
+}
+
+.tm-listContent .manageGroupBox .boxInside {
+  margin-top: 40px;
+}
+
+.tm-listContent .manageGroupBox .groupNameList {
+  overflow-y: auto;
+  width: 404px;
+  height: 362px;
+  border: 1px solid #dadee2;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.tm-listContent .manageGroupBox .groupNameList ul li {
+  height: 26px;
+  cursor: pointer;
+}
+
+.tm-listContent .manageGroupBox .groupNameList ul li:hover {
+  background: #f8f8f9;
+}
+
+.tm-listContent .manageGroupBox .groupNameList ul li:hover .removeGroup {
+  display: block;
+}
+
+.tm-listContent .manageGroupBox .title {
+  font-family: PingFangSC-Medium;
+  font-size: 13px;
+}
+
+.tm-listContent .manageGroupBox .groupNameList .removeGroup {
+  font-size: 10px;
+  display: none;
+  float: right;
+  margin: 3px 8px;
+  padding: 2px 10px;
+  color: #f75a5a;
+  border: 1px solid #f75a5a;
+  border-radius: 4px;
+}
+
+.tm-listContent .manageGroupBox .groupNameList .groupName {
+  float: left;
+  margin: 4px 7px;
+}
+
+.tm-listContent .manageGroupBox .editGroupName {
+  width: 404px;
+  height: 30px;
+  margin: 20px 0 21px 0;
+}
+
+.tm-listContent .manageGroupBox .editBtn {
+  float: right;
+  padding: 6px 17px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 2px;
+  background: #58a7f8;
+}
+
+.tm-listContent .manageGroupBox .editBtn:hover {
+  background: #288bf2;
+}
+
+.tm-listContent .manageGroupBox .operateArea {
+  line-height: 30px;
+  width: 404px;
+  height: 30px;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.tm-listContent .manageGroupBox .keepBtn {
+  padding: 6px 27px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+  background: #58a7f8;
+}
+
+.tm-listContent .manageGroupBox .keepBtn:hover {
+  background: #288bf2;
+}
+
+.tm-listContent .manageGroupBox .backBtn {
+  padding: 6px 27px;
+  cursor: pointer;
+}
+
+.tm-listContent .manageGroupBox .backBtn u {
+  text-decoration: none;
+  color: #b5bdc6;
+}
+
+.tm-listContent .manageGroupBox .backBtn u:hover {
+  text-decoration: underline;
+  color: #5d90c5;
+}

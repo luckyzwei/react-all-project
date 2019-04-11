@@ -1,0 +1,32 @@
+@import 'styles/public.scss';
+.PageTime {
+    display: flex;
+    margin-bottom: 34px;
+    .Pagetitle {
+        width: 112px;
+        text-align: right;
+        margin-right: 4px;
+        font-size: 14px;
+        color: #344658;
+    }
+    .PageContent {
+        background: #F7F8F9;
+        border-radius: 4px;
+        width: 516px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+        .row {
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            .phone-content-title {
+                width: 70px;
+                margin-right: 4px;
+                font-size: 14px;
+                color: #344658;
+                text-align: right;
+            }
+        }
+    }
+}

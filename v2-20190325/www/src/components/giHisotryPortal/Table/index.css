@@ -1,0 +1,77 @@
+.gi-history .historyTable .ant-table-thead > tr > td, .gi-history .historyTable .operate {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-history .historyTable .ant-table-thead > tr > th {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 14px; }
+
+.gi-history .historyTable {
+  margin-bottom: 50px; }
+  .gi-history .historyTable .ant-spin-nested-loading {
+    min-height: 300px; }
+  .gi-history .historyTable .ant-table-thead > tr > th {
+    color: #344658;
+    background: #ffffff; }
+  .gi-history .historyTable .ant-table-thead > tr > td {
+    color: #485767; }
+  .gi-history .historyTable .ant-table-tbody > tr:hover > td {
+    background: #ECF6FF; }
+  .gi-history .historyTable .operate {
+    display: flex;
+    align-items: center;
+    color: #58A7F8; }
+    .gi-history .historyTable .operate .viewBtn,
+    .gi-history .historyTable .operate .downBtn {
+      cursor: pointer; }
+    .gi-history .historyTable .operate .line {
+      width: 2px;
+      height: 18px;
+      background: #F0F1F3;
+      margin: 0 16px; }
+  .gi-history .historyTable .status {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer; }
+    .gi-history .historyTable .status .circle {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      margin-right: 8px; }
+    .gi-history .historyTable .status .describetion {
+      position: absolute;
+      min-width: 100px;
+      max-width: 184px;
+      font-size: 12px;
+      color: #fff;
+      line-height: normal;
+      background: #344658;
+      border-radius: 4px;
+      padding: 7px 13px;
+      z-index: 99;
+      left: 8px;
+      top: 32px;
+      display: none;
+      text-align: left; }
+    .gi-history .historyTable .status:hover .describetion {
+      display: block; }
+    .gi-history .historyTable .status .describetion i {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: #344658;
+      transform: rotate(45deg);
+      left: 30px;
+      top: -5px;
+      z-index: -1; }
+  .gi-history .historyTable .normal .circle {
+    background: #DADEE2; }
+  .gi-history .historyTable .running .circle {
+    background: #6AD298; }
+  .gi-history .historyTable .error .circle {
+    background: #FF99A5; }
+  .gi-history .historyTable .success .circle {
+    background: #58A7F8; }

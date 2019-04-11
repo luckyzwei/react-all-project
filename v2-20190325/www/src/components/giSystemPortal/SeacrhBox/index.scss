@@ -1,0 +1,111 @@
+@import 'styles/public.scss';
+
+.gi-container .searchBox {
+    height: 134px;
+    min-width: 1132px;
+    padding: 24px;
+    flex: none;
+    display: flex;
+    background-color: #fff;
+
+    .left {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1084px;
+        flex: none;
+        align-content: space-between;
+        justify-content: space-between;
+
+        .row1 {
+            flex: none;
+            width: 346px;
+
+            .self {
+                text-indent: 16px;
+                cursor: pointer;
+                color: #344658;
+                &:hover {
+                    border: 1px solid #58A7F8;
+                }
+            }
+        }
+
+        .row2 {
+            flex: none;
+            width: 274px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: flex-start;
+        }
+
+        .row3 {
+            flex: none;
+            width: 260px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: flex-start;
+        }
+
+        .searchBtn {
+            border: 1px solid #58A7F8;
+            border-radius: 4px;
+            width: 108px;
+            height: 36px;
+            line-height: 34px;
+            text-align: center;
+            @extend %font-14px;
+            color: #58A7F8;
+            cursor: pointer;
+
+            &:hover {
+                background: #58A7F8;
+                border: 1px solid #58A7F8;
+                border-radius: 4px;
+                color: #fff;
+            }
+        }
+    }
+
+    .right {
+        flex: none;
+        @extend %font-12px;
+        color: #5D90C5;
+
+        .expand {
+            margin-left: 44px;
+            margin-top: 10px;
+            cursor: pointer;
+
+            // .icon-arrow {
+            //     display: inline-block;
+            //     vertical-align: middle;
+            //     margin-top: -2px;
+            //     margin-left: 4px;
+            //     width: 12px;
+            //     height: 12px;
+            //     @extend %iconGi;
+            //     background-position: -164px -456px;
+            // }
+
+            // &:hover {
+            //     color: #58A7F8;
+
+            //     .icon-arrow {
+            //         background-position: -176px -456px;
+            //     }
+            // }
+        }
+
+        // .expanded {
+        //     .icon-arrow {
+        //         background-position: -164px -468px;
+        //     }
+
+        //     &:hover {
+        //         .icon-arrow {
+        //             background-position: -176px -468px;
+        //         }
+        //     }
+        // }
+    }
+}

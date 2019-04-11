@@ -1,0 +1,155 @@
+.gi-fast-step2 .previewBox .preview .phone .page .intro,
+.typeSelect .previewBox .preview .phone .page .intro, .gi-fast-step2 .previewBox .preview .phone .codeBox .info,
+.typeSelect .previewBox .preview .phone .codeBox .info {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.gi-fast-step2 .previewBox .title,
+.typeSelect .previewBox .title, .gi-fast-step2 .previewBox .preview .phone .page .intro h6,
+.typeSelect .previewBox .preview .phone .page .intro h6 {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 14px; }
+
+.gi-fast-step2 .previewBox .preview .phone .codeBox .name,
+.typeSelect .previewBox .preview .phone .codeBox .name, .gi-fast-step2 .previewBox .preview .phone .codeBox .refresh,
+.typeSelect .previewBox .preview .phone .codeBox .refresh, .gi-fast-step2 .previewBox .preview .phone .codeBox .number,
+.typeSelect .previewBox .preview .phone .codeBox .number {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 12px; }
+
+.gi-fast-step2 .previewBox .preview .phone .page .pageTitle,
+.typeSelect .previewBox .preview .phone .page .pageTitle {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 18px; }
+
+.gi-fast-step2 .previewBox .preview .arrowLeft,
+.gi-fast-step2 .previewBox .preview .arrowRight,
+.typeSelect .previewBox .preview .arrowLeft,
+.typeSelect .previewBox .preview .arrowRight {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.gi-fast-step2 .previewBox,
+.typeSelect .previewBox {
+  margin-top: 46px; }
+  .gi-fast-step2 .previewBox .title,
+  .typeSelect .previewBox .title {
+    color: #485767;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 9px; }
+  .gi-fast-step2 .previewBox .preview,
+  .typeSelect .previewBox .preview {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .gi-fast-step2 .previewBox .preview .arrowLeft,
+    .gi-fast-step2 .previewBox .preview .arrowRight,
+    .typeSelect .previewBox .preview .arrowLeft,
+    .typeSelect .previewBox .preview .arrowRight {
+      width: 36px;
+      height: 36px;
+      background-position: -5px -277px;
+      cursor: pointer; }
+      .gi-fast-step2 .previewBox .preview .arrowLeft.active,
+      .gi-fast-step2 .previewBox .preview .arrowRight.active,
+      .typeSelect .previewBox .preview .arrowLeft.active,
+      .typeSelect .previewBox .preview .arrowRight.active {
+        background-position: -77px -277px; }
+    .gi-fast-step2 .previewBox .preview .arrowRight,
+    .typeSelect .previewBox .preview .arrowRight {
+      background-position: -113px -277px; }
+      .gi-fast-step2 .previewBox .preview .arrowRight.active,
+      .typeSelect .previewBox .preview .arrowRight.active {
+        background-position: -41px -277px; }
+    .gi-fast-step2 .previewBox .preview .phone,
+    .typeSelect .previewBox .preview .phone {
+      width: 317px;
+      height: 602px;
+      background: url(/images/bj/fast_build_bj.png) no-repeat;
+      position: relative; }
+      .gi-fast-step2 .previewBox .preview .phone .innerPhone,
+      .typeSelect .previewBox .preview .phone .innerPhone {
+        width: 246px;
+        height: 464px;
+        position: absolute;
+        left: 34px;
+        top: 64px;
+        overflow: hidden; }
+        .gi-fast-step2 .previewBox .preview .phone .innerPhone .innerBox,
+        .typeSelect .previewBox .preview .phone .innerPhone .innerBox {
+          width: 200%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          transition: all ease-in-out .3s; }
+      .gi-fast-step2 .previewBox .preview .phone .page,
+      .typeSelect .previewBox .preview .phone .page {
+        width: 246px;
+        height: 464px;
+        float: left;
+        overflow: auto; }
+        .gi-fast-step2 .previewBox .preview .phone .page .pageTitle,
+        .typeSelect .previewBox .preview .phone .page .pageTitle {
+          color: #FFFFFF;
+          text-align: center;
+          margin-top: 36px;
+          height: 57px; }
+        .gi-fast-step2 .previewBox .preview .phone .page .intro,
+        .typeSelect .previewBox .preview .phone .page .intro {
+          color: #FFFFFF;
+          margin: 0 14px; }
+          .gi-fast-step2 .previewBox .preview .phone .page .intro h6,
+          .typeSelect .previewBox .preview .phone .page .intro h6 {
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            line-height: 1;
+            min-height: 14px; }
+          .gi-fast-step2 .previewBox .preview .phone .page .intro p,
+          .typeSelect .previewBox .preview .phone .page .intro p {
+            min-height: 72px;
+            margin-bottom: 28px;
+            word-break: break-all; }
+      .gi-fast-step2 .previewBox .preview .phone .codeBox,
+      .typeSelect .previewBox .preview .phone .codeBox {
+        width: 219px;
+        height: 233px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        border-radius: 4px;
+        padding: 10px 8px; }
+        .gi-fast-step2 .previewBox .preview .phone .codeBox .name,
+        .typeSelect .previewBox .preview .phone .codeBox .name {
+          color: #344658; }
+          .gi-fast-step2 .previewBox .preview .phone .codeBox .name img,
+          .typeSelect .previewBox .preview .phone .codeBox .name img {
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
+            margin-right: 7px; }
+        .gi-fast-step2 .previewBox .preview .phone .codeBox .code,
+        .typeSelect .previewBox .preview .phone .codeBox .code {
+          display: block;
+          margin: 0 auto; }
+        .gi-fast-step2 .previewBox .preview .phone .codeBox .info,
+        .typeSelect .previewBox .preview .phone .codeBox .info {
+          color: #485767;
+          text-align: center;
+          margin-top: 3px; }
+        .gi-fast-step2 .previewBox .preview .phone .codeBox .refresh,
+        .typeSelect .previewBox .preview .phone .codeBox .refresh {
+          color: #5D90C5;
+          margin-top: 8px;
+          text-align: center; }
+        .gi-fast-step2 .previewBox .preview .phone .codeBox .number,
+        .typeSelect .previewBox .preview .phone .codeBox .number {
+          margin: 8px 0 16px;
+          color: #344658;
+          text-align: center; }
+
+.typeSelect .fastPhonePreview {
+  padding-left: 57px; }

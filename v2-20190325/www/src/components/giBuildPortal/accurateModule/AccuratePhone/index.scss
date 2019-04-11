@@ -1,0 +1,213 @@
+@import 'styles/public.scss';
+
+.gi-accurate-step2 .gi-accurate-step2-left,
+.typeSelect .gi-accurate-step2-left {
+    width: 446px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .gi-accurate-step2-left-title {
+        font-size: 14px;
+        color: #485767;
+        font-weight: 400;
+        margin-top: 41px;
+        margin-left: 30px;
+    }
+
+    .gi-accurate-step2-left-content {
+        width: 296px;
+        height: 584px;
+        background: url(#{$img-path}/images/bj/fast_build_bj.png) no-repeat;
+        position: relative;
+
+        .contentBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            width: 246px;
+            height: 464px;
+            top: 64px;
+            left: 34px;
+            padding: 0 23px;
+            overflow: auto;
+
+            .contentBg {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: rgba(52,70,88,.2);
+            }
+
+            .contentHeader {
+                min-height: 238px;
+                margin-bottom: 16px; // position: relative;
+                width: 206px;
+                flex: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .phone-row {
+                    width: 200px;
+                }
+            }
+
+            .activityRule-row {
+                height: 37px;
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+                width: 100%;
+                flex: none;
+
+                .activityRule {
+                    font-size: 10px;
+                    color: #FFFFFF;
+                    text-align: right;
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .activityName-row {
+                width: 100%;
+                // min-height: 27px;
+                text-align: center;
+                font-size: 18px;
+                color: #FFFFFF;
+                font-weight: 500;
+                margin-bottom: 11px;
+                flex: none;
+                cursor: pointer;
+
+                .activityName {
+                    min-height: 27px;
+                }
+            }
+
+            .row {
+                width: 200px;
+                height: 32px;
+                background: #FFFFFF;
+                border-radius: 4px;
+                font-size: 12px;
+                font-weight: 400;
+                cursor: move;
+
+                &:hover {
+                    opacity: .8;
+                }
+
+                &.row-code {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 0px;
+
+                    .row-content-line {
+                        width: 2px;
+                        height: 18px;
+                        background: #e9ebee;
+                    }
+
+                    .row-content-code {
+                        line-height: 32px;
+                        width: 120px;
+                        text-align: center;
+                    }
+
+                    .row-content-get {
+                        color: #B5BDC6;
+                        flex: 1;
+                        text-align: center;
+                    }
+                }
+
+                .row-content {
+                    width: 100%;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    position: relative;
+
+                    .row-content-icom {
+                        display: block;
+                        position: absolute;
+                        @extend %iconGi;
+                        background-position: -99px -19px;
+                        width: 20px;
+                        height: 20px;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            .row-agreement {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+                font-size: 12px;
+                justify-content: content;
+                margin-bottom: 6px;
+                flex: none;
+
+                .row-agreement-icon {
+                    width: 9px;
+                    height: 9px;
+                    border: 1px solid #fff;
+                    border-radius: 1px;
+                    margin-right: 9px;
+                }
+            }
+
+            .row-confirm {
+                display: flex;
+                justify-content: center;
+                flex: none;
+
+                .confrim {
+                    background: #FFFFFF;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    color: #FFFFFF;
+                    width: 200px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox {
+
+    .activityRule-row .activityRule {
+        cursor: default;
+    }
+
+    .activityName-row {
+        cursor: default;
+    }
+
+    .row {
+        cursor: default;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .row-agreement {
+        cursor: default;
+    }
+
+    .row-confirm .confrim {
+        cursor: default;
+    }
+}

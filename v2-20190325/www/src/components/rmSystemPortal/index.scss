@@ -1,0 +1,142 @@
+@import 'styles/public.scss';
+
+.rm-overview {
+    height: 100%;
+    position: relative;
+    padding: 24px;
+    @extend %font-14px;
+    color: #344658;
+
+    .dataRow {
+        height: 140px;
+        min-width: 1084px;
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+
+        .groupNum {
+            width: 56%;
+            height: 140px;
+            flex: auto;
+            background-image: linear-gradient(-90deg, #58A7F8 0%, #288BF2 100%);
+            border-radius: 4px;
+            margin-right: 2%;
+            display: flex;
+            align-items: center;
+        }
+
+        .robotNum {
+            width: 42%;
+            height: 140px;
+            flex: auto;
+            background-image: linear-gradient(-90deg, #85D8AA 0%, #6AD298 100%);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+
+        .item {
+            width: 49%;
+            flex: auto;
+            text-align: center;
+        }
+
+        .num {
+            font-size: 36px;
+            margin-top: 4px;
+        }
+
+        .line {
+            width: 1px;
+            height: 50px;
+            background-color: #FFFFFF;
+            flex: none;
+        }
+
+        .robotListBtn {
+            width: 100px;
+            height: 32px;
+            line-height: 32px;
+            color: #6AD298;
+            cursor: pointer;
+            background: #FFF;
+            border-radius: 16px;
+            margin: 0 auto;
+        }
+    }
+
+    .detatilBox {
+        height: calc(100% - 168px);
+        min-width: 1084px;
+        min-height: 526px;
+        background-color: #FFF;
+        border-radius: 4px;
+        padding: 48px;
+
+        .title {
+            font-weight: 300;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .codeBox {
+            width: 334px;
+            height: 256px;
+            background: #FFFFFF;
+            box-shadow: 0 0 6px 4px #F7F8F9;
+            border-radius: 4px;
+            text-align: center;
+            padding-top: 34px;
+            margin: 0 auto 57px;
+        }
+
+        .qrBox {
+            width: 150px;
+            height: 150px;
+            @extend %iconGi;
+            background-position: -284px -332px;
+            margin: 0 auto 18px;
+            padding: 12px;
+            .qr {
+                width: 126px;
+                height: 126px;
+            }
+        }
+
+        .stepBox {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .stepBoxTitle {
+            font-weight: 500;
+            margin-bottom: 11px;
+        }
+
+        .steps {
+            display: flex;
+            align-items: center;
+        }
+
+        .stepNum {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            color: #B5BDC6;
+            text-align: center;
+            line-height: 14px;
+            border: 1px solid #B5BDC6;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .stepArrow{
+            font-size: 16px;
+            color: #DADEE2;
+            margin: 0 12px;
+        }
+    }
+}

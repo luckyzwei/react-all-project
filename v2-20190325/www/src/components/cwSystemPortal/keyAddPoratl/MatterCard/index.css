@@ -1,0 +1,62 @@
+.MatterCard .MatterCard-header .MatterCard-header-icon, .MatterCard .MatterCard-footer .MatterCard-footer-btn .MatterCard-footer-btn-icon {
+  background: url(/images/icon/icon-cw.png) no-repeat;
+  background-size: 133px 147px; }
+
+.MatterCard {
+  width: 256px;
+  height: 142px;
+  background: #FFFFFF;
+  float: left;
+  box-shadow: 0 2px 4px 0 #E9EBEE;
+  border-radius: 4px;
+  margin: 0 24px 24px 0;
+  cursor: pointer; }
+  .MatterCard:hover {
+    box-shadow: 0 4px 10px 0 #D7DADD; }
+  .MatterCard .MatterCard-header {
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #485767;
+    font-weight: 400; }
+    .MatterCard .MatterCard-header .MatterCard-header-icon {
+      width: 39px;
+      height: 38px;
+      background-position: -53px -71px;
+      margin-right: 8.8px; }
+  .MatterCard .MatterCard-footer {
+    background: #F8F8F9;
+    border-radius: 0 0 4px 4px;
+    height: 45px;
+    font-size: 14px;
+    color: #B5BDC6;
+    font-weight: 400;
+    display: flex;
+    align-items: center; }
+    .MatterCard .MatterCard-footer .MatterCard-footer-btn-line {
+      height: 22px;
+      width: 2px;
+      background: #e9ebee; }
+    .MatterCard .MatterCard-footer .MatterCard-footer-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; }
+      .MatterCard .MatterCard-footer .MatterCard-footer-btn:hover {
+        color: #58A7F8; }
+        .MatterCard .MatterCard-footer .MatterCard-footer-btn:hover.delete {
+          color: #F75A5A; }
+        .MatterCard .MatterCard-footer .MatterCard-footer-btn:hover .MatterCard-footer-btn-icon.delete {
+          background-position: -77px -48px; }
+        .MatterCard .MatterCard-footer .MatterCard-footer-btn:hover .MatterCard-footer-btn-icon.edit {
+          background-position: -26px -75px; }
+      .MatterCard .MatterCard-footer .MatterCard-footer-btn .MatterCard-footer-btn-icon {
+        width: 24px;
+        height: 24px; }
+        .MatterCard .MatterCard-footer .MatterCard-footer-btn .MatterCard-footer-btn-icon.delete {
+          background-position: -53px -48px; }
+        .MatterCard .MatterCard-footer .MatterCard-footer-btn .MatterCard-footer-btn-icon.edit {
+          background-position: -26px -51px; }

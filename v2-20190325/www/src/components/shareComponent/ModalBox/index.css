@@ -1,0 +1,48 @@
+.ModalBox .ModalBoxContent .closeModalBox {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.ModalBox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background: rgba(72, 87, 103, 0.6);
+  opacity: 0;
+  transition: all ease-in-out .18s; }
+  .ModalBox .ModalBoxContent {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 420px;
+    min-height: 220px;
+    box-sizing: border-box;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    text-align: center;
+    transition: all ease-in-out .18s; }
+    .ModalBox .ModalBoxContent .closeModalBox {
+      width: 28px;
+      height: 28px;
+      background-position: -225px -25px;
+      top: 14px;
+      right: 14px;
+      position: absolute;
+      cursor: pointer; }
+      .ModalBox .ModalBoxContent .closeModalBox:hover {
+        background-position: -265px -25px; }
+    .ModalBox .ModalBoxContent .ModalBoxTxt {
+      margin-top: 64px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #344658;
+      padding: 0 40px;
+      margin-bottom: 50px; }
+    .ModalBox .ModalBoxContent .ModalBoxBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px; }

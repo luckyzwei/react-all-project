@@ -1,0 +1,167 @@
+.groupTableWrapper .operateArea, .groupTableWrapper .operateArea .more .operate {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.groupTableWrapper .groupTable .groupCode .previewBox .previewBox-refresh {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.groupTableWrapper .groupTable .groupName .groupIcon, .groupTableWrapper .groupTable .groupCode {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.groupTableWrapper {
+  background: #F8F8F9;
+  padding: 24px;
+  min-width: 1132px;
+  height: calc(100% - 83px); }
+  .groupTableWrapper .groupTable {
+    min-height: 100%;
+    background-color: #fff;
+    padding: 30px 24px; }
+    .groupTableWrapper .groupTable .groupName {
+      display: block; }
+      .groupTableWrapper .groupTable .groupName .groupIcon {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 26px;
+        height: 26px;
+        background-position: -71px -21px;
+        margin-right: 8px; }
+    .groupTableWrapper .groupTable .groupCode {
+      width: 20px;
+      height: 20px;
+      background-position: -432px -264px;
+      cursor: pointer;
+      position: relative;
+      top: 6px; }
+      .groupTableWrapper .groupTable .groupCode .previewBox {
+        background: #FFFFFF;
+        box-shadow: 0 1px 6px 0 #DADEE2;
+        border-radius: 4px;
+        position: absolute;
+        top: 34px;
+        left: -68px;
+        z-index: 3; }
+        .groupTableWrapper .groupTable .groupCode .previewBox::before {
+          content: '';
+          display: block;
+          width: 8px;
+          height: 8px;
+          position: absolute;
+          top: -4px;
+          left: 50%;
+          background: #FFFFFF;
+          box-shadow: 0 1px 6px 0 #DADEE2;
+          border-radius: 2px;
+          transform: translateX(-50%) rotate(45deg); }
+        .groupTableWrapper .groupTable .groupCode .previewBox::after {
+          content: '';
+          display: block;
+          height: 10px;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background: #FFFFFF;
+          border-radius: 4px; }
+        .groupTableWrapper .groupTable .groupCode .previewBox img {
+          width: 170px;
+          height: 170px;
+          margin: 4px; }
+        .groupTableWrapper .groupTable .groupCode .previewBox .altTxt {
+          width: 170px;
+          height: 170px;
+          margin: 4px;
+          display: flex;
+          text-align: center;
+          align-items: center;
+          justify-content: center; }
+        .groupTableWrapper .groupTable .groupCode .previewBox .previewBox-refresh {
+          text-decoration: underline;
+          color: #5D90C5;
+          text-align: center;
+          cursor: pointer; }
+      .groupTableWrapper .groupTable .groupCode:focus, .groupTableWrapper .groupTable .groupCode:hover {
+        background-position: -452px -264px; }
+    .groupTableWrapper .groupTable .operate {
+      color: #58A7F8; }
+      .groupTableWrapper .groupTable .operate .checking,
+      .groupTableWrapper .groupTable .operate .setting,
+      .groupTableWrapper .groupTable .operate .edit {
+        cursor: pointer; }
+      .groupTableWrapper .groupTable .operate .checking:hover,
+      .groupTableWrapper .groupTable .operate .edit:hover {
+        color: #288BF2; }
+      .groupTableWrapper .groupTable .operate .setting {
+        color: #FF99A5; }
+      .groupTableWrapper .groupTable .operate .setting:hover {
+        color: #F75A5A; }
+      .groupTableWrapper .groupTable .operate .line {
+        display: inline-block;
+        height: 18px;
+        border-left: 1px solid #B5BDC6;
+        margin: 0 10px;
+        vertical-align: sub; }
+  .groupTableWrapper .operateArea {
+    height: 36px;
+    margin-bottom: 24px;
+    font-weight: 400; }
+    .groupTableWrapper .operateArea .import {
+      background: #58A7F8;
+      border-radius: 4px;
+      width: 108px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      color: #FFFFFF;
+      cursor: pointer;
+      float: left;
+      margin-right: 30px;
+      position: relative; }
+      .groupTableWrapper .operateArea .import:hover {
+        background: #288BF2; }
+        .groupTableWrapper .operateArea .import:hover .public-tipBubble {
+          transform: scale(1);
+          opacity: 1; }
+    .groupTableWrapper .operateArea .item {
+      float: left;
+      color: #5D90C5;
+      cursor: pointer;
+      line-height: 20px;
+      margin-top: 8px; }
+      .groupTableWrapper .operateArea .item:hover {
+        color: #58A7F8;
+        text-decoration: underline; }
+        .groupTableWrapper .operateArea .item:hover .inner {
+          display: block; }
+    .groupTableWrapper .operateArea .more {
+      color: #5D90C5;
+      float: right;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      margin-top: 8px; }
+      .groupTableWrapper .operateArea .more:hover {
+        text-decoration: none; }
+      .groupTableWrapper .operateArea .more .operate {
+        color: #5D90C5;
+        cursor: pointer; }
+        .groupTableWrapper .operateArea .more .operate:hover {
+          text-decoration: underline; }
+      .groupTableWrapper .operateArea .more .line {
+        display: inline-block;
+        height: 18px;
+        border-left: 1px solid #B5BDC6;
+        margin: 0 16px; }
+  .groupTableWrapper .ant-table-content {
+    font-family: PingFangSC;
+    font-size: 14px;
+    color: #344658; }
+  .groupTableWrapper .ant-table-tbody {
+    font-weight: 400; }
+  .groupTableWrapper .ant-table-thead > tr > th {
+    background-color: #fff;
+    font-weight: 500; }

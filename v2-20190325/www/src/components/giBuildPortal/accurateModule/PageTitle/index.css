@@ -1,0 +1,44 @@
+.PageTitle .PageContent .row .color-content .color-icon {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.PageTitle {
+  display: flex;
+  margin-bottom: 26px; }
+  .PageTitle .Pagetitle {
+    width: 112px;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #344658; }
+  .PageTitle .PageContent {
+    background: #F7F8F9;
+    border-radius: 4px;
+    width: 516px;
+    padding: 20px 16px;
+    box-sizing: border-box; }
+    .PageTitle .PageContent .row {
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      position: relative; }
+      .PageTitle .PageContent .row .color-title {
+        width: 70px;
+        height: 2px;
+        margin-right: 4px;
+        display: block; }
+      .PageTitle .PageContent .row .color-content {
+        display: flex;
+        align-items: flex-end;
+        font-size: 14px;
+        color: #5D90C5;
+        cursor: pointer; }
+        .PageTitle .PageContent .row .color-content:hover {
+          color: #58A7F8; }
+          .PageTitle .PageContent .row .color-content:hover .color-icon {
+            background-position: -328px -109px; }
+        .PageTitle .PageContent .row .color-content .color-icon {
+          background-position: -328px -91px;
+          width: 18px;
+          height: 18px;
+          margin-right: 2px; }

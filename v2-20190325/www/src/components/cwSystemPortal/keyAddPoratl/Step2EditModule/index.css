@@ -1,0 +1,52 @@
+.Step2EditModule .Step2EditModule-content .Step2EditModule-content-close {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.Step2EditModule {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  overflow: auto; }
+  .Step2EditModule .Step2EditModule-content {
+    width: 1096px;
+    min-height: 692px;
+    margin: 53px auto;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: relative; }
+    .Step2EditModule .Step2EditModule-content .Step2EditModule-content-close {
+      width: 24px;
+      height: 24px;
+      background-position: -209px -277px;
+      cursor: pointer;
+      position: absolute;
+      right: -34px;
+      top: 0; }
+      .Step2EditModule .Step2EditModule-content .Step2EditModule-content-close:hover {
+        background-position: -209px -301px; }
+    .Step2EditModule .Step2EditModule-content .MtBuildMain-big-content {
+      min-width: 1096px;
+      height: 722px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      padding: 40px 0;
+      display: flex;
+      overflow: hidden;
+      position: relative; }
+    .Step2EditModule .Step2EditModule-content .MtBuildMain-content {
+      min-width: 1096px;
+      border-radius: 4px;
+      padding: 40px 0;
+      display: flex;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: all .3s; }
+      .Step2EditModule .Step2EditModule-content .MtBuildMain-content.none {
+        left: -100%; }
+      .Step2EditModule .Step2EditModule-content .MtBuildMain-content .MtBuildMain-content-left {
+        width: 378px; }

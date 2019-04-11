@@ -1,0 +1,31 @@
+@import 'styles/public.scss';
+.public-input {
+    display: flex;
+    align-items: center;
+    @extend %font-14px;
+    color: #344658;
+    .label {
+        margin-right: 4px;
+    }
+    .input {
+        background: #FFFFFF;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px;
+        width: 300px;
+        height: 36px;
+        line-height: 34px;
+        text-indent: 16px;
+        @extend %font-14px;
+        color: #344658;
+        font-family: "PingFangSC-light";
+        &:hover {
+            border: 1px solid rgb(88, 167, 248);
+        }
+        &:focus {
+            border: 1px solid rgb(88, 167, 248);
+        }
+        &::-webkit-input-placeholder {
+            color: #B5BDC6;
+        }
+    }
+}

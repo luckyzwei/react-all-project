@@ -1,0 +1,47 @@
+.gi-import .robotModal .wechatname {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.gi-import .robotModal {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-import .robotModal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  color: #344658; }
+  .gi-import .robotModal .pageSize {
+    min-width: 1146px; }
+  .gi-import .robotModal .wechatname {
+    height: 84px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 60px; }
+    .gi-import .robotModal .wechatname img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin-right: 14px; }
+  .gi-import .robotModal .robotBox {
+    padding: 24px;
+    background: #f0f1f3; }
+    .gi-import .robotModal .robotBox .inner {
+      background: #FFFFFF;
+      height: 608px;
+      padding: 60px 36px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start; }
+      .gi-import .robotModal .robotBox .inner .label {
+        margin-right: 4px;
+        height: 20px;
+        flex: none; }
+      .gi-import .robotModal .robotBox .inner .buttonArea {
+        width: 100%; }

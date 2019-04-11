@@ -1,0 +1,7 @@
+@import 'styles/public.scss';
+.gi-host {
+    height: calc(100% - 60px);
+    position: relative;
+    background: #ffffff;
+    overflow: auto;
+}

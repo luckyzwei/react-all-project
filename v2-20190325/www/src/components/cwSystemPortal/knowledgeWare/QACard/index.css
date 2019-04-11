@@ -1,0 +1,144 @@
+.cw-qacard .right .header .operate .operateItem div, .cw-qacard .right .answerBox {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.cw-qacard .right .header .time, .cw-qacard .right .labelList .label, .cw-qacard .right .footer {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.cw-qacard .right .header .question {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 14px; }
+
+.cw-qacard .left .checkBox {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.cw-qacard .right .header .operate {
+  background: url(/images/icon/icon-cw.png) no-repeat;
+  background-size: 133px 147px; }
+
+.cw-qacard {
+  padding: 16px 24px 0 40px;
+  display: flex;
+  cursor: pointer; }
+  .cw-qacard.hover:hover .question, .cw-qacard.hover:hover .answerBox, .cw-qacard.hover:hover .footer {
+    opacity: .7; }
+  .cw-qacard.hover:hover .left .checkBox {
+    display: block; }
+  .cw-qacard .left {
+    width: 25px;
+    flex: none; }
+    .cw-qacard .left .checkBox {
+      display: none;
+      width: 20px;
+      height: 20px;
+      background-position: -139px -19px;
+      margin-right: 5px;
+      cursor: pointer; }
+      .cw-qacard .left .checkBox:hover {
+        background-position: -159px -19px; }
+      .cw-qacard .left .checkBox.checked {
+        display: block;
+        background-position: -179px -19px; }
+  .cw-qacard .right {
+    flex: auto;
+    border-bottom: 1px dashed #E9EBEE;
+    width: 100%; }
+    .cw-qacard .right .header {
+      display: flex;
+      justify-content: space-between; }
+      .cw-qacard .right .header .question {
+        color: #344658; }
+      .cw-qacard .right .header .other {
+        display: flex;
+        align-items: center; }
+      .cw-qacard .right .header .time {
+        color: #B5BDC6;
+        margin-right: 24px; }
+      .cw-qacard .right .header .operate {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-position: -2px -72px;
+        position: relative;
+        cursor: pointer; }
+        .cw-qacard .right .header .operate:hover {
+          background-position: -2px -92px; }
+        .cw-qacard .right .header .operate .operateItem {
+          position: absolute;
+          width: 72px;
+          left: -26px;
+          top: 28px;
+          background: #ffffff;
+          box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+          border-radius: 4px; }
+          .cw-qacard .right .header .operate .operateItem:before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: #ffffff;
+            box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+            position: absolute;
+            left: 50%;
+            top: -4px;
+            transform: translateX(-50%) rotate(-45deg); }
+          .cw-qacard .right .header .operate .operateItem div {
+            position: relative;
+            z-index: 2;
+            background: #ffffff;
+            height: 32px;
+            line-height: 32px;
+            color: #485767;
+            text-align: center;
+            cursor: pointer; }
+            .cw-qacard .right .header .operate .operateItem div:hover {
+              background: #ECF6FF; }
+    .cw-qacard .right .labelList {
+      height: 20px;
+      margin: 14px 0; }
+      .cw-qacard .right .labelList .label {
+        padding: 0 6px;
+        line-height: 18px;
+        border: 1px solid rgba(106, 210, 152, 0.3);
+        border-radius: 10px;
+        color: #6AD298;
+        margin-right: 10px; }
+    .cw-qacard .right .answerBox {
+      color: #485767;
+      line-height: 20px;
+      margin: 10px 0;
+      position: relative;
+      word-break: break-all; }
+      .cw-qacard .right .answerBox .two {
+        display: -webkit-box;
+        display: -moz-box;
+        /* autoprefixer: off */
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        /* autoprefixer: on */
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .cw-qacard .right .answerBox .expandBtn {
+        color: #5D90C5;
+        cursor: pointer;
+        float: right;
+        position: absolute;
+        bottom: 0;
+        right: 0; }
+        .cw-qacard .right .answerBox .expandBtn:hover {
+          color: #58A7F8; }
+      .cw-qacard .right .answerBox img {
+        display: block;
+        height: 280px;
+        margin: 8px 0 20px;
+        max-width: 100%; }
+    .cw-qacard .right .footer {
+      color: #B5BDC6;
+      margin-bottom: 4px; }

@@ -1,0 +1,111 @@
+.buildGroupList .robotMsg {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.buildGroupList .backRobot, .buildGroupList .groupListTable > span, .buildGroupList .groupListTable table tr, .buildGroupList .groupListTable thead tr, .buildGroupList .groupListTable table thead {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.buildGroupList .abnormal {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.buildGroupList {
+  background: #F8F8F9;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #344658;
+  height: calc(100% - 60px);
+  overflow: auto; }
+  .buildGroupList .backRobot {
+    color: #5D90C5;
+    float: right;
+    margin: 20px 64px;
+    cursor: pointer; }
+    .buildGroupList .backRobot:hover {
+      text-decoration: underline;
+      color: #288BF2; }
+  .buildGroupList > div:nth-child(2) {
+    padding: 24px 24px 0;
+    background: #F8F8F9;
+    height: calc(100% - 84px);
+    min-height: calc(100% - 84px); }
+  .buildGroupList .robotMsg {
+    height: 84px;
+    line-height: 84px;
+    padding: 0 60px;
+    color: #344658;
+    background: #fff;
+    min-width: 1160px; }
+  .buildGroupList .robotMsg img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 14px; }
+  .buildGroupList .robotMsg span {
+    display: inline-block;
+    margin-right: 90px; }
+  .buildGroupList .robotMsg span span {
+    color: #6AD298;
+    margin: 0; }
+  .buildGroupList .robotMsg a {
+    text-decoration: underline;
+    color: #5D90C5;
+    float: right; }
+  .buildGroupList .robotMsg a:hover {
+    color: #288BF2; }
+  .buildGroupList .groupListTable {
+    padding: 0px 40px;
+    background: #fff;
+    border-radius: 4px;
+    min-height: calc(100% - 81px);
+    min-width: 1112px; }
+    .buildGroupList .groupListTable > span {
+      float: right;
+      color: #5D90C5;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      cursor: pointer; }
+    .buildGroupList .groupListTable > span em {
+      float: left;
+      height: 20px;
+      width: 20px;
+      background-position: -5px -313px;
+      margin-right: 6px; }
+    .buildGroupList .groupListTable > span:hover {
+      color: #288BF2; }
+    .buildGroupList .groupListTable > span:hover em {
+      background-position: -25px -313px; }
+    .buildGroupList .groupListTable table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      position: relative;
+      table-layout: fixed; }
+    .buildGroupList .groupListTable table tr {
+      height: 58px;
+      line-height: 58px;
+      border-bottom: 1px solid #F0F1F3;
+      cursor: pointer;
+      color: #485767; }
+    .buildGroupList .groupListTable thead tr {
+      border-top: 1px solid #F0F1F3;
+      color: #393D3B; }
+    .buildGroupList .groupListTable table tbody tr:hover {
+      background: #ECF6FF; }
+    .buildGroupList .groupListTable table thead {
+      color: #B5BDC6; }
+    .buildGroupList .groupListTable .pageFooter {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0 0px; }
+  .buildGroupList .bgl-point {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer; }
+  .buildGroupList .abnormal {
+    color: #B5BDC6; }

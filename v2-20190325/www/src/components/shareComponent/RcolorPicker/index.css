@@ -1,0 +1,11 @@
+.RcolorPicker {
+  width: 260px;
+  min-height: 336px;
+  position: absolute; }
+  .RcolorPicker .sketch-picker {
+    width: 240px !important; }
+    .RcolorPicker .sketch-picker div input {
+      text-align: center;
+      color: #000;
+      border-radius: 4px;
+      padding: 1px 10% !important; }

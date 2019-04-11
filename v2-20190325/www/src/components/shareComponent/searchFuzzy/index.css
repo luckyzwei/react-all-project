@@ -1,0 +1,74 @@
+.searchFuzzy-wraper, .selectAutoComplete input, .selectAutoComplete .autoCompleteList {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.selectAutoComplete .closeIcon {
+  background: url(/images/icon/icongraphy.png) no-repeat;
+  background-size: 1280px 2092px; }
+
+.searchFuzzy-wraper {
+  color: #444444;
+  cursor: pointer; }
+  .searchFuzzy-wraper .selectLabel {
+    color: #344658;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px; }
+
+.selectAutoComplete {
+  position: relative;
+  display: inline-block;
+  color: #344658; }
+  .selectAutoComplete input {
+    border: 1px solid #E9EBEE;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 18px;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer; }
+    .selectAutoComplete input:hover, .selectAutoComplete input:focus {
+      border: 1px solid #58A7F8;
+      transition: all 0.2s ease-in; }
+  .selectAutoComplete .closeIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-position: -34px -91px;
+    display: inline-block;
+    width: 20px;
+    height: 20px; }
+  .selectAutoComplete .autoCompleteList {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    text-indent: 18px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    top: 100%;
+    z-index: 200;
+    max-height: 170px;
+    overflow: auto;
+    transition: all 0.2s ease-in; }
+    .selectAutoComplete .autoCompleteList .hoverli {
+      color: #FFFFFF;
+      background: #ECF6FF; }
+    .selectAutoComplete .autoCompleteList ul {
+      margin-bottom: 0;
+      overflow: auto;
+      padding: 4px 0; }
+      .selectAutoComplete .autoCompleteList ul li {
+        height: 32px;
+        line-height: 32px;
+        color: #344658;
+        cursor: pointer; }
+        .selectAutoComplete .autoCompleteList ul li:hover {
+          background: rgba(208, 232, 255, 0.4); }
+        .selectAutoComplete .autoCompleteList ul li span {
+          color: #58A7F8; }

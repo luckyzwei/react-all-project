@@ -1,0 +1,288 @@
+@import 'styles/public.scss';
+.monitorStateWrapper {
+    float: right;
+    margin-top: 18px;
+    margin-right: 36px;
+}
+
+.monitorStateWrapper .stateTitle {
+    float: right;
+    @extend %font-14px;
+    color: #485767;
+    line-height: 20px;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    position: relative;
+}
+
+.monitorStateWrapper .stateTitle:after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    @extend %iconHome;
+    background-position: -362px -149px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.monitorStateWrapper .stateTitle:hover,
+.monitorStateWrapper .stateTitle:active {
+    color: #5D90C5;
+}
+
+.monitorStateWrapper .stateTitle:hover:after,
+.monitorStateWrapper .stateTitle:active:after {
+    background-position: -265px -149px;
+}
+
+.monitorStateWrapper .monitorStateBox {
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px 0 #E9EBEE;
+    border-radius: 4px;
+    width: 122px;
+    padding: 8px 0 0 0;
+    text-align: center;
+    position: absolute;
+    left: -45px;
+    top: 28px;
+    z-index: 40;
+}
+
+.monitorStateWrapper .monitorStateBox:hover {
+    cursor: pointer;
+}
+
+.monitorStateWrapper .monitorStateBox:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    transform: rotate(-45deg) skew(10deg, 10deg);
+    position: absolute;
+    left: 56%;
+    top: -5px;
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow: 0px 1px 17px 0 rgba(36, 36, 36, 0.24);
+}
+
+.monitorStateWrapper .monitorStateBox:after {
+    width: 100%;
+    height: 11px;
+    background: #fff;
+    position: absolute;
+    left: 33%;
+    top: 0px;
+    z-index: 1;
+    content: "";
+}
+
+/*选中项的背景为蓝色*/
+
+.monitorStateWrapper .monitorStateBox .stateBox .monitorState.active {
+    color: #485767;
+}
+
+.monitorStateWrapper .monitorStateBox .stateBox .monitorState.active:hover {
+    background: #F8F8F9;
+    color: #5D90C5;
+}
+
+.monitorStateWrapper .monitorStateBox .workStateBox {
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.monitorStateWrapper .monitorStateBox .stateBox .monitorState:active {
+    color: #5D90C5;
+}
+
+.monitorStateWrapper .monitorStateBox .exit {
+    width: 80px;
+    color: #485767;
+    border-radius: 4px;
+    text-align: center;
+    background: #fff;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 8px;
+    cursor: pointer;
+    &:last-child{
+        border-top: 1px solid #E9EBEE;
+    }
+}
+
+/*按钮选中时状态为蓝色*/
+
+.monitorStateWrapper .monitorStateBox .exit:hover {
+    color: #288BF2;
+}
+
+// 帮助中心
+.helpBox {
+    float: right;
+    margin-right: 24px;
+    padding-left: 28px;
+    position: relative;
+    @extend %font-14px;
+    color: #485767;
+    cursor: pointer;
+    &:hover{
+        color: #5D90C5;
+    }
+    &:after{
+        content: '';
+        display: block;
+        width: 24px;
+        height: 24px;
+        @extend %iconHome;
+        background-position: -314px -149px;
+        position: absolute;
+        left: 0px;
+        top: -2px;
+    }
+    &:hover:after{
+        background-position: -290px -149px;
+    }
+}
+
+// 系统通知
+.newsBox {
+    float: right;
+    position: relative;
+    @extend %font-14px;
+    color: #485767;
+    padding-left: 28px;
+    margin-right: 24px;
+    cursor: pointer;
+    &:hover {
+        color: #5D90C5;
+        &:after {
+            background-position: -240px -149px;
+        }
+    }
+    &:after {
+        content: '';
+        display: block;
+        width: 24px;
+        height: 24px;
+        @extend %iconHome;
+        background-position: -338px -149px;;
+        position: absolute;
+        left: 0px;
+        top: -2px;
+    }
+    .num {
+        padding: 0 2px;
+        min-width: 14px;
+        max-width: 20px;
+        height: 14px;
+        text-align: center;
+        @extend %font-12px;
+        font-size: 8px;
+        color: #FFFFFF;
+        background: #F75A5A;
+        line-height: 14px;
+        position: absolute;
+        border-radius: 8px;
+        left: 20px;
+        top: -4px;
+        transform: translateX(-50%);
+        z-index: 4;
+    }
+    .newsList {
+        position: absolute;
+        width: 302px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 6px 0 #E9EBEE;
+        border-radius: 4px;
+        top: 30px;
+        left: -222px;
+        z-index: 40;
+        &::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            transform: rotate(-45deg) skew(10deg, 10deg);
+            position: absolute;
+            left: 76%;
+            top: -5px;
+            z-index: 1;
+            border-radius: 2px;
+            box-shadow: 0px 1px 17px 0 rgba(36, 36, 36, 0.24);
+        }
+        &:after {
+            width: 67%;
+            height: 11px;
+            background: #fff;
+            position: absolute;
+            left: 33%;
+            top: 0px;
+            z-index: 1;
+            content: "";
+        }
+        .item-title {
+            height: 60px;
+            border-bottom: 1px solid #E9EBEE;
+            @extend %font-16px;
+            color: #485767;
+            text-indent: 24px;
+            line-height: 60px;
+        }
+        .newsList-none {
+            height: 244px;
+            text-align: center;
+            p {
+                color: #B5BDC6;
+            }
+        }
+        .item-img {
+            width: 138px;
+            height: 96px;
+            background: url(#{$img-path}/images/icon/home_none.png) no-repeat;
+            background-size: 138px 96px;
+            margin: 57px 76px 11px;
+        }
+        .item {
+            width: 254px;
+            padding: 19px 0;
+            margin: 0 auto;
+            border-bottom: 1px dashed #E9EBEE;
+            .title {
+                @extend %font-14px;
+                color: #485767;
+                margin-bottom: 10px;
+                font-weight: 500;
+                .time {
+                    @extend %font-12px;
+                    color: #B5BDC6;
+                    // float: right;
+                }
+            }
+            .content {
+                @extend %font-14px;
+                color: #485767;
+            }
+            &:last-child {
+                border-bottom: 0 none;
+            }
+        }
+        .item-check {
+            border-top: 1px solid #E9EBEE;
+            height: 57px;
+            text-align: center;
+            @extend %font-14px;
+            color: #58A7F8;
+            line-height: 57px;
+            &:hover{
+                color: #5D90C5;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@import 'styles/public.scss';
+.MmMainScope {
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow: auto;
+    position: relative;
+    background: #F0F1F3;
+}

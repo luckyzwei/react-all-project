@@ -1,0 +1,79 @@
+.AidCard.selectFalse:hover .AidCardSelect.selectFalse, .AidCard .AidCardSelect.selectTrue, .AidCard .AidCardLogo {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.AidCard {
+  border: 1px solid #E9EBEE;
+  border-radius: 4px;
+  width: 234px;
+  height: 332px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 44px; }
+  .AidCard.selectTrue {
+    border-color: #58a7f8; }
+    .AidCard.selectTrue .AidCardLogo.selectTrue.service {
+      background-position: -5px -184px; }
+    .AidCard.selectTrue .AidCardLogo.selectTrue.holding {
+      background-position: -98px -184px; }
+    .AidCard.selectTrue .AidCardLogo.selectTrue.putting {
+      background-position: -191px -184px; }
+  .AidCard.selectFalse:hover {
+    border-color: #58a7f8; }
+    .AidCard.selectFalse:hover .AidCardSelect.selectFalse {
+      background-position: -159px -19px; }
+    .AidCard.selectFalse:hover .AidCardLogo.selectFalse.service {
+      background-position: -5px -184px; }
+    .AidCard.selectFalse:hover .AidCardLogo.selectFalse.holding {
+      background-position: -98px -184px; }
+    .AidCard.selectFalse:hover .AidCardLogo.selectFalse.putting {
+      background-position: -191px -184px; }
+  .AidCard .AidCardSelect {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    box-sizing: border-box; }
+    .AidCard .AidCardSelect.selectTrue {
+      background-position: -179px -19px; }
+  .AidCard .AidCardLogo {
+    width: 93px;
+    height: 93px;
+    margin-top: 70px;
+    margin-bottom: 16px; }
+    .AidCard .AidCardLogo.service {
+      background-position: -5px -91px; }
+    .AidCard .AidCardLogo.holding {
+      background-position: -98px -91px; }
+    .AidCard .AidCardLogo.putting {
+      background-position: -191px -91px; }
+    .AidCard .AidCardLogo.others {
+      background: #eee;
+      border-radius: 50%; }
+  .AidCard .AidCardClass {
+    font-size: 14px;
+    color: #485767;
+    font-weight: 400;
+    margin-bottom: 28px; }
+  .AidCard .AidCardDescription {
+    font-size: 12px;
+    color: #485767;
+    font-weight: 400; }
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .AidCard {
+    width: 278px;
+    padding: 0 46px; } }
+
+@media screen and (min-width: 1920px) {
+  .AidCard {
+    width: 416px;
+    padding: 0 74px; } }

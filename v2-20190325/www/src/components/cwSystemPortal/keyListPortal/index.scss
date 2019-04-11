@@ -1,0 +1,40 @@
+@import 'styles/public.scss';
+
+@media screen and (min-width: 1782px) {
+  .keyListPortal {
+    .keyListPortal-header {
+      .keyListPortal-header-left {
+        width: 776px;
+      }
+      .keyListPortal-header-right {
+        width: 776px;
+      }
+
+    }
+    .keyListPortal-list-main {
+      .AddKeyCard {
+        width: 296px !important;
+      }
+    }
+  }
+}
+
+
+
+.keyListPortal-main{
+  height: calc(100% - 59px);
+  background: #F0F1F3;
+  overflow: auto;
+  position: relative;
+  .guideButton{
+    width: 108px;
+    height: 36px;
+    position: relative;
+    margin: 0 24px 24px 0;
+    &:hover .public-tipBubble{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+}
+

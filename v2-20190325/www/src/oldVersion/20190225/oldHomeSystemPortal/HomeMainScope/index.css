@@ -1,0 +1,461 @@
+@charset "UTF-8";
+.underArea-row2 .rowhomeTab .navibar .navi .item {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.h-container, .h-container .upperArea .upperAreaBox .upperItem, .underArea-row2 .rowhomeTab .navibar .navi .more {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.home-title .downloadBtn .download-icon, .h-container .upperArea .upperAreaBox .iconItem, .h-container .upperArea .upperAreaBox .addWord .numIcon, .upperArea .upperArea-right .gaugeEcharts .title .icon, .underArea-row2 .data-list .word-tab li .icon-rank {
+  background: url(/images/icon/icon-home.png) no-repeat;
+  background-size: 500px 363px; }
+
+.underArea-row2 .data-list .word-tab .icon-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.h-container {
+  overflow: auto;
+  height: calc(100% - 60px);
+  background: #F0F1F3;
+  position: relative;
+  color: #485767; }
+
+.h-container .mainWrapper {
+  height: 100%;
+  min-width: 1098px; }
+
+.home-title {
+  width: 100%;
+  height: 67px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .home-title .downloadBtn {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #5D90C5; }
+    .home-title .downloadBtn .download-icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-position: -315px -79px;
+      vertical-align: middle;
+      margin-right: 5px; }
+    .home-title .downloadBtn:hover {
+      color: #58A7F8; }
+    .home-title .downloadBtn:hover .download-icon {
+      background-position: -339px -79px; }
+
+.h-container .upperArea {
+  width: calc(100% - 48px);
+  margin: 24px;
+  display: flex;
+  margin-top: 0; }
+  .h-container .upperArea .upperArea-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column; }
+  .h-container .upperArea .upperArea-right {
+    width: 40%;
+    height: 344px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-left: 24px; }
+
+.h-container .upperArea .upperAreaBox {
+  background: #FFFFFF;
+  border-radius: 4px;
+  height: 160px;
+  display: flex;
+  box-sizing: border-box; }
+  .h-container .upperArea .upperAreaBox .upperItem {
+    display: flex;
+    vertical-align: middle;
+    margin-left: 10%;
+    color: #FFFFFF;
+    margin-top: 30px; }
+  .h-container .upperArea .upperAreaBox .left {
+    width: 44%; }
+  .h-container .upperArea .upperAreaBox .right {
+    width: 55%; }
+  .h-container .upperArea .upperAreaBox .iconItem {
+    width: 58px;
+    height: 58px; }
+  .h-container .upperArea .upperAreaBox .dt-data {
+    flex-direction: column;
+    margin-left: 17px; }
+  .h-container .upperArea .upperAreaBox .title {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #485767;
+    margin-bottom: 0; }
+  .h-container .upperArea .upperAreaBox .ulList {
+    margin-bottom: 18px;
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color: #344658; }
+    .h-container .upperArea .upperAreaBox .ulList ul {
+      margin-bottom: 0; }
+      .h-container .upperArea .upperAreaBox .ulList ul li {
+        display: table; }
+  .h-container .upperArea .upperAreaBox .addWord {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #B5BDC6;
+    display: flex;
+    align-items: center; }
+    .h-container .upperArea .upperAreaBox .addWord .num {
+      font-size: 16px;
+      margin-left: 10px;
+      margin-right: 4px; }
+    .h-container .upperArea .upperAreaBox .addWord .numIcon {
+      width: 16px;
+      height: 16px; }
+    .h-container .upperArea .upperAreaBox .addWord .upicon {
+      background-position: -240px -7px; }
+    .h-container .upperArea .upperAreaBox .addWord .downicon {
+      background-position: -257px -7px; }
+  .h-container .upperArea .upperAreaBox .groupnum-icon {
+    background-position: -7px -93px; }
+  .h-container .upperArea .upperAreaBox .peoplenum-icon {
+    background-position: -66px -93px; }
+  .h-container .upperArea .upperAreaBox .messagenum-icon {
+    background-position: -7px -152px; }
+  .h-container .upperArea .upperAreaBox .saynum-icon {
+    background-position: -66px -152px; }
+
+.h-container .upperArea .center-line {
+  width: 2px;
+  height: 60px;
+  background: #B5BDC6;
+  margin-top: 50px;
+  opacity: 0.5; }
+
+.upperArea .upperArea-right .gaugeEcharts {
+  position: relative;
+  height: 100%; }
+  .upperArea .upperArea-right .gaugeEcharts .title {
+    padding: 16.5px 0;
+    border-bottom: 1px solid #E9EBEE;
+    text-indent: 24px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #344658;
+    display: flex;
+    align-items: center; }
+    .upperArea .upperArea-right .gaugeEcharts .title .icon {
+      width: 18px;
+      height: 18px;
+      margin-left: 8px;
+      position: relative;
+      background-position: -363px -80px; }
+      .upperArea .upperArea-right .gaugeEcharts .title .icon:hover {
+        background-position: -383px -80px; }
+        .upperArea .upperArea-right .gaugeEcharts .title .icon:hover .bubble {
+          opacity: 1;
+          top: -86px;
+          animation: sheng .15s;
+          visibility: visible; }
+    .upperArea .upperArea-right .gaugeEcharts .title .bubble {
+      width: 214px;
+      height: 75px;
+      position: absolute;
+      left: -30px;
+      top: -55px;
+      font-size: 12px;
+      color: #fff;
+      background: #485767;
+      border-radius: 5px;
+      text-indent: 0;
+      padding: 10px 8px;
+      opacity: 0;
+      visibility: hidden; }
+      .upperArea .upperArea-right .gaugeEcharts .title .bubble::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 31px;
+        bottom: -14px;
+        width: 10px;
+        height: 10px;
+        border: 8px solid #485767;
+        border-color: #485767 transparent transparent transparent; }
+  .upperArea .upperArea-right .gaugeEcharts .gaugeBox {
+    display: flex; }
+  .upperArea .upperArea-right .gaugeEcharts #Gauge {
+    margin-left: 15px; }
+  .upperArea .upperArea-right .gaugeEcharts .gaugeDes {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #B5BDC6;
+    margin-top: 70px;
+    margin-left: 5px; }
+    .upperArea .upperArea-right .gaugeEcharts .gaugeDes .num {
+      font-size: 36px;
+      color: #58A7F8; }
+    .upperArea .upperArea-right .gaugeEcharts .gaugeDes .titleData {
+      margin-top: 26px; }
+      .upperArea .upperArea-right .gaugeEcharts .gaugeDes .titleData span {
+        display: inline-block;
+        font-size: 12px;
+        margin-right: 18px; }
+        .upperArea .upperArea-right .gaugeEcharts .gaugeDes .titleData span em {
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          vertical-align: middle;
+          margin-right: 5px; }
+
+.underArea-row2 {
+  height: 432px;
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 4px; }
+  .underArea-row2 .rowecharts {
+    position: relative;
+    width: 70%;
+    padding: 20px; }
+  .underArea-row2 .rowhomeTab {
+    width: 30%;
+    position: relative; }
+    .underArea-row2 .rowhomeTab .navibar {
+      position: relative;
+      padding: 10px 23px;
+      border-bottom: 1px solid #E9EBEE;
+      background: #fff; }
+      .underArea-row2 .rowhomeTab .navibar .bar {
+        background: #58A7F8;
+        border-radius: 2px;
+        width: 48px;
+        height: 3px;
+        position: absolute;
+        bottom: 0px;
+        transition: all ease-in-out .3s; }
+      .underArea-row2 .rowhomeTab .navibar .navi {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        background: #FFFFFF; }
+        .underArea-row2 .rowhomeTab .navibar .navi .item {
+          height: 100%;
+          line-height: 46px;
+          color: #B5BDC6; }
+        .underArea-row2 .rowhomeTab .navibar .navi .item.active {
+          color: #344658; }
+        .underArea-row2 .rowhomeTab .navibar .navi .more {
+          color: #5D90C5; }
+          .underArea-row2 .rowhomeTab .navibar .navi .more:hover {
+            color: #58A7F8; }
+        .underArea-row2 .rowhomeTab .navibar .navi .line {
+          display: inline-block;
+          margin: 0 16px;
+          width: 1px;
+          opacity: 0.5;
+          background: #B5BDC6;
+          height: 18px;
+          margin-top: 15px; }
+  .underArea-row2 .line {
+    width: 1px;
+    height: 432px;
+    opacity: 0.5;
+    background: #B5BDC6; }
+  .underArea-row2 .data-list {
+    height: 345px;
+    overflow: auto;
+    padding: 10px 23px; }
+    .underArea-row2 .data-list .word-tab li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #344658; }
+      .underArea-row2 .data-list .word-tab li span {
+        display: inline-block;
+        flex: none; }
+      .underArea-row2 .data-list .word-tab li .icon-rank {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+        margin-right: 4px; }
+      .underArea-row2 .data-list .word-tab li .icon_rank_0 {
+        background-position: -240px -24px; }
+      .underArea-row2 .data-list .word-tab li .icon_rank_1 {
+        background-position: -265px -24px; }
+      .underArea-row2 .data-list .word-tab li .icon_rank_2 {
+        background-position: -290px -24px; }
+    .underArea-row2 .data-list .word-tab .icon-img {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      background: #F0F1F3;
+      border-radius: 50%;
+      font-family: PingFangSC-Regular;
+      font-size: 12px;
+      color: #B5BDC6;
+      text-align: center;
+      margin-left: 2px;
+      margin-right: 6px; }
+    .underArea-row2 .data-list .word-tab .icon-name {
+      border-bottom: 1px dashed #E9EBEE;
+      padding: 12.5px 0;
+      width: calc(100% - 28px); }
+    .underArea-row2 .data-list .throw-tab li.item {
+      border-bottom: 1px dashed #E9EBEE; }
+      .underArea-row2 .data-list .throw-tab li.item .statusBox {
+        color: gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 22px; }
+        .underArea-row2 .data-list .throw-tab li.item .statusBox .time .status {
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          margin-right: 8px;
+          padding: 0 6px;
+          height: 20px;
+          line-height: 20px;
+          border: 1px solid #B5BDC6;
+          border-radius: 10px;
+          text-align: center;
+          display: inline-block;
+          vertical-align: middle;
+          margin-top: -2px;
+          color: #B5BDC6; }
+        .underArea-row2 .data-list .throw-tab li.item .statusBox .time .success {
+          color: #6AD298;
+          border: 1px solid #6AD298; }
+        .underArea-row2 .data-list .throw-tab li.item .statusBox .time .error {
+          color: #FF99A5;
+          border: 1px solid #FF99A5; }
+        .underArea-row2 .data-list .throw-tab li.item .statusBox .count {
+          font-size: 10px; }
+        .underArea-row2 .data-list .throw-tab li.item .statusBox .icon-eye {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-position: -88px -69px;
+          vertical-align: middle;
+          margin-top: -2px; }
+      .underArea-row2 .data-list .throw-tab li.item .content {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #485767;
+        margin: 13px 0;
+        display: -webkit-box;
+        display: -moz-box;
+        /* autoprefixer: off */
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        /* autoprefixer: on */
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    .underArea-row2 .data-list .noData {
+      height: 100%;
+      box-sizing: border-box;
+      padding-top: 50px;
+      text-align: center;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #B5BDC6; }
+      .underArea-row2 .data-list .noData .icon-noData-big {
+        width: 120px;
+        height: 120px;
+        background: url(/images/icon/cw_notask.png) 0 0/cover no-repeat;
+        margin: 0 auto; }
+
+.underArea-row3 {
+  height: 354px;
+  display: flex;
+  margin: 24px 0; }
+  .underArea-row3 .rowecharts {
+    position: relative;
+    padding: 20px;
+    flex: auto;
+    width: 48.6%;
+    background: #FFFFFF;
+    border-radius: 4px; }
+    .underArea-row3 .rowecharts:first-child {
+      margin-right: 24px; }
+
+.h-container .detailTd > a {
+  color: #5D90C5;
+  cursor: pointer;
+  padding: 2px 5px;
+  text-decoration: underline; }
+
+.h-container .detailTd > a:hover {
+  color: #58A7F8; }
+
+.h-container .detailTd .bubbleBox {
+  position: absolute;
+  width: 130px;
+  transform: translate(-50%);
+  background: #3f4e5c;
+  padding: 5px 22px;
+  color: #FFFFFF;
+  border-radius: 2px;
+  z-index: 5; }
+
+.h-container .detailTd .bubbleBox::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  background: #3f4e5c;
+  transform: rotate(45deg); }
+
+/**首页浮层样式迭代**/
+.h-previewWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3; }
+
+.h-previewWrapper .editContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 948px;
+  height: 565px;
+  background: white;
+  border-radius: 2px;
+  margin: 0; }
+
+.h-previewWrapper .infoBox {
+  margin-bottom: 15px; }
+
+.h-previewWrapper .bottomWrapper {
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(541px, -284px); }
+
+/***页面适配***/
+@media screen and (min-width: 1920px) {
+  .upperArea .upperArea-right .gaugeEcharts #Gauge {
+    margin-left: 80px; }
+  .upperArea .upperArea-right .gaugeEcharts .gaugeDes {
+    margin-left: 50px; } }

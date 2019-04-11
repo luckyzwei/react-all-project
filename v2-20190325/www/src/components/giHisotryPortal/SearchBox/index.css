@@ -1,0 +1,41 @@
+.gi-history .searchBox .row2 .label, .gi-history .searchBox .searchBtn {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-history .searchBox {
+  height: 84px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  min-width: 1094px;
+  padding: 0 24px; }
+  .gi-history .searchBox .row1 {
+    margin-right: 40px; }
+  .gi-history .searchBox .row2 {
+    margin-right: 40px; }
+    .gi-history .searchBox .row2 .label {
+      display: inline-block;
+      vertical-align: middle;
+      color: #344658;
+      transform: translateY(-1px); }
+  .gi-history .searchBox .searchBtn {
+    border: 1px solid #58A7F8;
+    border-radius: 4px;
+    width: 108px;
+    height: 36px;
+    color: #58A7F8;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer; }
+    .gi-history .searchBox .searchBtn:hover {
+      background: #58A7F8;
+      color: #FFFFFF; }
+  .gi-history .searchBox .backGI {
+    text-decoration: underline;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #5D90C5;
+    cursor: pointer; }
+    .gi-history .searchBox .backGI:hover {
+      color: #58A7F8; }

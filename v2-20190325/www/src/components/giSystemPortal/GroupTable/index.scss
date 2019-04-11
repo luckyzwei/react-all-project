@@ -1,0 +1,227 @@
+@import 'styles/public.scss';
+
+.groupTableWrapper {
+    background: #F8F8F9;
+    padding: 24px;
+    min-width: 1132px;
+    height: calc(100% - 83px);
+
+    .groupTable {
+        min-height: 100%;
+        background-color: #fff;
+        padding: 30px 24px;
+
+        .groupName {
+            display: block;
+
+            .groupIcon {
+                display: inline-block;
+                vertical-align: bottom;
+                width: 26px;
+                height: 26px;
+                @extend %iconGi;
+                background-position: -71px -21px;
+                margin-right: 8px;
+            }
+        }
+
+        .groupCode {
+            width: 20px;
+            height: 20px;
+            @extend %iconGi;
+            background-position: -432px -264px;
+            cursor: pointer;
+            position: relative;
+            top: 6px;
+
+            .previewBox {
+                // height: 160px;
+                background: #FFFFFF;
+                box-shadow: 0 1px 6px 0 #DADEE2;
+                border-radius: 4px;
+                position: absolute;
+                top: 34px;
+                left: -68px;
+                z-index: 3;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 8px;
+                    height: 8px;
+                    position: absolute;
+                    top: -4px;
+                    left: 50%;
+                    background: #FFFFFF;
+                    box-shadow: 0 1px 6px 0 #DADEE2;
+                    border-radius: 2px;
+                    transform: translateX(-50%) rotate(45deg);
+                }
+
+                &::after {
+                    content: '';
+                    display: block;
+                    height: 10px;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background: #FFFFFF;
+                    border-radius: 4px;
+                }
+
+                img {
+                    width: 170px;
+                    height: 170px;
+                    margin: 4px;
+                }
+
+                .altTxt {
+                    width: 170px;
+                    height: 170px;
+                    margin: 4px;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .previewBox-refresh {
+                    text-decoration: underline;
+                    color: #5D90C5;
+                    @extend %font-12px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+
+            &:focus,
+            &:hover {
+                background-position: -452px -264px;
+            }
+        }
+
+        .operate {
+            color: #58A7F8;
+
+            .checking,
+            .setting,
+            .edit {
+                cursor: pointer;
+            }
+
+            .checking:hover,
+            .edit:hover {
+                color: #288BF2;
+            }
+
+            .setting {
+                color: #FF99A5;
+            }
+
+            .setting:hover {
+                color: #F75A5A;
+            }
+
+            .line {
+                display: inline-block;
+                height: 18px;
+                border-left: 1px solid #B5BDC6;
+                margin: 0 10px;
+                vertical-align: sub;
+            }
+        }
+    }
+
+    .operateArea {
+        height: 36px;
+        margin-bottom: 24px;
+        @extend %font-14px;
+        font-weight: 400;
+
+        .import {
+            background: $blue;
+            border-radius: 4px;
+            width: 108px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #FFFFFF;
+            cursor: pointer;
+            float: left;
+            margin-right: 30px;
+            position: relative;
+
+            &:hover {
+                background: $blue-dark;
+
+                .public-tipBubble {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+        }
+
+        .item {
+            float: left;
+            color: #5D90C5;
+            cursor: pointer;
+            line-height: 20px;
+            margin-top: 8px;
+
+            &:hover {
+                color: $blue;
+                text-decoration: underline;
+
+                .inner {
+                    display: block;
+                }
+            }
+        }
+
+        .more {
+            color: #5D90C5;
+            float: right;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            .operate {
+                @extend %font-14px;
+                color: #5D90C5;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .line {
+                display: inline-block;
+                height: 18px;
+                border-left: 1px solid #B5BDC6;
+                margin: 0 16px;
+            }
+        }
+    }
+
+    .ant-table-content {
+        font-family: PingFangSC;
+        font-size: 14px;
+        color: #344658;
+    }
+
+    .ant-table-tbody {
+        font-weight: 400;
+    }
+
+    .ant-table-thead>tr>th {
+        background-color: #fff;
+        font-weight: 500;
+    }
+}

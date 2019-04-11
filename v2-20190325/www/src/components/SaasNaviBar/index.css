@@ -1,0 +1,351 @@
+@charset "UTF-8";
+@media screen and (min-height: 80px) {
+  .navBarWrapper .nav-logoBox {
+    bottom: 15%; } }
+
+.navBarWrapper .nav-item .nav-icon, .navBarWrapper .nav-item .arrowUp, .navBarWrapper .nav-item .arrowDown {
+  background: url(/images/icon/icon-home.png) no-repeat;
+  background-size: 500px 363px; }
+
+.navBarWrapper {
+  width: 148px;
+  height: 100%;
+  background: #344658;
+  position: relative;
+  float: left;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.navBarWrapper::-webkit-scrollbar {
+  display: none;
+  background: transparent; }
+
+.navBarWrapper::-webkit-scrollbar-thumb {
+  background-color: transparent; }
+
+.navBarWrapper .nav-avtarBox {
+  height: 80px;
+  width: 85px;
+  margin: 0 auto 40px;
+  text-align: center; }
+
+.navBarWrapper .nav-avtarBox .nav-avatar {
+  width: 80px;
+  height: 85px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 32px auto 0;
+  cursor: pointer;
+  background-position: -7px -7px;
+  position: relative; }
+
+.navBarWrapper .monitorStateWrapper .monitorStateBox:after {
+  display: none; }
+
+.navBarWrapper .nav-avtarBox .nav-avatar-off.nav-avatar:after {
+  background: #E9EBEE; }
+
+.navBarWrapper .nav-avtarBox .nav-avatar-off {
+  opacity: 0.8; }
+
+.navBarWrapper .navBarBox .nav-arrowBox {
+  margin-left: 25px;
+  width: 100%;
+  height: 45px;
+  cursor: pointer; }
+
+.navBarWrapper .navBarBox .nav-arrow {
+  width: 34px;
+  height: 34px;
+  background-position: -81px -77px; }
+
+.navBarWrapper .navBarBox-active .nav-arrow {
+  background-position: -81px -43px; }
+
+.navBarWrapper .nav-item {
+  position: relative;
+  height: 50px;
+  cursor: pointer; }
+
+.navBarWrapper .nav-item .nav-icon {
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin-left: 16px;
+  margin-top: 9px;
+  background-position: right; }
+
+.navBarWrapper .nav-item .arrowUp {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: -88px -48px; }
+
+.navBarWrapper .nav-item .arrowDown {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: -109px -48px; }
+
+.navBarWrapper-extend .nav-item .arrowUp,
+.navBarWrapper-extend .nav-item .arrowDown {
+  display: none; }
+
+/*
+    GMScope: 'gmScope',
+    WOScope: 'woScope',
+    GCScope: 'gcScope',
+    CWScope: 'cwScope',
+    GDScope: 'gdScope',
+    MTScope: 'mtScope'*/
+.navBarWrapper ul .gmScope .nav-icon {
+  background-position: -169px -77px; }
+
+.navBarWrapper ul .gdScope .nav-icon {
+  background-position: -169px -7px; }
+
+.navBarWrapper ul .cwScope .nav-icon {
+  background-position: -169px -150px; }
+
+.navBarWrapper ul .mtScope .nav-icon {
+  background-position: -169px -114px; }
+
+.navBarWrapper ul .gaScope .nav-icon {
+  background-position: -169px -42px; }
+
+.navBarWrapper ul .sysScope .nav-icon {
+  background-position: -169px -187px; }
+
+.navBarWrapper ul .gibuild .nav-icon {
+  background-position: -169px -222px; }
+
+.navBarWrapper ul .mmScope .nav-icon {
+  background-position: -169px -256px; }
+
+.navBarWrapper ul .gmScope .nav-item-active .nav-icon {
+  background-position: -205px -77px; }
+
+.navBarWrapper ul .gaScope .nav-item-active .nav-icon {
+  background-position: -205px -42px; }
+
+.navBarWrapper ul .cwScope .nav-item-active .nav-icon {
+  background-position: -205px -150px; }
+
+.navBarWrapper ul .sysScope .nav-item-active .nav-icon {
+  background-position: -205px -187px; }
+
+.navBarWrapper ul .gdScope .nav-item-active .nav-icon {
+  background-position: -205px -7px; }
+
+.navBarWrapper ul .mtScope .nav-item-active .nav-icon {
+  background-position: -205px -114px; }
+
+.navBarWrapper ul .gibuild .nav-item-active .nav-icon {
+  background-position: -205px -222px; }
+
+.navBarWrapper ul .mmScope .nav-item-active .nav-icon {
+  background-position: -205px -256px; }
+
+.navBarWrapper .nav-item .nav-textBox {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 50px;
+  color: #8D969F;
+  vertical-align: middle;
+  padding: 0 0 0 2px;
+  font-family: "PingFangSC-light";
+  width: 72px;
+  height: 50px;
+  overflow: hidden; }
+  .navBarWrapper .nav-item .nav-textBox .newMenu {
+    border: 1px solid #58A7F8;
+    color: #58a7f8;
+    border-radius: 4px;
+    width: 28px;
+    height: 12px;
+    line-height: 8px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 19px; }
+
+.navBarWrapper .nav-item-active .nav-textBox,
+.navBarWrapper ul .nav-item-unactive:hover .nav-textBox {
+  color: #fff; }
+
+.navBarWrapper ul .gmScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -77px; }
+
+.navBarWrapper ul .cwScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -150px; }
+
+.navBarWrapper ul .sysScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -187px; }
+
+.navBarWrapper ul .gdScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -7px; }
+
+.navBarWrapper ul .mtScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -114px; }
+
+.navBarWrapper ul .gaScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -42px; }
+
+.navBarWrapper ul .gibuild .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -222px; }
+
+.navBarWrapper ul .mmScope .nav-item-unactive:hover .nav-icon {
+  background-position: -205px -256px; }
+
+.navBarWrapper .navBarBox {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  background: transparent; }
+
+.navBarWrapper .navBarTunnelBox {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: 2;
+  background: transparent; }
+
+.navBarWrapper .navBarTunnelBox .swiperBoard {
+  margin-top: 47px;
+  width: 100%;
+  height: 50px;
+  background: #152A3E;
+  transition: all 0.4s ease-in-out; }
+
+.navBarWrapper .navBarTunnelBox .swiperBoard .lightBar {
+  width: 6px;
+  height: 100%;
+  background: #288BF2;
+  box-shadow: 0 0 20px 2px #288BF2; }
+
+.navBarWrapper .nav-item-active .nav-textBox {
+  color: #fff; }
+
+.navBarWrapper .nav-logoBox {
+  height: 20px;
+  transform: scale(1.5, 1.5);
+  /*margin: 0 auto;*/
+  position: absolute;
+  bottom: 10%;
+  left: 31%;
+  background-position: -24px -183px;
+  width: 45px;
+  z-index: 1; }
+
+.navBarWrapper .nav-logoBox-default {
+  transform: scale(1.3, 1.3);
+  background-position: -17px -140px;
+  height: 40px;
+  left: 25%;
+  height: 40px; }
+
+.navBarWrapper-extend {
+  width: 84px; }
+
+.navBarWrapper-extend .nav-item .nav-textBox {
+  display: none; }
+
+/*二级菜单*/
+.navBarBox .tmScope {
+  position: relative; }
+
+.navBarBox .tmScope .secondNavBox {
+  display: none; }
+
+.navBarBox .tmScope:hover .secondNavBox {
+  display: block; }
+
+.navBarBox .tmScope .secondNavBox {
+  position: absolute;
+  right: -90px;
+  top: 0;
+  text-align: center;
+  width: 90px; }
+
+.navBarBox .gdScope {
+  position: relative; }
+
+.navBarBox .gdScope .secondNavBox {
+  display: none; }
+
+.navBarBox .gdScope:hover .secondNavBox {
+  display: block; }
+
+.navBarBox .gdScope .secondNavBox {
+  position: absolute;
+  right: -90px;
+  top: 0;
+  text-align: center;
+  width: 90px; }
+
+.navBarBox .gaScope {
+  position: relative; }
+
+.navBarBox .gaScope .secondNavBox {
+  display: none; }
+
+.navBarBox .gaScope:hover .secondNavBox {
+  display: block; }
+
+.navBarBox .gaScope .secondNavBox {
+  position: absolute;
+  right: -90px;
+  top: 0;
+  text-align: center;
+  width: 90px; }
+
+.navBarBox .secondNavBox .secondNav {
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  background: #344658;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #B5BDC6;
+  cursor: pointer; }
+
+.navBarBox .secondNavBox .secondNav + .secondNav {
+  border-top: 1px solid #282b2d; }
+
+.navBarBox .tmScope .secondNavBox .secondNav:last-child {
+  border-bottom: 1px solid transparent; }
+
+.navBarBox .tmScope .secondNavBox .secondNav:nth-child(1) {
+  border-radius: 0 4px 4px 0; }
+
+.navBarBox .gaScope .secondNavBox .secondNav:last-child {
+  border-bottom: 1px solid transparent; }
+
+.navBarBox .gaScope .secondNavBox .secondNav:nth-child(1) {
+  border-radius: 0 4px 0 0; }
+
+.navBarBox .gaScope .secondNavBox .secondNav:nth-child(4) {
+  border-radius: 0 0 4px 0; }
+
+.navBarBox .gaScope .secondNavBox .secondNav:nth-child(4):hover {
+  border-bottom: 1px solid #288bf2; }
+
+.navBarBox .gdScope .secondNavBox .secondNav:nth-child(1) {
+  border-radius: 0 4px 4px 0; }
+
+.navBarBox .secondNavBox .secondNav:hover {
+  color: #58a7f8; }
+
+.navBarWrapper .secondNavBox .secondNavActive {
+  background: #288bf2 !important;
+  color: #fff !important; }
+
+.navBarWrapper .secondNavBox:last-child.secondNavActive {
+  border-bottom: 1px solid #288bf2 !important; }

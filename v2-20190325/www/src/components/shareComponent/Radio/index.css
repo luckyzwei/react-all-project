@@ -1,0 +1,22 @@
+.myRadio .ant-radio-wrapper {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.myRadio {
+  display: flex;
+  align-items: center; }
+  .myRadio .ant-radio-wrapper {
+    color: #393D3B;
+    line-height: 20px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center; }
+    .myRadio .ant-radio-wrapper:hover .ant-radio .ant-radio-inner {
+      border-color: #58A7F8; }
+  .myRadio .ant-radio-checked .ant-radio-inner {
+    border-color: #58A7F8; }
+    .myRadio .ant-radio-checked .ant-radio-inner:after {
+      background: #58A7F8; }
+  .myRadio .ant-radio-checked:after {
+    border-color: #58A7F8; }

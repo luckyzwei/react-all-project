@@ -1,0 +1,211 @@
+.MlMainScope .MlMain-title-box .MlMain-title {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 24px; }
+
+.MlMainScope .MlMain-box .tab-box .tab-titles {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.MlMainScope .MlMain-title-box .refresh, .MlMainScope .MlMain-title-box .howImport, .MlMainScope .MlMain-box .tab-box .tab-titles .refresh {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.MlMainScope .MlMain-title-box .howImport p {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.MlMainScope .MlMain-title-box .refresh em, .MlMainScope .MlMain-box .tab-box .tab-titles .refresh em, .MlMainScope .img-modal .img-box em {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.MlMainScope {
+  background: #F0F1F3;
+  padding: 0 24px 24px;
+  height: calc(100% - 59px);
+  min-width: 1132px;
+  overflow: auto; }
+  .MlMainScope p {
+    padding: 0;
+    margin: 0; }
+  .MlMainScope .MlMain-title-box {
+    height: 79px;
+    line-height: 79px; }
+    .MlMainScope .MlMain-title-box .MlMain-title {
+      color: #344658;
+      float: left; }
+    .MlMainScope .MlMain-title-box .refresh {
+      padding-top: 1px;
+      color: #5D90C5;
+      float: right;
+      cursor: pointer;
+      height: 68px; }
+      .MlMainScope .MlMain-title-box .refresh:hover {
+        color: #288BF2; }
+        .MlMainScope .MlMain-title-box .refresh:hover em {
+          background-position: -25px -313px; }
+      .MlMainScope .MlMain-title-box .refresh em {
+        height: 20px;
+        width: 20px;
+        background-position: -5px -313px;
+        margin-right: 4px;
+        vertical-align: text-top; }
+    .MlMainScope .MlMain-title-box .howImport {
+      text-decoration: underline;
+      float: right;
+      margin-right: 48px;
+      cursor: pointer;
+      color: #5D90C5;
+      position: relative; }
+      .MlMainScope .MlMain-title-box .howImport:hover p {
+        visibility: visible;
+        opacity: 1;
+        top: 60px; }
+      .MlMainScope .MlMain-title-box .howImport p {
+        width: 260px;
+        height: 92px;
+        background: #485767;
+        position: absolute;
+        right: 0;
+        top: 40px;
+        color: #fff;
+        line-height: 16px;
+        border-radius: 4px;
+        padding: 16px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .15s ease;
+        pointer-events: none; }
+        .MlMainScope .MlMain-title-box .howImport p::after {
+          content: "";
+          border: 9px solid #485767;
+          border-width: 6px 7px;
+          border-color: transparent transparent #485767 transparent;
+          position: absolute;
+          right: 30px;
+          top: -12px; }
+  .MlMainScope .MlMain-box {
+    min-width: 1084px;
+    min-height: 550px;
+    background: #fff;
+    border-radius: 4px; }
+    .MlMainScope .MlMain-box .tab-box {
+      border-bottom: 1px solid #E9EBEE; }
+      .MlMainScope .MlMain-box .tab-box .tab-titles {
+        height: 57px;
+        line-height: 57px;
+        position: relative;
+        margin: 0; }
+        .MlMainScope .MlMain-box .tab-box .tab-titles .tab-title.active {
+          color: #298BF2; }
+        .MlMainScope .MlMain-box .tab-box .tab-titles li {
+          padding: 0 38px;
+          float: left;
+          cursor: pointer; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles li.tab-title:hover {
+            color: #298BF2; }
+            .MlMainScope .MlMain-box .tab-box .tab-titles li.tab-title:hover ~ .tab-line {
+              width: 80px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles li:nth-of-type(1):hover ~ .tab-line {
+            left: 14px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles li:nth-of-type(2):hover ~ .tab-line {
+            left: 134px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles li:nth-of-type(3):hover ~ .tab-line {
+            left: 262px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles li:nth-of-type(4):hover ~ .tab-line {
+            left: 398px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles li:nth-of-type(5):hover ~ .tab-line {
+            left: 534px; }
+        .MlMainScope .MlMain-box .tab-box .tab-titles .tab-line, .MlMainScope .MlMain-box .tab-box .tab-titles .tab-line-b {
+          height: 2px;
+          width: 80px;
+          top: 55px;
+          background: #288BF2;
+          padding: 0;
+          margin: 0;
+          position: absolute; }
+        .MlMainScope .MlMain-box .tab-box .tab-titles .tab-line {
+          width: 0;
+          transition: left .3s ease; }
+        .MlMainScope .MlMain-box .tab-box .tab-titles .tab-line-b {
+          transition: all .25s ease; }
+        .MlMainScope .MlMain-box .tab-box .tab-titles .refresh {
+          padding-top: 1px;
+          color: #5D90C5;
+          float: right;
+          cursor: pointer;
+          height: 68px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles .refresh:hover {
+            color: #288BF2; }
+            .MlMainScope .MlMain-box .tab-box .tab-titles .refresh:hover em {
+              background-position: -25px -313px; }
+          .MlMainScope .MlMain-box .tab-box .tab-titles .refresh em {
+            height: 20px;
+            width: 20px;
+            background-position: -5px -313px;
+            margin-right: 4px;
+            vertical-align: text-top; }
+    .MlMainScope .MlMain-box .search-box {
+      margin: 20px 0;
+      height: 36px; }
+      .MlMainScope .MlMain-box .search-box .row {
+        display: flex;
+        float: left;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 40px; }
+        .MlMainScope .MlMain-box .search-box .row .title {
+          display: inline-block;
+          margin-right: 4px;
+          color: #344658;
+          font-weight: 400;
+          font-size: 14px; }
+        .MlMainScope .MlMain-box .search-box .row .ant-calendar-picker-input {
+          width: 100%; }
+      .MlMainScope .MlMain-box .search-box .selectAll-box {
+        float: right;
+        line-height: 36px;
+        cursor: pointer;
+        display: flex; }
+        .MlMainScope .MlMain-box .search-box .selectAll-box .selectAll {
+          margin-right: 38px; }
+        .MlMainScope .MlMain-box .search-box .selectAll-box p {
+          text-decoration: underline;
+          color: red; }
+      .MlMainScope .MlMain-box .search-box .batch-control {
+        cursor: pointer;
+        color: #5D90C5;
+        text-decoration: underline;
+        float: right;
+        line-height: 36px; }
+  .MlMainScope .img-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: rgba(52, 70, 88, 0.4); }
+    .MlMainScope .img-modal .img-box {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 200px; }
+      .MlMainScope .img-modal .img-box img {
+        border-radius: 8px;
+        max-width: 620px;
+        max-height: 490px;
+        min-width: 220px; }
+      .MlMainScope .img-modal .img-box em {
+        width: 24px;
+        height: 24px;
+        background-position: -209px -277px;
+        cursor: pointer;
+        position: absolute;
+        right: -34px;
+        top: 0; }
+        .MlMainScope .img-modal .img-box em:hover {
+          background-position: -209px -301px; }

@@ -1,0 +1,52 @@
+.gi-accurate-step4 .stepTitle, .gi-accurate-step4 .nextStep {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-accurate-step4 .stepTitle {
+  color: #344658;
+  padding-top: 8px;
+  background: #f0f1f3;
+  width: 100%;
+  height: 57px; }
+  .gi-accurate-step4 .stepTitle .todo {
+    color: #b5bdc6; }
+
+.gi-accurate-step4 {
+  padding: 24px;
+  height: 100%;
+  background: #f0f1f3;
+  overflow: auto; }
+  .gi-accurate-step4 .inner {
+    min-width: 1096px;
+    min-height: 100%;
+    padding: 64px 36px;
+    background: #FFFFFF; }
+  .gi-accurate-step4 .row {
+    display: flex;
+    margin-bottom: 44px; }
+    .gi-accurate-step4 .row .label {
+      margin-right: 4px;
+      color: #344658; }
+  .gi-accurate-step4 .row:first-child {
+    padding-left: 14px; }
+  .gi-accurate-step4 .nextStep {
+    width: 108px;
+    height: 36px;
+    background: #58A7F8;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 36px;
+    margin: 52px 0 0 429px; }
+    .gi-accurate-step4 .nextStep:hover {
+      background: #288BF2; }
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .gi-accurate-step4 .nextStep {
+    margin: 52px 0 0 495px; } }
+
+@media screen and (min-width: 1920px) {
+  .gi-accurate-step4 .nextStep {
+    margin: 52px 0 0 702px; } }

@@ -1,0 +1,44 @@
+.tm-listContent .tm-editWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 24px; }
+
+.tm-listContent .editTitle {
+  font-family: PingFangSC-Light;
+  font-size: 24px;
+  color: #485767;
+  margin-bottom: 24px; }
+
+.tm-listContent .editInfoBox {
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 24px 36px; }
+  .tm-listContent .editInfoBox .editInfo-item {
+    display: flex; }
+    .tm-listContent .editInfoBox .editInfo-item .resetBtn {
+      width: 70px;
+      height: 20px;
+      line-height: 18px;
+      text-align: center;
+      color: #5D90C5;
+      border: 1px solid #5D90C5;
+      border-radius: 4px;
+      font-size: 12px; }
+      .tm-listContent .editInfoBox .editInfo-item .resetBtn:hover {
+        color: #2186ee;
+        border: 1px solid #2186ee; }
+    .tm-listContent .editInfoBox .editInfo-item .public-input {
+      margin-right: 103px; }
+    .tm-listContent .editInfoBox .editInfo-item:first-child {
+      margin-bottom: 14px; }
+      .tm-listContent .editInfoBox .editInfo-item:first-child .public-input:last-child {
+        margin-right: 0; }
+    .tm-listContent .editInfoBox .editInfo-item .selectWrappers {
+      margin-right: 103px;
+      color: #344658; }
+      .tm-listContent .editInfoBox .editInfo-item .selectWrappers:last-child {
+        margin-right: 0; }
+      .tm-listContent .editInfoBox .editInfo-item .selectWrappers .selectBoxs {
+        width: 222px; }
+      .tm-listContent .editInfoBox .editInfo-item .selectWrappers .selectLabel {
+        margin-right: 14px; }

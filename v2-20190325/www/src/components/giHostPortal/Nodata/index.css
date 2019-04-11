@@ -1,0 +1,19 @@
+.gi-host .nodata {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-host .nodata {
+  width: 100%;
+  height: 100%;
+  color: #485767;
+  padding-top: 218px; }
+  .gi-host .nodata .icon-nodata {
+    width: 198px;
+    height: 158px;
+    background: url(/images/icon/host_noData.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto; }
+  .gi-host .nodata .text {
+    margin: 20px;
+    text-align: center; }

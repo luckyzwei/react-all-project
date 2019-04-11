@@ -1,0 +1,37 @@
+@import 'styles/public.scss';
+
+.gi-manual-step3 {
+    height: 100%;
+    overflow: auto;
+    background: #f0f1f3;
+    padding: 24px;
+
+    .stepTitle {
+        @extend %font-14px;
+        color: #344658;
+        padding-top: 8px;
+        background: #f0f1f3;
+        width: 100%;
+        height: 57px;
+    }
+
+    .inner {
+        background: #FFFFFF;
+        min-height: 100%;
+        min-width: 1096px;
+    }
+
+    .content {
+        width: 1096px;
+        height: 690px;
+        padding: 40px 36px 0;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .gi-manual-step3 {
+        .content {
+            width: 1350px;
+        }
+    }
+}

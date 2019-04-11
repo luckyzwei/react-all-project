@@ -1,0 +1,642 @@
+@charset "UTF-8";
+.MtEdit .MtEdit-edit .public-box .item-content-box {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.MtEdit .MtEdit-edit .voice-box .item-content-box {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.MtEdit .MtEdit-edit .public-box .btm-txt {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.MtEdit .MtEdit-nav .MtEdit-nav-add .MtEdit-nav-add-img, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .close-icon, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .MtEdit-nav-content-item-icon, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .imgs, .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item .img, .MtEdit .MtEdit-edit .voice-box .item-content-box em, .MtEdit .MtEdit-edit .EditText .EditText-num-icon .EditText-icon, .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-create .icon {
+  background: url(/images/icon/icon-mt1.png) no-repeat;
+  background-size: 536px 177px; }
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+  .MtEdit {
+    width: 890px; } }
+
+@media screen and (max-width: 1440px) {
+  .MtEdit {
+    width: 706px; } }
+
+.MtEdit {
+  padding-right: 36px;
+  box-sizing: border-box;
+  /* 图文编辑中的文本编辑 */ }
+  .MtEdit .MtEdit-header {
+    display: flex;
+    width: 690px;
+    margin-bottom: 28px; }
+    .MtEdit .MtEdit-header > div:nth-of-type(1) {
+      margin-right: 46px; }
+  .MtEdit .MtEdit-nav {
+    height: 60px;
+    width: 682px; }
+    .MtEdit .MtEdit-nav .MtEdit-nav-add {
+      width: 119px;
+      box-sizing: border-box;
+      height: 60px;
+      border: 1px solid #e9ebee;
+      border-bottom: none;
+      border-radius: 4px 4px 0 0;
+      background: #fff;
+      cursor: pointer;
+      z-index: 99;
+      transform: translateY(1px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; }
+      .MtEdit .MtEdit-nav .MtEdit-nav-add .MtEdit-nav-add-img {
+        width: 38px;
+        height: 38px;
+        background-position: -83px -92px;
+        position: relative;
+        z-index: 2; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-add .MtEdit-nav-add-img:hover + .public-tipBubble {
+          opacity: 1;
+          transform: scale(1); }
+    .MtEdit .MtEdit-nav .MtEdit-nav-content {
+      display: flex;
+      height: 60px; }
+      .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item {
+        width: 120px;
+        display: flex;
+        color: #B5BDC6;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: #fff;
+        position: relative; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .close-icon {
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          top: 4px;
+          right: 4px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .MtEdit-nav-content-item-icon {
+          width: 38px;
+          height: 38px;
+          background-position: -121px -92px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .MtEdit-nav-content-item-icon.active, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .MtEdit-nav-content-item-icon:hover {
+            background-position: -83px -92px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.active {
+          border: 1px solid #e9ebee;
+          border-bottom: none;
+          border-radius: 4px 4px 0 0;
+          z-index: 99;
+          transform: translateY(1px); }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.active {
+          color: #485767; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item:hover {
+          color: #485767; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item:hover .close-icon {
+            background-position: -421px -118px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item:hover .close-icon:hover {
+            background-position: -439px -118px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item .imgs {
+          width: 38px;
+          height: 38px;
+          margin-right: 10px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.TEXT .imgs {
+          background-position: -16px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.TEXT.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.TEXT:hover .imgs {
+          background-position: -216px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.IMG .imgs {
+          background-position: -56px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.IMG.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.IMG:hover .imgs {
+          background-position: -256px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.LINK .imgs {
+          background-position: -96px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.LINK.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.LINK:hover .imgs {
+          background-position: -296px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.SLINK {
+          width: 150px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.SLINK .imgs {
+            background-position: -136px -45px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.SLINK.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.SLINK:hover .imgs {
+            background-position: -336px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.WEXX {
+          width: 133px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.WEXX .imgs {
+            background-position: -177px -45px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.WEXX.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.WEXX:hover .imgs {
+            background-position: -377px -45px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.PUBLIC {
+          width: 133px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.PUBLIC .imgs {
+            background-position: -294px -1px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.PUBLIC.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.PUBLIC:hover .imgs {
+            background-position: -218px -1px; }
+        .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.VOICE {
+          width: 133px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.VOICE .imgs {
+            background-position: -256px -1px; }
+          .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.VOICE.active .imgs, .MtEdit .MtEdit-nav .MtEdit-nav-content .MtEdit-nav-content-item.VOICE:hover .imgs {
+            background-position: -180px -1px; }
+  .MtEdit .MtStyleSelectBox {
+    z-index: 9;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px 0 #E9EBEE, 0 2px 8px 0 #E9EBEE;
+    border-radius: 4px;
+    align-items: center; }
+    .MtEdit .MtStyleSelectBox .MtStyleSelectBox-trg {
+      width: 16px;
+      height: 16px;
+      border-left: 1px solid #e8ebee;
+      border-top: 1px solid #e8ebee;
+      transform: rotate(45deg) translateX(-50%);
+      position: absolute;
+      background: #fff;
+      top: -4px;
+      left: 50%; }
+    .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item {
+      padding: 22px 20px;
+      width: 110px;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color: #B5BDC6;
+      font-weight: 400; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item:hover {
+        color: #485767; }
+        .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item:hover .mt-icon::before {
+          transform: scale(1);
+          animation: zhang .15s; }
+        .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item:hover .mt-icon {
+          background: none; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item .mt-icon {
+        margin-bottom: 10px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: #DADEE2; }
+        .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item .mt-icon::before {
+          background: #58A7F8; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item .img {
+        width: 38px;
+        height: 38px;
+        display: inline-block;
+        position: relative; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item.TEXT .img {
+        background-position: -16px -136px; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item.IMG .img {
+        background-position: -56px -136px; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item.LINK .img {
+        background-position: -96px -136px; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item.SLINK .img {
+        background-position: -136px -136px; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item.WEXX .img {
+        background-position: -177px -136px; }
+      .MtEdit .MtStyleSelectBox .MtStyleSelectBox-item.material .img {
+        background-position: -142px -1px;
+        margin-bottom: 10px; }
+  .MtEdit .MtEdit-edit {
+    width: 100%;
+    border: 1px solid #e9ebee;
+    border-radius: 4px;
+    min-height: 444px;
+    margin-bottom: 14px;
+    position: relative; }
+    .MtEdit .MtEdit-edit .authorization {
+      position: absolute;
+      right: 24px;
+      top: 16px;
+      display: flex;
+      height: 24px; }
+      .MtEdit .MtEdit-edit .authorization .control-box {
+        width: 52px;
+        height: 24px;
+        border-radius: 16px;
+        background: #B5BDC6;
+        color: #fff;
+        margin-right: 8px;
+        position: relative;
+        cursor: pointer; }
+        .MtEdit .MtEdit-edit .authorization .control-box em {
+          position: absolute;
+          left: 3px;
+          top: 2px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: #fff;
+          transition: all .15s; }
+        .MtEdit .MtEdit-edit .authorization .control-box p {
+          width: 26px;
+          position: absolute;
+          right: 3px;
+          top: 1px;
+          text-align: center;
+          user-select: none; }
+        .MtEdit .MtEdit-edit .authorization .control-box.active {
+          background: #58A7F8; }
+          .MtEdit .MtEdit-edit .authorization .control-box.active em {
+            left: 29px; }
+          .MtEdit .MtEdit-edit .authorization .control-box.active p {
+            right: 22px; }
+    .MtEdit .MtEdit-edit .public-box {
+      height: 100px;
+      width: 200px;
+      padding: 14px 15px 0;
+      background: #fff;
+      border-radius: 4px;
+      border: 1px solid #F0F0F0;
+      margin: 33px 24px; }
+      .MtEdit .MtEdit-edit .public-box .item-content-box {
+        border-bottom: 1px solid  #E9EBEE;
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px; }
+        .MtEdit .MtEdit-edit .public-box .item-content-box .item-icon {
+          background: skyblue;
+          margin-right: 8px;
+          width: 50px;
+          height: 50px; }
+        .MtEdit .MtEdit-edit .public-box .item-content-box p {
+          width: 110px;
+          display: -webkit-box;
+          display: -moz-box;
+          /* autoprefixer: off */
+          -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
+          /* autoprefixer: on */
+          -webkit-line-clamp: 1;
+          -moz-line-clamp: 1;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          height: 22px;
+          margin: 0; }
+      .MtEdit .MtEdit-edit .public-box .btm-txt {
+        color: #B5BDC6;
+        line-height: 26px;
+        margin: 0; }
+    .MtEdit .MtEdit-edit .voice-box {
+      padding: 29px 26px; }
+      .MtEdit .MtEdit-edit .voice-box .head-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        background: skyblue;
+        margin-right: 10px;
+        display: inline-block; }
+      .MtEdit .MtEdit-edit .voice-box .item-content-box {
+        width: 173px;
+        height: 34px;
+        border-radius: 4px;
+        vertical-align: top;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: #6AD298;
+        left: 10px;
+        padding: 9px 17px; }
+        .MtEdit .MtEdit-edit .voice-box .item-content-box::after {
+          content: "";
+          border: 9px solid #6AD298;
+          border-width: 7px 7px;
+          border-color: transparent #6AD298 transparent transparent;
+          position: absolute;
+          left: -14px;
+          top: 7px; }
+        .MtEdit .MtEdit-edit .voice-box .item-content-box em {
+          vertical-align: middle;
+          width: 24px;
+          height: 24px;
+          margin-right: 19px;
+          background-position: -118px -15px; }
+    .MtEdit .MtEdit-edit .EditSpace {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      height: 444px;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #B5BDC6;
+      font-weight: 400; }
+    .MtEdit .MtEdit-edit .EditText {
+      width: 100%;
+      min-height: 444px;
+      padding: 30px 14px;
+      box-sizing: border-box; }
+      .MtEdit .MtEdit-edit .EditText .EditText-textarea {
+        width: 100%;
+        min-height: 400px;
+        resize: none;
+        text-indent: 2em;
+        line-height: 2em; }
+      .MtEdit .MtEdit-edit .EditText .EditText-num-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; }
+        .MtEdit .MtEdit-edit .EditText .EditText-num-icon .EditText-icon {
+          width: 28px;
+          height: 28px;
+          margin-right: 15px;
+          background-position: -159px -92px; }
+        .MtEdit .MtEdit-edit .EditText .EditText-num-icon .EditText-num {
+          font-size: 12px;
+          color: #B5BDC6;
+          display: flex;
+          align-items: center; }
+    .MtEdit .MtEdit-edit .EditImg {
+      height: 444px;
+      width: 100%;
+      padding: 30px 14px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .MtEdit .MtEdit-edit .EditImg .noPic {
+        border: none !important; }
+      .MtEdit .MtEdit-edit .EditImg .EditImg-text {
+        height: 206px;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 10px;
+        font-size: 12px;
+        color: #B5BDC6;
+        font-weight: 400; }
+    .MtEdit .MtEdit-edit .EditLink {
+      height: 444px;
+      width: 100%;
+      padding: 30px 14px;
+      box-sizing: border-box; }
+      .MtEdit .MtEdit-edit .EditLink .EditLink-row {
+        width: 100%;
+        font-size: 14px;
+        color: #485767;
+        font-weight: 400;
+        padding-bottom: 8px;
+        margin-bottom: 22px;
+        border-bottom: 1px solid #F0F1F3; }
+        .MtEdit .MtEdit-edit .EditLink .EditLink-row input {
+          width: 100%; }
+          .MtEdit .MtEdit-edit .EditLink .EditLink-row input:focus {
+            border: none; }
+      .MtEdit .MtEdit-edit .EditLink .EditLink-img {
+        display: flex;
+        align-items: center; }
+        .MtEdit .MtEdit-edit .EditLink .EditLink-img .noPic {
+          border: none !important; }
+        .MtEdit .MtEdit-edit .EditLink .EditLink-img .EditLink-text {
+          height: 142px;
+          display: flex;
+          align-items: flex-end;
+          margin-left: 10px;
+          font-size: 12px;
+          color: #B5BDC6;
+          font-weight: 400; }
+    .MtEdit .MtEdit-edit .EditWexx {
+      height: 444px;
+      width: 100%;
+      padding: 30px 14px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-create {
+        width: 264px;
+        height: 197px;
+        cursor: pointer;
+        background: #F7F8F9;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #B5BDC6;
+        font-weight: 400; }
+        .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-create .icon {
+          width: 32px;
+          height: 34px;
+          background-position: -187px -92px;
+          margin-bottom: 10px; }
+        .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-create:hover {
+          color: #344658; }
+      .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit {
+        width: 100%;
+        height: 100%; }
+        .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit .EditWexx-row {
+          width: 100%;
+          font-size: 14px;
+          color: #485767;
+          font-weight: 400;
+          padding-bottom: 8px;
+          margin-bottom: 22px;
+          border-bottom: 1px solid #F0F1F3; }
+          .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit .EditWexx-row input {
+            width: 100%; }
+            .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit .EditWexx-row input:focus {
+              border: none; }
+        .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit .EditWexx-img {
+          display: flex;
+          align-items: center; }
+          .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit .EditWexx-img .noPic {
+            border: none !important; }
+          .MtEdit .MtEdit-edit .EditWexx .EditWexx-uploadwexx-edit .EditWexx-img .EditWexx-text {
+            height: 142px;
+            display: flex;
+            align-items: flex-end;
+            margin-left: 10px;
+            font-size: 12px;
+            color: #B5BDC6;
+            font-weight: 400; }
+    .MtEdit .MtEdit-edit .EditSLink {
+      min-height: 444px;
+      width: 100%;
+      padding: 30px 14px;
+      box-sizing: border-box; }
+      .MtEdit .MtEdit-edit .EditSLink .EditSLink-line {
+        width: 100%;
+        display: flex;
+        margin-bottom: 60px; }
+        .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-label {
+          font-size: 14px;
+          color: #344658;
+          font-weight: 400;
+          width: 56px;
+          text-align: right;
+          margin-right: 40px; }
+        .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content {
+          flex: 1; }
+          .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content .EditSLink-row {
+            width: 100%;
+            font-size: 14px;
+            color: #485767;
+            font-weight: 400;
+            padding-bottom: 8px;
+            margin-bottom: 22px;
+            border-bottom: 1px solid #F0F1F3; }
+            .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content .EditSLink-row input {
+              width: 100%; }
+              .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content .EditSLink-row input:focus {
+                border: none; }
+          .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content .EditSLink-img {
+            display: flex;
+            align-items: center; }
+            .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content .EditSLink-img .noPic {
+              border: none !important; }
+            .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content .EditSLink-img .EditSLink-text {
+              height: 142px;
+              display: flex;
+              align-items: flex-end;
+              margin-left: 10px;
+              font-size: 12px;
+              color: #B5BDC6;
+              font-weight: 400; }
+        .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box {
+          flex: 1;
+          display: flex;
+          justify-content: space-between; }
+          .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box .EditSLink-line-content-box-txt {
+            flex: 1;
+            margin-right: 14px; }
+            .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box .EditSLink-line-content-box-txt .EditSLink-line-content-box-txt-area {
+              background: #FFFFFF;
+              border: 1px solid #E9EBEE;
+              border-radius: 4px;
+              width: 100%;
+              height: 182px;
+              overflow: auto;
+              padding: 8px 16px;
+              box-sizing: border-box;
+              resize: none;
+              margin-bottom: 10px; }
+          .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box .EditSLink-line-content-box-img {
+            width: 182px; }
+            .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box .EditSLink-line-content-box-img .noPic {
+              border: none !important; }
+          .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box .EditSLink-line-content-box-add {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+            color: #5D90C5;
+            font-weight: 400;
+            cursor: pointer; }
+            .MtEdit .MtEdit-edit .EditSLink .EditSLink-line .EditSLink-line-content-box .EditSLink-line-content-box-add:hover {
+              color: #288BF2; }
+  .MtEdit .MtEdit-edit-tips {
+    font-size: 12px;
+    color: #B5BDC6;
+    font-weight: 400;
+    margin-bottom: 49px; }
+  .MtEdit .MtEdit-edit-btn {
+    display: flex;
+    justify-content: flex-end; }
+  .MtEdit .mt-activeContent {
+    position: relative;
+    margin-top: 39px;
+    width: 100%;
+    padding: 0 14px; }
+  .MtEdit [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: #B5BDC6;
+    display: block;
+    font-weight: 400;
+    /* For Firefox */ }
+  .MtEdit .mt-activeContent pre {
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    word-break: normal;
+    white-space: normal;
+    font-size: 14px;
+    width: 100%;
+    color: #344658;
+    height: 356px; }
+  .MtEdit #pre-container {
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    word-break: normal;
+    white-space: normal;
+    font-size: 13px;
+    width: 100%;
+    color: #344658;
+    height: 20px;
+    border-bottom: 1px solid #DADEE2; }
+  .MtEdit .noWords {
+    height: 20px !important;
+    border-bottom: 1px solid #DADEE2; }
+  .MtEdit .mt-activeContent .gm-animation {
+    margin-top: -3px;
+    z-index: 4;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin-right: 14px; }
+  .MtEdit .mt-activeContent .toolBtn {
+    z-index: 4;
+    width: 36px;
+    height: 36px;
+    position: relative; }
+  .MtEdit .qqfaceBox {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    font-size: 12px;
+    color: #B5BDC6;
+    justify-content: flex-end;
+    padding-right: 14px;
+    font-weight: 400; }
+  .MtEdit .mt-activeContent .toolBtn {
+    background-position: -185px -38px; }
+  .MtEdit .counter {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    text-align: right;
+    font-size: 13px;
+    color: #B5BDC6;
+    width: 54px;
+    height: 18px; }
+  .MtEdit .mt-faceBox {
+    position: absolute;
+    display: none;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: 2;
+    left: -390px;
+    top: -245px;
+    background-color: white;
+    width: 474px;
+    height: 232px;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    transition: all .4s; }
+  .MtEdit .mt-faceBox::before {
+    width: 14px;
+    height: 14px;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 3px rgba(230, 230, 230, 0.87);
+    position: absolute;
+    z-index: 0;
+    bottom: -5px;
+    right: 60px;
+    background: #fff;
+    content: "";
+    border-radius: 2px; }
+  .MtEdit .dot:hover .tip {
+    display: block; }

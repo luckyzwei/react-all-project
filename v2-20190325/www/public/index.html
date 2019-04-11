@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <link rel="icon" href="https://cloud.gemii.cc/v2/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/common_0.css">
+<link rel="stylesheet" href="/css/index_1.css">
+<link rel="stylesheet" href="/css/tmIndex_11.css">
+<link rel="stylesheet" href="/css/ucIndex_12.css">
+<link rel="stylesheet" href="/css/pcIndex_13.css">
+<link rel="stylesheet" href="/css/rmIndex_14.css">
+    <script src='https://tj.gemii.cc/tj.js'></script>
+    <title>LizCloud</title>
+    <script>
+      var G_SDK = new SDK('local','lizicloud')
+      function getQueryString(name){
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)
+            return (r[2]);
+        return null;
+      }
+      var qrId = getQueryString('qrId')
+      G_SDK.loading(qrId)
+      window.onload = function(){
+          G_SDK.loaded(qrId)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="app" id="root"></div>
+    <div class="app" id="modal-root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run "npm start" in this folder.
+      To create a production bundle, use "npm run build".
+    -->
+  </body>
+</html>

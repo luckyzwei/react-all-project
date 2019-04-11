@@ -1,0 +1,113 @@
+.rm-overview {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.rm-overview .detatilBox .qrBox {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.rm-overview {
+  height: 100%;
+  position: relative;
+  padding: 24px;
+  color: #344658; }
+  .rm-overview .dataRow {
+    height: 140px;
+    min-width: 1084px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF; }
+    .rm-overview .dataRow .groupNum {
+      width: 56%;
+      height: 140px;
+      flex: auto;
+      background-image: linear-gradient(-90deg, #58A7F8 0%, #288BF2 100%);
+      border-radius: 4px;
+      margin-right: 2%;
+      display: flex;
+      align-items: center; }
+    .rm-overview .dataRow .robotNum {
+      width: 42%;
+      height: 140px;
+      flex: auto;
+      background-image: linear-gradient(-90deg, #85D8AA 0%, #6AD298 100%);
+      border-radius: 4px;
+      display: flex;
+      align-items: center; }
+    .rm-overview .dataRow .item {
+      width: 49%;
+      flex: auto;
+      text-align: center; }
+    .rm-overview .dataRow .num {
+      font-size: 36px;
+      margin-top: 4px; }
+    .rm-overview .dataRow .line {
+      width: 1px;
+      height: 50px;
+      background-color: #FFFFFF;
+      flex: none; }
+    .rm-overview .dataRow .robotListBtn {
+      width: 100px;
+      height: 32px;
+      line-height: 32px;
+      color: #6AD298;
+      cursor: pointer;
+      background: #FFF;
+      border-radius: 16px;
+      margin: 0 auto; }
+  .rm-overview .detatilBox {
+    height: calc(100% - 168px);
+    min-width: 1084px;
+    min-height: 526px;
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 48px; }
+    .rm-overview .detatilBox .title {
+      font-weight: 300;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 24px; }
+    .rm-overview .detatilBox .codeBox {
+      width: 334px;
+      height: 256px;
+      background: #FFFFFF;
+      box-shadow: 0 0 6px 4px #F7F8F9;
+      border-radius: 4px;
+      text-align: center;
+      padding-top: 34px;
+      margin: 0 auto 57px; }
+    .rm-overview .detatilBox .qrBox {
+      width: 150px;
+      height: 150px;
+      background-position: -284px -332px;
+      margin: 0 auto 18px;
+      padding: 12px; }
+      .rm-overview .detatilBox .qrBox .qr {
+        width: 126px;
+        height: 126px; }
+    .rm-overview .detatilBox .stepBox {
+      width: 840px;
+      margin: 0 auto; }
+    .rm-overview .detatilBox .stepBoxTitle {
+      font-weight: 500;
+      margin-bottom: 11px; }
+    .rm-overview .detatilBox .steps {
+      display: flex;
+      align-items: center; }
+    .rm-overview .detatilBox .stepNum {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      color: #B5BDC6;
+      text-align: center;
+      line-height: 14px;
+      border: 1px solid #B5BDC6;
+      border-radius: 50%;
+      margin-right: 8px;
+      vertical-align: middle; }
+    .rm-overview .detatilBox .stepArrow {
+      font-size: 16px;
+      color: #DADEE2;
+      margin: 0 12px; }

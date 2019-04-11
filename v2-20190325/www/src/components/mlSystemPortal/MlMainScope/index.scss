@@ -1,0 +1,244 @@
+@import 'styles/public.scss';
+
+.MlMainScope {
+    background: #F0F1F3;
+    padding: 0 24px 24px;
+    height: calc(100% - 59px);
+    min-width: 1132px;
+    overflow: auto;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .MlMain-title-box {
+        height: 79px;
+        line-height: 79px;
+        .MlMain-title {
+            color: #344658;
+            @extend %font-24px;
+            float: left;
+        }
+        .refresh {
+            padding-top: 1px;
+            color: #5D90C5;
+            @extend %font-14px;
+            float: right;
+            cursor: pointer;
+            height: 68px;
+            &:hover {
+                color: #288BF2;
+                em {
+                    background-position: -25px -313px;
+                }
+            }
+            em {
+                @extend %iconGi;
+                height: 20px;
+                width: 20px;
+                background-position: -5px -313px;
+                margin-right: 4px;
+                vertical-align: text-top;
+            }
+        }
+        .howImport {
+            @extend %font-14px;
+            text-decoration: underline;
+            float: right;
+            margin-right: 48px;
+            cursor: pointer;
+            color: #5D90C5;
+            position: relative;
+            &:hover {
+                p {
+                    visibility: visible;
+                    opacity: 1;
+                    top: 60px;
+                }
+            }
+            p {
+                width: 260px;
+                height: 92px;
+                @extend %font-12px;
+                background: #485767;
+                position: absolute;
+                right: 0;
+                top: 40px;
+                color: #fff;
+                line-height: 16px;
+                border-radius: 4px;
+                padding: 16px;
+                visibility: hidden;
+                opacity: 0;
+                transition: all .15s ease;
+                pointer-events: none;
+                &::after{
+                    content: "";
+                    border: 9px solid #485767;
+                    border-width: 6px 7px;
+                    border-color: transparent transparent #485767 transparent;
+                    position: absolute;
+                    right: 30px;
+                    top: -12px;
+                }
+            }
+        }
+    }
+    .MlMain-box {
+        min-width: 1084px;
+        min-height: 550px;
+        background: #fff;
+        border-radius: 4px;
+        .tab-box {
+            border-bottom: 1px solid #E9EBEE;
+            .tab-titles {
+                height: 57px;
+                line-height: 57px;
+                @extend %font-16px;
+                position: relative;
+                margin: 0;
+                .tab-title.active {
+                    color: #298BF2;
+                }
+                li {
+                    padding: 0 38px;
+                    float: left;
+                    cursor: pointer;
+                    &.tab-title:hover {
+                        color: #298BF2;
+                        &~.tab-line {
+                            width: 80px;
+                        }
+                    }
+                    &:nth-of-type(1):hover~.tab-line {
+                        left: 14px;
+                    }
+                    &:nth-of-type(2):hover~.tab-line {
+                        left: 134px;
+                    }
+                    &:nth-of-type(3):hover~.tab-line {
+                        left: 262px;
+                    }
+                    &:nth-of-type(4):hover~.tab-line {
+                        left: 398px;
+                    }
+                    &:nth-of-type(5):hover~.tab-line {
+                        left: 534px;
+                    }
+                }
+                .tab-line,.tab-line-b {
+                    height: 2px;
+                    width: 80px;
+                    top: 55px;
+                    background: #288BF2;
+                    padding: 0;
+                    margin: 0;
+                    position: absolute;
+                }
+                .tab-line {
+                    width: 0;
+                    transition: left .3s ease;
+                }
+                .tab-line-b {
+                    transition: all .25s ease;
+                }
+                .refresh {
+                    padding-top: 1px;
+                    color: #5D90C5;
+                    @extend %font-14px;
+                    float: right;
+                    cursor: pointer;
+                    height: 68px;
+                    &:hover {
+                        color: #288BF2;
+                        em {
+                            background-position: -25px -313px;
+                        }
+                    }
+                    em {
+                        @extend %iconGi;
+                        height: 20px;
+                        width: 20px;
+                        background-position: -5px -313px;
+                        margin-right: 4px;
+                        vertical-align: text-top;
+                    }
+                }
+            }
+        }
+        .search-box {
+            margin: 20px 0;
+            height: 36px;
+            .row {
+                display: flex;
+                float: left;
+                justify-content: flex-end;
+                align-items: center;
+                margin-right: 40px;
+                .title {
+                    display: inline-block;
+                    margin-right: 4px;
+                    color: #344658;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+                .ant-calendar-picker-input {
+                    width: 100%;
+                }
+            }
+            .selectAll-box {
+                float: right;
+                line-height: 36px;
+                cursor: pointer;
+                display: flex;
+                .selectAll {
+                    margin-right: 38px;
+                }
+                p {
+                    text-decoration: underline;
+                    color: red;
+                }
+            }
+            .batch-control {
+                cursor: pointer;
+                color: #5D90C5;
+                text-decoration: underline;
+                float: right;
+                line-height: 36px;
+            }
+        }
+    }
+    .img-modal {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: auto;
+        background: rgba(52,70,88,0.40);
+        .img-box {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 200px;
+            img {
+                border-radius: 8px;
+                max-width: 620px;
+                max-height: 490px;
+                min-width: 220px;
+            }
+            em {
+                @extend %iconGi;
+                width: 24px;
+                height: 24px;
+                background-position: -209px -277px;
+                cursor: pointer;
+                position: absolute;
+                right: -34px;
+                top: 0;
+                &:hover {
+                    background-position: -209px -301px;
+                }
+            }
+        }
+    }
+}

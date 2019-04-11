@@ -1,0 +1,139 @@
+.gi-build .select-modal .select-title {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 24px; }
+
+.gi-build .select-modal .modal-box .modal-card .hover-bg .items .item, .gi-build .select-modal .modal-box .modal-card .hover-bg .desc {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 12px; }
+
+.gi-build .select-modal .modal-box .modal-card .modal-type {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 16px; }
+
+.gi-build .select-modal .modal-box .modal-card .modal-type em {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+@media screen and (max-width: 1440px) {
+  .modal-box {
+    width: 940px; }
+    .modal-box .modal-card:nth-child(4) {
+      margin-right: 0 !important; } }
+
+@media screen and (min-width: 1440px) {
+  .modal-box {
+    width: 1181px; }
+    .modal-box .modal-card:nth-child(5) {
+      margin-right: 0 !important; } }
+
+.gi-build {
+  height: calc(100% - 60px);
+  position: relative;
+  overflow: auto;
+  background: #ffffff; }
+  .gi-build .select-modal {
+    padding: 104px 72px 104px 96px;
+    min-width: 1086px; }
+    .gi-build .select-modal p {
+      padding: 0;
+      margin: 0; }
+    .gi-build .select-modal .select-title {
+      color: #344658;
+      margin-bottom: 52px;
+      text-align: center; }
+    .gi-build .select-modal .modal-box {
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap; }
+      .gi-build .select-modal .modal-box .modal-card {
+        width: 217px;
+        height: 161px;
+        border-radius: 4px;
+        margin: 0 24px 24px 0;
+        position: relative;
+        color: #FFF;
+        overflow: hidden;
+        cursor: pointer; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg.bg1 {
+          background: url(/images/icon/build-group1.png) 0 0/cover; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg.bg2 {
+          background: url(/images/icon/build-group2.png) 0 0/cover; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg.bg3 {
+          background: url(/images/icon/build-group3.png) 0 0/cover; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg.bg4 {
+          background: url(/images/icon/build-group4.png) 0 0/cover; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg.bg5 {
+          background: url(/images/icon/build-group5.png) 0 0/cover; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg.bg6 {
+          background: #F7F8F9; }
+        .gi-build .select-modal .modal-box .modal-card .modal-card-bg {
+          position: absolute;
+          border-radius: 4px;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          transition: all .5s ease; }
+        .gi-build .select-modal .modal-box .modal-card:hover .modal-card-bg {
+          transform: scale(1.15); }
+        .gi-build .select-modal .modal-box .modal-card:hover .hover-bg-black {
+          opacity: 0.8; }
+        .gi-build .select-modal .modal-box .modal-card:hover .hover-bg {
+          top: 0; }
+        .gi-build .select-modal .modal-box .modal-card:hover .modal-type {
+          opacity: 0; }
+        .gi-build .select-modal .modal-box .modal-card .modal-type {
+          text-align: center;
+          transition: all .5s ease;
+          line-height: 161px; }
+          .gi-build .select-modal .modal-box .modal-card .modal-type.customize {
+            color: #5D90C5; }
+          .gi-build .select-modal .modal-box .modal-card .modal-type em {
+            width: 20px;
+            height: 20px;
+            vertical-align: sub;
+            margin-right: 3px;
+            background-position: -452px -304px; }
+        .gi-build .select-modal .modal-box .modal-card .hover-bg-black {
+          position: absolute;
+          border-radius: 4px;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          background: #344658;
+          padding: 16px 12px;
+          transition: all .5s ease; }
+        .gi-build .select-modal .modal-box .modal-card .hover-bg {
+          position: absolute;
+          border-radius: 4px;
+          top: 161px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 16px 12px;
+          transition: all .5s ease; }
+          .gi-build .select-modal .modal-box .modal-card .hover-bg.only {
+            display: flex;
+            align-items: center; }
+          .gi-build .select-modal .modal-box .modal-card .hover-bg .items {
+            display: flex;
+            margin: 8px 0 33px; }
+            .gi-build .select-modal .modal-box .modal-card .hover-bg .items .item {
+              padding: 0 4px;
+              height: 17px;
+              border-radius: 4px;
+              margin-right: 8px;
+              text-align: center; }
+            .gi-build .select-modal .modal-box .modal-card .hover-bg .items li:nth-child(1) {
+              background: #58A7F8; }
+            .gi-build .select-modal .modal-box .modal-card .hover-bg .items li:nth-child(2) {
+              background: #85D8AA; }
+            .gi-build .select-modal .modal-box .modal-card .hover-bg .items li:nth-child(3) {
+              background: #F8B779; }
+          .gi-build .select-modal .modal-box .modal-card .hover-bg .desc {
+            line-height: 15px; }

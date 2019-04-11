@@ -1,0 +1,52 @@
+.IptNum .content .handle .handleUp, .IptNum .content .handle .handleDown {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.IptNum {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box; }
+  .IptNum .title {
+    font-size: 14px;
+    color: #344658;
+    font-weight: 400;
+    margin-right: 4px; }
+    .IptNum .title .resTxt {
+      font-size: 16px;
+      color: #F75A5A;
+      line-height: 36px;
+      margin-right: 6px; }
+  .IptNum .content {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    height: 36px;
+    display: flex;
+    align-items: center; }
+    .IptNum .content:hover {
+      border-color: #58A7F8; }
+    .IptNum .content .input {
+      flex: 1;
+      padding: 0 0 0 16px;
+      color: #344658; }
+      .IptNum .content .input:focus {
+        border: 0 none; }
+    .IptNum .content .handle {
+      width: 20px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      transform: scale(0.8);
+      cursor: pointer; }
+      .IptNum .content .handle .handleUp {
+        width: 20px;
+        height: 20px;
+        background-position: -119px -19px; }
+      .IptNum .content .handle .handleDown {
+        width: 20px;
+        height: 20px;
+        background-position: -99px -19px; }
+  .IptNum .disabled,
+  .IptNum .disabled .input {
+    cursor: not-allowed; }

@@ -1,0 +1,60 @@
+@import '../../../styles/public.scss';
+
+.tm-listContent{
+  .tm-editWrapper{
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+  }
+  .editTitle{
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #485767;
+    margin-bottom: 24px;
+  }
+  .editInfoBox{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 24px 36px;
+
+    .editInfo-item{
+      display: flex;
+      .resetBtn{
+       @include widthHight(70,20);
+       line-height: 18px;
+       text-align: center;
+       color: #5D90C5;
+       border:1px solid #5D90C5;
+       border-radius: 4px;
+       font-size: 12px;
+       &:hover{
+          color: #2186ee;
+          border:1px solid#2186ee;
+       }
+      }
+      .public-input{
+        margin-right: 103px;
+      }
+      &:first-child{
+        margin-bottom: 14px;
+        .public-input:last-child{
+          margin-right: 0;
+        }
+      }
+      .selectWrappers{
+        margin-right: 103px;
+         color: #344658; 
+        &:last-child{
+           margin-right: 0;
+        }
+        .selectBoxs{
+            width: 222px;
+          }  
+        .selectLabel{
+            margin-right: 14px;
+        }
+      }
+    }
+
+  }
+}

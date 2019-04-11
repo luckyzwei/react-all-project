@@ -1,0 +1,290 @@
+@import 'styles/public.scss';
+$green:8px;
+
+.h-container {
+  overflow: auto;
+  height: calc(100% - 60px);
+  padding: 24px;
+  background: #F0F1F3;
+  position: relative;
+  @extend %font-14px;
+  color: #344658;
+
+  .switchBox {
+    position: absolute;
+    left: 109px;
+    top: 27px;
+    color: #B5BDC6;
+    display: flex;
+    align-items: center;
+
+    .checkBox {
+      width: 16px;
+      height: 16px;
+      @extend %iconHome;
+      background-position: -240px -214px;
+      cursor: pointer;
+      margin-right: 6px;
+
+      &:hover {
+        background-position: -256px -214px;
+      }
+
+      &.checked {
+        background-position: -272px -214px;
+      }
+    }
+  }
+}
+
+.h-container .chart-row {
+  height: 420px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  position: relative;
+}
+
+.h-container .h-row {
+  min-width: 1084px;
+  display: flex;
+  justify-content: space-between;
+
+  .dateSelect .ant-input {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .SearchInput .SearchInput-label {
+    width: 0;
+    margin: 0;
+  }
+
+  .SearchInput .SearchInput-input {
+    width: 300px;
+    border-radius: 0;
+  }
+
+  .searchBtn {
+    width: 60px;
+    height: 36px;
+    background: #58A7F8;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .searchBtn:hover {
+    background: #288BF2;
+  }
+
+  .icon-search {
+    width: 20px;
+    height: 20px;
+    @extend %iconHome;
+    background-position: -281px -174px;
+  }
+
+  .h-row-left,
+  .h-row-right {
+    display: flex;
+    position: relative;
+  }
+
+}
+
+.h-container .h-row .upperAreaBox {
+  background: #FFFFFF;
+  border-radius: 4px;
+  height: 174px;
+  flex: auto;
+  display: flex;
+
+  &:first-child {
+    background-image: linear-gradient(-90deg, #58A7F8 100%, #288BF2 0%);
+    margin-right: 24px;
+  }
+
+  &:last-child {
+    background-image: linear-gradient(-90deg, #85D8AA 100%, #6AD298 0%);
+  }
+
+  .upperItem {
+    display: flex;
+    vertical-align: middle;
+    margin-left: 5%;
+    @extend %font-14px;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+
+  .left {
+    width: 44%;
+  }
+
+  .right {
+    width: 55%;
+  }
+
+  .iconItem {
+    width: 58px;
+    height: 58px;
+    @extend %iconHome;
+  }
+
+  .dt-data {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .title {
+    margin-bottom: 25px;
+  }
+
+  .ulList {
+    font-size: 32px;
+
+    ul {
+      margin-bottom: 0;
+
+      li {
+        display: table;
+      }
+    }
+  }
+
+  .addWord {
+    display: flex;
+    align-items: center;
+
+    .num {
+      font-size: 16px;
+      margin-left: 10px;
+      margin-right: 4px;
+    }
+
+    .numIcon {
+      width: 16px;
+      height: 16px;
+      @extend %iconHome;
+      transform: translateY(1px);
+    }
+
+    .upicon {
+      background-position: -240px -230px;
+    }
+
+    .downicon {
+      background-position: -256px -230px;
+    }
+
+  }
+
+  .groupnum-icon {
+    background-position: -240px -246px;
+  }
+
+  .peoplenum-icon {
+    background-position: -298px -246px;
+  }
+
+  .messagenum-icon {
+    background-position: -356px -246px;
+  }
+
+  .saynum-icon {
+    background-position: -414px -246px;
+  }
+}
+
+.h-container .h-row .center-line {
+  width: 2px;
+  height: 60px;
+  background: #FFF;
+  margin-top: 50px;
+  opacity: 0.5;
+  flex: none;
+}
+
+.h-container .h-row .downloadBtn {
+  display: inline-block;
+  width: 108px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #58A7F8;
+  border-radius: 4px;
+  color: #FFF;
+  text-align: center;
+
+  .download-icon {
+    @extend %iconHome;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -301px -174px;
+    vertical-align: middle;
+    margin-right: 4px;
+    transform: translateY(-1px);
+  }
+
+  &:hover {
+    background: #288BF2;
+  }
+}
+
+.h-container .h-row-messageType {
+  width: 100%;
+
+  .title {
+    font-size: 16px;
+    height: 64px;
+    border-bottom: 1px solid #E9EBEE;
+    text-indent: 24px;
+    line-height: 64px;
+  }
+}
+
+.messageCountData {
+  width: 71.4%;
+  padding: 24px;
+}
+
+.messageTypeData {
+  width: 28.6%;
+  border-left: 1px solid rgba(218, 222, 226, .5);
+}
+
+#messageCountData,
+#userCountData,
+#timeMessageCountData {
+  width: 100%;
+  height: 100%;
+}
+
+#messageTypeData {
+  height: calc(100% - 65px);
+}
+
+.echartsTooltip {
+  background: #485767;
+  box-shadow: 0 1px 4px 0 rgba(36, 36, 36, 0.15);
+  border-radius: 4px;
+  font-size: 12px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 3%;
+    bottom: -13px;
+    border-left: $green solid transparent;
+    border-right: $green solid transparent;
+    border-top: $green solid #485767;
+    z-index: 999;
+  }
+}

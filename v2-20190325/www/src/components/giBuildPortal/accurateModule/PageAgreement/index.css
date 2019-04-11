@@ -1,0 +1,25 @@
+.PageAgreement {
+  display: flex;
+  margin-bottom: 34px; }
+  .PageAgreement .Pagetitle {
+    width: 112px;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #344658; }
+  .PageAgreement .PageContent {
+    background: #F7F8F9;
+    border-radius: 4px;
+    width: 516px;
+    padding: 20px 16px; }
+    .PageAgreement .PageContent .row {
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      position: relative; }
+      .PageAgreement .PageContent .row .phone-content-title {
+        width: 70px;
+        margin-right: 4px;
+        font-size: 14px;
+        color: #344658;
+        text-align: right; }

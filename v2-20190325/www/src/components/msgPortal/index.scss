@@ -1,0 +1,60 @@
+.msg-bigBox {
+    height: calc(100% - 59px);
+    background: #f0f1f3;
+    overflow: auto;
+    padding: 24px;
+    position: relative;
+}
+.msg-Portal {
+    min-width: 1096px;
+    min-height: 100%;
+    background: #fff;
+    .msg-box {
+        padding: 44px 48px;
+        color: #485767;
+        font-family: PingFangSC-Light;
+        min-width: 1096px;
+        .msg-title {
+            font-size: 20px;
+            border-bottom: 1px solid #E9EBEE;
+            padding: 0 0 16px;
+            margin: 0;
+        }
+        .msg-item {
+            border-bottom: 1px solid #E9EBEE;
+            min-height: 90px;
+            padding: 28px 0px 16px;
+            .msg-item-box {
+                display: flex;
+                .msg-item-icon {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+            .title {
+                margin: 0 0 10px 10px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .title-cont {
+                    font-family: PingFangSC-Medium;
+                    font-size: 14px;
+                }
+                .time {
+                    font-family: PingFangSC-Regular;
+                    font-size: 12px;
+                    color: #B5BDC6;
+                }
+            }
+            .cont {
+                font-size: 14px;
+                margin: 0;
+                margin-left: 28px;
+            }
+        }
+    }
+    .pageFooter{
+        display: flex;
+        justify-content: center;
+    }
+}

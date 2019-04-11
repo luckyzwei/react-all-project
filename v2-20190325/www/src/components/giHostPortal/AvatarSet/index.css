@@ -1,0 +1,42 @@
+.gi-host .avatarSet {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.gi-host .avatarSet {
+  width: 420px;
+  height: 420px;
+  color: #334659; }
+
+.gi-host .avatarSet .header {
+  height: 58px;
+  border-bottom: 1px solid #E9EBEE;
+  padding-left: 22px;
+  font-size: 16px;
+  line-height: 58px; }
+
+.gi-host .avatarSet .img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto 8px; }
+
+.gi-host .avatarSet .nickname {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 21px; }
+
+.gi-host .avatarSet .row {
+  margin-top: 14px;
+  padding: 0 36px;
+  display: flex;
+  align-items: center; }
+
+.gi-host .avatarSet .row .label {
+  margin-right: 6px; }
+
+.gi-host .avatarSet .buttonArea {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; }

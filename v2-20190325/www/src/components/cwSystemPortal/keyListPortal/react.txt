@@ -1,0 +1,34 @@
+mkdir $1
+cd $1
+touch index.js index.scss
+
+echo "/**" >> index.js
+echo " * 创建时间:`date "+%Y-%m-%d %H:%M:%S"`" >> index.js
+echo " * 作者：sufei  Xerath" >> index.js
+echo " * 邮箱：fei.su@gemii.cc" >> index.js
+echo " * 版本号：1.0" >> index.js
+echo " * @版权所有" >> index.js
+echo " **/" >> index.js
+
+echo "import React,{Component} from 'react'"  >> index.js
+echo "import './index.css'"  >> index.js
+echo " "  >> index.js
+echo "export default class $1 extends Component {"  >> index.js
+echo "    constructor() {"  >> index.js
+echo "        super();"  >> index.js
+echo "        this.state = {}"  >> index.js
+echo "     }"  >> index.js
+echo "     componentDidMount(){}"  >> index.js
+echo "     componentWillUnmount(){}"  >> index.js
+echo "     render(){"  >> index.js
+echo "          let {} = this.state;"  >> index.js
+echo "          let {} = this.props;"  >> index.js
+echo "          return("  >> index.js
+echo "              <div className='$1'></div>"  >> index.js
+echo "              )"  >> index.js
+echo "     }"  >> index.js
+echo "}"  >> index.js
+
+
+echo "@import 'styles/public.scss';"  >> index.scss
+echo ".$1 {}"  >> index.scss

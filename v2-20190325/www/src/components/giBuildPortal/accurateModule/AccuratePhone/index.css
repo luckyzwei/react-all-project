@@ -1,0 +1,181 @@
+.gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row .row-content .row-content-icom,
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row .row-content .row-content-icom {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.gi-accurate-step2 .gi-accurate-step2-left,
+.typeSelect .gi-accurate-step2-left {
+  width: 446px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-title,
+  .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-title {
+    font-size: 14px;
+    color: #485767;
+    font-weight: 400;
+    margin-top: 41px;
+    margin-left: 30px; }
+  .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content,
+  .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content {
+    width: 296px;
+    height: 584px;
+    background: url(/images/bj/fast_build_bj.png) no-repeat;
+    position: relative; }
+    .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox,
+    .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      width: 246px;
+      height: 464px;
+      top: 64px;
+      left: 34px;
+      padding: 0 23px;
+      overflow: auto; }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .contentBg,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .contentBg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(52, 70, 88, 0.2); }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .contentHeader,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .contentHeader {
+        min-height: 238px;
+        margin-bottom: 16px;
+        width: 206px;
+        flex: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .contentHeader .phone-row,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .contentHeader .phone-row {
+          width: 200px; }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityRule-row,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityRule-row {
+        height: 37px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 100%;
+        flex: none; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityRule-row .activityRule,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityRule-row .activityRule {
+          font-size: 10px;
+          color: #FFFFFF;
+          text-align: right;
+          width: 100%;
+          cursor: pointer; }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityName-row,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityName-row {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-bottom: 11px;
+        flex: none;
+        cursor: pointer; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityName-row .activityName,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityName-row .activityName {
+          min-height: 27px; }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row {
+        width: 200px;
+        height: 32px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: move; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row:hover,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row:hover {
+          opacity: .8; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0px; }
+          .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code .row-content-line,
+          .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code .row-content-line {
+            width: 2px;
+            height: 18px;
+            background: #e9ebee; }
+          .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code .row-content-code,
+          .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code .row-content-code {
+            line-height: 32px;
+            width: 120px;
+            text-align: center; }
+          .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code .row-content-get,
+          .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row.row-code .row-content-get {
+            color: #B5BDC6;
+            flex: 1;
+            text-align: center; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row .row-content,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row .row-content {
+          width: 100%;
+          height: 32px;
+          line-height: 32px;
+          text-align: center;
+          position: relative; }
+          .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row .row-content .row-content-icom,
+          .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row .row-content .row-content-icom {
+            display: block;
+            position: absolute;
+            background-position: -99px -19px;
+            width: 20px;
+            height: 20px;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%); }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-agreement,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-agreement {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 12px;
+        justify-content: content;
+        margin-bottom: 6px;
+        flex: none; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-agreement .row-agreement-icon,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-agreement .row-agreement-icon {
+          width: 9px;
+          height: 9px;
+          border: 1px solid #fff;
+          border-radius: 1px;
+          margin-right: 9px; }
+      .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-confirm,
+      .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-confirm {
+        display: flex;
+        justify-content: center;
+        flex: none; }
+        .gi-accurate-step2 .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-confirm .confrim,
+        .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-confirm .confrim {
+          background: #FFFFFF;
+          border-radius: 4px;
+          font-size: 12px;
+          color: #FFFFFF;
+          width: 200px;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          cursor: pointer; }
+
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityRule-row .activityRule {
+  cursor: default; }
+
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .activityName-row {
+  cursor: default; }
+
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row {
+  cursor: default; }
+  .typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row:hover {
+    opacity: 1; }
+
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-agreement {
+  cursor: default; }
+
+.typeSelect .gi-accurate-step2-left .gi-accurate-step2-left-content .contentBox .row-confirm .confrim {
+  cursor: default; }

@@ -1,0 +1,19 @@
+.public-loadingBox-button {
+  width: 108px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all .5s;
+  cursor: pointer;
+  background: #58A7F8;
+  border: 1px solid #58A7F8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .public-loadingBox-button:hover {
+    background: #288BF2; }
+  .public-loadingBox-button svg {
+    margin-left: 10px; }

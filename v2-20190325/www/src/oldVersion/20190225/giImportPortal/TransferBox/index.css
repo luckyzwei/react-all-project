@@ -1,0 +1,35 @@
+.public-transferBox .center div {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.public-transferBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: auto; }
+  .public-transferBox .left,
+  .public-transferBox .right {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch; }
+    .public-transferBox .left .header,
+    .public-transferBox .right .header {
+      flex: none; }
+    .public-transferBox .left .list,
+    .public-transferBox .right .list {
+      flex: auto;
+      overflow: auto; }
+  .public-transferBox .center div {
+    width: 44px;
+    height: 44px;
+    cursor: pointer; }
+  .public-transferBox .center .goRight {
+    margin-top: 36px;
+    background-position: -387px -19px; }
+    .public-transferBox .center .goRight:hover {
+      background-position: -343px -19px; }
+  .public-transferBox .center .goLeft {
+    background-position: -299px -19px; }
+    .public-transferBox .center .goLeft:hover {
+      background-position: -431px -19px; }

@@ -1,0 +1,32 @@
+.MmBuildMain .stepTitle {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.MmBuildMain {
+  height: calc(100% - 60px);
+  overflow: auto;
+  background: #F8F8F9;
+  padding: 24px; }
+  .MmBuildMain .stepTitle {
+    color: #344658;
+    padding-top: 20px;
+    width: 100%;
+    height: 57px; }
+    .MmBuildMain .stepTitle .todo {
+      color: #B5BDC6; }
+  .MmBuildMain .MmBuildMain-content {
+    min-height: 737px;
+    height: 100%;
+    min-width: 1088px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 40px 0;
+    position: relative; }
+    .MmBuildMain .MmBuildMain-content .MmBuildMain-content-left {
+      width: 378px;
+      position: absolute;
+      background: #fff; }
+    .MmBuildMain .MmBuildMain-content .MmBuildMain-content-right {
+      padding-left: 378px;
+      overflow: auto; }

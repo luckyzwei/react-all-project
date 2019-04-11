@@ -1,0 +1,48 @@
+.TreeBox {
+  width: 258px;
+  height: 340px;
+  background: #fff;
+  border: 1px solid #E9EBEE;
+  border-radius: 2px; }
+  .TreeBox .ant-tree .ant-tree-title {
+    font-family: 'PingFang SC';
+    font-weight: 400;
+    font-size: 14px;
+    color: #344658; }
+  .TreeBox .selectHospital {
+    height: 44px;
+    border-bottom: 1px solid #e9ebee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #344658; }
+    .TreeBox .selectHospital .redTxt {
+      font-size: 16px;
+      color: #F75A5A;
+      line-height: 44px;
+      margin-right: 4px; }
+    .TreeBox .selectHospital .allSelect {
+      margin-right: 8px;
+      color: #383E46; }
+  .TreeBox .selectHospital-content {
+    height: calc(100% - 44px);
+    overflow: auto; }
+  .TreeBox .all-se-ant::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid #1890ff;
+    content: '';
+    -webkit-animation: antCheckboxEffect 0.36s ease-in-out;
+    animation: antCheckboxEffect 0.36s ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility: hidden; }
+  .TreeBox .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background: rgba(255, 153, 165, 0.3); }

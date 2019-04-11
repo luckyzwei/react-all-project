@@ -1,0 +1,58 @@
+.cw-kwMain .content .cw-header .title, .cw-kwMain .content .cw-header .all {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 14px; }
+
+@media screen and (min-width: 1440px) {
+  .cw-header {
+    min-width: 280px; } }
+
+@media screen and (min-width: 1920px) {
+  .cw-header {
+    min-width: 340px; } }
+
+.cw-kwMain {
+  height: calc(100% - 59px);
+  background: #F0F1F3;
+  display: flex;
+  flex-direction: column;
+  overflow: auto; }
+  .cw-kwMain .content {
+    min-width: 1094px;
+    padding: 24px 24px;
+    height: calc(100% - 82px);
+    flex: auto;
+    border-radius: 4px;
+    background-clip: content-box; }
+    .cw-kwMain .content .scrollBox {
+      position: relative;
+      display: flex;
+      height: 100%; }
+    .cw-kwMain .content::-webkit-scrollbar {
+      display: none; }
+    .cw-kwMain .content .cw-header {
+      border-radius: 4px 0 0 4px;
+      background: #fff;
+      min-width: 256px;
+      min-height: 608px; }
+      .cw-kwMain .content .cw-header .title {
+        color: #B5BDC6;
+        padding: 0 16px;
+        height: 41px;
+        line-height: 41px;
+        border-bottom: 1px solid #E9EBEE; }
+      .cw-kwMain .content .cw-header .all {
+        color: #344658;
+        margin: 10px 0;
+        padding: 5px 11px 5px 26px;
+        cursor: pointer; }
+        .cw-kwMain .content .cw-header .all:hover, .cw-kwMain .content .cw-header .all.active {
+          background: #F7F8F9; }
+  .cw-kwMain .guideButton {
+    width: 108px;
+    height: 36px;
+    position: relative;
+    margin: 28px auto; }
+    .cw-kwMain .guideButton:hover .public-tipBubble {
+      transform: scale(1);
+      opacity: 1; }

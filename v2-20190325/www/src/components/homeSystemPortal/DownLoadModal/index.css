@@ -1,0 +1,39 @@
+.download-modal {
+  width: 420px;
+  height: 250px; }
+  .download-modal circle {
+    fill: #FFFFFF; }
+  .download-modal .title {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #344658;
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px solid #E9EBEE;
+    text-align: left;
+    padding: 0 22px; }
+  .download-modal .content {
+    display: flex;
+    align-items: center;
+    margin: 40px; }
+    .download-modal .content .label {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #344658;
+      margin-right: 1px; }
+  .download-modal .btnBox {
+    margin: 0 156px; }
+    .download-modal .btnBox .loadingBox-butt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+      .download-modal .btnBox .loadingBox-butt .desc {
+        margin-right: 4px;
+        line-height: 34px; }
+      .download-modal .btnBox .loadingBox-butt .loader {
+        height: 8px; }
+        .download-modal .btnBox .loadingBox-butt .loader svg {
+          margin-top: 0px; }
+  .download-modal .dateSelect .ant-input {
+    width: 232px !important; }

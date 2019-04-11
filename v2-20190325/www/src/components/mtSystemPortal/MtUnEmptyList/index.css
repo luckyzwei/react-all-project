@@ -1,0 +1,8 @@
+.TmUnEmptyList {
+  height: 100%; }
+  .TmUnEmptyList .TmUnEmptyList-content {
+    height: calc( 100% - 132px);
+    background: #F0F1F3;
+    padding: 24px;
+    box-sizing: border-box;
+    min-height: 550px; }

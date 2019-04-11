@@ -1,0 +1,426 @@
+@import 'styles/public.scss';
+
+.gi-host .gi-robotList {
+    min-height: 100%;
+    min-width: 1120px;
+    padding: 24px;
+    background: $gray-bg;
+    @extend %font-14px;
+    color: #344658;
+
+    .pageSize {
+        width: 1070px;
+    }
+
+    .searchBar {
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .searchBar .statusBox {
+        flex: 0 none;
+        display: flex;
+        width: 260px;
+        justify-content: space-between;
+    }
+
+    .searchBar .statusBox .status {
+        width: 50px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .searchBar .statusBox .checked {
+        background: #6AD298;
+        color: #FFFFFF;
+    }
+
+    .searchBar .searchBox {
+        position: relative;
+    }
+
+    .searchBar input {
+        box-sizing: border-box;
+        padding: 8px 8px 8px 34px;
+        width: 290px;
+        height: 34px;
+        border: 1px solid transparent;
+        background: #FFFFFF;
+        border-radius: 4px;
+        color: #344658;
+
+        &:hover {
+            border: 1px solid rgb(88, 167, 248);
+        }
+        &:focus {
+            border: 1px solid rgb(88, 167, 248);
+        }
+    }
+
+    .searchBar .searchBox .searchBtn {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 12px;
+        top: 6px;
+        cursor: pointer;
+        @extend %iconGi;
+        background-position: -189px -277px;
+    }
+
+    .listBox {
+        .cardItem:hover {
+            box-shadow: 0 4px 10px 0 #D7DADD;
+        }
+
+        .addBtn {
+            width: 340px;
+            height: 200px;
+            background: #FFFFFF;
+            border: 1px solid #E9EBEE;
+            box-shadow: 0 2px 4px 0 #E9EBEE;
+            border-radius: 4px;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #B5BDC6;
+            cursor: pointer;
+            margin: 0 24px 24px 0;
+            &:hover {
+                color: #58A7F8;
+                .icon-add {
+                    background-position: -164px -262px;
+                }
+            }
+        }
+
+        .addBtn .icon-add {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            @extend %iconGi;
+            background-position: -5px -67px;
+            margin-right: 10px;
+        }
+
+        .addBtn:hover .icon-add{
+            background-position: -29px -67px;
+        }
+
+        .cardItem:nth-child(3n) {
+            margin-right: 0;
+        }
+
+        // card 样式
+        .card {
+            width: 340px;
+            height: 200px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px 0 #E9EBEE;
+            float: left;
+            margin: 0 24px 24px 0;
+            position: relative;
+        }
+
+        .card .detailBox {
+            height: 160px;
+            padding: 0 22px;
+            background: #FFFFFF;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .card .footer {
+            height: 40px;
+            border-top: 1px solid #E9EBEE;
+            background: #F8F8F9;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .card .left span {
+            color: #B5BDC6;
+            width: 110px;
+            height: 22px;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                color: #58A7F8;
+            }
+        }
+
+        .card .left span:nth-child(2) {
+            border-left: 1px solid #E9EBEE;
+        }
+
+        .card .operateArea {
+            margin-right: 24px;
+        }
+
+        .card .hoverBox {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #485767;
+            box-shadow: 0 1px 4px 0 rgba(36, 36, 36, 0.15);
+            border-radius: 4px;
+            padding: 6px 10px;
+            font-weight: 400;
+            color: #FFFFFF;
+            box-sizing: border-box;
+            display: none;
+            z-index: 2;
+        }
+
+        .card .hoverBox::after {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 6px;
+            border-radius: 2px;
+            box-shadow: 0 1px 4px 0 rgba(36, 36, 36, 0.15);
+            background: #485767;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) rotate(45deg);
+            top: -2px;
+        }
+
+        .card .refresh:hover .hoverBox,
+        .card .more:hover .hoverBox {
+            display: block;
+        }
+
+        .card .refresh,
+        .card .more {
+            @extend %iconGi;
+            float: right;
+            width: 20px;
+            height: 20px;
+            background-position: -149px -277px;
+            cursor: pointer;
+            margin-left: 10px;
+            position: relative;
+        }
+
+        .card .refresh:hover {
+            background-position: -149px -297px;
+        }
+
+        .card .refresh .hoverBox {
+            width: 50px;
+            top: 20px;
+        }
+
+        .card .more {
+            background-position: -169px -277px;
+        }
+
+        .card .more:hover {
+            background-position: -169px -297px;
+        }
+
+        .card .more .hoverBox {
+            width: 80px;
+            top: 20px;
+        }
+
+        .card .more .item {
+            width: 80px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 4px 0 rgba(36, 36, 36, 0.24);
+            border-radius: 4px;
+            padding: 4px 0;
+            position: absolute;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 20px;
+            @extend %font-12px;
+            color: #485767;
+            display: none;
+            z-index: 2;
+        }
+
+        .card .more .item div {
+            height: 26px;
+            line-height: 26px;
+            position: relative;
+            z-index: 3;
+        }
+
+        .card .more .item div:hover {
+            background: #F8F8F9;
+            color: #58A7F8;
+        }
+
+        .card .more .item .cancel:hover {
+            color: #F75A5A;
+        }
+
+        .card .more .item::after {
+            content: '';
+            display: block;
+            background: #FFFFFF;
+            width: 10px;
+            height: 10px;
+            box-shadow: 0 1px 4px 0 rgba(36, 36, 36, 0.24);
+            border-radius: 2px;
+            position: absolute;
+            left: 50%;
+            top: -6px;
+            transform: translateX(-50%) rotate(45deg);
+        }
+
+        .card .more .item::before {
+            content: '';
+            display: block;
+            background: #FFFFFF;
+            height: 10px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+        }
+
+        .card .avatar {
+            height: 60px;
+            border-bottom: 1px dashed #E9EBEE;
+            display: flex;
+            align-items: center;
+        }
+
+        .card .avatar img {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: block;
+            margin-right: 11px;
+        }
+
+        .card .statusText {
+            text-align: center;
+            font-size: 12px;
+            color: #6AD298;
+            cursor: pointer;
+            width: 38px;
+            height: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(106, 210, 152, .5);
+            position: relative;
+        }
+
+        .card .statusText.offline,
+        .card .statusText.error {
+            color: #FF99A5;
+            border: 1px solid rgba(255, 153, 165, .5);
+        }
+
+        .card .statusText:hover .hoverBox {
+            display: block;
+            text-align: left;
+        }
+
+        .card .statusText .hoverBox {
+            left: 130%;
+            width: 138px;
+            text-align: left;
+        }
+
+        .card .statusText .hoverBox::after {
+            left: 30%;
+        }
+
+        .card .statusBox {
+            height: 98px;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: #160000;
+        }
+
+        .card .statusBox .loginBtn {
+            float: right;
+            font-size: 12px;
+            color: #5D90C5;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .card .groupCount span:first-child,
+        .card .groupCount.error span,
+        .card .groupCount.offline span {
+            color: #B5BDC6;
+            font-weight: 400;
+        }
+
+        .card .groupCount.fail span {
+            color: #FF99A5;
+        }
+        .card .refreshBox{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,.5);
+        }
+        
+        .card .refreshBox .refreshBox-img{
+            display: block;
+            margin: 90px auto 0;
+        }
+    }
+
+    .pageFooter {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+// @media screen and (max-width: 1439px) {
+//     .gi-host .gi-robotList {
+//         .listBox .cardItem:nth-child(3n) {
+//             margin-right: 0;
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 1440px) and (max-width: 1919px) {
+//     .gi-host .gi-robotList {
+//         .listBox .cardItem:nth-child(4n) {
+//             margin-right: 0;
+//         }
+
+//         .pageSize {
+//             width: 1400px;
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 1920px) {
+//     .gi-host .gi-robotList {
+//         .listBox .cardItem:nth-child(6n) {
+//             margin-right: 0;
+//         }
+
+//         .pageSize {
+//             width: 1400px;
+//         }
+//     }
+// }

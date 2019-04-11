@@ -1,0 +1,196 @@
+@import 'styles/public.scss';
+
+.gi-build {
+    .typeSelect {
+        height: 100%;
+        overflow: hidden;
+        background: #FFFFFF;
+        color: #344658;
+        overflow: auto;
+        @extend %font-14px;
+
+        .inner {
+            min-width: 1132px;
+        }
+
+        .step2 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 750px;
+            margin: 0 auto;
+
+            .buildType {
+                width: 100%;
+                flex: none;
+                @extend %font-24px;
+                text-align: center;
+                padding: 100px 0 67px;
+            }
+
+            .step2-item {
+                width: 332px;
+                height: 282px;
+                border: 1px solid #DADEE2;
+                border-radius: 4px;
+                margin-right: 84px;
+                // margin-bottom: 38px;
+                text-align: center;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .step2-image {
+                    width: 100px;
+                    height: 100px;
+                    margin: 30px 0 10px;
+                }
+
+                .step2-text {
+                    @extend %font-14px-light;
+                    margin: 0 auto 31px;
+                    height: 34px;
+                    line-height: 20px;
+                    width: 260px;
+                    text-align: left;
+                }
+
+                .green {
+                    background: #85D8AA;
+                    color: #FFFFFF;
+
+                    &:hover {
+                        background: #6AD298;
+                    }
+                }
+
+                &:nth-child(2):hover {
+                    border-color: #B5BDC6;
+                }
+
+                &:nth-child(3) {
+                    margin: 0;
+                }
+
+                &:nth-child(3):hover {
+                    border-color: #B5BDC6;
+                }
+            }
+
+            // .gb-preinstall {
+            //     width: 100%;
+            //     .preinstall-title {
+            //         @extend %font-14px;
+            //         color: #B5BDC6;
+            //     }
+            //     .preinstall-box {
+            //         display: flex;
+            //         justify-content: space-between;
+            //         .preinstall-item {
+            //             width: 224px;
+            //             height: 88px;
+            //             background: mediumturquoise;
+            //             border-radius: 4px;
+            //             padding-top: 34px;
+            //             &:hover {
+            //                 em {
+            //                     opacity: 1;
+            //                     // left: 100%;
+            //                     // transform: translateX(-100%);
+            //                 }
+            //             }
+            //             p {
+            //                 display: inline-block;
+            //                 text-align: center;
+            //                 margin: 0;
+            //                 position: relative;
+            //                 left: 50%;
+            //                 transform: translateX(-50%);
+            //             }
+            //             em {
+            //                 position: absolute;
+            //                 top: 20px;
+            //                 left: 0;
+            //                 @extend %iconGi;
+            //                 background-position: -512px -184px;
+            //                 width: 24px;
+            //                 height: 24px;
+            //                 opacity: 0;
+            //                 transition: all .15s;
+            //             }
+            //         }
+            //     }
+            // }
+
+            .buttonBox {
+                width: 100%;
+                margin: 50px 0 30px;
+            }
+        }
+
+        .inner-edit {
+            width: 100%;
+            height: 100%;
+            background: #F0F1F3;
+            padding: 24px;
+            overflow: auto;
+        }
+
+        .typeselect-previewBox {
+            min-width: 1084px;
+            height: 100%;
+            min-height: 692px;
+            background: #ffffff;
+            display: flex;
+
+            .right {
+                padding-top: 196px;
+                flex: auto;
+
+                .row1 {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .editBtn {
+                    margin-left: 12px;
+                    color: #5D90C5;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #58A7F8;
+                    }
+
+                    .icon-edit {
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        @extend %iconGi;
+                        background-position: -171px -39px;
+                        vertical-align: middle;
+                    }
+                }
+
+                .row2 {
+                    padding-left: 118px;
+                    color: #B5BDC6;
+                    margin-top: 14px;
+                    .row2-build-txt {
+                        color: #5D90C5;
+                        text-decoration: underline;
+                        cursor:pointer;
+                        &:hover {
+                            color:#58A7F8;
+                        }
+                    }
+                }
+
+                .row3 {
+                    width: 534px;
+                    margin-top: 236px;
+                }
+            }
+        }
+    }
+}

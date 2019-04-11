@@ -1,0 +1,54 @@
+@import 'styles/public.scss';
+
+.Step1 {
+  padding: 24px;
+  .Step1-title {
+    font-size: 24px;
+    color: #485767;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  .Step1-content {
+    min-width: 1096px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 69px 119px;
+    .Step1-content-row {
+      border-bottom: 1px solid #E9EBEE;
+      padding: 7px 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      .Step1-content-row-ipt {
+        border: none;
+        flex: 1;
+        font-size: 24px;
+      }
+    }
+    .Step1-content-radio {
+      display: flex;
+      .Step1-content-radio-item {
+        flex: 1;
+        font-size: 14px;
+        color: #344658;
+        font-weight: 400;
+        .title {
+          margin-bottom: 20px;
+
+        }
+        .Step1-content-radio-item-tips{
+          font-size: 12px;
+          color: #B5BDC6;
+          font-weight: 400;
+        }
+      }
+    }
+    .Step1-footer{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-top: 120px;
+    }
+  }
+}

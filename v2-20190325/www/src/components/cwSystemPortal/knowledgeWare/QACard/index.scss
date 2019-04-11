@@ -1,0 +1,173 @@
+@import 'styles/public.scss';
+
+.cw-qacard {
+    padding: 16px 24px 0 40px;
+    display: flex;
+    cursor: pointer;
+
+    &.hover:hover {
+        .question,.answerBox,.footer {
+            opacity: .7;
+        }
+        .left .checkBox{
+            display: block;
+        }
+    }
+
+    .left {
+        width: 25px;
+        flex: none;
+
+        .checkBox {
+            display: none;
+            width: 20px;
+            height: 20px;
+            @extend %iconGi;
+            background-position: -139px -19px;
+            margin-right: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-position: -159px -19px;
+            }
+
+            &.checked {
+                display: block;
+                background-position: -179px -19px;
+            }
+        }
+
+
+    }
+
+    .right {
+        flex: auto;
+        border-bottom: 1px dashed #E9EBEE;
+        width: 100%;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+
+            .question {
+                @extend %font-14px-medium;
+                color: #344658;
+            }
+
+            .other {
+                display: flex;
+                align-items: center;
+            }
+
+            .time {
+                @extend %font-12px;
+                color: #B5BDC6;
+                margin-right: 24px;
+            }
+
+            .operate {
+                display: block;
+                width: 20px;
+                height: 20px;
+                @extend %iconCw;
+                background-position: -2px -72px;
+                position: relative;
+                cursor: pointer;
+
+                &:hover {
+                    background-position: -2px -92px;
+                }
+
+                .operateItem {
+                    position: absolute;
+                    width: 72px;
+                    left: -26px;
+                    top: 28px;
+                    background: #ffffff;
+                    box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+                    border-radius: 4px;
+
+                    &:before {
+                        content: '';
+                        display: block;
+                        width: 10px;
+                        height: 10px;
+                        background: #ffffff;
+                        box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+                        position: absolute;
+                        left: 50%;
+                        top: -4px;
+                        transform: translateX(-50%) rotate(-45deg);
+                    }
+
+                    div {
+                        position: relative;
+                        z-index: 2;
+                        background: #ffffff;
+                        height: 32px;
+                        line-height: 32px;
+                        @extend %font-14px;
+                        color: #485767;
+                        text-align: center;
+                        cursor: pointer;
+
+                        &:hover {
+                            background: #ECF6FF;
+                        }
+                    }
+                }
+            }
+        }
+
+        .labelList {
+            height: 20px;
+            margin: 14px 0;
+
+            .label {
+                padding: 0 6px;
+                line-height: 18px;
+                border: 1px solid rgba(106, 210, 152, .3);
+                border-radius: 10px;
+                @extend %font-12px;
+                color: #6AD298;
+                margin-right: 10px;
+            }
+        }
+
+        .answerBox {
+            @extend %font-14px;
+            color: #485767;
+            line-height: 20px;
+            margin: 10px 0;
+            position: relative;
+            word-break: break-all;
+            .two {
+                @include multiTextHide(2);
+            }
+            .expandBtn {
+                color: #5D90C5;
+                cursor: pointer;
+                float: right;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                &:hover {
+                    color: #58A7F8;
+                }
+            }
+
+            img {
+                display: block;
+                height: 280px;
+                margin: 8px 0 20px;
+                max-width: 100%;
+            }
+        }
+
+        .footer {
+            @extend %font-12px;
+            color: #B5BDC6;
+            margin-bottom: 4px;
+        }
+    }
+}

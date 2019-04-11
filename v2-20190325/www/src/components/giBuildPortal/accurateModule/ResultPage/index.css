@@ -1,0 +1,29 @@
+.SaveSuccess .SaveSuccess-content {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 24px; }
+
+.SaveSuccess {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #fff; }
+  .SaveSuccess .SaveSuccess-content {
+    width: 300px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #485767; }
+    .SaveSuccess .SaveSuccess-content .SaveSuccess-content-img {
+      width: 218px;
+      height: 218px;
+      margin-top: 11px; }
+    .SaveSuccess .SaveSuccess-content .SaveSuccess-content-txt {
+      font-size: 14px;
+      font-weight: 400;
+      margin: 8px 0;
+      color: #c2c8cf; }
+      .SaveSuccess .SaveSuccess-content .SaveSuccess-content-txt .SaveSuccess-content-txt-blue {
+        color: #288BF2; }

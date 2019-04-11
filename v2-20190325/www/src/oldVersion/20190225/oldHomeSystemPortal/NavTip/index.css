@@ -1,0 +1,30 @@
+.home-navList span {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.home-navList {
+  position: relative; }
+  .home-navList span {
+    display: inline-block;
+    color: #485767;
+    margin-right: 23px;
+    cursor: pointer;
+    line-height: 30px;
+    border-bottom: 3px solid transparent;
+    transition: all ease-in-out .3s; }
+  .home-navList .bluebar {
+    height: 3px;
+    background: #58A7F8;
+    position: absolute;
+    bottom: 0;
+    transition: all ease-in-out .15s; }
+  .home-navList .bluebar-step1 {
+    width: 28px;
+    left: 0; }
+  .home-navList .bluebar-step2 {
+    width: 41px;
+    left: 51px; }
+  .home-navList .bluebar-step3 {
+    width: 47px;
+    left: 116px; }

@@ -1,0 +1,69 @@
+.cw-searchBox .searchInput .textInput, .cw-searchBox .searchLabel {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.cw-searchBox .searchBtn {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 14px; }
+
+.cw-searchBox {
+  height: 82px;
+  background: #FFFFFF;
+  padding: 24px;
+  min-width: 1094px; }
+  .cw-searchBox .searchInput {
+    display: flex;
+    margin-right: 12px;
+    float: left; }
+    .cw-searchBox .searchInput .selectWrappers .selectBoxs {
+      border: 1px solid #E9EBEE;
+      border-radius: 4px 0 0 4px;
+      left: 1px; }
+      .cw-searchBox .searchInput .selectWrappers .selectBoxs:hover {
+        border: 1px solid #58A7F8; }
+      .cw-searchBox .searchInput .selectWrappers .selectBoxs:focus {
+        border: 1px solid #58A7F8; }
+    .cw-searchBox .searchInput .selectWrappers .selectOption {
+      border: 0 none !important; }
+    .cw-searchBox .searchInput .textInput {
+      width: 400px;
+      padding-left: 16px;
+      color: #344658;
+      border: 1px solid #E9EBEE;
+      border-radius: 0 4px 4px 0; }
+      .cw-searchBox .searchInput .textInput:hover {
+        border: 1px solid #58A7F8;
+        z-index: 3; }
+      .cw-searchBox .searchInput .textInput:focus {
+        border: 1px solid #58A7F8;
+        z-index: 3; }
+  .cw-searchBox .searchLabel {
+    display: flex;
+    align-items: center;
+    color: #344658;
+    float: left; }
+    .cw-searchBox .searchLabel .label {
+      margin-right: 4px; }
+    .cw-searchBox .searchLabel .labelInput {
+      width: 122px;
+      height: 36px;
+      padding-left: 16px;
+      background: #FFFFFF;
+      border: 1px solid #E9EBEE;
+      border-radius: 4px;
+      color: #485767; }
+  .cw-searchBox .searchBtn {
+    border: 1px solid #58A7F8;
+    border-radius: 4px;
+    width: 108px;
+    height: 36px;
+    color: #58A7F8;
+    cursor: pointer;
+    line-height: 34px;
+    text-align: center;
+    float: left; }
+    .cw-searchBox .searchBtn:hover {
+      background: #58A7F8;
+      color: #FFFFFF; }

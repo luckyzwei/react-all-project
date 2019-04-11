@@ -1,0 +1,292 @@
+@import 'styles/public.scss';
+.MtPhone {
+    width: 378px;
+    display: flex;
+    min-height: 300px;
+    flex-direction: column;
+    align-items: center;
+    .MtPhone-title {
+        font-size: 14px;
+        color: #B5BDC6;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .MtPhone-title-iocn {
+            @extend %iconMt1;
+            width: 16px;
+            height: 16px;
+            background-position: -159px -120px;
+        }
+    }
+    .MtPhone-content {
+        width: 320px;
+        height: 586px;
+        position: relative;
+        background: url(#{$img-path}/images/bj/fast_build_bj.png) no-repeat;
+        .MtPhone-content-detail {
+            position: absolute;
+            width: 248px;
+            height: 467px;
+            background: #F7F8F9;
+            top: 63px;
+            left: 33px;
+            padding: 0 8px;
+            box-sizing: border-box;
+            overflow: auto;
+            padding-top: 24px;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            .MtPhone-content-detail-box {
+                width: 100%;
+                padding: 0 4px;
+                box-sizing: border-box;
+                margin-bottom: 14px;
+                .MtPhone-content-detail-box-txt {
+                    width: 100%;
+                    font-size: 12px;
+                    color: #344658;
+                    font-weight: 400;
+                }
+                .MtPhone-content-detail-box-img {
+                    width: 100%;
+                    height: 136px;
+                    border-radius: 4px;
+                }
+            }
+            .Dom-item {
+                margin-bottom: 24px;
+                display: flex;
+                .Dom-item-icon {
+                    width: 20px;
+                    height: 20px;
+                    @extend %iconMt1;
+                    background-position: -63px -92px;
+                    margin-right: 15px;
+                }
+                .Dom-item-content-trg {
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    background: #fff;
+                    left: -5px;
+                    transform: rotate(45deg);
+                }
+                .Dom-item-content {
+                    position: relative;
+                    flex: 1;
+                    min-height: 34px;
+                    word-break: break-all;
+                    word-wrap: break-word;
+                    background: #fff;
+                    border-radius: 4px;
+                    padding: 8px;
+                    box-sizing: border-box;
+                }
+                .Dom-item-LinkDom {
+                    position: relative;
+                    background: #fff;
+                    border-radius: 4px;
+                    width: 178px;
+                    height: 89px;
+                    padding: 9px 8px 4px 9px;
+                    box-sizing: border-box;
+                    .Dom-item-LinkDom-title {
+                        font-size: 14px;
+                        color: #344658;
+                        font-weight: 400;
+                        height: 20px;
+                        position: relative;
+                        margin-bottom:11px;
+                        @include multiTextHide(1);
+                        word-break: break-all;
+                        word-wrap: break-word;
+                    }
+                    .Dom-item-LinkDom-box {
+                        display: flex;
+                        justify-content: space-between;
+                        .Dom-item-LinkDom-content {
+                            height: 32px;
+                            width: 111px;
+                            font-size: 12px;
+                            color: #B5BDC6;
+                            font-weight: 400;
+                            position: relative;
+                            margin-bottom: 3px;
+                            @include multiTextHide(2);
+                            word-break: break-all;
+                            word-wrap: break-word;
+                        }
+                        .Dom-item-LinkDom-img {
+                            width: 39px;
+                            height: 39px;
+                            background: #F7F8F9;
+                            border-radius: 2px;
+                        }
+                    }
+                }
+                .Dom-item-ImgDom {
+                    //height: 180px;
+
+                    width: 148px;
+                    background: #FFFFFF;
+                    border-radius: 4px;
+                    border: none;
+                    margin: 0;
+                    padding: 0;
+                    transform: translateX(-5px);
+                }
+                .Dom-item-AppModule {
+                    width: 170px;
+                    position: relative;
+                    background: #fff;
+                    border-radius: 4px;
+                    padding-top: 10px;
+                    .appModule {
+                        .titleBox {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 6px 9px;
+                            img {
+                                width: 18px;
+                                height: 18px;
+                                border-radius: 50%;
+                                background: #e9fbee;
+                                margin-right: 8px;
+                            }
+                            span {
+                                font-size: 12px;
+                                @include multiTextHide(1);
+                                color: #B5BDC6;
+                                font-weight: 400;
+                            }
+                        }
+                        .appDesc {
+                            font-size: 12px;
+                            color: #344658;
+                            font-weight: 400;
+                            padding: 0 6px;
+                            height: 32px;
+                            @include multiTextHide(2);
+                            word-break: break-all;
+                            word-wrap: break-word;
+                            margin-bottom: 8px;
+                        }
+                        .appSrc {
+                            border-bottom: 1px solid #E9EBEE;
+                            padding: 0 6px 8px;
+                            img {
+                                width: 157px;
+                                height: 120px;
+                                border-radius: 4px;
+                            }
+                        }
+                        .appFooter {
+                            display: flex;
+                            align-items: center;
+                            color: #B5BDC6;
+                            font-weight: 400;
+                            font-size: 20px;
+                            height: 22px;
+                            transform: scale(.5);
+                            position: relative;
+                            left: -40px;
+                            .wxlogo {
+                                @extend %iconGm;
+                                margin-right: 4px;
+                                width: 20px;
+                                height: 20px;
+                                background-position: -372px -73px;
+                                transform: scale(1.5);
+                            }
+                        }
+                    }
+                }
+            }
+            .public-box {
+                height: 100px;
+                padding: 14px 15px 0;
+                background: #fff;
+                border-radius: 4px;
+                .item-content-box {
+                    @extend %font-16px;
+                    border-bottom: 1px solid  #E9EBEE;
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 8px;
+                    .item-icon {
+                        background: skyblue;
+                        margin-right: 8px;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p {
+                        width: 80px;
+                        @include multiTextHide(1);
+                        height: 22px;
+                        margin: 0;
+                    }
+                }
+                .btm-txt {
+                    color: #B5BDC6;
+                    @extend %font-12px;
+                    line-height: 26px;
+                    margin: 0;
+                }
+            }
+            .voice-box {
+                .item-content-box {
+                    @extend %font-14px;
+                    width: 173px;
+                    height: 34px;
+                    background: #fff;
+                    border-radius: 4px;
+                    vertical-align: top;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    &::after{
+                        content: "";
+                        border: 9px solid #fff;
+                        border-width: 7px 7px;
+                        border-color: transparent #fff transparent transparent;
+                        position: absolute;
+                        left: -14px;
+                        top: 7px;
+                    }
+                    em {
+                        vertical-align: middle;
+                        width: 24px;
+                        height: 24px;
+                        margin: 0 19px;
+                        @extend %iconMt1;
+                        background-position: -118px -15px;
+                    }
+                }
+            }
+        }
+        .MtPhone-content-noData {
+            position: absolute;
+            width: 248px;
+            height: 467px;
+            background: #F7F8F9;
+            top: 63px;
+            left: 33px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .MtPhone-content-noData-img {
+                width: 126px;
+                height: 126px;
+                background: url(#{$img-path}/images/icon/cw_notask.png) 0 0/126px no-repeat;
+            }
+            .MtPhone-content-noData-txt {
+                font-size: 12px;
+                color: #B5BDC6;
+                font-weight: 400;
+            }
+        }
+    }
+}

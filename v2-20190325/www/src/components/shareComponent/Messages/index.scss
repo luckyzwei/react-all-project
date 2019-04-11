@@ -1,0 +1,42 @@
+.MessagesMain {
+    .MessagesMainContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 60px;
+        padding: 0 48px;
+        font-weight: 400;
+        font-size: 14px;
+        border-radius: 4px;
+        z-index: 99999999;
+        color: #485767;
+        &.success {
+            border: 1px solid #6AD298;
+            background: rgb(227, 247, 235);
+        }
+        &.error {
+            border: 1px solid #F75A5A;
+            background: rgb(252, 217, 218)
+        }
+        &.warning {
+            border: 1px solid #F8B779;
+            background: rgb(253, 239, 225);
+        }
+        &.loading {
+            background: #ECF5FE;
+        }
+        &.other {
+            background: rgb(227, 247, 235);
+            border: 1px solid #6AD298;
+        }
+        .MessagesMainIcon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    }
+}

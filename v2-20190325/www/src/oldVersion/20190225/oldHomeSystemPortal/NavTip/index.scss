@@ -1,0 +1,41 @@
+@import 'styles/public.scss';
+
+.home-navList{
+        position: relative;
+    span{
+        display: inline-block;
+        @extend %font-14px;
+        color: #485767;
+        margin-right: 23px;
+        cursor: pointer;
+        line-height: 30px;
+         border-bottom: 3px solid transparent;
+        transition: all ease-in-out .3s;
+        // &:hover {
+        //     color: #344658;
+        // }
+    }
+    // .active{
+    //     color: #344658;
+    // }
+    .bluebar{
+        height: 3px;
+        background: #58A7F8;
+        position: absolute;
+        bottom: 0;
+        transition: all ease-in-out .15s;
+    }
+    .bluebar-step1{
+        width: 28px;
+        left: 0;
+    }
+    .bluebar-step2{
+        width: 41px;
+        left: 51px;
+    }
+    .bluebar-step3{
+        width: 47px;
+        left: 116px;
+    }
+}
+

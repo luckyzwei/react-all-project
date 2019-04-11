@@ -1,0 +1,51 @@
+@import 'styles/public.scss';
+.PageTitle {
+    display: flex;
+    margin-bottom: 26px;
+    .Pagetitle {
+        width: 112px;
+        text-align: right;
+        margin-right: 4px;
+        font-size: 14px;
+        color: #344658;
+    }
+    .PageContent {
+        background: #F7F8F9;
+        border-radius: 4px;
+        width: 516px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+        .row {
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            .color-title {
+                width: 70px;
+                height: 2px;
+                margin-right: 4px;
+                display: block;
+            }
+            .color-content {
+                display: flex;
+                align-items: flex-end;
+                font-size: 14px;
+                color: #5D90C5;
+                cursor: pointer;
+                &:hover {
+                    color: #58A7F8;
+                    .color-icon {
+                        background-position: -328px -109px;
+                    }
+                }
+                .color-icon {
+                    @extend %iconGi;
+                    background-position: -328px -91px;
+                    width: 18px;
+                    height: 18px;
+                    margin-right: 2px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+@import 'styles/public.scss';
+
+.public-uploadFile {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+    .noPic {
+        width: 100%;
+        height: 100%;
+        border: 1px dashed #DADEE2;
+        border-radius: 2px;
+        @extend %font-12px;
+        color: #B5BDC6;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+
+        .icon-add {
+            width: 30px;
+            height: 30px;
+            margin: 0 auto 6px;
+            @extend %iconCw;
+            background-position: -2px -112px;
+        }
+
+        div {
+            width: 100%;
+        }
+        &:hover div{
+            color: #344658;
+        }
+    }
+
+    .preview {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
+        position: relative;
+
+        .icon-del {
+            position: absolute;
+            top: -13px;
+            right: -13px;
+            width: 26px;
+            height: 26px;
+            @extend %iconGi;
+            background-position: -314px -135px;
+            &:hover {
+                background-position: -340px -135px;
+            }
+        }
+
+        .loadModal {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(72, 87, 103, 0.7);
+            border-radius: 2px;
+        }
+
+        span {
+            position: absolute;
+            left: 38%;
+            bottom: 43%;
+            @extend %font-16px;
+            color: #FFFFFF;
+            background: transparent !important;
+        }
+    }
+}

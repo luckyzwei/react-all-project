@@ -1,0 +1,86 @@
+@import 'styles/public.scss';
+.gi-batch-step2 {
+    height: 100%;
+    overflow: auto;
+    background: #f0f1f3;
+    padding: 24px;
+    @extend %font-14px;
+    color: #344658;
+    border-radius: 4px;
+    .inner{
+        min-height: 100%;
+        padding: 64px 36px;
+        background: #FFFFFF;
+    }
+    .row {
+        display: flex;
+        margin-bottom: 60px;
+    }
+    .label {
+        width: 118px;
+    }
+    .content {
+        display: flex;
+        .download {
+            color: #5D90C5;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-right: 8px;
+            &:hover {
+                color: #58A7F8;
+            }
+        }
+        .upload {
+            color: #485767;
+            cursor: pointer;
+        }
+        .imageBox {
+            width: 790px;
+            height: 116px;
+            background-color: #F7F8F9;
+            border-radius: 4px;
+            background-image: url(#{$img-path}/images/bj/gi_batch.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 12px;
+        }
+    }
+    .robot {
+        background: #FFFFFF;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px;
+        width: 234px;
+        height: 272px;
+        margin-right: 44px;
+        .icon {
+            width: 93px;
+            height: 93px;
+            margin: 29px auto 0;
+            @extend %iconGi;
+        }
+        .name {
+            color: #485767;
+            text-align: center;
+            margin: 12px 0 28px;
+        }
+        .desc {
+            width: 186px;
+            margin: 0 auto;
+            @extend %font-12px-light;
+            color: #485767;
+        }
+    }
+    .robot1 .icon {
+        background-position: -5px -184px;
+    }
+    .robot2 .icon {
+        background-position: -98px -184px;
+    }
+    .robot3 .icon {
+        background-position: -191px -184px;
+    }
+    .buttonArea{
+        float: left;
+        margin-left: 800px;
+    }
+}

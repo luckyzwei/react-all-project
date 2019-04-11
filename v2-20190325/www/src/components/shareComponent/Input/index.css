@@ -1,0 +1,27 @@
+.public-input, .public-input .input {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.public-input {
+  display: flex;
+  align-items: center;
+  color: #344658; }
+  .public-input .label {
+    margin-right: 4px; }
+  .public-input .input {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    width: 300px;
+    height: 36px;
+    line-height: 34px;
+    text-indent: 16px;
+    color: #344658;
+    font-family: "PingFangSC-light"; }
+    .public-input .input:hover {
+      border: 1px solid #58a7f8; }
+    .public-input .input:focus {
+      border: 1px solid #58a7f8; }
+    .public-input .input::-webkit-input-placeholder {
+      color: #B5BDC6; }

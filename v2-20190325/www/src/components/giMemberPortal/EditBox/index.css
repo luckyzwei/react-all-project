@@ -1,0 +1,142 @@
+.gi-member .personEditBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(72, 87, 103, 0.6);
+  z-index: 999; }
+  .gi-member .personEditBox .personEditContent {
+    width: 420px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .gi-member .personEditBox .personEditContent .personEditContentTitle {
+      padding: 20px 22px;
+      font-size: 16px;
+      color: #344658;
+      font-weight: 400;
+      border-bottom: 1px solid #E9EBEE; }
+    .gi-member .personEditBox .personEditContent .personEditContentBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .gi-member .personEditBox .personEditContent .personEditContentBox .img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        background: #B5BDC6; }
+      .gi-member .personEditBox .personEditContent .personEditContentBox .name {
+        font-size: 14px;
+        color: #344658;
+        margin-bottom: 20px;
+        height: 21px; }
+      .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 14px; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox .inputBoxTitle {
+          width: 56px;
+          text-align: right;
+          font-size: 14px;
+          color: #334659; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox .inputMain {
+          width: 280px;
+          display: flex;
+          background: #FFFFFF;
+          border: 1px solid #E9EBEE;
+          border-radius: 4px;
+          padding: 7px 16px;
+          box-sizing: border-box; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox .inputMain:hover {
+            border-color: #58A7F8; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox .inputMain .inputMainIpt {
+            flex: 1;
+            margin-right: 10px; }
+            .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox .inputMain .inputMainIpt:focus {
+              border: none; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .inputBox .inputMain .inputMainIptNum {
+            color: #B5BDC6; }
+      .gi-member .personEditBox .personEditContent .personEditContentBox .tagBox {
+        display: flex;
+        margin-bottom: 30px; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .tagBox .tagBoxTitle {
+          width: 56px;
+          text-align: right;
+          font-size: 14px;
+          color: #334659;
+          transform: translateY(8px); }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .tagBox .tagBoxMain {
+          width: 280px;
+          display: flex;
+          flex-wrap: wrap;
+          background: #FFFFFF;
+          border: 1px solid #E9EBEE;
+          border-radius: 4px;
+          padding: 7px 16px;
+          box-sizing: border-box; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .tagBox .tagBoxMain .ant-tag {
+            border-radius: 100px;
+            font-size: 12px;
+            margin-bottom: 7px; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .tagBox .tagBoxMain .ant-tag-green {
+            background: #ecf8f1;
+            color: #6AD298;
+            border-color: #ecf8f1; }
+      .gi-member .personEditBox .personEditContent .personEditContentBox .checkBox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 45px; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .checkBox .checkBoxTitle {
+          width: 56px;
+          text-align: right;
+          font-size: 14px;
+          color: #334659; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .checkBox .checkBoxMain {
+          width: 280px; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .checkBox .checkBoxMain .ant-checkbox-group {
+            font-size: 14px;
+            color: #334659; }
+            .gi-member .personEditBox .personEditContent .personEditContentBox .checkBox .checkBoxMain .ant-checkbox-group .ant-checkbox-group-item {
+              margin-right: 30px; }
+      .gi-member .personEditBox .personEditContent .personEditContentBox .personEditContentBoxFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .personEditContentBoxFooter .btn {
+          width: 108px;
+          height: 36px;
+          text-align: center;
+          line-height: 36px;
+          border-radius: 4px;
+          font-size: 14px;
+          transition: all .5s;
+          cursor: pointer; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .personEditContentBoxFooter .cancel {
+          border: 1px solid #E9EBEE;
+          color: #B5BDC6;
+          margin: 0 30px 0 22px; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .personEditContentBoxFooter .cancel:hover {
+            color: #485767; }
+        .gi-member .personEditBox .personEditContent .personEditContentBox .personEditContentBoxFooter .confirm {
+          background: #58A7F8;
+          border: 1px solid #58A7F8;
+          color: #fff; }
+          .gi-member .personEditBox .personEditContent .personEditContentBox .personEditContentBoxFooter .confirm:hover {
+            background: #288BF2; }
+    .gi-member .personEditBox .personEditContent .refreshBox {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.5); }
+    .gi-member .personEditBox .personEditContent .refreshBox .refreshBox-img {
+      display: block;
+      margin: 45% auto 0; }

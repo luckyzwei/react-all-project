@@ -1,0 +1,63 @@
+@import 'styles/public.scss';
+.IptNum {
+     display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    .title{
+        font-size: 14px;
+        color: #344658;
+        font-weight: 400;
+        margin-right: 4px;
+         .resTxt{
+                font-size: 16px;
+                color: #F75A5A;
+                line-height: 36px;
+                margin-right: 6px;
+            }
+    }
+    .content{
+            background: #FFFFFF;
+            border: 1px solid #E9EBEE;
+            border-radius: 4px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            &:hover{
+                border-color: #58A7F8;
+            }
+            .input{
+                flex: 1;
+                padding: 0 0 0 16px;
+                color: #344658;
+                &:focus{
+                    border: 0 none;
+                }
+            }
+            .handle{
+                width: 20px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                transform: scale(.8);
+                cursor: pointer;
+            .handleUp{
+                @extend %iconGi ;
+                width: 20px;
+                height: 20px;
+                background-position: -119px -19px;
+
+            }
+            .handleDown{
+                @extend %iconGi ;
+                 width: 20px;
+                height: 20px;
+                background-position: -99px -19px;
+            }
+            }
+        }
+        .disabled,
+        .disabled .input {
+            cursor: not-allowed;
+        }
+}

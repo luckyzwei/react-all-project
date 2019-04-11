@@ -1,0 +1,69 @@
+.ButtonBox {
+  width: 108px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all .5s;
+  cursor: pointer;
+  &.cancel{
+    border: 1px solid #E9EBEE;
+    color: #B5BDC6;
+    margin-right: 30px;
+    &:hover{
+      color: #485767;
+    }
+  }
+  &.confirm{
+    background: #58A7F8;
+    border: 1px solid #58A7F8;
+    color: #fff;
+    &:hover{
+      background: #288BF2;
+    }
+  }
+  &.white{
+    background: #fff;
+    border: 1px solid #58A7F8;
+    color: #58A7F8;
+    &:hover{
+      background: #288BF2;
+      color: #fff;
+    }
+  }
+  &.noBg{
+    border: 1px solid #58A7F8;
+    color: #58A7F8;
+    &:hover{
+      background: #288BF2;
+      color: #fff;
+    }
+  }
+  &.delete{
+    background:  #F75A5A;
+    border: 1px solid #F75A5A;
+    color: #fff;
+    opacity: .8;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  &.gray{
+    background:  #fff;
+    border: 1px solid rgba(255, 255, 255, .8);
+    color: #288BF2;
+    &:hover{
+      background:  rgba(255, 255, 255, .8);
+    }
+  }
+  &.line{
+    background:  rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    &:hover{
+      background:  #fff;
+      color: #288BF2;
+    }
+  }
+}

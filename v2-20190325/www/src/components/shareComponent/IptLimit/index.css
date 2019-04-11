@@ -1,0 +1,38 @@
+.IptLimit {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box; }
+  .IptLimit .title {
+    font-size: 14px;
+    color: #344658;
+    font-weight: 400;
+    margin-right: 4px; }
+    .IptLimit .title .resTxt {
+      font-size: 16px;
+      color: #F75A5A;
+      line-height: 36px;
+      margin-right: 6px; }
+  .IptLimit .content {
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+    height: 36px;
+    display: flex;
+    align-items: center; }
+    .IptLimit .content:hover {
+      border-color: #58A7F8; }
+    .IptLimit .content .input {
+      flex: 1;
+      padding: 0 0 0 16px;
+      color: #344658; }
+      .IptLimit .content .input:focus {
+        border: 0 none; }
+    .IptLimit .content .num {
+      width: 40px;
+      text-align: right;
+      font-size: 12px;
+      color: #B5BDC6;
+      margin-right: 10px; }
+  .IptLimit .disabled,
+  .IptLimit .disabled .input {
+    cursor: not-allowed; }

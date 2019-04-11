@@ -1,0 +1,40 @@
+@import 'styles/public.scss';
+.GroupListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px 15px 20px;
+    border-bottom: 1px dashed #E9EBEE;
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+        background: #f7f8f9
+    }
+    font-size: 14px;
+    color: #344658;
+    font-weight: 400;
+    .GroupListItemRight {
+        font-size: 12px;
+        padding: 2px 14px;
+        border-radius: 100px;
+        height: 20px;
+        &.success {
+            color: #6AD298;
+            border: 1px solid rgb(223, 242, 229);
+        }
+        &.error {
+            color: #FF99A5;
+            border: 1px solid rgb(245, 208, 207);
+        }
+        &.underway {
+            color: #58A7F8;
+            border: 1px solid rgb(208, 228, 250);
+        }
+        &.unstart {
+            font-weight: 400;
+            color: #B5BDC6;
+            border: 1px solid rgb(223, 235, 238);
+        }
+    }
+}

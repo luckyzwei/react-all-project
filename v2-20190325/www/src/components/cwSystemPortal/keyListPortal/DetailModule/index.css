@@ -1,0 +1,101 @@
+.DetailModule .DetailModule-content .DetailModule-content-search .serach-icon .serach-icon-icon {
+  background: url(/images/icon/icon-home.png) no-repeat;
+  background-size: 500px 363px; }
+
+.DetailModule .DetailModule-content .DetailModule-content-close {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.DetailModule {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  overflow: auto; }
+  .DetailModule .DetailModule-content {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 921px;
+    height: 729px;
+    position: relative;
+    margin: 100px auto;
+    padding: 0 36px; }
+    .DetailModule .DetailModule-content .DetailModule-content-close {
+      width: 24px;
+      height: 24px;
+      background-position: -209px -277px;
+      cursor: pointer;
+      position: absolute;
+      right: -34px;
+      top: 0; }
+      .DetailModule .DetailModule-content .DetailModule-content-close:hover {
+        background-position: -209px -301px; }
+    .DetailModule .DetailModule-content .DetailModule-content-search {
+      height: 116px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      width: 480px; }
+      .DetailModule .DetailModule-content .DetailModule-content-search:hover .serach-icon {
+        background: #288BF2; }
+      .DetailModule .DetailModule-content .DetailModule-content-search .serach {
+        flex: 1;
+        height: 40px;
+        padding: 0 16px;
+        border: 1px solid #e9ebee;
+        border-right: none;
+        border-radius: 4px 0 0 4px; }
+        .DetailModule .DetailModule-content .DetailModule-content-search .serach:focus {
+          border-color: #58A7F8; }
+      .DetailModule .DetailModule-content .DetailModule-content-search .serach-icon {
+        width: 40px;
+        height: 40px;
+        background: #58A7F8;
+        border-radius: 0 4px 4px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; }
+        .DetailModule .DetailModule-content .DetailModule-content-search .serach-icon .serach-icon-icon {
+          background-position: -281px -174px;
+          width: 20px;
+          height: 20px; }
+    .DetailModule .DetailModule-content .DetailModule-content-text {
+      height: calc(100% - 116px);
+      overflow: auto; }
+      .DetailModule .DetailModule-content .DetailModule-content-text .none {
+        background: url(/images/icon/kw_noData.png) 0 0/cover;
+        width: 179px;
+        height: 168px;
+        margin: 100px auto 0; }
+      .DetailModule .DetailModule-content .DetailModule-content-text .noneTxt {
+        text-align: center;
+        color: #B5BDC6; }
+      .DetailModule .DetailModule-content .DetailModule-content-text .DetailModule-content-text-item {
+        padding: 0 20px;
+        height: 88px;
+        margin-bottom: 14px;
+        background: #FFFFFF;
+        border: 1px solid #E9EBEE;
+        border-radius: 4px; }
+        .DetailModule .DetailModule-content .DetailModule-content-text .DetailModule-content-text-item .DetailModule-content-text-item-title {
+          padding: 16px 0 14px 0;
+          display: flex;
+          align-items: center; }
+          .DetailModule .DetailModule-content .DetailModule-content-text .DetailModule-content-text-item .DetailModule-content-text-item-title .DetailModule-content-text-item-img {
+            width: 24px;
+            height: 24px;
+            background: #000;
+            margin-right: 10px; }
+          .DetailModule .DetailModule-content .DetailModule-content-text .DetailModule-content-text-item .DetailModule-content-text-item-title .DetailModule-content-text-item-text {
+            font-size: 14px;
+            color: #344658;
+            font-weight: 400; }
+        .DetailModule .DetailModule-content .DetailModule-content-text .DetailModule-content-text-item .DetailModule-content-text-item-content {
+          margin-left: 34px;
+          font-size: 14px;
+          color: #B5BDC6;
+          font-weight: 400; }

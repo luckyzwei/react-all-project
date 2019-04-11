@@ -1,0 +1,25 @@
+@import 'styles/public.scss';
+.myRadio {
+    display: flex;
+    align-items: center;
+    .ant-radio-wrapper {
+        @extend %font-14px;
+        color: #393D3B;
+        line-height: 20px;
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+        &:hover .ant-radio .ant-radio-inner {
+            border-color: $blue;
+        }
+    }
+    .ant-radio-checked .ant-radio-inner {
+        border-color: $blue;
+        &:after {
+            background: $blue;
+        }
+    }
+    .ant-radio-checked:after {
+        border-color: $blue;
+    }
+}

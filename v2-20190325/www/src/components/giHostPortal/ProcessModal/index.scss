@@ -1,0 +1,98 @@
+@import 'styles/public.scss';
+
+.gi-processModal {
+    width: 1096px;
+    height: 658px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    position: relative;
+    margin: 0 auto;
+
+    .closeBtn {
+        width: 20px;
+        height: 20px;
+        @extend %iconGi;
+        background-position: -211px -279px;
+        position: absolute;
+        right: -37px;
+        top: 4px;
+        cursor: pointer;
+    }
+
+    .inner {
+        width: 100%;
+        height: 100%;
+        padding: 46px;
+        background: #ffffff;
+        display: flex;
+        @extend %font-14px;
+        color: #344658;
+
+        .left {
+            background: #FFFFFF;
+            border: 1px solid #E9EBEE;
+            width: 456px;
+            height: 530px;
+            border-radius: 4px;
+            margin-right: 64px;
+        }
+
+        .header {
+            height: 50px;
+            background: #F7F8F9;
+            border-bottom: 1px solid #E9EBEE;
+            border-radius: 4px 4px 0 0;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+
+            .icon-wx {
+                display: inline-block;
+                width: 26px;
+                height: 26px;
+                @extend %iconGi;
+                background-position: -71px -21px;
+                margin-right: 10px;
+            }
+        }
+
+        .groupList {
+            height: calc(100% - 50px);
+            overflow: auto;
+            // padding: 0 20px;
+        }
+
+        .row {
+            margin-top: 40px;
+
+            .label {
+                margin-bottom: 24px;
+            }
+
+            .content {
+                display: flex;
+            }
+
+            .nickname {
+                width: 306px;
+                height: 118px;
+                display: flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.20);
+                border: 1px solid #E9EBEE;
+                border-radius: 4px;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    margin-left: 40px;
+                }
+
+                span {
+                    margin-left: 17px;
+                }
+            }
+        }
+    }
+}

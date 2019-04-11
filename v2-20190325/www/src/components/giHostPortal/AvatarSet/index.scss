@@ -1,0 +1,49 @@
+@import 'styles/public.scss';
+
+.gi-host {
+    .avatarSet {
+        width: 420px;
+        height: 420px;
+        @extend %font-14px;
+        color: #334659;
+    }
+
+    .avatarSet .header {
+        height: 58px;
+        border-bottom: 1px solid #E9EBEE;
+        padding-left: 22px;
+        font-size: 16px;
+        line-height: 58px;
+    }
+
+    .avatarSet .img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto 8px;
+    }
+
+    .avatarSet .nickname {
+        text-align: center;
+        margin-bottom: 20px;
+        height: 21px;
+    }
+
+    .avatarSet .row {
+        margin-top: 14px;
+        padding: 0 36px;
+        display: flex;
+        align-items: center;
+    }
+
+    .avatarSet .row .label {
+        margin-right: 6px;
+    }
+
+    .avatarSet .buttonArea {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}

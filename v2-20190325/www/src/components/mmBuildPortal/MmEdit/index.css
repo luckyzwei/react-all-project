@@ -1,0 +1,406 @@
+@charset "UTF-8";
+.MmEdit .mt-activeContent pre {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.MmEdit .MmEdit-edit .EditImg .imgPreview .delBtn {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+.MmEdit .MmEdit-nav .MmEdit-nav-add .MmEdit-nav-add-img, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .close-icon, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .MmEdit-nav-content-item-icon, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .imgs, .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item .img, .MmEdit .MmEdit-edit .EditText .EditText-num-icon .EditText-icon {
+  background: url(/images/icon/icon-mt1.png) no-repeat;
+  background-size: 536px 177px; }
+
+@media screen and (min-width: 1440px) {
+  .MmEdit {
+    width: 872px; } }
+
+@media screen and (max-width: 1440px) {
+  .MmEdit {
+    width: 710px; } }
+
+.MmEdit {
+  padding-right: 0;
+  box-sizing: border-box;
+  /* 图文编辑中的文本编辑 */ }
+  .MmEdit .MmEdit-header {
+    display: flex;
+    width: 690px;
+    margin-bottom: 28px; }
+    .MmEdit .MmEdit-header > div:nth-of-type(1) {
+      margin-right: 46px; }
+  .MmEdit .MmEdit-nav {
+    height: 60px;
+    width: 682px; }
+    .MmEdit .MmEdit-nav .MmEdit-nav-add {
+      width: 119px;
+      box-sizing: border-box;
+      height: 60px;
+      border: 1px solid #e9ebee;
+      border-bottom: none;
+      border-radius: 4px 4px 0 0;
+      background: #fff;
+      cursor: pointer;
+      z-index: 99;
+      transform: translateY(1px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; }
+      .MmEdit .MmEdit-nav .MmEdit-nav-add .MmEdit-nav-add-img {
+        width: 38px;
+        height: 38px;
+        background-position: -83px -92px;
+        position: relative;
+        z-index: 2; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-add .MmEdit-nav-add-img:hover + .public-tipBubble {
+          opacity: 1;
+          transform: scale(1); }
+    .MmEdit .MmEdit-nav .MmEdit-nav-content {
+      display: flex;
+      height: 60px; }
+      .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item {
+        width: 120px;
+        display: flex;
+        color: #B5BDC6;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: #fff;
+        position: relative; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .close-icon {
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          top: 4px;
+          right: 4px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .MmEdit-nav-content-item-icon {
+          width: 38px;
+          height: 38px;
+          background-position: -121px -92px; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .MmEdit-nav-content-item-icon.active, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .MmEdit-nav-content-item-icon:hover {
+            background-position: -83px -92px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.active {
+          border: 1px solid #e9ebee;
+          border-bottom: none;
+          border-radius: 4px 4px 0 0;
+          z-index: 99;
+          transform: translateY(1px); }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.active {
+          color: #485767; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item:hover {
+          color: #485767; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item:hover .close-icon {
+            background-position: -421px -118px; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item:hover .close-icon:hover {
+            background-position: -439px -118px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item .imgs {
+          width: 38px;
+          height: 38px;
+          margin-right: 10px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.TEXT .imgs {
+          background-position: -16px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.TEXT.active .imgs, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.TEXT:hover .imgs {
+          background-position: -216px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.IMG .imgs {
+          background-position: -56px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.IMG.active .imgs, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.IMG:hover .imgs {
+          background-position: -256px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.LINK .imgs {
+          background-position: -96px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.LINK.active .imgs, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.LINK:hover .imgs {
+          background-position: -296px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.SLINK {
+          width: 150px; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.SLINK .imgs {
+            background-position: -136px -45px; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.SLINK.active .imgs, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.SLINK:hover .imgs {
+            background-position: -336px -45px; }
+        .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.WEXX {
+          width: 133px; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.WEXX .imgs {
+            background-position: -177px -45px; }
+          .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.WEXX.active .imgs, .MmEdit .MmEdit-nav .MmEdit-nav-content .MmEdit-nav-content-item.WEXX:hover .imgs {
+            background-position: -377px -45px; }
+  .MmEdit .MtStyleSelectBox {
+    z-index: 9;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px 0 #E9EBEE, 0 2px 8px 0 #E9EBEE;
+    border-radius: 4px;
+    align-items: center; }
+    .MmEdit .MtStyleSelectBox .MtStyleSelectBox-trg {
+      width: 16px;
+      height: 16px;
+      border-left: 1px solid #e8ebee;
+      border-top: 1px solid #e8ebee;
+      transform: rotate(45deg) translateX(-50%);
+      position: absolute;
+      background: #fff;
+      top: -4px;
+      left: 50%; }
+    .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item {
+      padding: 22px 20px;
+      width: 110px;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color: #B5BDC6;
+      font-weight: 400; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item:hover {
+        color: #485767; }
+        .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item:hover .mt-icon::before {
+          transform: scale(1);
+          animation: zhang .15s; }
+        .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item:hover .mt-icon {
+          background: none; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item .mt-icon {
+        margin-bottom: 10px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: #DADEE2; }
+        .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item .mt-icon::before {
+          background: #58A7F8; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item .img {
+        width: 38px;
+        height: 38px;
+        display: inline-block;
+        position: relative; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item.TEXT .img {
+        background-position: -16px -136px; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item.IMG .img {
+        background-position: -56px -136px; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item.LINK .img {
+        background-position: -96px -136px; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item.SLINK .img {
+        background-position: -136px -136px; }
+      .MmEdit .MtStyleSelectBox .MtStyleSelectBox-item.WEXX .img {
+        background-position: -177px -136px; }
+  .MmEdit .MmEdit-edit {
+    width: 100%;
+    border: 1px solid #e9ebee;
+    border-radius: 4px;
+    min-height: 444px;
+    margin-bottom: 14px; }
+    .MmEdit .MmEdit-edit .EditSpace {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      height: 444px;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #B5BDC6;
+      font-weight: 400; }
+    .MmEdit .MmEdit-edit .EditText {
+      width: 100%;
+      min-height: 444px;
+      padding: 30px 14px;
+      box-sizing: border-box; }
+      .MmEdit .MmEdit-edit .EditText .EditText-textarea {
+        width: 100%;
+        min-height: 400px;
+        resize: none;
+        text-indent: 2em;
+        line-height: 2em; }
+      .MmEdit .MmEdit-edit .EditText .EditText-num-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; }
+        .MmEdit .MmEdit-edit .EditText .EditText-num-icon .EditText-icon {
+          width: 28px;
+          height: 28px;
+          margin-right: 15px;
+          background-position: -159px -92px; }
+        .MmEdit .MmEdit-edit .EditText .EditText-num-icon .EditText-num {
+          font-size: 12px;
+          color: #B5BDC6;
+          display: flex;
+          align-items: center; }
+    .MmEdit .MmEdit-edit .EditImg {
+      height: 444px;
+      width: 100%;
+      padding: 45px 20px 0 40px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: auto; }
+      .MmEdit .MmEdit-edit .EditImg .noPic {
+        border: none !important; }
+      .MmEdit .MmEdit-edit .EditImg .EditImg-text {
+        height: 206px;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 10px;
+        font-size: 12px;
+        color: #B5BDC6;
+        font-weight: 400; }
+      .MmEdit .MmEdit-edit .EditImg .imgPreview {
+        width: 142px;
+        height: 142px;
+        position: relative;
+        cursor: pointer;
+        margin: 0 20px 20px 0; }
+        .MmEdit .MmEdit-edit .EditImg .imgPreview .img {
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          border-radius: 4px; }
+        .MmEdit .MmEdit-edit .EditImg .imgPreview .delBtn {
+          background-position: -314px -135px;
+          position: absolute;
+          top: -13px;
+          right: -13px;
+          width: 26px;
+          height: 26px;
+          display: none; }
+        .MmEdit .MmEdit-edit .EditImg .imgPreview:hover .delBtn {
+          display: block; }
+    .MmEdit .MmEdit-edit .EditLink {
+      height: 444px;
+      width: 100%;
+      padding: 30px 14px;
+      box-sizing: border-box; }
+      .MmEdit .MmEdit-edit .EditLink .EditLink-row {
+        width: 100%;
+        font-size: 14px;
+        color: #485767;
+        font-weight: 400;
+        padding-bottom: 8px;
+        margin-bottom: 22px;
+        border-bottom: 1px solid #F0F1F3; }
+        .MmEdit .MmEdit-edit .EditLink .EditLink-row input {
+          width: 100%; }
+          .MmEdit .MmEdit-edit .EditLink .EditLink-row input:focus {
+            border: none; }
+      .MmEdit .MmEdit-edit .EditLink .EditLink-img {
+        display: flex;
+        align-items: center; }
+        .MmEdit .MmEdit-edit .EditLink .EditLink-img .noPic {
+          border: none !important; }
+        .MmEdit .MmEdit-edit .EditLink .EditLink-img .EditLink-text {
+          height: 142px;
+          display: flex;
+          align-items: flex-end;
+          margin-left: 10px;
+          font-size: 12px;
+          color: #B5BDC6;
+          font-weight: 400; }
+  .MmEdit .MmEdit-edit-tips {
+    font-size: 12px;
+    color: #B5BDC6;
+    font-weight: 400;
+    margin-bottom: 49px; }
+  .MmEdit .MmEdit-edit-btn {
+    display: flex;
+    justify-content: flex-end; }
+  .MmEdit .mt-activeContent {
+    position: relative;
+    margin-top: 39px;
+    width: 100%;
+    padding: 0 14px;
+    min-height: 356px; }
+  .MmEdit [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: #B5BDC6;
+    display: block;
+    font-weight: 400;
+    /* For Firefox */ }
+  .MmEdit .mt-activeContent pre {
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    word-break: normal;
+    white-space: normal;
+    width: 100%;
+    color: #344658;
+    height: 356px; }
+  .MmEdit #pre-container {
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    word-break: normal;
+    white-space: normal;
+    font-size: 13px;
+    width: 100%;
+    color: #344658;
+    height: 20px;
+    border-bottom: 1px solid #DADEE2; }
+  .MmEdit .noWords {
+    height: 20px !important;
+    border-bottom: 1px solid #DADEE2; }
+  .MmEdit .mt-activeContent .gm-animation {
+    margin-top: -3px;
+    z-index: 4;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin-right: 14px; }
+  .MmEdit .mt-activeContent .toolBtn {
+    z-index: 4;
+    width: 36px;
+    height: 36px;
+    position: relative; }
+  .MmEdit .qqfaceBox {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    font-size: 12px;
+    color: #B5BDC6;
+    justify-content: flex-end;
+    padding-right: 14px;
+    font-weight: 400; }
+  .MmEdit .mt-activeContent .toolBtn {
+    background-position: -185px -38px; }
+  .MmEdit .counter {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    text-align: right;
+    font-size: 13px;
+    color: #B5BDC6;
+    width: 54px;
+    height: 18px; }
+  .MmEdit .mt-faceBox {
+    position: absolute;
+    display: none;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: 2;
+    left: -390px;
+    top: -245px;
+    background-color: white;
+    width: 474px;
+    height: 232px;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    transition: all .4s; }
+  .MmEdit .mt-faceBox::before {
+    width: 14px;
+    height: 14px;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 3px rgba(230, 230, 230, 0.87);
+    position: absolute;
+    z-index: 0;
+    bottom: -5px;
+    right: 60px;
+    background: #fff;
+    content: "";
+    border-radius: 2px; }
+  .MmEdit .dot:hover .tip {
+    display: block; }

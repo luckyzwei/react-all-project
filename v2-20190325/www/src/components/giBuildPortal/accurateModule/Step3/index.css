@@ -1,0 +1,359 @@
+.InGroupRule .InGroupRuleRow .addBox .titleBox {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 16px; }
+
+.InGroupRule .inner .stepTitle, .InGroupRule .InGroupRuleRow .rightContent, .InGroupRule .InGroupRuleRow .addGroupBox, .InGroupRule .InGroupRuleRow .addBox .groupInput, .InGroupRule .InGroupRuleRow .rulePreviewBox {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.InGroupRule .InGroupRuleRow .contentTitle, .InGroupRule .InGroupRuleRow .rulePreviewBox .ruleBox .ruleName {
+  font-family: "PingFang SC";
+  font-weight: 500;
+  font-size: 16px; }
+
+.InGroupRule .InGroupRuleRow .addGroupBox .groupItem .operate-icon {
+  background: url(/images/icon/icon-gi.png) no-repeat;
+  background-size: 635px 521px; }
+
+@media screen and (min-width: 1440px) {
+  .InGroupRule .leftContent {
+    width: 514px;
+    height: 568px;
+    margin-right: 58px; }
+    .InGroupRule .leftContent .addGroupBox {
+      width: 514px;
+      height: 522px; }
+  .InGroupRule .rightContent {
+    width: 514px;
+    height: 568px; }
+    .InGroupRule .rightContent .city-InGroupRuleRow {
+      width: 514px;
+      height: 473px; } }
+
+@media screen and (min-width: 1920px) {
+  .InGroupRule .leftContent {
+    width: 670px;
+    height: 658px;
+    margin-right: 78px; }
+    .InGroupRule .leftContent .addGroupBox {
+      width: 670px;
+      height: 612px; }
+  .InGroupRule .rightContent {
+    width: 670px;
+    height: 658px; }
+    .InGroupRule .rightContent .city-InGroupRuleRow {
+      width: 670px;
+      height: 563px; } }
+
+@media screen and (max-width: 1440px) {
+  .InGroupRule .leftContent {
+    width: 456px;
+    height: 510px;
+    margin-right: 48px; }
+    .InGroupRule .leftContent .addGroupBox {
+      width: 456px;
+      height: 468px; }
+  .InGroupRule .rightContent {
+    width: 456px;
+    height: 510px; }
+    .InGroupRule .rightContent .city-InGroupRuleRow {
+      width: 456px;
+      height: 417px; } }
+
+.InGroupRule {
+  height: 100%;
+  padding: 24px;
+  background: #f0f1f3;
+  overflow: auto; }
+  .InGroupRule .inner {
+    min-width: 1084px;
+    min-height: 100%;
+    background: #fff;
+    padding-bottom: 34px; }
+    .InGroupRule .inner .stepTitle {
+      color: #344658;
+      padding-top: 8px;
+      background: #f0f1f3;
+      width: 100%;
+      height: 57px; }
+      .InGroupRule .inner .stepTitle .todo {
+        color: #B5BDC6; }
+    .InGroupRule .inner .pageSize {
+      padding: 40px 62px 0; }
+  .InGroupRule .InGroupRuleRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap; }
+    .InGroupRule .InGroupRuleRow .rightContent {
+      color: #485767; }
+      .InGroupRule .InGroupRuleRow .rightContent .noDataImage {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: 154px auto 10px; }
+      .InGroupRule .InGroupRuleRow .rightContent .noDataText {
+        color: #B5BDC6;
+        text-align: center; }
+    .InGroupRule .InGroupRuleRow .contentTitle {
+      height: 44px;
+      color: #344658; }
+    .InGroupRule .InGroupRuleRow .addGroupBox {
+      background: #FFFFFF;
+      border: 1px solid #E9EBEE;
+      border-radius: 4px; }
+      .InGroupRule .InGroupRuleRow .addGroupBox .searchBox {
+        height: 72px;
+        background: #F7F8F9;
+        border-bottom: 1px solid #E9EBEE;
+        border-radius: 4px 4px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .searchBox .searchInput {
+          width: 324px;
+          height: 36px;
+          background: #FFFFFF;
+          border: 1px solid #E9EBEE;
+          border-radius: 4px;
+          padding-left: 16px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .searchBox .addBtn {
+          text-decoration: underline;
+          cursor: pointer;
+          color: #5D90C5; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .searchBox .addBtn:hover {
+            color: #58A7F8; }
+      .InGroupRule .InGroupRuleRow .addGroupBox .groupList {
+        height: calc(100% - 72px);
+        padding: 10px 20px 0;
+        overflow: auto; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupList .groupInput {
+          padding-left: 10px;
+          display: block;
+          color: #344658;
+          border: 0 none !important; }
+      .InGroupRule .InGroupRuleRow .addGroupBox .addGroup {
+        height: 52px;
+        border: 1px dashed #B5BDC6;
+        border-radius: 4px;
+        color: #B5BDC6;
+        padding-left: 20px;
+        line-height: 50px;
+        cursor: pointer; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .addGroup .groupInput {
+          width: 100%; }
+      .InGroupRule .InGroupRuleRow .addGroupBox .groupItem {
+        height: 52px;
+        border-bottom: 1px solid #E9EBEE;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px 0 0;
+        color: #344658;
+        cursor: pointer; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem.active, .InGroupRule .InGroupRuleRow .addGroupBox .groupItem:hover {
+          background: #ECF6FF; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem.active .operate, .InGroupRule .InGroupRuleRow .addGroupBox .groupItem:hover .operate {
+            opacity: 1; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .groupName {
+          padding: 3px 10px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .flag {
+          border: 1px solid rgba(88, 167, 248, 0.3);
+          border-radius: 4px;
+          padding: 1px 6px;
+          font-size: 12px;
+          color: #58A7F8;
+          margin-left: 10px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem.error .groupName {
+          background: rgba(255, 163, 165, 0.3); }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .operate {
+          display: flex;
+          align-items: center;
+          opacity: 0; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .operate.active {
+            opacity: 1; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .operate-icon {
+          cursor: pointer;
+          position: relative;
+          width: 16px;
+          height: 16px;
+          margin-left: 16px; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .operate-icon:hover .iconText {
+            display: block; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .viewRule {
+          background-position: -468px -123px; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .viewRule:hover {
+            background-position: -484px -123px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .edit {
+          background-position: -484px -91px; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .edit:hover {
+            background-position: -484px -107px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .delete {
+          background-position: -500px -91px; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .delete:hover {
+            background-position: -500px -107px; }
+        .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .iconText {
+          position: absolute;
+          left: 50%;
+          top: -40px;
+          transform: translateX(-50%);
+          display: none;
+          background: #344658;
+          border-radius: 4px;
+          font-size: 12px;
+          color: #FFFFFF;
+          padding: 7px 10px;
+          word-break: keep-all; }
+          .InGroupRule .InGroupRuleRow .addGroupBox .groupItem .iconText:after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            background: #344658;
+            transform: translate(-50%) rotate(45deg);
+            left: 50%;
+            bottom: -3px; }
+    .InGroupRule .InGroupRuleRow .ruleTab {
+      height: 36px;
+      line-height: 34px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between; }
+      .InGroupRule .InGroupRuleRow .ruleTab .ruleTabBox {
+        display: flex; }
+      .InGroupRule .InGroupRuleRow .ruleTab .cancel {
+        cursor: pointer;
+        color: #5D90C5; }
+        .InGroupRule .InGroupRuleRow .ruleTab .cancel:hover {
+          color: #58A7F8; }
+      .InGroupRule .InGroupRuleRow .ruleTab .tab {
+        cursor: pointer;
+        width: 72px;
+        text-align: center;
+        border: 1px solid #E9EBEE; }
+      .InGroupRule .InGroupRuleRow .ruleTab .mandatory {
+        color: #F75A5A; }
+      .InGroupRule .InGroupRuleRow .ruleTab .tab:first-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px; }
+      .InGroupRule .InGroupRuleRow .ruleTab .tab:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px; }
+      .InGroupRule .InGroupRuleRow .ruleTab .tab.active {
+        border-color: #58A7F8;
+        color: #58A7F8; }
+      .InGroupRule .InGroupRuleRow .ruleTab .tab.errorTab {
+        color: #F75A5A; }
+      .InGroupRule .InGroupRuleRow .ruleTab .tab.active.errorTab {
+        border-color: #F75A5A; }
+    .InGroupRule .InGroupRuleRow .city-InGroupRuleRow {
+      background: #fff;
+      border-radius: 2px; }
+      .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .TreeBox {
+        width: 100%;
+        height: 417px; }
+      .InGroupRule .InGroupRuleRow .city-InGroupRuleRow.city-border {
+        border: 1px solid #E9EBEE; }
+      .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-header {
+        height: 44px;
+        border-bottom: 1px solid #e9ebee;
+        display: flex;
+        align-items: center;
+        padding: 0 8px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #344658; }
+        .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-header .redTxt {
+          font-size: 16px;
+          color: #F75A5A;
+          line-height: 44px;
+          margin-right: 4px; }
+      .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content {
+        padding: 46px 22px 0; }
+        .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content .city-InGroupRuleRow-content-ipt {
+          width: 214px;
+          height: 36px;
+          padding: 9px 16px 10px;
+          box-sizing: border-box;
+          background: #FFFFFF;
+          border: 1px solid #E9EBEE;
+          border-radius: 4px; }
+          .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content .city-InGroupRuleRow-content-ipt:focus, .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content .city-InGroupRuleRow-content-ipt:hover {
+            border-color: #58A7F8; }
+        .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content aside {
+          margin-bottom: 28px; }
+          .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content aside section {
+            font-size: 14px;
+            color: #344658;
+            margin-bottom: 8px; }
+          .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .city-InGroupRuleRow-content aside .dateSelect .ant-input {
+            width: 214px; }
+    .InGroupRule .InGroupRuleRow .addBox {
+      width: 420px;
+      height: 520px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      color: #344658; }
+      .InGroupRule .InGroupRuleRow .addBox .titleBox {
+        height: 60px;
+        border-bottom: 1px solid #E9EBEE;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 22px;
+        color: #344658; }
+      .InGroupRule .InGroupRuleRow .addBox .groupInput {
+        resize: none;
+        height: 384px;
+        padding: 16px 24px;
+        display: block; }
+      .InGroupRule .InGroupRuleRow .addBox .buttonBox {
+        border-top: 1px solid #E9EBEE;
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+    .InGroupRule .InGroupRuleRow .rulePreviewBox {
+      width: 540px;
+      height: 524px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      color: #344658; }
+      .InGroupRule .InGroupRuleRow .rulePreviewBox .titleBox {
+        height: 60px;
+        border-bottom: 1px solid #E9EBEE;
+        display: flex;
+        align-items: center;
+        padding: 0 22px;
+        font-size: 16px; }
+      .InGroupRule .InGroupRuleRow .rulePreviewBox .ruleBox {
+        padding: 24px 22px;
+        height: 464px;
+        overflow: auto; }
+        .InGroupRule .InGroupRuleRow .rulePreviewBox .ruleBox .ruleItem {
+          margin-bottom: 20px; }
+        .InGroupRule .InGroupRuleRow .rulePreviewBox .ruleBox .ruleName {
+          margin-bottom: 10px; }
+        .InGroupRule .InGroupRuleRow .rulePreviewBox .ruleBox .ruleValue {
+          padding: 10px;
+          background: #F8F8F9;
+          border-radius: 4px; }
+
+.InGroupRule .buttonArea {
+  width: 960px; }
+
+@media screen and (min-width: 1440px) {
+  .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .TreeBox {
+    height: 472px; }
+  .InGroupRule .buttonArea {
+    width: 1086px; } }
+
+@media screen and (min-width: 1920px) {
+  .InGroupRule .InGroupRuleRow .city-InGroupRuleRow .TreeBox {
+    height: 563px; }
+  .InGroupRule .buttonArea {
+    width: 1418px; } }

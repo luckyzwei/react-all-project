@@ -1,0 +1,248 @@
+@import 'styles/public.scss';
+
+.gi-fast-step2 {
+    .editBox {
+        @extend %font-14px;
+
+        .row {
+            display: flex;
+            margin-bottom: 14px;
+        }
+
+        .label {
+            width: 72px;
+            text-align: right;
+            color: #344658;
+            flex: none;
+            margin-top: 8px;
+            margin-right: 4px;
+        }
+
+        .inputArea {
+            position: relative;
+            flex: auto;
+
+            input {
+                width: 372px;
+                height: 36px;
+                background: #FFFFFF;
+                border: 1px solid #E9EBEE;
+                border-radius: 4px;
+            }
+
+            .titleInput {
+                padding: 0 50px 0 16px;
+
+                &:focus {
+                    border: 1px solid #58A7F8;
+                }
+            }
+
+            .textLimit {
+                @extend %font-12px;
+                color: #B5BDC6;
+                position: absolute;
+                right: 94px;
+                bottom: 9px;
+            }
+
+            .numberInput {
+                padding: 0 10px 0 16px;
+
+                &:focus {
+                    border: 1px solid #58A7F8;
+                }
+            }
+
+            .add-des {
+                width: 20px;
+                height: 34px;
+                position: absolute;
+                right: 94px;
+                top: 1px;
+                background: #FFFFFF;
+            }
+
+            .addBtn,
+            .desBtn {
+                width: 12px;
+                height: 12px;
+                position: absolute;
+                @extend %iconGi;
+                cursor: pointer;
+                right: 8px;
+            }
+
+            .addBtn {
+                background-position: -123px -24px;
+                top: 5px;
+
+                &:hover {
+                    background-position: -123px -24px;
+                }
+            }
+
+            .desBtn {
+                background-position: -103px -24px;
+                bottom: 5px;
+
+                &:hover {
+                    background-position: -103px -24px;
+                }
+            }
+
+            .intrdInput {
+                background: #FFFFFF;
+                border: 1px solid #E9EBEE;
+                border-radius: 4px;
+                width: 372px;
+                height: 97px;
+                padding: 8px 16px;
+                resize: none;
+
+                &:focus {
+                    border: 1px solid #58A7F8;
+                }
+
+            }
+        }
+
+        .tips {
+            @extend %font-12px;
+            color: #B5BDC6;
+            margin-top: 86px;
+            margin-left: 14px;
+            float: left;
+        }
+
+        .coloInput {
+            cursor: pointer;
+            color: #5D90C5;
+            display: inline-block;
+            vertical-align: bottom;
+            margin-left: 10px;
+
+            .icon {
+                @extend %iconGi;
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-position: -328px -91px;
+                vertical-align: middle;
+                margin-top: -1px;
+                margin-right: 2px;
+            }
+
+            .colorAreaP {
+                position: absolute;
+            }
+        }
+
+        .coloInput:hover {
+            color: #58A7F8;
+
+            .icon {
+                background-position: -328px -109px;
+            }
+        }
+
+        .importGroup {
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #5D90C5;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-right: 36px;
+            margin-top: 8px;
+            float: right;
+        }
+
+        .page2 {
+
+            .label {
+                width: 70px;
+            }
+
+            .self-label {
+                width: 84px;
+                margin-left: 105px;
+            }
+
+            .titleInput {
+                width: 464px;
+            }
+
+            .textLimit {
+                right: 10px;
+            }
+
+            .groupNoInput {
+                width: 114px;
+                padding: 8px 16px;
+            }
+
+            .startNoInput {
+                width: 138px;
+                padding: 8px 16px;
+            }
+
+            .msgInput {
+                width: 464px;
+                height: 142px;
+                border: 1px dashed #DADEE2;
+                border-radius: 2px;
+                padding: 5px 16px;
+                resize: none;
+            }
+
+            .noteInfo {
+                width: 464px;
+                height: 60px;
+                background: #ECF6FF;
+                border-radius: 4px;
+                font-size: 12px;
+                color: #485767;
+                padding: 10px 18px;
+                margin: 0 0 14px 72px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+
+    .gi-fast-step2 .editBox .inputArea input,
+    .gi-fast-step2 .editBox .inputArea .intrdInput {
+        width: 372px;
+    }
+
+}
+
+
+@media screen and (min-width: 1920px) {
+
+    .gi-fast-step2 .editBox .inputArea input,
+    .gi-fast-step2 .editBox .inputArea .intrdInput {
+        width: 412px;
+    }
+
+    .gi-fast-step2 .editBox .page2 {
+
+        .titleInput {
+            width: 500px;
+        }
+
+        .self-label {
+            margin-left: 142px;
+        }
+
+        .msgInput {
+            width: 500px;
+        }
+
+        .noteInfo {
+            width: 500px;
+        }
+    }
+
+}

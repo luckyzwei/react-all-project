@@ -1,0 +1,32 @@
+.GroupListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px 15px 20px;
+  border-bottom: 1px dashed #E9EBEE;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all .3s;
+  font-size: 14px;
+  color: #344658;
+  font-weight: 400; }
+  .GroupListItem:hover {
+    background: #f7f8f9; }
+  .GroupListItem .GroupListItemRight {
+    font-size: 12px;
+    padding: 2px 14px;
+    border-radius: 100px;
+    height: 20px; }
+    .GroupListItem .GroupListItemRight.success {
+      color: #6AD298;
+      border: 1px solid #dff2e5; }
+    .GroupListItem .GroupListItemRight.error {
+      color: #FF99A5;
+      border: 1px solid #f5d0cf; }
+    .GroupListItem .GroupListItemRight.underway {
+      color: #58A7F8;
+      border: 1px solid #d0e4fa; }
+    .GroupListItem .GroupListItemRight.unstart {
+      font-weight: 400;
+      color: #B5BDC6;
+      border: 1px solid #dfebee; }

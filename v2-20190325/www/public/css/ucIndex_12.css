@@ -1,0 +1,547 @@
+.user-list-content {
+    background: #fff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 74px 88px;
+    min-width: 1096px;
+    min-height: 100%;
+}
+
+.user-list-content .user-list {
+    width: 100%;
+
+}
+
+.user-list-content .user-list > a {
+    display: block;
+    height: 36px;
+    width: 108px;
+    line-height: 36px;
+    text-align: center;
+    background: #58A7F8;
+    border-radius: 4px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-bottom: 11px;
+}
+
+.user-list-content .user-list > a:hover {
+    background: #5DC189;
+}
+
+.user-list-content .user-list .user-list-table {
+    background: #ffffff;
+    border-radius: 2px;
+    padding-top: 40px;
+}
+
+.user-list-content .user-list .user-list-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list .user-list-table table th {
+    height: 48px;
+    line-height: 48px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    font-size: 14px;
+    color: #344658;
+    padding-left: 46px;
+}
+
+.user-list .user-list-table table td {
+    height: 49px;
+    line-height: 49px;
+    padding-left: 46px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #344658;
+    /* text-align: center; */
+}
+
+.user-list .user-list-table table tr {
+    border-bottom: 1px solid #E9EBEE;
+    width: 100%;
+    cursor: pointer;
+}
+
+.user-list .user-list-table tbody tr td > span {
+    display: inline-block;
+    width: 45px;
+    color: #58A7F8;
+}
+
+.user-list .user-list-table tbody tr td > span.ucEdit-line {
+    width: 2px;
+    height: 18px;
+    background: #F0F1F3;
+    transform: translateY(5px);
+}
+
+.user-list .user-list-table tbody tr td > span.stopUse, .user-list .user-list-table tbody tr td > span.startUse {
+    margin-left: 17px;
+}
+
+.user-list .user-list-table tbody tr:hover {
+    background: #F8F8F9;
+}
+
+.user-list .user-list-table tbody tr td > span:nth-child(1):hover {
+    color: #288bf2;
+}
+
+.user-list .user-list-table tbody tr:hover .edit {
+    color: #288bf2;
+}
+
+.user-list .user-list-table tbody .stopUse:hover {
+    color: #F75A5A;
+}
+
+.user-list .user-list-table tbody .startUse:hover {
+    color: #6AD298;
+}
+
+/*角色权限*/
+
+.user-power-list {
+    background: #fff;
+    height: 100%;
+    min-height: 650px;
+    border-radius: 4px;
+    padding: 74px 88px;
+    min-width: 1196px;
+}
+
+.user-power-list > .userNameSet {
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #485767;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.user-power-list .userNameSet p {
+    float: left;
+    margin-right: 50px;
+}
+
+.user-power-list .userNameSet .clearFloat {
+    clear: both;
+}
+
+.user-power-list .userNameSet p > input {
+    background: #ffffff;
+    height: 28px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    width: 316px;
+    color: #485767;
+    padding-left: 12px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 4px;
+}
+
+.user-power-list .userNameSet p > input:hover,
+.user-power-list .userNameSet p > input:focus {
+    border: 1px solid #58A7F8;
+}
+
+.user-power-list > .userNameSet p > input::placeholder {
+    color: #B5BDC6;
+}
+
+.user-power-list .user-power-set {
+    display: flex;
+}
+
+.user-power-list .user-power-set > .userNameSet {
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #485767;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+}
+
+.user-power-list .user-power-set .userPower {
+    width: 876px;
+}
+
+.user-power-set p {
+    color: #485767;
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    width: 70px;
+}
+
+.user-power-set .set-power {
+    width: 316px;
+    height: 360px;
+    background: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 2px;
+    overflow: auto;
+}
+
+.user-power-set .set-power .set-power-header {
+    height: 44px;
+    border-bottom: 1px solid #e9ebee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #383E46;
+    padding: 0px 12px 0 6px;
+}
+
+.user-power-set .set-power .set-power-header .set-power-header-left {
+    font-family: PingFangSC-Medium;
+}
+
+.user-power-set .set-power .set-power-header .set-power-header-left > span {
+    font-size: 16px;
+    color: #F75A5A;
+    margin-right: 4px;
+}
+
+.user-power-set .set-power .set-power-header .set-power-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-power-set .set-power .set-power-header .set-power-header-right > span {
+    width: 20px;
+    height: 20px;
+    background-position: -139px -19px;
+    margin-left: 4px;
+}
+
+.user-power-set .set-power .set-power-header .set-power-header-right > span:hover {
+    background-position: -159px -19px;
+}
+
+.user-power-set .set-power .set-power-header .set-power-header-right > span.checked {
+    background-position: -179px -19px;
+}
+
+.user-power-set .set-power .set-power-main > ul li {
+    cursor: pointer;
+}
+
+.user-power-set .set-power .set-power-main > ul > li > span {
+    display: block;
+    position: relative;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #485767;
+    letter-spacing: 0;
+    height: 28px;
+    line-height: 28px;
+}
+
+.user-power-set .set-power .set-power-main > ul > li i {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 4px;
+}
+
+.user-power-set .set-power .set-power-main > ul > li .open {
+    background-position: -18px -244px;
+}
+
+.user-power-set .set-power .set-power-main > ul > li .close {
+    background-position: -18px -244px;
+    transform: rotate(-90deg);
+}
+
+.user-power-set .set-power .set-power-main > ul > li > span:hover {
+    background: #F8F8F9;
+    color: #288bf2;
+}
+
+.user-power-set .set-power .set-power-detail span {
+    display: block;
+    padding-left: 10px;
+}
+
+.user-power-set .set-power .set-power-detail li > span:hover {
+    background: #F8F8F9;
+}
+
+.user-power-set .set-power .set-power-main > ul {
+    padding-top: 5px;
+}
+
+.user-power-set .set-power .set-power-detail li {
+    line-height: 24px;
+}
+
+.user-power-set .set-power .set-power-detail .lastDetail li {
+    padding-left: 40px;
+}
+
+.user-power-set .set-power .set-power-detail .lastDetail li:hover {
+    background: #F8F8F9;
+}
+
+.user-power-set .set-power .set-power-main > ul > li {
+    position: relative;
+}
+
+.user-power-set .set-power .set-power-main > ul > li em {
+
+    position: absolute;
+    right: 12px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-position: -139px -19px;
+
+}
+
+.user-power-set .set-power .set-power-main > ul > li > span > em {
+    top: 4px;
+}
+
+.user-power-set .set-power .set-power-detail li > em {
+    top: 2px;
+}
+
+.user-power-set .set-power .set-power-main > ul > li .checked {
+    background-position: -179px -19px;
+}
+
+.user-power-list .user-power-set .userPowerBottom {
+    padding-top: 56px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-power-list .user-power-set .userPowerBottom a {
+    float: right;
+}
+
+.user-power-list .user-power-set .userPowerBottom button {
+    float: right;
+    cursor: pointer;
+}
+
+.user-power-list .user-power-set .userPowerBottom .saveList {
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    background: #58A7F8;
+    border-radius: 4px;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.user-power-list .user-power-set .userPowerBottom .saveList:hover {
+    background: #288bf2;
+    border-color: #288bf2;
+}
+
+.user-power-list .user-power-set .userPowerBottom .cancelList {
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #B5BDC6;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.user-power-list .user-power-set .userPowerBottom .cancelList:hover {
+    color: #288bf2;
+    text-decoration: underline #288bf2;
+}
+
+.user-power-list .selectWrapper {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.user-power-list.selectWrapper:nth-child(2n) {
+    margin-left: 50px;
+}
+
+.user-power-list .selectWrapper:nth-child(6) {
+    margin-left: 0;
+    clear: both;
+}
+
+.user-power-list .selectWrapper .selectLabel {
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #485767;
+    height: 30px;
+    line-height: 30px;
+    width: 60px;
+    float: left;
+}
+
+.user-power-list .selectWrapper .titleInput {
+    border: 1px solid transparent;
+    height: 28px;
+    color: #485767;
+    font-family: PingFangSC-Light;
+    font-size: 13px;
+    line-height: 28px;
+    text-indent: 12px;
+    background: #FFFFFF;
+    width: 208px;
+    float: left;
+    border: 1px solid #DADEE2;
+    border-radius: 2px;
+}
+
+.user-power-list .selectWrapper .selectBox {
+    float: left;
+    width: 210px;
+    height: 30px;
+    position: relative;
+}
+
+.user-power-list .selectWrapper .selectBox .selectOption {
+    border-radius: 2px;
+    background: #FFFFFF;
+    width: 208px;
+    height: 28px;
+    line-height: 28px;
+    /*border: 1px solid #DADEE2 !important;*/
+}
+
+.user-power-list .selectWrapper .selectBox em {
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #B5BDC6;
+    text-indent: 12px;
+}
+
+.user-power-list .selectWrapper .selectBox .selectTip {
+    color: #485767;
+}
+
+.user-power-list .selectWrapper .selectBox .optionUl {
+    width: 210px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    transition: all .3s;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    z-index: 2;
+    max-height: 166px;
+    overflow: auto;
+}
+
+.user-power-list .selectWrapper .selectBox #fail {
+    border: 1px solid #F75A5A !important;
+}
+
+.user-power-list .userNameSet #fail {
+    border: 1px solid #F75A5A !important;
+}
+
+.user-power-list .selectWrapper .roleWord {
+    float: left;
+    width: 210px;
+    min-height: 30px;
+    background: #F0F1F3;
+    border-radius: 2px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #B5BDC6;
+}
+
+.user-power-list .selectWrapper .roleWord div {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #344658;
+    margin: 4px 0;
+}
+
+.user-power-list .selectWrapper textArea {
+    width: 540px;
+    height: 88px;
+    border: 1px solid #DADEE2;
+    border-radius: 2px;
+    resize: none;
+}
+
+.sureMask {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.45);
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.sureMask .sureStop {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 347px;
+    height: 220px;
+    border-radius: 4px;
+}
+
+.sureMask .sureStop em {
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    right: 14px;
+    background-position: -22px -84px;
+}
+
+.sureMask .sureStop span {
+    display: inline-block;
+    border-radius: 4px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #F75A5A;
+    width: 108px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.sureMask .sureStop .sureDec p {
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #344658;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 54px;
+}
+
+.sureMask .sureStop .sureDec {
+    text-align: center;
+}

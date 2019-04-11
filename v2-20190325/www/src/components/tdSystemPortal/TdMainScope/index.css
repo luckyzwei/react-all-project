@@ -1,0 +1,200 @@
+.td-container {
+  font-family: "PingFang SC";
+  font-weight: 400;
+  font-size: 14px; }
+
+.td-container .downloadBtn .download-icon, .td-container .topLinkBox .icon-top {
+  background: url(/images/icon/icon-home.png) no-repeat;
+  background-size: 500px 363px; }
+
+.td-container {
+  overflow: auto;
+  height: calc(100% - 60px);
+  padding: 24px;
+  background: #F0F1F3;
+  position: relative;
+  color: #344658; }
+  .td-container .tabBox {
+    font-size: 16px;
+    color: #485767; }
+    .td-container .tabBox .tabName {
+      padding-bottom: 4px;
+      cursor: pointer; }
+    .td-container .tabBox .active {
+      font-weight: 500;
+      border-bottom: 3px solid #58A7F8; }
+    .td-container .tabBox .line {
+      display: inline-block;
+      width: 2px;
+      height: 20px;
+      margin: 0 12px;
+      vertical-align: middle;
+      background: #E9EBEE; }
+  .td-container .operateBox {
+    height: 36px;
+    min-width: 1084px;
+    margin: 0 0 24px 0; }
+  .td-container .dateBox {
+    display: flex;
+    align-items: center; }
+    .td-container .dateBox .label {
+      margin-right: 4px; }
+  .td-container .downloadBtn {
+    display: inline-block;
+    width: 108px;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #58A7F8;
+    border-radius: 4px;
+    color: #FFF;
+    text-align: center;
+    float: right; }
+    .td-container .downloadBtn .download-icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-position: -301px -174px;
+      vertical-align: middle;
+      margin-right: 4px;
+      transform: translateY(-1px); }
+    .td-container .downloadBtn:hover {
+      background: #288BF2; }
+  .td-container .topLinkBox {
+    min-width: 1084px;
+    height: 344px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 0 24px;
+    margin-bottom: 24px;
+    position: relative; }
+    .td-container .topLinkBox .title {
+      height: 64px;
+      border-bottom: 1px solid #E9EBEE;
+      font-size: 16px;
+      line-height: 63px; }
+    .td-container .topLinkBox .linkBox {
+      padding: 40px 8px 0;
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+    .td-container .topLinkBox .link {
+      width: 32%;
+      height: 208px;
+      border: 1px solid #E9EBEE;
+      border-radius: 4px;
+      position: relative;
+      cursor: pointer; }
+      .td-container .topLinkBox .link .detail {
+        color: #B5BDC6;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        display: none; }
+      .td-container .topLinkBox .link:hover {
+        border-color: #B5BDC6; }
+      .td-container .topLinkBox .link:hover .detail {
+        display: block; }
+    .td-container .topLinkBox .content {
+      padding: 16px 16px 16px 0px; }
+    .td-container .topLinkBox .icon-top {
+      width: 36px;
+      height: 36px;
+      float: left;
+      margin-left: 5px; }
+    .td-container .topLinkBox .link:nth-child(1) .icon-top {
+      background-position: -7px -210px; }
+    .td-container .topLinkBox .link:nth-child(2) .icon-top {
+      background-position: -43px -210px; }
+    .td-container .topLinkBox .link:nth-child(3) .icon-top {
+      background-position: -79px -210px; }
+    .td-container .topLinkBox .time {
+      margin-left: 48px; }
+    .td-container .topLinkBox .linkTitle {
+      margin-left: 45px;
+      font-weight: 500;
+      display: -webkit-box;
+      display: -moz-box;
+      /* autoprefixer: off */
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      /* autoprefixer: on */
+      -webkit-line-clamp: 1;
+      -moz-line-clamp: 1;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .td-container .topLinkBox .line {
+      margin: 0 16px;
+      border-bottom: 1px solid #E9EBEE; }
+    .td-container .topLinkBox .countBox {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-top: 23px; }
+    .td-container .topLinkBox .pv,
+    .td-container .topLinkBox .uv {
+      width: 50%; }
+    .td-container .topLinkBox .clickCount {
+      margin-bottom: 16px; }
+    .td-container .topLinkBox .num {
+      font-size: 24px;
+      font-weight: 500; }
+    .td-container .topLinkBox .pv .num {
+      color: #58A7F8; }
+    .td-container .topLinkBox .uv .num {
+      color: #85D8AA; }
+    .td-container .topLinkBox .countLine {
+      width: 2px;
+      height: 60px;
+      background: #E9EBEE; }
+  .td-container .linkChartBox {
+    min-width: 1084px;
+    height: 640px;
+    background: #FFF;
+    padding: 0 24px;
+    position: relative; }
+    .td-container .linkChartBox .header {
+      height: 64px;
+      border-bottom: 1px solid #E9EBEE;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .td-container .linkChartBox .header .title {
+        font-size: 16px; }
+    .td-container .linkChartBox .dataBox {
+      position: relative; }
+    .td-container .linkChartBox .numBox {
+      height: 160px;
+      border-bottom: 1px solid #E9EBEE;
+      display: flex;
+      align-items: center; }
+    .td-container .linkChartBox .numBoxItem {
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly; }
+    .td-container .linkChartBox .numBoxLine {
+      width: 2px;
+      height: 60px;
+      background: #E9EBEE; }
+    .td-container .linkChartBox .numName {
+      line-height: 34px;
+      margin-bottom: 8px; }
+    .td-container .linkChartBox .num {
+      font-size: 24px;
+      font-weight: 500; }
+    .td-container .linkChartBox #chartBox {
+      padding: 26px 0 50px;
+      height: 414px; }
+  .td-container .emptyBox {
+    min-width: 1084px;
+    height: 1008px;
+    border-radius: 4px;
+    background: #FFF;
+    text-align: center;
+    color: #B5BDC6;
+    padding-top: 215px; }
+    .td-container .emptyBox .icon-empty {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 6px; }

@@ -1,0 +1,379 @@
+@import 'styles/public.scss';
+.gi-member {
+    -web-kit-appearance: none;
+    -moz-appearance: none;
+    .backGroupIcon {
+        @extend %iconGi;
+    }
+    .PersonCard {
+        background: #FFFFFF;
+        box-shadow: 0 2px 4px 0 #E9EBEE;
+        border-radius: 4px;
+        width: 340px;
+        box-sizing: border-box;
+    }
+    .PersonCard:hover {
+        box-shadow: 0 4px 10px 0 #D7DADD;
+    }
+    .title-content {
+        padding: 0 22px;
+        box-sizing: border-box;
+    }
+    .PersonCard .title {
+        padding: 17px 0 13px 0;
+        border-bottom: 1px dashed #e9ebee;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .PersonCard .title .img {
+        background-position: -69px -19px;
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+        border-radius: 50%;
+    }
+    .PersonCard .title .text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #344658;
+    }
+    .PersonCard .content {
+        padding: 19px 22px 13px 22px;
+    }
+    .PersonCard .content .contentItem {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        color: #B5BDC6;
+        margin-bottom: 6px;
+    }
+    .PersonCard .content .contentItem .left {
+        margin-right: 21px;
+    }
+    .PersonCard .content .contentItem .leftData {
+        color: #344658;
+    }
+    .PersonCard .footers {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #E9EBEE;
+        height: 39px;
+        background: #F8F8F9;
+    }
+    .PersonCard .footers .footerItem {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: #B5BDC6;
+        font-weight: 400;
+        border-radius: 0 0 4px 4px;
+        cursor: pointer;
+    }
+    .PersonCard .footers .footerItem .manage {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+        background-position: -99px -63px;
+    }
+    .PersonCard .footers .footerItem .edit {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+        background-position: -147px -39px;
+    }
+    .PersonCard .footerItem.editBox:hover {
+        color: #58A7F8;
+    }
+    .PersonCard .footerItem.manageBox:hover {
+        color: #485767;
+    }
+    .PersonCard .footerItem.editBox:hover .edit {
+        background-position: -171px -39px;
+    }
+    .PersonCard .footerItem.manageBox:hover .manage {
+        background-position: -123px -63px;
+    }
+    .PersonCard .footers .footerLine {
+        width: 2px;
+        height: 22px;
+        background: #e9ebee;
+    }
+    .PersonCard .footers .footerItem {
+        position: relative;
+        z-index: 2;
+        .manageMain {
+            position: absolute;
+            width: 420px;
+            height: 225px;
+            background: #FFFFFF;
+            box-shadow: 0 2px 4px 0 #E9EBEE, 0 2px 8px 0 #E9EBEE;
+            border-radius: 4px;
+            top: -240px;
+            left: -20px;
+            .triangle {
+                width: 20px;
+                height: 20px;
+                border-right: 1px solid #E9EBEE;
+                border-bottom: 1px solid #E9EBEE;
+                transform: rotate(45deg);
+                position: absolute;
+                bottom: -10px;
+                left: 100px;
+                background: #fff;
+                border-radius: 0 0 4px 0;
+            }
+            .closeManageMain {
+                width: 28px;
+                height: 28px;
+                background-position: -225px -25px;
+                position: absolute;
+                top: 14px;
+                right: 14px;
+                cursor: pointer;
+                &:hover {
+                    background-position: -265px -25px;
+                }
+            }
+            .manageText {
+                display: flex;
+                align-items: center;
+                margin-top: 64px;
+                margin-bottom: 50px;
+                justify-content: center;
+                font-size: 14px;
+                .blackText {
+                    color: #344658;
+                }
+                .redText {
+                    color: #F75A5A;
+                    margin: 0 4px;
+                }
+            }
+            .manageBtn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .btn {
+                    width: 108px;
+                    height: 36px;
+                    text-align: center;
+                    line-height: 36px;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    transition: all .5s;
+                    cursor: pointer;
+                }
+                .cancel {
+                    border: 1px solid #E9EBEE;
+                    color: #B5BDC6;
+                    margin-right: 30px;
+                    &:hover {
+                        color: #485767;
+                    }
+                }
+                .confirm {
+                    background: #58A7F8;
+                    border: 1px solid #58A7F8;
+                    color: #fff;
+                    &:hover {
+                        background: #288BF2;
+                    }
+                }
+            }
+        }
+        .manageList {
+            position: absolute;
+            width: 76px;
+            background: #FFFFFF;
+            box-shadow: 0 2px 2px 0 #E9EBEE, 0 4px 8px 0 #E9EBEE;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            top: 24px;
+            left: 72px;
+            .manageListItem {
+                padding: 10px;
+                &:hover {
+                    color: #F75A5A;
+                }
+            }
+            .triangle {
+                height: 6px;
+                width: 6px;
+                border-top: 1px solid #E9EBEE;
+                border-left: 1px solid #E9EBEE;
+                transform: rotate(45deg);
+                position: absolute;
+                background: #fff;
+                opacity: .7;
+                top: -3px;
+                left: 20px;
+            }
+        }
+    }
+    .PersonCard .personEditBox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(72, 87, 103, 0.60);
+        z-index: 999;
+        .personEditContent {
+            width: 420px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .personEditContentTitle {
+                padding: 20px 22px;
+                font-size: 16px;
+                color: #344658;
+                font-weight: 400;
+                border-bottom: 1px solid #E9EBEE;
+            }
+            .personEditContentBox {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    margin-top: 20px;
+                    margin-bottom: 8px;
+                }
+                .name {
+                    font-size: 14px;
+                    color: #344658;
+                    margin-bottom: 20px;
+                }
+                .inputBox {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 14px;
+                    .inputBoxTitle {
+                        width: 56px;
+                        text-align: right;
+                        font-size: 14px;
+                        color: #334659;
+                    }
+                    .inputMain {
+                        width: 280px;
+                        display: flex;
+                        background: #FFFFFF;
+                        border: 1px solid #E9EBEE;
+                        border-radius: 4px;
+                        padding: 7px 16px;
+                        box-sizing: border-box;
+                        &:hover {
+                            border-color: #58A7F8
+                        }
+                        .inputMainIpt {
+                            flex: 1;
+                            margin-right: 10px;
+                            &:focus {
+                                border: none
+                            } // outline: none
+                        }
+                        .inputMainIptNum {
+                            color: #B5BDC6;
+                        }
+                    }
+                }
+                .tagBox {
+                    display: flex;
+                    margin-bottom: 30px;
+                    .tagBoxTitle {
+                        width: 56px;
+                        text-align: right;
+                        font-size: 14px;
+                        color: #334659;
+                        transform: translateY(8px);
+                    }
+                    .tagBoxMain {
+                        width: 280px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        background: #FFFFFF;
+                        border: 1px solid #E9EBEE;
+                        border-radius: 4px;
+                        padding: 7px 16px;
+                        box-sizing: border-box;
+                        .ant-tag {
+                            border-radius: 100px;
+                            font-size: 12px;
+                            margin-bottom: 7px;
+                        }
+                        .ant-tag-green {
+                            background: rgb(236, 248, 241);
+                            color: #6AD298;
+                            border-color: rgb(236, 248, 241);
+                        }
+                    }
+                }
+                .checkBox {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 45px;
+                    .checkBoxTitle {
+                        width: 56px;
+                        text-align: right;
+                        font-size: 14px;
+                        color: #334659;
+                    }
+                    .checkBoxMain {
+                        width: 280px;
+                        .ant-checkbox-group {
+                            font-size: 14px;
+                            color: #334659;
+                            .ant-checkbox-group-item {
+                                margin-right: 30px;
+                            }
+                        }
+                    }
+                }
+                .personEditContentBoxFooter {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 40px;
+                    .btn {
+                        width: 108px;
+                        height: 36px;
+                        text-align: center;
+                        line-height: 36px;
+                        border-radius: 4px;
+                        font-size: 14px;
+                        transition: all .5s;
+                        cursor: pointer;
+                    }
+                    .cancel {
+                        border: 1px solid #E9EBEE;
+                        color: #B5BDC6;
+                        margin: 0 30px 0 22px;
+                        &:hover {
+                            color: #485767;
+                        }
+                    }
+                    .confirm {
+                        background: #58A7F8;
+                        border: 1px solid #58A7F8;
+                        color: #fff;
+                        &:hover {
+                            background: #288BF2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
